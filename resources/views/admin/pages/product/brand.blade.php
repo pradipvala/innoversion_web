@@ -1,0 +1,131 @@
+@extends('admin.layouts.app')
+@push('url_title')
+Products
+@endpush
+@section('title')
+@push('content')
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card-box table-responsive">
+            <div class="m-t-0 m-b-10 row">
+                <div class="col-sm-4">
+                    <h4 class="m-t-0 header-title"><b>Prodcuts</b></h4>
+                </div>
+                <div class="col-sm-8 text-right">
+                    <a class="btn btn-primary" href="{{ route('admin.brandproduct.create', ['id' => $id]) }}"
+                       role="button"> <span><i class="fa fa-plus"></i></span> Add Brand</a>
+                </div><br><br>
+            </div>
+            <table id="table_DT" class="table table-striped table-bordered">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="table-responsive">
+                            <table id="product-datatable" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <td>Brand</td>
+                                        <td>Title</td>
+                                        <td>Description</td>
+                                        <td>Image</td>
+                                        <td>Action</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($brandproducts as $brandproduct)
+                                    <tr>
+                                        <td> <img style="height: 100px;
+                                                  width: 100px;" src="{{ \Storage::url($brandproduct->brand->image) }}"
+                                                  class="brand-img "></td>
+                                        <td>{{ $brandproduct->title }}</td>
+                                        <td>{{ $brandproduct->description }}</td>
+                                        <td><img src="{{ \Storage::url($brandproduct->image) }}"></td>
+                                        <td><a title="Edit"
+                                               href="{{ route('admin.brandproduct.edit', ['id' => $brandproduct->id]) }}"
+                                               title="Edit"><button type="button"
+                                                                 class="btn btn-icon waves-effect waves-light btn-warning"><i
+                                                        class="fa fa-edit"></i></button></a>
+
+                                            <form
+                                                action="{{ route('admin.brandproduct.delete', ['id' => $brandproduct->id]) }}"
+                                                method="POST">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="btn btn-danger"><i class="fa fa-trash"
+                                                                                                aria-hidden="true"></i></button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </table>
+        </div>
+    </div>
+</div>
+
+</div>
+@endpush
+
+@push('js')
+{{-- <script type="text/javascript">
+
+     $('#product-datatable').dataTable({
+        "processing": true,
+        "serverSide": true,
+         "columns": [
+            { "title": "Id", "data": "id", "name":"id"},
+            { "title": "Title", "data": "name", "name": "name", sortable: true,},
+            { "title": "Description", "data": "description", "name": "description", sortable: true,},
+            { "title": "Image", "data": "image", "name": "image", searchable: false, sortable: true,},
+            { "title": "isActive", "data": "status", searchable: false},
+            { "title": "Create Date", "data": "created_at", searchable: false},
+            { "title": "Action", "data": "action", searchable: false, sortable:false,width:'10%' }
+        ],
+
+        lengthMenu: [
+            [10, 20, 50, 100],
+            [10, 20, 50, 100]
+        ],
+        pageLength: 10,
+
+        "responsive": false,
+        "ajax": {
+            "url": "{{ route('admin.products.listing') }}", // ajax source
+},
+});
+
+$(document).on('click','#status',function(){
+var status = $(this).prop('checked') == true ? 1 : 0;
+var product_id = $(this).val();
+
+$.ajax({
+type: "POST",
+url: "{{ route('admin.change.status.product') }}",
+data: { "_token": "{{ csrf_token() }}" , id: product_id, status:status },
+success:function(result){
+if(result['status'] == 'true'){
+Swal.fire({
+position: 'center',
+icon: 'success',
+title: result['message'],
+showConfirmButton: false,
+timer: 2000
+});
+}else{
+Swal.fire({
+position: 'center',
+icon: 'error',
+title: result['message'],
+showConfirmButton: false,
+timer: 2000
+});
+}
+}
+});
+});
+</script> --}}
+@endpush
+@endsection
