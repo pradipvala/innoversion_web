@@ -53,7 +53,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="widget-bg-color-icon card-box fadeInDown animated">
                         <center>
-                            <img width="20%" src="{{ asset('frontend_theme/assets/images/innoversion_logo.png') }}">
+                            <img width="20%" src="{{ asset('admin/images/innoversion_logo.png') }}">
                             <div class="clearfix">
                                 <div class="pull-center"><h4>No Details Found</h4></div>
                             </div><br>

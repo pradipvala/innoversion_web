@@ -46,7 +46,7 @@
                                 <h5>Contact Info</h5>
                                 <ul class="contact-list">
                                     <li>info@innoversiontechnolab.com</li>
-                                    <li>+91 29687350999</li>
+                                    <li>+91 9687350999</li>
                                     <li>1304 RK World Tower, Brts Stop, 613, 150 Feet Ring Rd, near Shital Park, Sheetal Park, Shastri Nagar, Dharam Nagar, Rajkot, Gujarat 360006</li>
                                 </ul>
                                 <div class="d-flex flex-column gspace-1">
@@ -62,7 +62,7 @@
                                                 <i class="fa-brands fa-youtube"></i>
                                             </a>
                                         </div>
-                                        <div class="social-item-wrapper">    
+                                        <div class="social-item-wrapper">
                                             <a href="https://instagram.com" class="social-item">
                                                 <i class="fa-brands fa-instagram"></i>
                                             </a>
@@ -80,7 +80,7 @@
                     <div class="footer-content-spacer"></div>
                 </div>
                 <div class="copyright-container">
-                    <span class="copyright">© 2025 Marko. Fox Creation All Rights Reserved.</span>
+                    <span class="copyright">© 2026 Innoversion Technolab. Fox Creation All Rights Reserved.</span>
                     <div class="d-flex flex-row gspace-2">
                     <a href="#" class="legal-link">Terms of Service</a>
                     <a href="#" class="legal-link">Privacy Policy</a>

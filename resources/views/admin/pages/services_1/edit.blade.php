@@ -22,7 +22,7 @@
                         <form class="form-vertical" id="product-form" role="form" method="POST"
                             action="{{ route('admin.services_1.update',['id'=>$service_1->id]) }}" enctype="multipart/form-data">
                             @csrf
-                      
+
 
                             <div class="form-group">
                                 <div class="col-sm-6">
@@ -30,33 +30,34 @@
                                      <input type="text" id="title" name="title" class="form-control" value="{{$service_1->title}}">
                                 </div>
                             </div>
-                            
-                            
+
+
                             <div class="form-group">
                                 <div class="col-sm-6">
                                    <label for="sub_title">Sub Title:</label>
                                      <input type="text" id="sub_title" name="sub_title" class="form-control" value="{{$service_1->sub_title}}">
                                 </div>
                             </div>
-                            
-                            
+
+
                               <div class="form-group">
                                 <div class="col-sm-6">
                                    <label for="description">Description:</label>
                                    <textarea id="description" name="description">{{$service_1->description}}</textarea>
                                 </div>
                             </div>
-                            
+
                              <div class="form-group">
                                 <div class="col-sm-6">
                                    <label for="description">Old Image:</label>
                                     <img src="{{\Storage::url($service_1->img)}}"
+                                        alt="Image" style="width: 100px; height: 100px;" class="img-thumbnail">
                                 </div>
                             </div>
                                  <div class="form-group">
                                 <div class="col-sm-6">
                                     <label>Select Image :- </label><br />
-                                   
+
                                         <input type="file" class="filestyle" multiple name="img"
                                             id="" accept="image/jpg, image/png, image/gif, image/jpeg" />
 
@@ -65,7 +66,7 @@
                                                 <span style="color:red">{{ $error }}</span>
                                             @endforeach
                                         @endif
-                                    
+
                                 </div>
                             </div>
         </br>
@@ -97,6 +98,6 @@
                 }
 
                 initCKEditor('#description');
-     
+
             </script>
         @endpush

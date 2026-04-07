@@ -16,7 +16,7 @@
                             <a href="{{ route('home') }}" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
                             <p class="current-page">Services</p>
-                        </nav>    
+                        </nav>
                     </div>
                     <div class="spacer"></div>
                 </div>
@@ -36,24 +36,26 @@
                     </div>
                     <div class="card-service-wrapper">
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
-                            <div class="col">
-                                <div class="card card-service animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
-                                    <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                        <div>
-                                            <div class="service-icon-wrapper">
-                                                <div class="service-icon">
-                                                    <img src="./image/Icon-7.png" alt="Service Icon" class="img-fluid">
+
+                            @foreach ($services as $service)
+                                <div class="col">
+                                    <div class="card card-service animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
+                                        <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
+                                            <div>
+                                                <div class="service-icon-wrapper">
+                                                    <div class="service-icon">
+                                                        <img src="./image/Icon-7.png" alt="Service Icon" class="img-fluid">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="service-title">
-                                            <h4>Social Media Marketing</h4>
-                                        </div>
+                                            <div class="service-title">
+                                                <h4>{{ $service->title }}</h4>
+                                            </div>
                                     </div>
                                     <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                                       {{ $service->description }}
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>View Details</span>
                                         </div>
@@ -63,7 +65,11 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col">
+
+                            @endforeach
+
+
+                            {{-- <div class="col">
                                 <div class="card card-service animate-box animated animate__animated" data-animate="animate__fadeInLeft">
                                     <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
                                         <div>
@@ -197,16 +203,16 @@
                                         </div>
                                     </a>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="service-link-footer">
-                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="./contact.html">Get a Free Strategy Call</a></p>
+                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="{{ route('contact') }}">Get a Free Strategy Call</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Section Guide -->
         <div class="section-guide">
             <div class="guide-banner">
@@ -238,7 +244,7 @@
         </div>
 
         <!-- Section Pricing -->
-        <div class="section">
+        {{-- <div class="section">
             <div class="hero-container">
                 <div class="d-flex flex-column justify-content-center text-center gspace-5">
                     <div class="d-flex flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
@@ -379,7 +385,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </main>
-    
+
 @endsection

@@ -2,7 +2,7 @@
     <!-- LOGO -->
     <div class="topbar-left">
         <div class="text-center">
-        <a href="#" class="logo"><img width="60%" src="{{ asset('frontend_theme/assets/images/innoversion_logo.png') }}"></a>
+        <a href="#" class="logo"><img width="60%" src="{{ asset('admin/images/innoversion_logo.png') }}"></a>
         </div>
     </div>
 

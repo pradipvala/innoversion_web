@@ -12,6 +12,7 @@ class Country extends Model{
     protected $fillable = [
         'id',
         'country_name',
+        'phonecode',
         'code',
         'status',
         'created_at',

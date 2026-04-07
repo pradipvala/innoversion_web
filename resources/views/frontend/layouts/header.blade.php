@@ -59,13 +59,13 @@
                 <div class="navbar-action-button">
                     <button id="themeSwitch" class="themeswitch" aria-label="Toggle Theme">
                         <i id="themeIcon" class="fas fa-moon"></i>
-                    </button>                      
+                    </button>
                 </div>
                 <div class="navbar-icon-wrapper">
                     <div class="icon-circle">
                         <i class="fa-solid fa-phone-volume"></i>
                     </div>
-                    <h6>+91 29687350999</h6>
+                    <h6>+91 9687350999</h6>
                 </div>
             </div>
         </div>

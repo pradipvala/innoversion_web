@@ -8,8 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Services extends Model
 {
-    use HasFactory,SoftDeletes;
-
+    use HasFactory, SoftDeletes;
 
     public function saveService($request)
     {
@@ -19,10 +18,10 @@ class Services extends Model
 
         if ($request->hasFile('image')) {
             // save image in public storage
-            $local_url = 'service/' . str_replace(' ', '-', $request->file('image')->getClientOriginalName());
+            $local_url = 'service/'.str_replace(' ', '-', $request->file('image')->getClientOriginalName());
             \Storage::disk('public')->put($local_url, file_get_contents($request->file('image')));
 
-            //Delete old image when update Service image
+            // Delete old image when update Service image
             if ($request->old_image !== null) {
                 \Storage::delete($request->old_image);
             }
@@ -34,15 +33,12 @@ class Services extends Model
         $service->save();
     }
 
-
     public function changeStatus($request)
     {
         $status = $this->find($request->id);
         $status->status = $request->status;
         $status->save();
     }
-
-
 
     public function deleteService($request)
     {
@@ -52,7 +48,4 @@ class Services extends Model
         }
         $serviceData->delete();
     }
-
-
-
 }
