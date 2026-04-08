@@ -247,28 +247,51 @@ function initSidebar() {
     const $closeBtn = $('.close-btn');
     const $overlay = $('.sidebar-overlay');
     const $sidebar = $('.sidebar');
-  
-    $menuBtn.click(function() {
-      $overlay.addClass('active');
-      setTimeout(() => {
-        $sidebar.addClass('active');
-      }, 200);
-    });
-  
-    $closeBtn.click(function() {
-      $sidebar.removeClass('active');
-      setTimeout(() => {
-        $overlay.removeClass('active');
-      }, 200);
-    });
-  
-    $overlay.click(function() {
-      $sidebar.removeClass('active');
-      setTimeout(() => {
-        $overlay.removeClass('active');
-      }, 200);
-    });
-  }
+        const $navbarCollapse = $('#navbarNav');
+
+        const setSidebarState = (isOpen) => {
+                if (isOpen) {
+                        $overlay.addClass('active');
+                        setTimeout(() => {
+                                $sidebar.addClass('active');
+                        }, 200);
+                } else {
+                        $sidebar.removeClass('active');
+                        setTimeout(() => {
+                                $overlay.removeClass('active');
+                        }, 200);
+                }
+        };
+
+        $menuBtn.off('click.sidebar').on('click.sidebar', function() {
+            setSidebarState(true);
+        });
+
+        $closeBtn.off('click.sidebar').on('click.sidebar', function() {
+            setSidebarState(false);
+            if ($navbarCollapse.length) {
+                $navbarCollapse.collapse('hide');
+            }
+        });
+
+        $overlay.off('click.sidebar').on('click.sidebar', function() {
+            setSidebarState(false);
+            if ($navbarCollapse.length) {
+                $navbarCollapse.collapse('hide');
+            }
+        });
+
+        if ($navbarCollapse.length) {
+                $navbarCollapse
+                        .off('show.bs.collapse.sidebar hide.bs.collapse.sidebar')
+                        .on('show.bs.collapse.sidebar', function() {
+                                setSidebarState(true);
+                        })
+                        .on('hide.bs.collapse.sidebar', function() {
+                                setSidebarState(false);
+                        });
+        }
+}
 
 function initEditSidebar() {
     const $contentBtn = $('.content-edit');
@@ -305,6 +328,12 @@ function initSidebarDropdown() {
         });
     });
 }
+
+$(document).ready(function() {
+    initSidebar();
+    initEditSidebar();
+    initSidebarDropdown();
+});
 
 
 function initSearchBar() {
