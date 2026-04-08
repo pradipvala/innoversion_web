@@ -12,27 +12,25 @@ class Client extends Model
 
      /*
     *  role : save client data
-    
+
     *  comments:
     */
 
     public function saveclient($request)
     {
+        $client = $this->findOrNew($request->client_id);
 
-    if ($request->hasFile('client_image')) {
-            
-            $client                = $this->findOrNew($request->client_id);
-            
+        if ($request->hasFile('client_image')) {
             // save image in public storage
             $local_url = 'client/' . str_replace(' ', '-', $request->file('client_image')->getClientOriginalName());
             \Storage::disk('public')->put($local_url, file_get_contents($request->file('client_image')));
 
-            //Delete old image when update Slider image
+            // Delete old image when update client image
             if ($request->old_image !== null) {
-                \Storage::delete($request->old_image);
+                \Storage::disk('public')->delete($request->old_image);
             }
 
-            $client['image'] = $local_url;
+            $client->image = $local_url;
         }
 
         $client->save();

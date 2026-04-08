@@ -9,19 +9,23 @@ use App\Models\Country;
 use App\Models\Partner;
 use App\Models\Services_1;
 use App\Models\Testimonial;
+use App\Models\Client;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index()
     {
-         $services = Services_1::where('status', '1')->get();
-        return view('home', compact('services'));
+        //  $services = Services_1::where('status', '1')->get();
+        //  $clients = Client::where('status', '1')->get();
+        return view('home', compact('services', 'clients'));
     }
 
     public function home()
     {
-        return view('frontend.index');
+        $services = Services_1::where('status', '1')->get();
+        $clients = Client::where('status', '1')->get();
+        return view('frontend.index', compact('services', 'clients'));
     }
 
     public function about()

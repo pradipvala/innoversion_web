@@ -8,21 +8,31 @@
             <div id="banner-video-background"></div>
             <div class="hero-container position-relative">
                 <div class="d-flex flex-column gspace-2">
-                    <h1 class="title-heading-banner animate-box animated animate__animated" data-animate="animate__fadeInLeft">Amplify Your Brand with Cutting-Edge Digital Marketing</h1>
+                    <h1 class="title-heading-banner animate-box animated animate__animated"
+                        data-animate="animate__fadeInLeft">Amplify Your Brand with Cutting-Edge Digital Marketing</h1>
                     <div class="banner-heading">
-                        <div class="banner-video-content order-xl-1 order-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                            <div class="d-flex flex-column flex-xl-row text-xl-start text-center align-items-center gspace-5">
+                        <div class="banner-video-content order-xl-1 order-2 animate-box animated animate__animated"
+                            data-animate="animate__fadeInUp">
+                            <div
+                                class="d-flex flex-column flex-xl-row text-xl-start text-center align-items-center gspace-5">
                                 {{-- <button class="request-loader" data-video="https://www.youtube.com/watch?v=P68V3iH4TeE?autoplay=1"><i class="fa-solid fa-play"></i></button> --}}
-                                <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
+                                <button class="request-loader"
+                                    data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i
+                                        class="fa-solid fa-play"></i></button>
                                 {{-- <button class="request-loader" data-video="{{ asset('image/Marko Video Background4K_HD.webm') }}"><i class="fa-solid fa-play"></i></button> --}}
                                 <p>
-                                    Watch our video reviews and see how businesses achieve success with Marko's digital marketing solutions.
+                                    Watch our video reviews and see how businesses achieve success with Marko's digital
+                                    marketing solutions.
                                 </p>
                             </div>
                         </div>
-                        <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated" data-animate="animate__fadeInRight">
-                            <p>Marko empowers businesses to grow online with data driven digital marketing, innovative branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit amet consectetur.</p>
-                            <div class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
+                        <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated"
+                            data-animate="animate__fadeInRight">
+                            <p>Marko empowers businesses to grow online with data driven digital marketing, innovative
+                                branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit
+                                amet consectetur.</p>
+                            <div
+                                class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
                                 <a href="./about.html" class="btn btn-accent">
                                     <div class="btn-title">
                                         <span>Get Started</span>
@@ -33,9 +43,12 @@
                                 </a>
                                 <div class="banner-reviewer">
                                     <div class="d-flex flex-row align-items-center">
-                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-14.jpg') }}" alt="Reviewer" class="avatar">
-                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-1.jpg') }}" alt="Reviewer" class="avatar">
-                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-2.jpg') }}" alt="Reviewer" class="avatar">
+                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-14.jpg') }}"
+                                            alt="Reviewer" class="avatar">
+                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-1.jpg') }}"
+                                            alt="Reviewer" class="avatar">
+                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-2.jpg') }}"
+                                            alt="Reviewer" class="avatar">
                                     </div>
                                     <div class="detail">
                                         <span>2.7k Positive</span>
@@ -56,11 +69,14 @@
             <div class="d-flex flex-column flex-xl-row gspace-5">
                 <div class="expertise-img-layout">
                     <div class="image-container expertise-img">
-                        <img src="https://html.foxcreation.net/image/working-job-career-casual-showing-SJZWF3N-1024x737.jpg" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                        <img src="https://html.foxcreation.net/image/working-job-career-casual-showing-SJZWF3N-1024x737.jpg"
+                            alt="Expertise Image" class="img-fluid  animate-box animated animate__animated"
+                            data-animate="animate__fadeInUp">
                         <div class="expertise-layout">
                             <div class="d-flex flex-column">
                                 <div class="card-expertise-wrapper">
-                                    <div class="card card-expertise  animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                                    <div class="card card-expertise  animate-box animated animate__animated"
+                                        data-animate="animate__fadeInDown">
                                         <h4>Ready to Elevate Your Digital Presence?</h4>
                                         <p>Let's create a custom strategy that fits your business goals.</p>
                                         <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
@@ -80,8 +96,10 @@
                         <i class="fa-regular fa-circle-dot"></i>
                         <span>Our Expertise</span>
                     </div>
-                    <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Data Driven Strategies, Measurable Results</h2>
-                    <p>At Marko, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our expertise ensures your brand stays ahead in the competitive digital landscape.</p>
+                    <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                        Data Driven Strategies, Measurable Results</h2>
+                    <p>At Marko, we specialize in crafting innovative digital marketing strategies that drive real business
+                        growth. Our expertise ensures your brand stays ahead in the competitive digital landscape.</p>
                     <div class="d-flex flex-column flex-md-row gspace-2">
                         <div class="expertise-list">
                             <h5>What We Do Best</h5>
@@ -94,7 +112,8 @@
                                 <li><a href="./single_services.html">Conversion Optimization</a></li>
                             </ul>
                         </div>
-                        <div class="card card-expertise card-expertise-counter animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                        <div class="card card-expertise card-expertise-counter animate-box animated animate__animated"
+                            data-animate="animate__fadeInUp">
                             <div class="d-flex flex-row gspace-2 align-items-center">
                                 <div class="d-flex flex-row align-items-center">
                                     <span class="counter" data-target="21"></span>
@@ -102,7 +121,8 @@
                                 </div>
                                 <h6>Years of Experience on Digital Marketing Services</h6>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit in ex ligula varius at rutrum et finibus sed felis qisque.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit in ex ligula varius at rutrum et
+                                finibus sed felis qisque.</p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +135,7 @@
         <div id="modal-overlay" class="modal-overlay">
             <span class="my-close"><i class="fa-solid fa-xmark"></i></span>
             <div class="my-modal">
-            <iframe id="my-video-frame" allowfullscreen></iframe>
+                <iframe id="my-video-frame" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -134,7 +154,8 @@
                     <div class="col">
                         <div class="d-flex flex-column ps-xl-3 ps-0">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et,
+                                finibus sed felis.
                                 Quisque eget tincidunt lectus. Sed quis diam sed neque mattis feugiat.
                             </p>
                         </div>
@@ -150,99 +171,115 @@
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-7.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-7.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-6.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-6.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-8.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-8.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-2.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-2.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-1.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-1.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-3.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-3.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-5.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-5.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-4.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-4.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <a href="#">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-7.png') }}" alt="Client" class="partner-logo img-fluid">
+                                            <img src="{{ asset('image/client-7.png') }}" alt="Client"
+                                                class="partner-logo img-fluid">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="partner-slide">
-                                        <img src="{{ asset('image/client-6.png') }}" alt="Client" class="partner-logo img-fluid">
+                                        <img src="{{ asset('image/client-6.png') }}" alt="Client"
+                                            class="partner-logo img-fluid">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="partner-slide">
-                                        <img src="{{ asset('image/client-8.png') }}" alt="Client" class="partner-logo img-fluid">
+                                        <img src="{{ asset('image/client-8.png') }}" alt="Client"
+                                            class="partner-logo img-fluid">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="partner-slide">
-                                        <img src="{{ asset('image/client-2.png') }}" alt="Client" class="partner-logo img-fluid">
+                                        <img src="{{ asset('image/client-2.png') }}" alt="Client"
+                                            class="partner-logo img-fluid">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="partner-slide">
-                                        <img src="{{ asset('image/client-1.png') }}" alt="Client" class="partner-logo img-fluid">
+                                        <img src="{{ asset('image/client-1.png') }}" alt="Client"
+                                            class="partner-logo img-fluid">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="partner-slide">
-                                        <img src="{{ asset('image/client-3.png') }}" alt="Client" class="partner-logo img-fluid">
+                                        <img src="{{ asset('image/client-3.png') }}" alt="Client"
+                                            class="partner-logo img-fluid">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="partner-slide">
-                                        <img src="{{ asset('image/client-5.png') }}" alt="Client" class="partner-logo img-fluid">
+                                        <img src="{{ asset('image/client-5.png') }}" alt="Client"
+                                            class="partner-logo img-fluid">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="partner-slide">
-                                        <img src="{{ asset('image/client-4.png') }}" alt="Client" class="partner-logo img-fluid">
+                                        <img src="{{ asset('image/client-4.png') }}" alt="Client"
+                                            class="partner-logo img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -259,57 +296,66 @@
             <div class="d-flex flex-column flex-xl-row gspace-5">
                 <div class="chooseus-card-container">
                     <div class="d-flex flex-column gspace-2">
-                        <div class="card card-chooseus animate-box animated fast animate__animated" data-animate="animate__fadeInLeft">
+                        <div class="card card-chooseus animate-box animated fast animate__animated"
+                            data-animate="animate__fadeInLeft">
                             <div class="chooseus-icon-wrapper">
                                 <div class="chooseus-spacer above"></div>
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="{{ asset('image/Icon-2.png') }}" alt="Why Choose Us Icon" class="img-fluid">
+                                        <img src="{{ asset('image/Icon-2.png') }}" alt="Why Choose Us Icon"
+                                            class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
                                 <h4 class="chooseus-title">Data-Driven Approach</h4>
-                                <p>Every decision is backed by real-time analytics for maximum impact lorem ipsum dolor sit  consectetur adipiscing elit ut elit tellus luctus nec.</p>
+                                <p>Every decision is backed by real-time analytics for maximum impact lorem ipsum dolor sit
+                                    consectetur adipiscing elit ut elit tellus luctus nec.</p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                 </div>
                             </div>
                         </div>
-                        <div class="card card-chooseus  animate-box animated animate__animated" data-animate="animate__fadeInLeft">
+                        <div class="card card-chooseus  animate-box animated animate__animated"
+                            data-animate="animate__fadeInLeft">
                             <div class="chooseus-icon-wrapper">
                                 <div class="chooseus-spacer above"></div>
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="{{ asset('image/icon-1.png') }}" alt="Why Choose Us Icon" class="img-fluid">
+                                        <img src="{{ asset('image/icon-1.png') }}" alt="Why Choose Us Icon"
+                                            class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
                                 <h4 class="chooseus-title">Creative & Innovative</h4>
-                                <p>Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor sit awsa consectetur adipiscing elit ut elit.</p>
+                                <p>Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor
+                                    sit awsa consectetur adipiscing elit ut elit.</p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                 </div>
                             </div>
                         </div>
-                        <div class="card card-chooseus  animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
+                        <div class="card card-chooseus  animate-box animated slow animate__animated"
+                            data-animate="animate__fadeInLeft">
                             <div class="chooseus-icon-wrapper">
                                 <div class="chooseus-spacer above"></div>
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="{{ asset('image/Icon-3.png') }}" alt="Why Choose Us Icon" class="img-fluid">
+                                        <img src="{{ asset('image/Icon-3.png') }}" alt="Why Choose Us Icon"
+                                            class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
                                 <h4 class="chooseus-title">Transparent Reporting</h4>
-                                <p>Clear insights and performance tracking, so you always know your ROI lorem ipsum dolo consectetur adipiscing elit ut elit tellus luctus nec.</p>
+                                <p>Clear insights and performance tracking, so you always know your ROI lorem ipsum dolo
+                                    consectetur adipiscing elit ut elit tellus luctus nec.</p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
@@ -321,21 +367,28 @@
                 <div class="chooseus-content-container">
                     <div class="d-flex flex-column gspace-5">
                         <div class="d-flex flex-column gspace-2">
-                            <div class="sub-heading  animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                            <div class="sub-heading  animate-box animated animate__animated"
+                                data-animate="animate__fadeInDown">
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Why Choose Marko</span>
                             </div>
-                            <h2 class="title-heading  animate-box animated animate__animated" data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
-                            <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
+                            <h2 class="title-heading  animate-box animated animate__animated"
+                                data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
+                            <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In
+                                the fast-paced digital world, choosing the right marketing partner makes all the difference.
+                                At Marko, we don’t just create campaigns—we craft strategies that deliver measurable
+                                success.</p>
                         </div>
                         <div class="image-container">
-                            <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-5EHBQRG-1024x683.jpg" alt="Why Choose Us Image" class="chooseus-img">
+                            <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-5EHBQRG-1024x683.jpg"
+                                alt="Why Choose Us Image" class="chooseus-img">
                             <div class="card-chooseus-cta-layout">
                                 <div class="chooseus-cta-spacer"></div>
                                 <div class="d-flex flex-column align-items-end">
-                                    <div class="chooseus-cta-spacer"></div>    
+                                    <div class="chooseus-cta-spacer"></div>
                                     <div class="card-chooseus-cta-wrapper">
-                                        <div class="card card-chooseus-cta animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                                        <div class="card card-chooseus-cta animate-box animated animate__animated"
+                                            data-animate="animate__fadeInUp">
                                             <h5>Partner with Marko & take your brand to the next level.</h5>
                                             <div class="link-wrapper">
                                                 <a href="./contact.html">Let's Talk Strategy</a>
@@ -358,14 +411,17 @@
             <div class="hero-container">
                 <div class="guide-content  animate-box animated animate__animated" data-animate="animate__fadeInUp">
                     <div class="guide-video-container">
-                        <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
+                        <button class="request-loader"
+                            data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i
+                                class="fa-solid fa-play"></i></button>
                         <p>
                             See How We Help Brands Grow
                         </p>
                     </div>
                     <div class="d-flex flex-column gspace-2">
                         <h3 class="title-heading">Transform Your Business with Marko!</h3>
-                        <p>Take your digital marketing to the next level with data-driven strategies and innovative solutions. Let's create something amazing together!</p>
+                        <p>Take your digital marketing to the next level with data-driven strategies and innovative
+                            solutions. Let's create something amazing together!</p>
                     </div>
                 </div>
             </div>
@@ -377,180 +433,96 @@
         <div class="hero-container">
             <div class="d-flex flex-column justify-content-center text-center gspace-5">
                 <div class="d-flex flex-column justify-content-center text-center gspace-2">
-                    <div class="sub-heading align-self-center animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                    <div class="sub-heading align-self-center animate-box animated animate__animated"
+                        data-animate="animate__fadeInDown">
                         <i class="fa-regular fa-circle-dot"></i>
                         <span>Our Core Services</span>
                     </div>
-                    <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Digital Solutions That Drive Real Results</h2>
+
+                    <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated"
+                        data-animate="animate__fadeInDown">Digital Solutions That Drive Real Results</h2>
                 </div>
                 <div class="card-service-wrapper">
                     <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
-                        <div class="col">
-                            <div class="card card-service animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                    <div>
-                                        <div class="service-icon-wrapper">
-                                            <div class="service-icon">
-                                                <img src="{{ asset('image/Icon-7.png') }}" alt="Service Icon" class="img-fluid">
+                        @foreach ($services as $service)
+                            <div class="col">
+                                <div class="card card-service animate-box animated slow animate__animated"
+                                    data-animate="animate__fadeInLeft">
+                                    <div
+                                        class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
+                                        <div>
+                                            <div class="service-icon-wrapper">
+                                                <div class="service-icon">
+                                                    <img src="{{ isset($service->icon) ? asset('storage/services/' . $service->icon) : asset('image/Icon-7.png') }}"
+                                                        alt="Service Icon" class="img-fluid">
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="service-title">
-                                        <h4>Social Media Marketing</h4>
-                                    </div>
-                                </div>
-                                <p>
-                                    Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                </p>
-                                <a href="./single_services.html" class="btn btn-accent">
-                                    <div class="btn-title">
-                                        <span>View Details</span>
-                                    </div>
-                                    <div class="icon-circle">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card-service animate-box animated animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                    <div>
-                                        <div class="service-icon-wrapper">
-                                            <div class="service-icon">
-                                                <img src="{{ asset('image/digital-marketing-icons-F4LJ4W8.png') }}" alt="Service Icon" class="img-fluid">
-                                            </div>
+                                        <div class="service-title">
+                                            <h4>{{ $service->title }}</h4>
                                         </div>
                                     </div>
-                                    <div class="service-title">
-                                        <h4>Content Marketing</h4>
-                                    </div>
-                                </div>
-                                <p>
-                                    Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                </p>
-                                <a href="./single_services.html" class="btn btn-accent">
-                                    <div class="btn-title">
-                                        <span>View Details</span>
-                                    </div>
-                                    <div class="icon-circle">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card-service animate-box animated fast animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                    <div>
-                                        <div class="service-icon-wrapper">
-                                            <div class="service-icon">
-                                                <img src="{{ asset('image/Icon-8.png') }}" alt="Service Icon" class="img-fluid">
-                                            </div>
+                                    <p>
+                                        {{ $service->description }}
+                                    </p>
+                                    <a href="./single_services.html" class="btn btn-accent">
+                                        <div class="btn-title">
+                                            <span>View Details</span>
                                         </div>
-                                    </div>
-                                    <div class="service-title">
-                                        <h4>PPC Advertising</h4>
-                                    </div>
-                                </div>
-                                <p>
-                                    Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                </p>
-                                <a href="./single_services.html" class="btn btn-accent">
-                                    <div class="btn-title">
-                                        <span>View Details</span>
-                                    </div>
-                                    <div class="icon-circle">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card-service animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                    <div>
-                                        <div class="service-icon-wrapper">
-                                            <div class="service-icon">
-                                                <img src="{{ asset('image/Icon-5.png') }}" alt="Service Icon" class="img-fluid">
-                                            </div>
+                                        <div class="icon-circle">
+                                            <i class="fa-solid fa-arrow-right"></i>
                                         </div>
-                                    </div>
-                                    <div class="service-title">
-                                        <h4>Email Marketing</h4>
-                                    </div>
+                                    </a>
                                 </div>
-                                <p>
-                                    Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                </p>
-                                <a href="./single_services.html" class="btn btn-accent">
-                                    <div class="btn-title">
-                                        <span>View Details</span>
-                                    </div>
-                                    <div class="icon-circle">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </div>
-                                </a>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card-service animate-box animated animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                    <div>
-                                        <div class="service-icon-wrapper">
-                                            <div class="service-icon">
-                                                <img src="{{ asset('image/Icon-6.png') }}" alt="Service Icon" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="service-title">
-                                        <h4>Brading & Design</h4>
-                                    </div>
-                                </div>
-                                <p>
-                                    Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                </p>
-                                <a href="./single_services.html" class="btn btn-accent">
-                                    <div class="btn-title">
-                                        <span>View Details</span>
-                                    </div>
-                                    <div class="icon-circle">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card-service animate-box animated fast animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                    <div>
-                                        <div class="service-icon-wrapper">
-                                            <div class="service-icon">
-                                                <img src="{{ asset('image/Icon-4.png') }}" alt="Service Icon" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="service-title">
-                                        <h4>Web Development</h4>
-                                    </div>
-                                </div>
-                                <p>
-                                    Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                </p>
-                                <a href="./single_services.html" class="btn btn-accent">
-                                    <div class="btn-title">
-                                        <span>View Details</span>
-                                    </div>
-                                    <div class="icon-circle">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
                 <div class="service-link-footer">
-                    <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="./contact.html">Get a Free Strategy Call</a></p>
+                    <p>Need a custom solution? Let's create a strategy tailored for your business. <a
+                            href="./contact.html">Get a Free Strategy Call</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section Partner -->
+    <div class="section-partner mb-5">
+        <div class="hero-container">
+            <div class="card card-partner  animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                <div class="partner-spacer"></div>
+                <div class="row row-cols-xl-2 row-cols-1 align-items-center px-5 position-relative z-2">
+                    <div class="col">
+                        <div class="d-flex flex-column justify-content-center pe-xl-3 pe-0">
+                            <h3 class="title-heading">Our Clients</h3>
+                            <p>Over the years, our services have been trusted by the best in the industry.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiperPartner-layout">
+                    <div class="swiperPartner-overlay">
+                        <div class="spacer"></div>
+                    </div>
+                    <div class="swiperPartner-container">
+                        <div class="swiper swiperPartner">
+                            <div class="swiper-wrapper">
+
+                                @foreach ($clients as $client)
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <div class="partner-slide">
+                                                <img src="{{ isset($client->image) ? asset('storage/' . $client->image) : asset('image/client-7.png') }}"
+                                                    alt="Client" class="partner-logo img-fluid">
+                                            </div>
+                                        </a>
+                                    </div>
+                                @endforeach
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -563,7 +535,8 @@
                 <div class="card card-case-studies">
                     <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5">
                         <div class="col">
-                            <div class="d-flex flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInLeft">
+                            <div class="d-flex flex-column gspace-2 animate-box animated animate__animated"
+                                data-animate="animate__fadeInLeft">
                                 <div class="sub-heading">
                                     <i class="fa-regular fa-circle-dot"></i>
                                     <span>Case Studies</span>
@@ -572,8 +545,10 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="d-flex flex-column h-100 justify-content-end gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInRight">
-                                <p>We don't just talk about results—we deliver them. Here are some of our most impactful case studies showcasing how our digital marketing strategies drive success.</p>
+                            <div class="d-flex flex-column h-100 justify-content-end gspace-2 animate-box animated animate__animated"
+                                data-animate="animate__fadeInRight">
+                                <p>We don't just talk about results—we deliver them. Here are some of our most impactful
+                                    case studies showcasing how our digital marketing strategies drive success.</p>
                                 <div class="link-wrapper">
                                     <a href="./case_studies.html">More Case Studies</a>
                                     <i class="fa-solid fa-circle-arrow-right"></i>
@@ -583,8 +558,10 @@
                     </div>
                     <div class="d-flex flex-column gspace-2">
                         <div class="d-flex flex-column flex-xl-row gspace-2">
-                            <div class="card case-studies-content local-business animate-box animated fast animate__animated" data-animate="animate__fadeInUp">
-                                <div class="case-studies-component large align-self-end justify-content-end align-items-end">
+                            <div class="card case-studies-content local-business animate-box animated fast animate__animated"
+                                data-animate="animate__fadeInUp">
+                                <div
+                                    class="case-studies-component large align-self-end justify-content-end align-items-end">
                                     <div class="cs-component">
                                         <a href="#">Social</a>
                                     </div>
@@ -608,20 +585,27 @@
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column gspace-2">
-                                    <a href="#" class="case-studies-title"><h4>Local Business Digital Transformation</h4></a>
+                                    <a href="#" class="case-studies-title">
+                                        <h4>Local Business Digital Transformation</h4>
+                                    </a>
                                     <p>
-                                        5x ROI on social media campaigns & 80% increase in engagement lorem ipsum dolor sit amet consectetur.
+                                        5x ROI on social media campaigns & 80% increase in engagement lorem ipsum dolor sit
+                                        amet consectetur.
                                     </p>
                                 </div>
                             </div>
-                            <div class="card case-studies-content saas-leads animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <div class="card case-studies-content saas-leads animate-box animated animate__animated"
+                                data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-column gspace-2">
-                                    <a href="#" class="case-studies-title"><h4>SaaS Lead Generation Success</h4></a>
+                                    <a href="#" class="case-studies-title">
+                                        <h4>SaaS Lead Generation Success</h4>
+                                    </a>
                                     <p>
                                         150% increase in qualified leads & 70% lower customer acquisition cost.
                                     </p>
                                 </div>
-                                <div class="case-studies-component small align-self-end justify-content-end align-items-end">
+                                <div
+                                    class="case-studies-component small align-self-end justify-content-end align-items-end">
                                     <div class="cs-component">
                                         <a href="#">Content</a>
                                     </div>
@@ -647,8 +631,10 @@
                             </div>
                         </div>
                         <div class="d-flex flex-column flex-xl-row gspace-2">
-                            <div class="card case-studies-content ecommerce animate-box animated fast animate__animated" data-animate="animate__fadeInUp">
-                                <div class="case-studies-component small align-self-start justify-content-start align-items-start">
+                            <div class="card case-studies-content ecommerce animate-box animated fast animate__animated"
+                                data-animate="animate__fadeInUp">
+                                <div
+                                    class="case-studies-component small align-self-start justify-content-start align-items-start">
                                     <div class="cs-component">
                                         <a href="#">SEO</a>
                                     </div>
@@ -672,21 +658,28 @@
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column gspace-2">
-                                    <a href="#" class="case-studies-title"><h4>E-Commerce Growth Boost</h4></a>
+                                    <a href="#" class="case-studies-title">
+                                        <h4>E-Commerce Growth Boost</h4>
+                                    </a>
                                     <p>
                                         3x increase in organic traffic & 2x revenue growth in 6 months lorem ipsum dolor.
                                     </p>
                                 </div>
                             </div>
 
-                            <div class="card case-studies-content startup-branding animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <div class="card case-studies-content startup-branding animate-box animated animate__animated"
+                                data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-column gspace-2">
-                                    <a href="#" class="case-studies-title"><h4>Startup Brand Awareness Expansion</h4></a>
+                                    <a href="#" class="case-studies-title">
+                                        <h4>Startup Brand Awareness Expansion</h4>
+                                    </a>
                                     <p>
-                                        200% increase in brand mentions & 60% higher engagement rates lorem ipsum dolor sit amet consectetur.
+                                        200% increase in brand mentions & 60% higher engagement rates lorem ipsum dolor sit
+                                        amet consectetur.
                                     </p>
                                 </div>
-                                    <div class="case-studies-component large align-self-start justify-content-start align-items-start">
+                                <div
+                                    class="case-studies-component large align-self-start justify-content-start align-items-start">
                                     <div class="cs-component">
                                         <a href="#">Viral</a>
                                     </div>
@@ -724,15 +717,21 @@
             <div class="d-flex flex-column gspace-5">
                 <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="testimonial-reviewer-container">
-                        <div class="testimonial-header-wrapper animate-box animated fast animate__animated" data-animate="animate__fadeInDown">
+                        <div class="testimonial-header-wrapper animate-box animated fast animate__animated"
+                            data-animate="animate__fadeInDown">
                             <div class="card card-testimonial-reviewer">
-                                <div class="d-flex flex-column flex-md-row flex-xl-column justify-content-between gspace-3">
+                                <div
+                                    class="d-flex flex-column flex-md-row flex-xl-column justify-content-between gspace-3">
                                     <div class="testimonial-reviewer">
                                         <div class="avatar-container">
-                                            <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Reviewer" class="avatar">
-                                            <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Reviewer" class="avatar">
-                                            <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Reviewer" class="avatar">
-                                            <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Reviewer" class="avatar">
+                                            <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                alt="Testimonial Reviewer" class="avatar">
+                                            <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                alt="Testimonial Reviewer" class="avatar">
+                                            <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                alt="Testimonial Reviewer" class="avatar">
+                                            <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                alt="Testimonial Reviewer" class="avatar">
                                         </div>
                                         <div class="detail">
                                             <h6>2.7k Positive</h6>
@@ -741,7 +740,7 @@
                                     </div>
                                     <div class="testimonial-rating-container">
                                         <div class="d-flex flex-column justify-content-center align-items-center gspace-1">
-                                                <div class="d-flex flex-row align-items-center">
+                                            <div class="d-flex flex-row align-items-center">
                                                 <span class="counter" data-target="90"></span>
                                                 <span class="counter-detail">%</span>
                                             </div>
@@ -749,7 +748,7 @@
                                         </div>
                                         <div class="underline-vertical"></div>
                                         <div class="d-flex flex-column justify-content-center align-items-center gspace-1">
-                                                <div class="d-flex flex-row align-items-center">
+                                            <div class="d-flex flex-row align-items-center">
                                                 <span class="counter" data-target="49"></span>
                                                 <span class="counter-detail">%</span>
                                             </div>
@@ -771,233 +770,251 @@
                         </div>
                     </div>
                     <div class="testimonial-title-container">
-                        <div class="testimonial-header-wrapper-title animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                        <div class="testimonial-header-wrapper-title animate-box animated animate__animated"
+                            data-animate="animate__fadeInRight">
                             <div class="card-testimonial-header-title">
                                 <div class="sub-heading">
                                     <i class="fa-regular fa-circle-dot"></i>
                                     <span>What Our Client Says</span>
                                 </div>
                                 <h2 class="title-heading">Hear from Our Satisfied Clients, Real Success Stories</h2>
-                                <p>Discover how businesses like yours achieved outstanding growth with Marko's expert digital marketing solutions.</p>
+                                <p>Discover how businesses like yours achieved outstanding growth with Marko's expert
+                                    digital marketing solutions.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="d-flex flex-column">
                     <div class="overflow-hidden">
-                    <div class="swiper swiperTestimonial">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card card-testimonial">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center justify-content-between">
-                                        <div class="d-flex flex-row gspace-2">
-                                            <div class="testimonial-image">
-                                                <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Person Image" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex flex-column">
-                                                <span class="profile-name">Emma Richard</span>
-                                                <p class="profile-info">CEO Nexatech</p>
-                                            </div>
+                        <div class="swiper swiperTestimonial">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card card-testimonial">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
                                         </div>
-                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <div class="d-flex flex-row gspace-2">
+                                                <div class="testimonial-image">
+                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                        alt="Testimonial Person Image" class="img-fluid">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <span class="profile-name">Emma Richard</span>
+                                                    <p class="profile-info">CEO Nexatech</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        </div>
+                                        <p class="testimonial-description">
+                                            “Marko completely transformed our online presence! Their digital marketing
+                                            strategies helped us double our revenue in just six months.”
+                                        </p>
                                     </div>
-                                    <p class="testimonial-description">
-                                        “Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
-                                    </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card card-testimonial">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <div class="d-flex flex-row gspace-2">
+                                                <div class="testimonial-image">
+                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                        alt="Testimonial Person Image" class="img-fluid">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <span class="profile-name">David Mont</span>
+                                                    <p class="profile-info">Marketing Director</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        </div>
+                                        <p class="testimonial-description">
+                                            “We've worked with many agencies before, but Marko stands out. Their data-driven
+                                            approach and creative solutions gave us an edge over competitors.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card card-testimonial">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <div class="d-flex flex-row gspace-2">
+                                                <div class="testimonial-image">
+                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                        alt="Testimonial Person Image" class="img-fluid">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <span class="profile-name">Sophia Lewis</span>
+                                                    <p class="profile-info">Founder</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        </div>
+                                        <p class="testimonial-description">
+                                            “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website
+                                            traffic skyrocketed, and lead generation has never been better!”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card card-testimonial">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <div class="d-flex flex-row gspace-2">
+                                                <div class="testimonial-image">
+                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                        alt="Testimonial Person Image" class="img-fluid">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <span class="profile-name">James Peterson</span>
+                                                    <p class="profile-info">COO, BrightWave</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        </div>
+                                        <p class="testimonial-description">
+                                            “Highly professional and results-oriented. Marko's expertise in branding and
+                                            content marketing helped us build a strong online identity.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card card-testimonial">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <div class="d-flex flex-row gspace-2">
+                                                <div class="testimonial-image">
+                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                        alt="Testimonial Person Image" class="img-fluid">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <span class="profile-name">Emma Richard</span>
+                                                    <p class="profile-info">CEO Nexatech</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        </div>
+                                        <p class="testimonial-description">
+                                            “Marko completely transformed our online presence! Their digital marketing
+                                            strategies helped us double our revenue in just six months.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card card-testimonial">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <div class="d-flex flex-row gspace-2">
+                                                <div class="testimonial-image">
+                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                        alt="Testimonial Person Image" class="img-fluid">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <span class="profile-name">David Mont</span>
+                                                    <p class="profile-info">Marketing Director</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        </div>
+                                        <p class="testimonial-description">
+                                            “We've worked with many agencies before, but Marko stands out. Their data-driven
+                                            approach and creative solutions gave us an edge over competitors.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card card-testimonial">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <div class="d-flex flex-row gspace-2">
+                                                <div class="testimonial-image">
+                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                        alt="Testimonial Person Image" class="img-fluid">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <span class="profile-name">Sophia Lewis</span>
+                                                    <p class="profile-info">Founder</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        </div>
+                                        <p class="testimonial-description">
+                                            “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website
+                                            traffic skyrocketed, and lead generation has never been better!”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card card-testimonial">
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <div class="d-flex flex-row gspace-2">
+                                                <div class="testimonial-image">
+                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                        alt="Testimonial Person Image" class="img-fluid">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <span class="profile-name">James Peterson</span>
+                                                    <p class="profile-info">COO, BrightWave</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                        </div>
+                                        <p class="testimonial-description">
+                                            “Highly professional and results-oriented. Marko's expertise in branding and
+                                            content marketing helped us build a strong online identity.”
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="card card-testimonial">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center justify-content-between">
-                                        <div class="d-flex flex-row gspace-2">
-                                            <div class="testimonial-image">
-                                                <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Person Image" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex flex-column">
-                                                <span class="profile-name">David Mont</span>
-                                                <p class="profile-info">Marketing Director</p>
-                                            </div>
-                                        </div>
-                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                    </div>
-                                    <p class="testimonial-description">
-                                        “We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
-                                    </p>
-                                </div>
-                            </div>                             
-                            <div class="swiper-slide">
-                                <div class="card card-testimonial">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center justify-content-between">
-                                        <div class="d-flex flex-row gspace-2">
-                                            <div class="testimonial-image">
-                                                <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Person Image" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex flex-column">
-                                                <span class="profile-name">Sophia Lewis</span>
-                                                <p class="profile-info">Founder</p>
-                                            </div>
-                                        </div>
-                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                    </div>
-                                    <p class="testimonial-description">
-                                        “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
-                                    </p>
-                                </div>
-                            </div>                                
-                            <div class="swiper-slide">
-                                <div class="card card-testimonial">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center justify-content-between">
-                                        <div class="d-flex flex-row gspace-2">
-                                            <div class="testimonial-image">
-                                                <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Person Image" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex flex-column">
-                                                <span class="profile-name">James Peterson</span>
-                                                <p class="profile-info">COO, BrightWave</p>
-                                            </div>
-                                        </div>
-                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                    </div>
-                                    <p class="testimonial-description">
-                                        “Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.”
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card card-testimonial">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center justify-content-between">
-                                        <div class="d-flex flex-row gspace-2">
-                                            <div class="testimonial-image">
-                                                <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Person Image" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex flex-column">
-                                                <span class="profile-name">Emma Richard</span>
-                                                <p class="profile-info">CEO Nexatech</p>
-                                            </div>
-                                        </div>
-                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                    </div>
-                                    <p class="testimonial-description">
-                                        “Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card card-testimonial">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center justify-content-between">
-                                        <div class="d-flex flex-row gspace-2">
-                                            <div class="testimonial-image">
-                                                <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Person Image" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex flex-column">
-                                                <span class="profile-name">David Mont</span>
-                                                <p class="profile-info">Marketing Director</p>
-                                            </div>
-                                        </div>
-                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                    </div>
-                                    <p class="testimonial-description">
-                                        “We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
-                                    </p>
-                                </div>
-                            </div>                             
-                            <div class="swiper-slide">
-                                <div class="card card-testimonial">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center justify-content-between">
-                                        <div class="d-flex flex-row gspace-2">
-                                            <div class="testimonial-image">
-                                                <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Person Image" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex flex-column">
-                                                <span class="profile-name">Sophia Lewis</span>
-                                                <p class="profile-info">Founder</p>
-                                            </div>
-                                        </div>
-                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                    </div>
-                                    <p class="testimonial-description">
-                                        “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
-                                    </p>
-                                </div>
-                            </div>                                
-                            <div class="swiper-slide">
-                                <div class="card card-testimonial">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center justify-content-between">
-                                        <div class="d-flex flex-row gspace-2">
-                                            <div class="testimonial-image">
-                                                <img src="{{ asset('image/dummy-img-400x400.jpg') }}" alt="Testimonial Person Image" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex flex-column">
-                                                <span class="profile-name">James Peterson</span>
-                                                <p class="profile-info">COO, BrightWave</p>
-                                            </div>
-                                        </div>
-                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                    </div>
-                                    <p class="testimonial-description">
-                                        “Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.”
-                                    </p>
-                                </div>
-                            </div>         
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -1010,18 +1027,22 @@
                 <div class="digital-process-content">
                     <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5">
                         <div class="col">
-                            <div class="d-flex flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                            <div class="d-flex flex-column gspace-2 animate-box animated animate__animated"
+                                data-animate="animate__fadeInDown">
                                 <div class="sub-heading">
-                                <i class="fa-regular fa-circle-dot"></i>
+                                    <i class="fa-regular fa-circle-dot"></i>
                                     <span>How it Work</span>
                                 </div>
                                 <h2 class="title-heading">Simple Steps to Digital Success</h2>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="d-flex flex-column gspace-2 justify-content-end h-100  animate-box animated fast animate__animated" data-animate="animate__fadeInDown">
+                            <div class="d-flex flex-column gspace-2 justify-content-end h-100  animate-box animated fast animate__animated"
+                                data-animate="animate__fadeInDown">
                                 <p>
-                                    Our streamlined process ensures your digital growth is seamless and effective. ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis.
+                                    Our streamlined process ensures your digital growth is seamless and effective. ipsum
+                                    dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus
+                                    sed felis.
                                 </p>
                                 <div class="link-wrapper">
                                     <a href="./contact.html">Get Started Now</a>
@@ -1034,73 +1055,85 @@
                         <div class="digital-process-steps">
                             <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1">
                                 <div class="col">
-                                    <div class="digital-process-step animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                                    <div class="digital-process-step animate-box animated animate__animated"
+                                        data-animate="animate__fadeInUp">
                                         <div class="d-flex justify-content-between">
                                             <div>
-                                                <img src="{{ asset('image/digital-marketing-icons-N952ZWA.png') }}" alt="Digital Proccess Icon" class="process-icon">
+                                                <img src="{{ asset('image/digital-marketing-icons-N952ZWA.png') }}"
+                                                    alt="Digital Proccess Icon" class="process-icon">
                                             </div>
                                             <span>01</span>
                                         </div>
                                         <div class="d-flex flex-column gspace-2">
                                             <h5>Discovery & Consult</h5>
                                             <p>
-                                                Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis
+                                                Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec
+                                                ullamcorper mattis
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                                    <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated"
+                                        data-animate="animate__fadeInDown">
                                         <div class="step-spacer"></div>
                                         <div class="digital-process-step">
                                             <div class="d-flex justify-content-between">
                                                 <div>
-                                                    <img src="{{ asset('image/Icon-11.png') }}" alt="Digital Process Icon" class="process-icon">
+                                                    <img src="{{ asset('image/Icon-11.png') }}"
+                                                        alt="Digital Process Icon" class="process-icon">
                                                 </div>
                                                 <span>02</span>
                                             </div>
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Strategy & Planning</h5>
                                                 <p>
-                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis
+                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec
+                                                    ullamcorper mattis
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                        <div class="step-spacer"></div>     
+                                    <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated"
+                                        data-animate="animate__fadeInUp">
+                                        <div class="step-spacer"></div>
                                         <div class="digital-process-step">
                                             <div class="d-flex justify-content-between">
                                                 <div>
-                                                    <img src="{{ asset('image/Icon-10.png') }}" alt="Digital Process Icon" class="process-icon">
+                                                    <img src="{{ asset('image/Icon-10.png') }}"
+                                                        alt="Digital Process Icon" class="process-icon">
                                                 </div>
                                                 <span>03</span>
                                             </div>
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Execution & Optimize</h5>
                                                 <p>
-                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis
+                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec
+                                                    ullamcorper mattis
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                                    <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated"
+                                        data-animate="animate__fadeInDown">
                                         <div class="step-spacer"></div>
                                         <div class="digital-process-step">
                                             <div class="d-flex justify-content-between">
                                                 <div>
-                                                    <img src="{{ asset('image/Icon-12.png') }}" alt="Digital Process Icon" class="process-icon">
+                                                    <img src="{{ asset('image/Icon-12.png') }}"
+                                                        alt="Digital Process Icon" class="process-icon">
                                                 </div>
                                                 <span>04</span>
                                             </div>
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Result & Growth</h5>
                                                 <p>
-                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis
+                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec
+                                                    ullamcorper mattis
                                                 </p>
                                             </div>
                                         </div>
@@ -1119,17 +1152,20 @@
     <div class="section">
         <div class="hero-container">
             <div class="d-flex flex-column justify-content-center text-center gspace-5">
-                <div class="d-flex flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                <div class="d-flex flex-column gspace-2 animate-box animated animate__animated"
+                    data-animate="animate__fadeInUp">
                     <div class="sub-heading align-self-center">
                         <i class="fa-regular fa-circle-dot"></i>
                         <span>Our Core Services</span>
                     </div>
-                    <h2 class="title-heading heading-container heading-container-short">Flexible Pricing Plans for Every Business</h2>
+                    <h2 class="title-heading heading-container heading-container-short">Flexible Pricing Plans for Every
+                        Business</h2>
                 </div>
                 <div class="row row-cols-xl-3 row-cols-1 grid-spacer-2">
                     <div class="col">
                         <div class="pricing-container">
-                            <div class="card card-pricing-title animate-box animated animate__animated" data-animate="animate__fadeInLeft">
+                            <div class="card card-pricing-title animate-box animated animate__animated"
+                                data-animate="animate__fadeInLeft">
                                 <div class="spacer"></div>
                                 <div class="content">
                                     <h3 class="title-heading">Let's Find the Right Strategy for You!</h3>
@@ -1139,7 +1175,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card card-pricing animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <div class="card card-pricing animate-box animated animate__animated"
+                                data-animate="animate__fadeInUp">
                                 <h4>Starter</h4>
                                 <p>Perfect for startups & small businesses</p>
                                 <div class="d-flex flex-row gspace-1 align-items-center h-100">
@@ -1165,7 +1202,8 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card card-pricing pricing-highlight animate-box animated slow animate__animated" data-animate="animate__fadeInUp">
+                        <div class="card card-pricing pricing-highlight animate-box animated slow animate__animated"
+                            data-animate="animate__fadeInUp">
                             <div class="spacer"></div>
                             <h4>Enterprise</h4>
                             <p>Full scale marketing for maximum impact</p>
@@ -1209,7 +1247,8 @@
                     </div>
                     <div class="col">
                         <div class="pricing-container">
-                            <div class="card pricing-highlight-box animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                            <div class="card pricing-highlight-box animate-box animated animate__animated"
+                                data-animate="animate__fadeInRight">
                                 <div class="d-flex flex-column gspace-2 w-100">
                                     <h5>Your Growth, Our Priority!</h5>
                                     <div class="d-flex flex-column gspace-2">
@@ -1229,7 +1268,8 @@
                                 </div>
                                 <div class="spacer"></div>
                             </div>
-                            <div class="card card-pricing animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <div class="card card-pricing animate-box animated animate__animated"
+                                data-animate="animate__fadeInUp">
                                 <h4>Growth</h4>
                                 <p>Best for growing businesses ready</p>
                                 <div class="d-flex flex-row gspace-1 align-items-center h-100">
@@ -1266,23 +1306,28 @@
                 <div class="newsletter-layout">
                     <div class="spacer"></div>
                     <div class="d-flex flex-column gspace-5 position-relative z-2">
-                        <div class="d-flex flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInLeft">
+                        <div class="d-flex flex-column gspace-2 animate-box animated animate__animated"
+                            data-animate="animate__fadeInLeft">
                             <h3 class="title-heading">Stay Ahead in Digital Marketing</h3>
-                            <p>Get exclusive insights, trends, and strategies delivered straight to your inbox. Subscribe now!</p>
+                            <p>Get exclusive insights, trends, and strategies delivered straight to your inbox. Subscribe
+                                now!</p>
                         </div>
                         <div id="newsletter-success" class="alert success hidden">
                             <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
                             <p class="text-center">Thank you! Form submitted successfully.</p>
                         </div>
-                    
+
                         <div id="newsletter-error" class="alert error hidden">
                             <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
                             <p class="text-center">Oops! Form submission failed. Please try again.</p>
                         </div>
 
-                        <form action="./php/newsletter_process.php" method="POST" id="newsletterForm" class="needs-validation animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                        <form action="./php/newsletter_process.php" method="POST" id="newsletterForm"
+                            class="needs-validation animate-box animated animate__animated"
+                            data-animate="animate__fadeInRight">
                             <div class="input-container">
-                                <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Give your best email" required>
+                                <input type="email" name="newsletter-email" id="newsletter-email"
+                                    placeholder="Give your best email" required>
                                 <p class="error-text hidden"></p>
                             </div>
                             <button class="btn btn-accent" type="submit">
@@ -1306,7 +1351,8 @@
             <div class="d-flex flex-column gspace-5">
                 <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5 m-0">
                     <div class="col col-xl-8 ps-0 pe-0">
-                        <div class="d-flex flex-column gspace-2 animate-box animated fast animate__animated" data-animate="animate__fadeInLeft">
+                        <div class="d-flex flex-column gspace-2 animate-box animated fast animate__animated"
+                            data-animate="animate__fadeInLeft">
                             <div class="sub-heading">
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Insights & Trends</span>
@@ -1315,8 +1361,10 @@
                         </div>
                     </div>
                     <div class="col col-xl-4 ps-0 pe-0">
-                        <div class="d-flex flex-column gspace-2 justify-content-end h-100 animate-box animated animate__animated" data-animate="animate__fadeInRight">
-                            <p>Explore our latest blog articles covering industry trends, expert insights, and actionable strategies to elevate your digital marketing game.</p>
+                        <div class="d-flex flex-column gspace-2 justify-content-end h-100 animate-box animated animate__animated"
+                            data-animate="animate__fadeInRight">
+                            <p>Explore our latest blog articles covering industry trends, expert insights, and actionable
+                                strategies to elevate your digital marketing game.</p>
                             <div class="link-wrapper">
                                 <a href="./blog.html">View All Articles</a>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
@@ -1326,9 +1374,11 @@
                 </div>
                 <div class="row row-cols-md-2 row-cols-1 grid-spacer-3">
                     <div class="col">
-                        <div class="card card-blog animate-box animated animate__animated" data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
+                        <div class="card card-blog animate-box animated animate__animated"
+                            data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
                             <div class="blog-image">
-                                <img src="{{ asset('https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg') }}" alt="Blog Image">
+                                <img src="{{ asset('https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg') }}"
+                                    alt="Blog Image">
                             </div>
                             <div class="card-body">
                                 <div class="d-flex flex-row gspace-2">
@@ -1342,15 +1392,18 @@
                                     </div>
                                 </div>
                                 <a href="./single_post.html" class="blog-link">Mastering Instagram and Facebook Ads</a>
-                                <p>Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo.</p>
+                                <p>Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper
+                                    mattis pulvinar dapibus leo.</p>
                                 <a href="./single_post.html" class="read-more">Read More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card card-blog animate-box animated animate__animated" data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
+                        <div class="card card-blog animate-box animated animate__animated"
+                            data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
                             <div class="blog-image">
-                                <img src="{{ asset('https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-LY58K9U-1024x683.jpg') }}" alt="Blog Image">
+                                <img src="{{ asset('https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-LY58K9U-1024x683.jpg') }}"
+                                    alt="Blog Image">
                             </div>
                             <div class="card-body">
                                 <div class="d-flex flex-row gspace-2">
@@ -1364,7 +1417,8 @@
                                     </div>
                                 </div>
                                 <a href="./single_post.html" class="blog-link">Growth Strategies for Digital Business</a>
-                                <p>Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo.</p>
+                                <p>Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper
+                                    mattis pulvinar dapibus leo.</p>
                                 <a href="./single_post.html" class="read-more">Read More</a>
                             </div>
                         </div>

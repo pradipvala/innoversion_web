@@ -20,14 +20,14 @@
 
                 <!-- Get the old Image when update the Slider-->
                 <input type="hidden" name="old_image" value="{{ old('image',isset($client->image) ? $client->image : '') }} ">
-              
+
 
                 <div class="form-group">
                     <div class="col-sm-6">
-                      <labe>Select Image :- (264 * 264px)</label><br />
+                      <label>Select Image :- (264 * 264px)</label><br />
                         @if(isset($client->image))
                             <img src="{{ \Storage::url($client->image) }}" height="80px" width="80px"><br /><br />
-                            <input type="file" class="filestyle" name="client_image" id=""
+                            <input type="file" class="filestyle" name="client_image" id="client_image"
                              accept="image/jpg, image/png, image/gif, image/jpeg" />
 
                               @if(count($errors) > 0)
@@ -35,19 +35,19 @@
                                      <span style="color:red">{{ $error }}</span>
                                   @endforeach
                               @endif
-                            
+
                       @else
-                          <input type="file" class="filestyle" name="client_image" id=""
+                          <input type="file" class="filestyle" name="client_image" id="client_image"
                            accept="image/jpg, image/png, image/gif, image/jpeg" required/>
                            @if(count($errors) > 0)
                                 @foreach($errors->all() as $error)
                                    <span style="color:red">{{ $error }}</span>
-                                @endforeach
+                                  @endforeach
                             @endif
                       @endif
                     </div>
-                </div> 
-                
+                </div>
+
 
                 <div class="form-group clearfix">
                   <div class="col-lg-10">
@@ -59,8 +59,8 @@
             </div>
         </div>
       </div>
-   
- 
+
+
 
 @endpush
 
