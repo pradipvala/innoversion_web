@@ -20,11 +20,11 @@
 //     initCounter();
 //     initThemeSwitch();
 //     initSearchBar();
-    initSubmitContact();
+//     initSubmitContact();
 //     initSubmitNewsletter();
 //     initAnimateData();
 // });
-
+      
 function initBannerVideo() {
     var player;
 
@@ -91,12 +91,12 @@ function initBannerVideo() {
     function handleYouTubeErrors() {
         window.addEventListener('message', function(event) {
             if (event.origin !== 'https://www.youtube.com') return;
-
+        
             try {
                 var data = JSON.parse(event.data);
-
+               
             } catch (e) {
-
+     
             }
         });
     }
@@ -175,7 +175,7 @@ function initCounter() {
     function updateCount($counter) {
         var target = +$counter.data("target");
         var count = +$counter.text().replace("+", "");
-        var duration = 2000;
+        var duration = 2000; 
         var steps = 60;
         var increment = Math.max(1, Math.ceil(target / steps));
         var delay = Math.floor(duration / (target / increment));
@@ -231,7 +231,7 @@ $(function(){
                 setTimeout(() => {
                     entry.target.classList.add(entry.target.getAttribute('data-animate'));
                     entry.target.style.opacity = 1;
-
+    
                     observer.unobserve(entry.target);
                 }, delay);
             }
@@ -239,7 +239,7 @@ $(function(){
     }, {
         threshold: 0.1
     });
-    elements.forEach(el => observer.observe(el));
+    elements.forEach(el => observer.observe(el));    
 });
 
 function initSidebar() {
@@ -247,21 +247,21 @@ function initSidebar() {
     const $closeBtn = $('.close-btn');
     const $overlay = $('.sidebar-overlay');
     const $sidebar = $('.sidebar');
-
+  
     $menuBtn.click(function() {
       $overlay.addClass('active');
       setTimeout(() => {
         $sidebar.addClass('active');
       }, 200);
     });
-
+  
     $closeBtn.click(function() {
       $sidebar.removeClass('active');
       setTimeout(() => {
         $overlay.removeClass('active');
       }, 200);
     });
-
+  
     $overlay.click(function() {
       $sidebar.removeClass('active');
       setTimeout(() => {
@@ -279,7 +279,7 @@ function initEditSidebar() {
     $contentBtn.click(function() {
         $sidebar.addClass('active');
         setTimeout(() => {
-            $overlay.addClass('active');
+            $overlay.addClass('active');    
         }, 200);
     });
 
@@ -311,30 +311,30 @@ function initSearchBar() {
     const $searchBtn = $(".search-btn");
     const $overlay = $(".search-overlay");
     const $closeBtn = $(".search-close");
-
+  
     if ($overlay.length === 0) return;
-
+  
     $searchBtn.on("click", function () {
       $overlay.addClass("active");
       setTimeout(() => {
         $overlay.addClass("active");
       }, 200);
     });
-
+  
     $closeBtn.on("click", function () {
       $overlay.removeClass("active");
       setTimeout(() => {
         $overlay.removeClass("active");
       }, 200);
     });
-
+  
     $overlay.on("click", function (e) {
       if ($(e.target).hasClass("search-overlay")) {
         $overlay.removeClass("active");
       }
     });
   }
-
+  
 
 
 $(document).ready(function(){
