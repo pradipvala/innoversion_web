@@ -1149,7 +1149,7 @@
     </div>
 
     <!-- Section Pricing -->
-    <div class="section">
+    {{-- <div class="section">
         <div class="hero-container">
             <div class="d-flex flex-column justify-content-center text-center gspace-5">
                 <div class="d-flex flex-column gspace-2 animate-box animated animate__animated"
@@ -1297,7 +1297,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- Section Newsletter -->
     <div class="section">
