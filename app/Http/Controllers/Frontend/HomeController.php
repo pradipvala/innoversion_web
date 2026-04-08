@@ -3,16 +3,20 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\AboutUs;
 use App\Models\Contact;
 use App\Models\Country;
+use App\Models\Partner;
 use App\Models\Services_1;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        return view('home');
+         $services = Services_1::where('status', '1')->get();
+        return view('home', compact('services'));
     }
 
     public function home()
@@ -22,7 +26,9 @@ class HomeController extends Controller
 
     public function about()
     {
-        return view('frontend.pages.about');
+        $abouts = AboutUs::where('status', '1')->get();
+
+        return view('frontend.pages.about', compact('abouts'));
     }
 
     public function services()
@@ -111,11 +117,15 @@ class HomeController extends Controller
 
     public function partnership()
     {
-        return view('frontend.pages.partnership');
+        $partners = Partner::where('status', '1')->get();
+
+        return view('frontend.pages.partnership', compact('partners'));
     }
 
     public function testimonials()
     {
-        return view('frontend.pages.testimonial');
+        $testimonials = Testimonial::where('status', '1')->get();
+
+        return view('frontend.pages.testimonial', compact('testimonials'));
     }
 }

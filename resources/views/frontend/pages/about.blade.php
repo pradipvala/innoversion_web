@@ -14,20 +14,23 @@
                             <a href="{{ route('home') }}" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
                             <p class="current-page">About Us</p>
-                        </nav>    
+                        </nav>
                     </div>
                     <div class="spacer"></div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Section About Us -->
         <div class="section">
             <div class="hero-container">
+
+                @foreach ($abouts as $about)
+
                 <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="about-img-layout">
                         <div class="image-container about-img">
-                            <img src="./image/dummy-img-600x400.jpg" alt="About Us Image" class="img-fluid animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <img src="{{ isset($about->image) ? asset('storage/' . $about->image) : asset('frontend/image/dummy-img-600x400.jpg') }}" alt="About Us Image" class="img-fluid animate-box animated animate__animated" data-animate="animate__fadeInUp">
                             <div class="about-layout">
                                 <div class="d-flex flex-column">
                                     <div class="card-about-wrapper">
@@ -51,9 +54,9 @@
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>About Us</span>
                             </div>
-                            <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Who We Are & What Drives Us</h2>
-                            <p>At Marko, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our about ensures your brand stays ahead in the competitive digital landscape.</p>
-                            <p>Get to know the passionate team behind the strategies, the values that guide us, and the mission that fuels our growth.</p>
+                            <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">{{ $about->title }}</h2>
+                            <p>{{ $about->description }}</p>
+
                             <div class="d-flex flex-column flex-md-row gspace-1 gspace-md-5">
                                 <div class="about-list">
                                     <ul class="check-list">
@@ -61,18 +64,20 @@
                                         <li><a href="./single_services.html">Brand Strategy</a></li>
                                         <li><a href="./single_services.html">Conversion Optimization</a></li>
                                     </ul>
-                                </div> 
+                                </div>
                                 <div class="about-list">
                                     <ul class="check-list">
                                         <li><a href="./single_services.html">Performance Marketing</a></li>
                                         <li><a href="./single_services.html">Social Media Growth</a></li>
                                         <li><a href="./single_services.html">Content Marketing</a></li>
                                     </ul>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                 @endforeach
             </div>
         </div>
 
@@ -90,7 +95,7 @@
                         <div class="col">
                             <div class="d-flex flex-column ps-xl-3 ps-0">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis. 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis.
                                     Quisque eget tincidunt lectus. Sed quis diam sed neque mattis feugiat.
                                 </p>
                             </div>
@@ -290,7 +295,7 @@
                                 <div class="card-chooseus-cta-layout">
                                     <div class="chooseus-cta-spacer"></div>
                                     <div class="d-flex flex-column align-items-end">
-                                        <div class="chooseus-cta-spacer"></div>    
+                                        <div class="chooseus-cta-spacer"></div>
                                         <div class="card-chooseus-cta-wrapper">
                                             <div class="card card-chooseus-cta animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                                 <h5>Partner with Marko & take your brand to the next level.</h5>
@@ -442,7 +447,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Section Digital Process -->
         <div class="section-wrapper-digital-process">
             <div class="section digital-process-banner">
@@ -510,7 +515,7 @@
                                     </div>
                                     <div class="col">
                                         <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                            <div class="step-spacer"></div>     
+                                            <div class="step-spacer"></div>
                                             <div class="digital-process-step">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
@@ -675,7 +680,7 @@
                                             “We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
                                         </p>
                                     </div>
-                                </div>                             
+                                </div>
                                 <div class="swiper-slide">
                                     <div class="card card-testimonial">
                                         <div class="stars">
@@ -701,7 +706,7 @@
                                             “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
                                         </p>
                                     </div>
-                                </div>                                
+                                </div>
                                 <div class="swiper-slide">
                                     <div class="card card-testimonial">
                                         <div class="stars">
@@ -779,7 +784,7 @@
                                             “We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
                                         </p>
                                     </div>
-                                </div>                             
+                                </div>
                                 <div class="swiper-slide">
                                     <div class="card card-testimonial">
                                         <div class="stars">
@@ -805,7 +810,7 @@
                                             “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
                                         </p>
                                     </div>
-                                </div>                                
+                                </div>
                                 <div class="swiper-slide">
                                     <div class="card card-testimonial">
                                         <div class="stars">
@@ -831,7 +836,7 @@
                                             “Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.”
                                         </p>
                                     </div>
-                                </div>         
+                                </div>
                             </div>
                         </div>
                     </div>

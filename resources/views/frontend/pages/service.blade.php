@@ -44,7 +44,7 @@
                                             <div>
                                                 <div class="service-icon-wrapper">
                                                     <div class="service-icon">
-                                                        <img src="./image/Icon-7.png" alt="Service Icon" class="img-fluid">
+                                                        <img src="{{ isset($service->icon) ? asset('storage/services/' . $service->icon) : asset('image/Icon-7.png') }}" alt="Service Icon" class="img-fluid">
                                                     </div>
                                                 </div>
                                             </div>

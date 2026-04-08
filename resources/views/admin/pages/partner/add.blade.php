@@ -19,8 +19,8 @@
                 <input type="hidden" name="partner_id" value="{{ old('id',isset($partner->id) ? $partner->id : '') }} ">
 
                 <!-- Get the old Image when update the Slider-->
-                <input type="hidden" name="old_image" value="{{ old('image',isset($partner->image) ? $partner->image : '') }} ">
-              
+                <input type="hidden" name="old_image" value="{{ old('image',isset($partner->image) ? \Storage::url($partner->image) : '') }} ">
+
 
                 <div class="form-group">
                     <div class="col-sm-6">
@@ -35,7 +35,7 @@
                                      <span style="color:red">{{ $error }}</span>
                                   @endforeach
                               @endif
-                            
+
                       @else
                           <input type="file" class="filestyle" name="partner_image" id=""
                            accept="image/jpg, image/png, image/gif, image/jpeg" required/>
@@ -46,8 +46,8 @@
                             @endif
                       @endif
                     </div>
-                </div> 
-                
+                </div>
+
 
                 <div class="form-group clearfix">
                   <div class="col-lg-10">
@@ -59,8 +59,8 @@
             </div>
         </div>
       </div>
-   
- 
+
+
 
 @endpush
 

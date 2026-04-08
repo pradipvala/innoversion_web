@@ -21,7 +21,7 @@ Route::get('/partnership', [HomeController::class, 'partnership'])->name('partne
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
 Route::post('/contact', [HomeController::class, 'submitContact'])->name('contact.submit');
 
-// Route::get('/',[HomeController::class,'home'])->name('frontend.home');
+
 
 
 require __DIR__.'/auth.php';
