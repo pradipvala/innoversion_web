@@ -514,7 +514,7 @@
                                         <a href="#">
                                             <div class="partner-slide">
                                                 <img src="{{ isset($client->image) ? asset('storage/' . $client->image) : asset('image/client-7.png') }}"
-                                                    alt="Client" class="partner-logo img-fluid">
+                                                    alt="Client" class="img-fluid">
                                             </div>
                                         </a>
                                     </div>
@@ -788,230 +788,36 @@
                     <div class="overflow-hidden">
                         <div class="swiper swiperTestimonial">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="card card-testimonial">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <div class="d-flex flex-row gspace-2">
-                                                <div class="testimonial-image">
-                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
-                                                        alt="Testimonial Person Image" class="img-fluid">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="profile-name">Emma Richard</span>
-                                                    <p class="profile-info">CEO Nexatech</p>
-                                                </div>
+                                @foreach ($testimonials as $testimonial)
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
                                             </div>
-                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                        </div>
-                                        <p class="testimonial-description">
-                                            “Marko completely transformed our online presence! Their digital marketing
-                                            strategies helped us double our revenue in just six months.”
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-testimonial">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <div class="d-flex flex-row gspace-2">
-                                                <div class="testimonial-image">
-                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
-                                                        alt="Testimonial Person Image" class="img-fluid">
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
+                                                            alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">{!! $testimonial->name !!}</span>
+                                                        <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="profile-name">David Mont</span>
-                                                    <p class="profile-info">Marketing Director</p>
-                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                             </div>
-                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                            <p class="testimonial-description">
+                                                “{!! $testimonial->description !!}”
+                                            </p>
                                         </div>
-                                        <p class="testimonial-description">
-                                            “We've worked with many agencies before, but Marko stands out. Their data-driven
-                                            approach and creative solutions gave us an edge over competitors.”
-                                        </p>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-testimonial">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <div class="d-flex flex-row gspace-2">
-                                                <div class="testimonial-image">
-                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
-                                                        alt="Testimonial Person Image" class="img-fluid">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="profile-name">Sophia Lewis</span>
-                                                    <p class="profile-info">Founder</p>
-                                                </div>
-                                            </div>
-                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                        </div>
-                                        <p class="testimonial-description">
-                                            “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website
-                                            traffic skyrocketed, and lead generation has never been better!”
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-testimonial">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <div class="d-flex flex-row gspace-2">
-                                                <div class="testimonial-image">
-                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
-                                                        alt="Testimonial Person Image" class="img-fluid">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="profile-name">James Peterson</span>
-                                                    <p class="profile-info">COO, BrightWave</p>
-                                                </div>
-                                            </div>
-                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                        </div>
-                                        <p class="testimonial-description">
-                                            “Highly professional and results-oriented. Marko's expertise in branding and
-                                            content marketing helped us build a strong online identity.”
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-testimonial">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <div class="d-flex flex-row gspace-2">
-                                                <div class="testimonial-image">
-                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
-                                                        alt="Testimonial Person Image" class="img-fluid">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="profile-name">Emma Richard</span>
-                                                    <p class="profile-info">CEO Nexatech</p>
-                                                </div>
-                                            </div>
-                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                        </div>
-                                        <p class="testimonial-description">
-                                            “Marko completely transformed our online presence! Their digital marketing
-                                            strategies helped us double our revenue in just six months.”
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-testimonial">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <div class="d-flex flex-row gspace-2">
-                                                <div class="testimonial-image">
-                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
-                                                        alt="Testimonial Person Image" class="img-fluid">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="profile-name">David Mont</span>
-                                                    <p class="profile-info">Marketing Director</p>
-                                                </div>
-                                            </div>
-                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                        </div>
-                                        <p class="testimonial-description">
-                                            “We've worked with many agencies before, but Marko stands out. Their data-driven
-                                            approach and creative solutions gave us an edge over competitors.”
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-testimonial">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <div class="d-flex flex-row gspace-2">
-                                                <div class="testimonial-image">
-                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
-                                                        alt="Testimonial Person Image" class="img-fluid">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="profile-name">Sophia Lewis</span>
-                                                    <p class="profile-info">Founder</p>
-                                                </div>
-                                            </div>
-                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                        </div>
-                                        <p class="testimonial-description">
-                                            “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website
-                                            traffic skyrocketed, and lead generation has never been better!”
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-testimonial">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <div class="d-flex flex-row gspace-2">
-                                                <div class="testimonial-image">
-                                                    <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
-                                                        alt="Testimonial Person Image" class="img-fluid">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="profile-name">James Peterson</span>
-                                                    <p class="profile-info">COO, BrightWave</p>
-                                                </div>
-                                            </div>
-                                            <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                        </div>
-                                        <p class="testimonial-description">
-                                            “Highly professional and results-oriented. Marko's expertise in branding and
-                                            content marketing helped us build a strong online identity.”
-                                        </p>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
                     </div>

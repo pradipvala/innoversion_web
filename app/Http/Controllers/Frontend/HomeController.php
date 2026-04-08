@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\AboutUs;
+use App\Models\Blogs;
 use App\Models\Contact;
 use App\Models\Country;
 use App\Models\Partner;
@@ -16,16 +17,15 @@ class HomeController extends Controller
 {
     public function index()
     {
-        //  $services = Services_1::where('status', '1')->get();
-        //  $clients = Client::where('status', '1')->get();
-        return view('home', compact('services', 'clients'));
+        return view('home');
     }
 
     public function home()
     {
         $services = Services_1::where('status', '1')->get();
         $clients = Client::where('status', '1')->get();
-        return view('frontend.index', compact('services', 'clients'));
+        $testimonials = Testimonial::where('status', '1')->get();
+        return view('frontend.index', compact('services', 'clients', 'testimonials'));
     }
 
     public function about()
@@ -49,7 +49,8 @@ class HomeController extends Controller
 
     public function blog()
     {
-        return view('frontend.pages.blog');
+        $blogs = Blogs::where('status', '1')->get();
+        return view('frontend.pages.blog', compact('blogs'));
     }
 
     public function showContact()
