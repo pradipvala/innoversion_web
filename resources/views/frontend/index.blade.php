@@ -4,28 +4,25 @@
 @section('content')
     <!-- Section Banner -->
     <div class="section-banner">
-        <div class="banner-video-container keep-dark animate-box animated animate__animated" data-animate="animate__fadeInUp">
-            <div id="banner-video-background"></div>
+        <div class="banner-video-container keep-dark animate-box animated animate__animated animate__fadeInUp"
+            data-animate="animate__fadeInUp" style="opacity: 1;">
+            <iframe id="banner-video-background" frameborder="0" allowfullscreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" title="Marko Video Background"
+                src="https://www.youtube.com/embed/P68V3iH4TeE?autoplay=1&controls=0&mute=1&loop=1&playlist=P68V3iH4TeE&showinfo=0&rel=0&enablejsapi=1&disablekb=1&modestbranding=1&iv_load_policy=3"></iframe>
+
+            {{--  <iframe id="banner-video-background" frameborder="0" allowfullscreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" title="Marko Video Background"
+                src="{{ asset('image/innoversion-video2.webm') }}"></iframe>  --}}
+
+
             <div class="hero-container position-relative">
                 <div class="d-flex flex-column gspace-2">
                     <h1 class="title-heading-banner animate-box animated animate__animated"
                         data-animate="animate__fadeInLeft">Amplify Your Brand with Cutting-Edge Digital Marketing</h1>
                     <div class="banner-heading">
-                        <div class="banner-video-content order-xl-1 order-2 animate-box animated animate__animated"
-                            data-animate="animate__fadeInUp">
-                            <div
-                                class="d-flex flex-column flex-xl-row text-xl-start text-center align-items-center gspace-5">
-                                {{-- <button class="request-loader" data-video="https://www.youtube.com/watch?v=P68V3iH4TeE?autoplay=1"><i class="fa-solid fa-play"></i></button> --}}
-                                <button class="request-loader"
-                                    data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i
-                                        class="fa-solid fa-play"></i></button>
-                                {{-- <button class="request-loader" data-video="{{ asset('image/Marko Video Background4K_HD.webm') }}"><i class="fa-solid fa-play"></i></button> --}}
-                                <p>
-                                    Watch our video reviews and see how businesses achieve success with Marko's digital
-                                    marketing solutions.
-                                </p>
-                            </div>
-                        </div>
+
                         <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated"
                             data-animate="animate__fadeInRight">
                             <p>Marko empowers businesses to grow online with data driven digital marketing, innovative
@@ -33,7 +30,7 @@
                                 amet consectetur.</p>
                             <div
                                 class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
-                                <a href="./about.html" class="btn btn-accent">
+                                <a href="{{ route('contact') }}" class="btn btn-accent">
                                     <div class="btn-title">
                                         <span>Get Started</span>
                                     </div>
@@ -411,8 +408,7 @@
             <div class="hero-container">
                 <div class="guide-content  animate-box animated animate__animated" data-animate="animate__fadeInUp">
                     <div class="guide-video-container">
-                        <button class="request-loader"
-                            data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i
+                        <button class="request-loader" data-video="https://www.youtube.com/watch?v=P68V3iH4TeE"><i
                                 class="fa-solid fa-play"></i></button>
                         <p>
                             See How We Help Brands Grow
