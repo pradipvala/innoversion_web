@@ -7,7 +7,7 @@
                         <div class="col col-xl-4">
                             <div class="footer-logo-container">
                                 <div class="logo-container-footer">
-                                    <img src="{{ asset('image/it-icon.png') }}" alt="Logo" class="site-logo img-fluid">
+                                    <img src="{{ asset('image/marko-logo.png') }}" alt="Logo" class="site-logo img-fluid">
                                 </div>
                                 <h4>Driving Digital Growth with Innovation & Strategy</h4>
                                 <p>

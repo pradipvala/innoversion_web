@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-xl">
         <div class="navbar-container">
             <div class="logo-container">
-                <a class="navbar-brand" href="{{ route('home') }}"><img src="{{ asset('image/it-icon.png') }}"
+                <a class="navbar-brand" href="{{ route('home') }}"><img src="{{ asset('image/marko-logo.png') }}"
                         class="site-logo img-fluid"></a>
             </div>
             <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

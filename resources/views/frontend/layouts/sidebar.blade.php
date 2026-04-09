@@ -19,7 +19,7 @@
     <div class="sidebar">
         <div class="sidebar-header">
             <div class="logo">
-                <img src="{{ asset('image/it-icon.png') }}" class="site-logo img-fluid logo" alt="Logo">
+                <img src="{{ asset('image/marko-logo.png') }}" class="site-logo img-fluid logo" alt="Logo">
             </div>
             <button class="close-btn"><span>X</span></button>
         </div>
@@ -35,7 +35,7 @@
                     <li><a href="service.html">Service</a></li>
                     <li><a href="single_services.html">Service Details</a></li>
                 </ul>
-            </li>              
+            </li>
             <li class="sidebar-dropdown">
                 <div class="dropdown-header">
                     <a href="#">Pages</a>
@@ -50,7 +50,7 @@
                     <li><a href="faq.html">FAQs</a></li>
                     <li><a href="404_page.html">Error 404</a></li>
                 </ul>
-            </li>  
+            </li>
             <li class="sidebar-dropdown">
                 <div class="dropdown-header">
                     <a href="#">Archive</a>
@@ -60,7 +60,7 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="single_post.html">Single Post</a></li>
                 </ul>
-            </li>  
+            </li>
             <li class="below-dropdown"><a href="contact.html">Contact Us</a></li>
         </ul>
     </div>

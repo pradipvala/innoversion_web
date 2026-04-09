@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Mail\ContactFormMail;
 use App\Http\Controllers\Controller;
 use App\Models\AboutUs;
 use App\Models\Blogs;
@@ -12,6 +13,7 @@ use App\Models\Services_1;
 use App\Models\Testimonial;
 use App\Models\Client;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -83,6 +85,8 @@ class HomeController extends Controller
             $contact->message = $request->message ?? '';
             $contact->country_code = $request->country_code;
             $contact->save();
+
+            Mail::to($request->email)->send(new ContactFormMail());
 
             // Return JSON response for AJAX
             if ($request->expectsJson()) {
