@@ -3,8 +3,6 @@
 @section('content')
     <!-- Section Main Content -->
 
-
-    <!-- Section Main Content -->
     <main>
         <!-- Section Banner -->
         <div class="section-404">

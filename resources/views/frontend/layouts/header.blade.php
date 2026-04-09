@@ -67,7 +67,7 @@
                             </a>
                             <div class="divd"></div>
                             <div class="sec-h">Careers</div>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('open-positions') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Open Positions</b></div>
                                     <div class="ds">See current job openings</div>
@@ -79,12 +79,7 @@
                                     <div class="ds">Culture, perks & team life</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
-                                <div>
-                                    <div class="dt"><b>Apply Now</b></div>
-                                    <div class="ds">Submit your application</div>
-                                </div>
-                            </a>
+
                             {{-- <div class="divd"></div> --}}
                         </ul>
                     </li>

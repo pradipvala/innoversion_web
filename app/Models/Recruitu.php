@@ -8,19 +8,19 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Recruitu extends Model
 {
-    use HasFactory,SoftDeletes;
+    use HasFactory, SoftDeletes;
 
-    protected $fillable = ['first_name','last_name','recruitment_id','email','phone','cv'] ;
+    protected $fillable = ['first_name', 'last_name', 'recruitment_id', 'email', 'phone', 'country_code', 'cv'];
 
     public function Recruitment()
     {
         return $this->belongsTo('App\Models\Recruitment');
     }
-    
+
     public function deleteRecruitment($request)
     {
-        
-       
+
+
         $recruitmentData = $this->find($request->id);
         $recruitmentData->delete();
     }

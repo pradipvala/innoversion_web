@@ -16,10 +16,14 @@ Route::get('/case-studies', [HomeController::class, 'caseStudies'])->name('case-
 Route::get('/team', [HomeController::class, 'team'])->name('team');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/partnership', [HomeController::class, 'partnership'])->name('partnership');
+Route::get('/open-positions', [HomeController::class, 'openPositions'])->name('open-positions');
 
 // // Contact Form Routes
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
 Route::post('/contact', [HomeController::class, 'submitContact'])->name('contact.submit');
+
+// Recruitment Routes
+Route::post('/recruitment/apply', [HomeController::class, 'submitRecruitmentApplication'])->name('recruitment.apply');
 
 Route::fallback([HomeController::class, 'handle404'])->name('404');
 

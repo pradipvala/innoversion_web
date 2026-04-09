@@ -12,6 +12,9 @@ use App\Models\Partner;
 use App\Models\Services_1;
 use App\Models\Testimonial;
 use App\Models\Client;
+use App\Models\Recruitment;
+use App\Models\Recruitu;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -97,7 +100,7 @@ class HomeController extends Controller
             }
 
             return redirect()->back()->with('success', 'Your message has been sent successfully!');
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             if ($request->expectsJson()) {
                 return response()->json([
                     'success' => false,
@@ -141,5 +144,52 @@ class HomeController extends Controller
     public function handle404()
     {
         return response()->view('frontend.pages.404', [], 404);
+    }
+
+    public function openPositions()
+    {
+        $openPositions = Recruitment::where('status', '1')->get();
+        $countryCodes = Country::pluck('country_name', 'phonecode')->toArray();
+        return view('frontend.pages.open-positions', compact('openPositions', 'countryCodes'));
+    }
+
+    public function submitRecruitmentApplication(Request $request)
+    {
+        $request->validate([
+            'position_id' => 'required|exists:recruitments,id',
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'country_code' => 'required|string|max:10',
+            'phone' => 'required|string|max:20',
+            'cv' => 'nullable|file|mimes:pdf,doc,docx|max:5120',
+        ]);
+
+        try {
+            $cvPath = null;
+            if ($request->hasFile('cv')) {
+                $cvPath = $request->file('cv')->store('recruitments', 'public');
+            }
+
+            $application = new Recruitu();
+            $application->recruitment_id = $request->position_id;
+            $application->first_name = $request->first_name;
+            $application->last_name = $request->last_name;
+            $application->email = $request->email;
+            $application->country_code = $request->country_code;
+            $application->phone = $request->phone;
+            $application->cv = $cvPath;
+            $application->save();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Your application has been submitted successfully!',
+            ], 200);
+        } catch (Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'An error occurred. Please try again.',
+            ], 500);
+        }
     }
 }
