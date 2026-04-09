@@ -133,4 +133,9 @@ class HomeController extends Controller
 
         return view('frontend.pages.testimonial', compact('testimonials'));
     }
+
+    public function handle404()
+    {
+        return response()->view('frontend.pages.404', [], 404);
+    }
 }

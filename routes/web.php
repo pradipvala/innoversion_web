@@ -21,8 +21,9 @@ Route::get('/partnership', [HomeController::class, 'partnership'])->name('partne
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
 Route::post('/contact', [HomeController::class, 'submitContact'])->name('contact.submit');
 
+Route::fallback([HomeController::class, 'handle404'])->name('404');
 
 
 
-require __DIR__.'/auth.php';
-require __DIR__.'/admin.php';
+require __DIR__ . '/auth.php';
+require __DIR__ . '/admin.php';
