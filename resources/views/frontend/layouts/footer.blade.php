@@ -7,11 +7,15 @@
                         <div class="col col-xl-4">
                             <div class="footer-logo-container">
                                 <div class="logo-container-footer">
-                                    <img src="{{ asset('image/marko-logo.png') }}" alt="Logo" class="site-logo img-fluid">
+                                    <a href="{{ route('home') }}">
+                                        <img src="{{ asset('image/marko-logo.png') }}" alt="Logo"
+                                            class="site-logo img-fluid">
+                                    </a>
                                 </div>
                                 <h4>Driving Digital Growth with Innovation & Strategy</h4>
                                 <p>
-                                    Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo.
+                                    Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec
+                                    ullamcorper mattis pulvinar dapibus leo.
                                 </p>
                             </div>
                         </div>
@@ -47,7 +51,8 @@
                                 <ul class="contact-list">
                                     <li>info@innoversiontechnolab.com</li>
                                     <li>+91 9687350999</li>
-                                    <li>1304 RK World Tower, Brts Stop, 613, 150 Feet Ring Rd, near Shital Park, Sheetal Park, Shastri Nagar, Dharam Nagar, Rajkot, Gujarat 360006</li>
+                                    <li>1304 RK World Tower, Brts Stop, 613, 150 Feet Ring Rd, near Shital Park, Sheetal
+                                        Park, Shastri Nagar, Dharam Nagar, Rajkot, Gujarat 360006</li>
                                 </ul>
                                 <div class="d-flex flex-column gspace-1">
                                     <h5>Social Media</h5>
@@ -82,9 +87,9 @@
                 <div class="copyright-container">
                     <span class="copyright">© 2026 Innoversion Technolab. Fox Creation All Rights Reserved.</span>
                     <div class="d-flex flex-row gspace-2">
-                    <a href="#" class="legal-link">Terms of Service</a>
-                    <a href="#" class="legal-link">Privacy Policy</a>
-                </div>
+                        <a href="#" class="legal-link">Terms of Service</a>
+                        <a href="#" class="legal-link">Privacy Policy</a>
+                    </div>
                 </div>
                 <div class="footer-spacer"></div>
             </div>

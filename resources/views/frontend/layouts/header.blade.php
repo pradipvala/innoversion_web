@@ -12,11 +12,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('home') }}">Home</a>
+                        <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}"
+                            href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ route('services') }}" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle {{ request()->routeIs('services') ? 'active' : '' }}"
+                            href="{{ route('services') }}" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Company <i class="fa-solid fa-angle-down accent-color"></i>
                         </a>
                         <ul class="dropdown-menu" style="min-width:290px">
@@ -312,7 +314,8 @@
                     </li>
                     <!-- CONTACT -->
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
+                        <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
+                            href="{{ route('contact') }}">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -524,7 +527,7 @@
     }
 
     .dropdown-submenu>.dropdown-item::after {
-        content: "›";
+        content: " ›";
         float: right;
         margin-left: 0.5rem;
     }
