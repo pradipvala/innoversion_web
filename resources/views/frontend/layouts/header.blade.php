@@ -182,6 +182,13 @@
                                         <div class="why-t"><b>10+ Years Experience</b></div>
                                         <div class="why-s">Proven expertise across 200+ successful projects.</div>
                                     </div>
+
+                                    <div class="why-card">
+                                        <a href="{{ route('projects') }}" class="dl"
+                                            style="padding:8px 12px; border-radius:6px;">
+                                            <div class="why-t"><b>Project</b></div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </ul>

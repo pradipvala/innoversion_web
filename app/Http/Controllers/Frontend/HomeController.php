@@ -12,6 +12,7 @@ use App\Models\Partner;
 use App\Models\Services_1;
 use App\Models\Testimonial;
 use App\Models\Client;
+use App\Models\Projects;
 use App\Models\Recruitment;
 use App\Models\Recruitu;
 use Exception;
@@ -191,5 +192,11 @@ class HomeController extends Controller
                 'message' => 'An error occurred. Please try again.',
             ], 500);
         }
+    }
+
+    public function projects()
+    {
+        $projects = Projects::where('status', '1')->get();
+        return view('frontend.pages.projects', compact('projects'));
     }
 }

@@ -17,6 +17,7 @@ Route::get('/team', [HomeController::class, 'team'])->name('team');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/partnership', [HomeController::class, 'partnership'])->name('partnership');
 Route::get('/open-positions', [HomeController::class, 'openPositions'])->name('open-positions');
+Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
 
 // // Contact Form Routes
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
