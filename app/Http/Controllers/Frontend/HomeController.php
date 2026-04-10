@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Helpers\TechnologyHelper;
 use App\Helpers\ServiceHelper;
+use App\Helpers\IndustryHelper;
 use App\Mail\ContactFormMail;
 use App\Http\Controllers\Controller;
 use App\Models\AboutUs;
@@ -45,6 +46,11 @@ class HomeController extends Controller
         $abouts = AboutUs::where('status', '1')->get();
 
         return view('frontend.pages.about', compact('abouts'));
+    }
+
+    public function companyOverview()
+    {
+        return view('frontend.pages.company-overview');
     }
 
     public function services()
@@ -241,5 +247,18 @@ class HomeController extends Controller
         $service = $services[$slug];
 
         return view('frontend.pages.service-details', compact('service'));
+    }
+
+    public function industryDetails($slug)
+    {
+        $industries = IndustryHelper::all();
+
+        if (!array_key_exists($slug, $industries)) {
+            abort(404);
+        }
+
+        $industry = $industries[$slug];
+
+        return view('frontend.pages.industry-details', compact('industry'));
     }
 }

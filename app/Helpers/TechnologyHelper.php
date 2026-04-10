@@ -49,6 +49,13 @@ class TechnologyHelper
                 'features' => ['Simple & Readable Syntax', 'Extensive Standard Library', 'Dynamically Typed', 'Multi-Paradigm Support', 'Platform Independent'],
                 'why_choose' => ['Fast Prototyping', 'Top Choice for AI/ML', 'Massive Third-Party Modules', 'Highly Secure Web Frameworks'],
             ],
+            'codeigniter' => [
+                'name' => 'CodeIgniter',
+                'description' => 'Build dynamic web applications swiftly using CodeIgniter, a powerful PHP framework with a very small footprint.',
+                'overview' => 'CodeIgniter is a powerful PHP framework built for developers who need a simple and elegant toolkit to create full-featured web applications. It requires nearly zero configuration, offers exceptional performance, and does not require adherence to strict coding rules.',
+                'features' => ['Small Footprint', 'Exceptional Performance', 'Clear Documentation', 'Nearly Zero Configuration', 'Built-in Security Tools'],
+                'why_choose' => ['High Speed & Efficiency', 'Easy to Learn & Use', 'Highly Secure', 'Lightweight Framework'],
+            ],
             'flutter' => [
                 'name' => 'Flutter',
                 'description' => 'Create beautiful, natively compiled cross-platform applications from a single codebase with Flutter.',
@@ -105,12 +112,19 @@ class TechnologyHelper
                 'features' => ['High Availability & Scalability', 'Advanced Security Protocols', 'Serverless Computing (Lambda)', 'Extensive Data Analytics', 'Global Infrastructure'],
                 'why_choose' => ['Industry-Leading Cloud Capabilities', 'Cost-Effective Pay-As-You-Go', 'Elastic & Flexible', 'Enterprise-Grade Security'],
             ],
-            'azure' => [
-                'name' => 'Microsoft Azure',
-                'description' => 'Empower your enterprise with scalable, secure, and hybrid cloud solutions using Microsoft Azure.',
-                'overview' => 'Microsoft Azure is a cloud computing service for building, testing, deploying, and managing applications and services through Microsoft-managed data centers. It provides SaaS, PaaS, and IaaS and supports many different programming languages, tools, and frameworks.',
-                'features' => ['Hybrid Cloud Capabilities', 'PaaS & IaaS Excellence', 'Integration with Microsoft Ecosystem', 'Advanced AI & Machine Learning', 'Robust Security & Compliance'],
-                'why_choose' => ['Seamless Microsoft Integration', 'Enterprise Focused', 'Highly Reliable', 'Global Scale'],
+            'ui-ux-design' => [
+                'name' => 'UI/UX Design',
+                'description' => 'Craft beautiful, user-centered designs that enhance user engagement and deliver exceptional digital experiences.',
+                'overview' => 'User Interface (UI) and User Experience (UX) design focus on the aesthetics, usability, and architecture of digital products. Our design team creates intuitive, user-friendly, and beautiful interfaces that not only look stunning but drive conversions and improve customer satisfaction.',
+                'features' => ['Wireframing & Prototyping', 'User Research & Personas', 'Visual & Interaction Design', 'Usability Testing', 'Responsive & Mobile-First Design'],
+                'why_choose' => ['Higher User Engagement', 'Increased Conversion Rates', 'Brand Consistency', 'Intuitive User Journeys'],
+            ],
+            'seo' => [
+                'name' => 'SEO (Search Engine Optimization)',
+                'description' => 'Boost your online visibility and drive organic traffic through expert Search Engine Optimization strategies.',
+                'overview' => 'Search Engine Optimization (SEO) involves optimizing your website to rank higher in search engine results pages. Our comprehensive SEO services cover on-page optimization, technical SEO, content strategy, and link building to ensure sustainable organic growth.',
+                'features' => ['Keyword Research', 'Technical Site Audits', 'On-Page Optimization', 'High-Quality Backlinking', 'Performance Tracking'],
+                'why_choose' => ['Sustainable Traffic Growth', 'Higher Search Rankings', 'Improved Brand Authority', 'Cost-Effective Lead Gen'],
             ],
             'devops' => [
                 'name' => 'DevOps',

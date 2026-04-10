@@ -8,6 +8,7 @@ use App\Http\Controllers\Frontend\HomeController;
 Route::get('/', [HomeController::class, 'home'])->name('frontend.home');
 Route::get('/home', [HomeController::class, 'home'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/company-overview', [HomeController::class, 'companyOverview'])->name('company.overview');
 Route::get('/services', [HomeController::class, 'services'])->name('services');
 Route::get('/single-service', [HomeController::class, 'singleServices'])->name('single.services');
 Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
@@ -22,6 +23,7 @@ Route::get('/terms-and-conditions', [HomeController::class, 'termsAndConditions'
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy-policy');
 Route::get('/technology/{slug}', [HomeController::class, 'technologyDetails'])->name('technology.details');
 Route::get('/service/{slug}', [HomeController::class, 'serviceDetails'])->name('service.details');
+Route::get('/industry/{slug}', [HomeController::class, 'industryDetails'])->name('industry.details');
 
 // // Contact Form Routes
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');

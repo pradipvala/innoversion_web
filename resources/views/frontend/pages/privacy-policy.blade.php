@@ -35,7 +35,8 @@
                         <p>
                             Innoversion Technolab respects your privacy and is committed to protecting your personal data.
                             This Privacy Policy explains how we collect, use, and protect your information when you use
-                            <a href="https://innoversiontechnolab.com/" target="_blank" rel="noopener noreferrer">innoversiontechnolab.com</a>
+                            <a href="https://innoversiontechnolab.com/" target="_blank"
+                                rel="noopener noreferrer">innoversiontechnolab.com</a>
                             and related services.
                         </p>
                     </div>
@@ -59,28 +60,40 @@
                         </ul>
 
                         <h4>3. Cookies and Tracking Technologies</h4>
-                        <p>We use session and persistent cookies for website functionality, analytics, and performance. Third-party tools may also set cookies as part of embedded services or analytics. You can control cookies through browser settings.</p>
+                        <p>We use session and persistent cookies for website functionality, analytics, and performance.
+                            Third-party tools may also set cookies as part of embedded services or analytics. You can
+                            control cookies through browser settings.</p>
 
                         <h4>4. Information Sharing</h4>
-                        <p>We do not sell or rent your personal data. We may share information with trusted service providers (such as hosting, analytics, communication, or payment processors) only to the extent needed to provide services. We may also disclose information where required by law or to protect legal rights.</p>
+                        <p>We do not sell or rent your personal data. We may share information with trusted service
+                            providers (such as hosting, analytics, communication, or payment processors) only to the extent
+                            needed to provide services. We may also disclose information where required by law or to protect
+                            legal rights.</p>
 
                         <h4>5. Third-Party Links</h4>
-                        <p>Our website may include links to external websites. We are not responsible for the content, security, or privacy practices of those websites.</p>
+                        <p>Our website may include links to external websites. We are not responsible for the content,
+                            security, or privacy practices of those websites.</p>
 
                         <h4>6. Data Retention</h4>
-                        <p>We retain personal information only as long as necessary for business purposes, contractual obligations, compliance requirements, and dispute resolution.</p>
+                        <p>We retain personal information only as long as necessary for business purposes, contractual
+                            obligations, compliance requirements, and dispute resolution.</p>
 
                         <h4>7. Data Security</h4>
-                        <p>We implement reasonable administrative, technical, and organizational safeguards to protect data. However, no internet transmission or storage system is fully secure.</p>
+                        <p>We implement reasonable administrative, technical, and organizational safeguards to protect data.
+                            However, no internet transmission or storage system is fully secure.</p>
 
                         <h4>8. Your Rights</h4>
-                        <p>Subject to applicable law, you may request access, correction, or deletion of your personal information, or object to specific processing activities. To exercise your rights, contact us using the details below.</p>
+                        <p>Subject to applicable law, you may request access, correction, or deletion of your personal
+                            information, or object to specific processing activities. To exercise your rights, contact us
+                            using the details below.</p>
 
                         <h4>9. Children’s Privacy</h4>
-                        <p>Our website and services are not directed to children under 13 years of age, and we do not knowingly collect personal information from children.</p>
+                        <p>Our website and services are not directed to children under 13 years of age, and we do not
+                            knowingly collect personal information from children.</p>
 
                         <h4>10. Changes to This Policy</h4>
-                        <p>We may update this Privacy Policy from time to time. Any updates will be posted on this page with the revised effective date.</p>
+                        <p>We may update this Privacy Policy from time to time. Any updates will be posted on this page with
+                            the revised effective date.</p>
 
                         <h4>11. Contact Us</h4>
                         <p>
@@ -88,8 +101,8 @@
                             Innoversion Technolab<br>
                             Email: info@innoversiontechnolab.com<br>
                             Phone: +91 9687350999<br>
-                            Address: 1304 RK World Tower, Brts Stop, 613, 150 Feet Ring Rd, near Shital Park,
-                            Sheetal Park, Shastri Nagar, Dharam Nagar, Rajkot, Gujarat 360006, India
+                            Address: Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri Nagar,
+                            Dharam Nagar Society, Rajkot, Gujarat 360006, India
                         </p>
                     </div>
                 </div>

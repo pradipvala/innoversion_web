@@ -51,8 +51,8 @@
                                 <ul class="contact-list">
                                     <li>info@innoversiontechnolab.com</li>
                                     <li>+91 9687350999</li>
-                                    <li>1304 RK World Tower, Brts Stop, 613, 150 Feet Ring Rd, near Shital Park, Sheetal
-                                        Park, Shastri Nagar, Dharam Nagar, Rajkot, Gujarat 360006</li>
+                                    <li>Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri
+                                        Nagar, Dharam Nagar Society, Rajkot, Gujarat 360006</li>
                                 </ul>
                                 <div class="d-flex flex-column gspace-1">
                                     <h5>Social Media</h5>
@@ -62,11 +62,11 @@
                                                 <i class="fa-brands fa-facebook"></i>
                                             </a>
                                         </div>
-                                        <div class="social-item-wrapper">
+                                        {{--  <div class="social-item-wrapper">
                                             <a href="https://youtube.com" class="social-item">
                                                 <i class="fa-brands fa-youtube"></i>
                                             </a>
-                                        </div>
+                                        </div>  --}}
                                         <div class="social-item-wrapper">
                                             <a href="https://instagram.com" class="social-item">
                                                 <i class="fa-brands fa-instagram"></i>
@@ -96,4 +96,3 @@
         </div>
     </div>
 </div>
-

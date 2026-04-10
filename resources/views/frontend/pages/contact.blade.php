@@ -75,8 +75,8 @@
                                     </div>
                                     <div class="d-grid">
                                         <span>Office Address</span>
-                                        <h5>1304 RK World Tower, Brts Stop, 613, 150 Feet Ring Rd, near Shital Park, Sheetal
-                                            Park, Shastri Nagar, Dharam Nagar, Rajkot, Gujarat 360006</h5>
+                                        <h5>Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri
+                                            Nagar, Dharam Nagar Society, Rajkot, Gujarat 360006</h5>
                                     </div>
                                 </div>
                             </div>
@@ -181,8 +181,9 @@
         <!-- Section Maps -->
         <div class="section pt-0">
             <div class="hero-container">
+
                 <iframe loading="lazy" class="maps overflow-hidden"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.3648818398565!2d70.79439607948957!3d22.33984732720812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c9a8a576ed45%3A0x12812a054e15038b!2sInnoversion%20Technolab!5e0!3m2!1sen!2sin!4v1775568010007!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.9180931132023!2d70.76229657948515!3d22.318937227261937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c99e5ecff239%3A0x8f359608c68882d9!2sRk%20World%20Tower%2C%20406%2C%20150%20Feet%20Ring%20Rd%2C%20Sheetal%20Park%2C%20Manharpura%201%2C%20Madhapar%2C%20Rajkot%2C%20Gujarat%20360007!5e0!3m2!1sen!2sin!4v1775813506885!5m2!1sen!2sin"
                     title="Innoversion Technolab, Rajkot, Gujarat"
                     aria-label="Innoversion Technolab, Rajkot, Gujarat"></iframe>
             </div>

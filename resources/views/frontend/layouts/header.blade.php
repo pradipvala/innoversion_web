@@ -23,7 +23,7 @@
                         </a>
                         <ul class="dropdown-menu" style="min-width:290px">
                             <div class="sec-h">About Us</div>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('company.overview') }}" class="dl">
                                 <div>
                                     <div class="dt"><b> Company Overview </b></div>
                                     <div class="ds">Who we are & our mission</div>
@@ -49,7 +49,7 @@
                             </a>
                             <a href="javascript:void(0)" class="dl">
                                 <div>
-                                    <div class="dt"><b> Our Work / Portfolio</b></div>
+                                    <div class="dt"><b>Portfolio</b></div>
                                     <div class="ds">Projects & client success stories</div>
                                 </div>
                             </a>
@@ -65,18 +65,18 @@
                                     <div class="ds">Insights, news & tech articles</div>
                                 </div>
                             </a>
+                            <a href="javascript:void(0)" class="dl">
+                                <div>
+                                    <div class="dt"><b>Life at Company</b></div>
+                                    <div class="ds">Culture, perks & team life</div>
+                                </div>
+                            </a>
                             <div class="divd"></div>
                             <div class="sec-h">Careers</div>
                             <a href="{{ route('open-positions') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Open Positions</b></div>
                                     <div class="ds">See current job openings</div>
-                                </div>
-                            </a>
-                            <a href="javascript:void(0)" class="dl">
-                                <div>
-                                    <div class="dt"><b>Life at Company</b></div>
-                                    <div class="ds">Culture, perks & team life</div>
                                 </div>
                             </a>
 
@@ -148,56 +148,43 @@
                                 </div>
                                 <div class="mega-col">
                                     <div class="col-h">Technologies</div>
-                                    <div class="sec-h" style="color:#9CA3AF"> Frontend</div>
+                                    <div class="sec-h" style="color:#9CA3AF">Frontend Development</div>
                                     <div class="tag-row">
-                                        <a href="{{ route('technology.details', 'react') }}"
-                                            class="tag text-decoration-none">React.js</a>
-                                        <a href="{{ route('technology.details', 'vue') }}"
-                                            class="tag text-decoration-none">Vue.js</a>
-                                        <a href="{{ route('technology.details', 'angular') }}"
-                                            class="tag text-decoration-none">Angular</a>
+                                        <a href="{{ route('technology.details', 'react') }}" class="tag text-decoration-none">React.js</a>
+                                        <a href="{{ route('technology.details', 'vue') }}" class="tag text-decoration-none">Vue.js</a>
+                                        <a href="{{ route('technology.details', 'angular') }}" class="tag text-decoration-none">Angular</a>
                                     </div>
-                                    <div class="sec-h" style="color:#9CA3AF">Backend</div>
+                                    <div class="sec-h" style="color:#9CA3AF">Backend Development</div>
                                     <div class="tag-row">
-                                        <a href="{{ route('technology.details', 'node-js') }}"
-                                            class="tag text-decoration-none">Node.js</a>
-                                        <a href="{{ route('technology.details', 'laravel') }}"
-                                            class="tag text-decoration-none">Laravel</a>
-                                        <a href="{{ route('technology.details', 'python') }}"
-                                            class="tag text-decoration-none">Python</a>
+                                        <a href="{{ route('technology.details', 'node-js') }}" class="tag text-decoration-none">Node.js</a>
+                                        <a href="{{ route('technology.details', 'laravel') }}" class="tag text-decoration-none">Laravel</a>
+                                        <a href="{{ route('technology.details', 'python') }}" class="tag text-decoration-none">Python</a>
+                                        <a href="{{ route('technology.details', 'codeigniter') }}" class="tag text-decoration-none">CodeIgniter</a>
                                     </div>
-                                    <div class="sec-h" style="color:#9CA3AF">Mobile</div>
+                                    <div class="sec-h" style="color:#9CA3AF">Mobile App Development</div>
                                     <div class="tag-row">
-                                        <a href="{{ route('technology.details', 'flutter') }}"
-                                            class="tag text-decoration-none">Flutter</a>
-                                        <a href="{{ route('technology.details', 'react-native') }}"
-                                            class="tag text-decoration-none">React Native</a>
-                                        <a href="{{ route('technology.details', 'android') }}"
-                                            class="tag text-decoration-none">Android</a>
-                                        <a href="{{ route('technology.details', 'ios') }}"
-                                            class="tag text-decoration-none">iOS</a>
+                                        <a href="{{ route('technology.details', 'flutter') }}" class="tag text-decoration-none">Flutter</a>
+                                        <a href="{{ route('technology.details', 'react-native') }}" class="tag text-decoration-none">React Native</a>
+                                        <a href="{{ route('technology.details', 'android') }}" class="tag text-decoration-none">Android</a>
+                                        <a href="{{ route('technology.details', 'ios') }}" class="tag text-decoration-none">iOS</a>
                                     </div>
-                                    <div class="sec-h" style="color:#9CA3AF">Platforms</div>
+                                    <div class="sec-h" style="color:#9CA3AF">CMS & eCommerce Platforms</div>
                                     <div class="tag-row">
-                                        <a href="{{ route('technology.details', 'shopify') }}"
-                                            class="tag text-decoration-none">Shopify</a>
-                                        <a href="{{ route('technology.details', 'magento') }}"
-                                            class="tag text-decoration-none">Magento</a>
-                                        <a href="{{ route('technology.details', 'wordpress') }}"
-                                            class="tag text-decoration-none">WordPress</a>
+                                        <a href="{{ route('technology.details', 'shopify') }}" class="tag text-decoration-none">Shopify</a>
+                                        <a href="{{ route('technology.details', 'magento') }}" class="tag text-decoration-none">Magento</a>
+                                        <a href="{{ route('technology.details', 'wordpress') }}" class="tag text-decoration-none">WordPress</a>
                                     </div>
-                                    <div class="sec-h" style="color:#9CA3AF">Cloud & Tools</div>
+                                    <div class="sec-h" style="color:#9CA3AF">Design & Marketing</div>
                                     <div class="tag-row">
-                                        <a href="{{ route('technology.details', 'aws') }}"
-                                            class="tag text-decoration-none">AWS</a>
-                                        <a href="{{ route('technology.details', 'azure') }}"
-                                            class="tag text-decoration-none">Azure</a>
-                                        <a href="{{ route('technology.details', 'devops') }}"
-                                            class="tag text-decoration-none">DevOps</a>
-                                        <a href="{{ route('technology.details', 'zoho') }}"
-                                            class="tag text-decoration-none">Zoho</a>
-                                        <a href="{{ route('technology.details', 'odoo') }}"
-                                            class="tag text-decoration-none">Odoo</a>
+                                        <a href="{{ route('technology.details', 'ui-ux-design') }}" class="tag text-decoration-none">UI/UX Design</a>
+                                        <a href="{{ route('technology.details', 'seo') }}" class="tag text-decoration-none">SEO (Search Engine Optimization)</a>
+                                    </div>
+                                    <div class="sec-h" style="color:#9CA3AF">Cloud, CRM & Tools</div>
+                                    <div class="tag-row">
+                                        <a href="{{ route('technology.details', 'aws') }}" class="tag text-decoration-none">AWS</a>
+                                        <a href="{{ route('technology.details', 'devops') }}" class="tag text-decoration-none">DevOps</a>
+                                        <a href="{{ route('technology.details', 'zoho') }}" class="tag text-decoration-none">Zoho</a>
+                                        <a href="{{ route('technology.details', 'odoo') }}" class="tag text-decoration-none">Odoo</a>
                                     </div>
                                 </div>
                                 <div class="mega-col">
@@ -301,49 +288,49 @@
                             Industries <i class="fa-solid fa-angle-down accent-color"></i>
                         </a>
                         <ul class="dropdown-menu" style="min-width:250px">
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('industry.details', 'healthcare') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Healthcare</b></div>
                                     <div class="ds">Clinics, hospitals & healthtech</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('industry.details', 'education') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Education</b></div>
                                     <div class="ds">EdTech, LMS & school systems</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('industry.details', 'finance-banking') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Finance & Banking</b></div>
                                     <div class="ds">Fintech & banking software</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('industry.details', 'manufacturing') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Manufacturing</b></div>
                                     <div class="ds">Production & supply chain</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('industry.details', 'textile') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Textile</b></div>
                                     <div class="ds">Fabric & garment industry</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('industry.details', 'retail-ecommerce') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Retail & E-commerce</b></div>
                                     <div class="ds">Online & offline retail tech</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('industry.details', 'real-estate') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Real Estate</b></div>
                                     <div class="ds">Property & listing platforms</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('industry.details', 'startups') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Startups</b></div>
                                     <div class="ds">MVP to scale-up solutions</div>
