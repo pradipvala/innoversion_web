@@ -550,8 +550,9 @@
                         <div class="col">
                             <div class="d-flex flex-column h-100 justify-content-end gspace-2 animate-box animated animate__animated"
                                 data-animate="animate__fadeInRight">
-                                <p>We don't just talk about resultsâ€”we deliver them. Here are some of our most impactful
-                                    case studies showcasing how our digital marketing strategies drive success.</p>
+                                <p>Innoversion Technolab, we help businesses solve real challenges with scalable software
+                                    and smart digital solutions that drive measurable growth.
+                                </p>
                                 <div class="link-wrapper">
                                     <a href="./case_studies.html">More Case Studies</a>
                                     <i class="fa-solid fa-circle-arrow-right"></i>
@@ -566,25 +567,19 @@
                                 <div
                                     class="case-studies-component large align-self-end justify-content-end align-items-end">
                                     <div class="cs-component">
-                                        <a href="#">Social</a>
+                                        <a href="#"> Web Development</a>
                                     </div>
                                     <div class="cs-component">
                                         <a href="#">Influencer</a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Retargeting</a>
+                                        <a href="#">UI/UX Design</a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Google</a>
+                                        <a href="#">SEO</a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Video</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">Local</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">Community</a>
+                                        <a href="#">Analytics</a>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column gspace-2">
@@ -592,8 +587,11 @@
                                         <h4>Local Business Digital Transformation</h4>
                                     </a>
                                     <p>
-                                        5x ROI on social media campaigns & 80% increase in engagement lorem ipsum dolor sit
-                                        amet consectetur.
+                                        We helped a traditional business transition into a fully digital ecosystem with a
+                                        modern web platform and optimized user experience.
+                                        Improved customer engagement and online presence
+                                        Streamlined operations with smart digital tools
+                                        Delivered a scalable and user-friendly platform
                                     </p>
                                 </div>
                             </div>
@@ -601,34 +599,28 @@
                                 data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-column gspace-2">
                                     <a href="#" class="case-studies-title">
-                                        <h4>SaaS Lead Generation Success</h4>
+                                        <h4>SaaS Platform & Lead Optimization
+                                        </h4>
                                     </a>
                                     <p>
-                                        150% increase in qualified leads & 70% lower customer acquisition cost.
+                                        We designed and developed a high-performance SaaS solution integrated with smart
+                                        lead management and automation tools.
+                                        Enhanced lead generation and conversion flow
                                     </p>
                                 </div>
                                 <div
                                     class="case-studies-component small align-self-end justify-content-end align-items-end">
                                     <div class="cs-component">
-                                        <a href="#">Content</a>
+                                        <a href="#">SaaS Development</a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Linkeind Ads</a>
+                                        <a href="#">CRM Integration</a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Email</a>
+                                        <a href="#">Automation </a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Webinar</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">Landing</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">CRM</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">Retargeting</a>
+                                        <a href="#"> Cloud Solutions</a>
                                     </div>
                                 </div>
                             </div>
@@ -639,33 +631,26 @@
                                 <div
                                     class="case-studies-component small align-self-start justify-content-start align-items-start">
                                     <div class="cs-component">
-                                        <a href="#">SEO</a>
+                                        <a href="#">E-commerce Development </a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">PPC Ads</a>
+                                        <a href="#">CRO </a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">CRO</a>
+                                        <a href="#">SEO </a>
                                     </div>
                                     <div class="cs-component">
                                         <a href="#">Analytics</a>
                                     </div>
-                                    <div class="cs-component">
-                                        <a href="#">Influencer</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">A/B Testing</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">Email</a>
-                                    </div>
                                 </div>
                                 <div class="d-flex flex-column gspace-2">
                                     <a href="#" class="case-studies-title">
-                                        <h4>E-Commerce Growth Boost</h4>
+                                        <h4>E-Commerce Growth & Optimization</h4>
                                     </a>
                                     <p>
-                                        3x increase in organic traffic & 2x revenue growth in 6 months lorem ipsum dolor.
+                                        We built and optimized an e-commerce platform focused on performance, speed, and
+                                        seamless customer experience.
+                                        Improved website performance and load speed
                                     </p>
                                 </div>
                             </div>
@@ -674,35 +659,27 @@
                                 data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-column gspace-2">
                                     <a href="#" class="case-studies-title">
-                                        <h4>Startup Brand Awareness Expansion</h4>
+                                        <h4>Startup Brand Growth & Expansion</h4>
                                     </a>
                                     <p>
-                                        200% increase in brand mentions & 60% higher engagement rates lorem ipsum dolor sit
-                                        amet consectetur.
+                                        We supported a startup in building a strong digital presence with a combination of
+                                        branding, technology, and marketing strategies.
+                                        Strengthened brand identity and visibility
                                     </p>
                                 </div>
                                 <div
                                     class="case-studies-component large align-self-start justify-content-start align-items-start">
                                     <div class="cs-component">
-                                        <a href="#">Viral</a>
+                                        <a href="#">Branding </a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Partnership</a>
+                                        <a href="#">Digital Strategy</a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">PR</a>
+                                        <a href="#">Social Media </a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Growth</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">UGC</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">Media</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">Brading</a>
+                                        <a href="#">Product Development</a>
                                     </div>
                                 </div>
                             </div>
