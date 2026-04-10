@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Helpers\TechnologyHelper;
+use App\Helpers\ServiceHelper;
 use App\Mail\ContactFormMail;
 use App\Http\Controllers\Controller;
 use App\Models\AboutUs;
@@ -15,6 +17,7 @@ use App\Models\Client;
 use App\Models\Projects;
 use App\Models\Recruitment;
 use App\Models\Recruitu;
+use App\Models\TeamMember;
 use App\Models\Whatsapp;
 use Exception;
 use Illuminate\Http\Request;
@@ -128,7 +131,8 @@ class HomeController extends Controller
 
     public function team()
     {
-        return view('frontend.pages.team');
+        $teamMembers = TeamMember::where('status', '1')->get();
+        return view('frontend.pages.team', compact('teamMembers'));
     }
 
     public function partnership()
@@ -211,5 +215,31 @@ class HomeController extends Controller
     public function privacyPolicy()
     {
         return view('frontend.pages.privacy-policy');
+    }
+
+    public function technologyDetails($slug)
+    {
+        $technologies = TechnologyHelper::all();
+
+        if (!array_key_exists($slug, $technologies)) {
+            abort(404);
+        }
+
+        $technology = $technologies[$slug];
+
+        return view('frontend.pages.technology-details', compact('technology'));
+    }
+
+    public function serviceDetails($slug)
+    {
+        $services = ServiceHelper::all();
+
+        if (!array_key_exists($slug, $services)) {
+            abort(404);
+        }
+
+        $service = $services[$slug];
+
+        return view('frontend.pages.service-details', compact('service'));
     }
 }

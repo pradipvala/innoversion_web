@@ -29,7 +29,7 @@
                                     <div class="ds">Who we are & our mission</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('team') }}" class="dl">
                                 <div>
                                     <div class="dt"><b> Leadership & Team</b></div>
                                     <div class="ds">Meet the people behind the work</div>
@@ -92,51 +92,54 @@
                             <div class="mega-grid">
                                 <div class="mega-col">
                                     <div class="col-h">Software Development</div>
-                                    <a href="javascript:void(0)" class="dl">
+                                    <a href="{{ route('service.details', 'custom-software-development') }}"
+                                        class="dl">
                                         <div>
                                             <div class="dt"><b>Custom Software Development</b></div>
                                             <div class="ds">Tailored solutions for your business</div>
                                         </div>
                                     </a>
-                                    <a href="javascript:void(0)" class="dl">
+                                    <a href="{{ route('service.details', 'web-application-development') }}"
+                                        class="dl">
                                         <div>
                                             <div class="dt"><b>Web Application Development</b></div>
                                             <div class="ds">Scalable & responsive web apps</div>
                                         </div>
                                     </a>
-                                    <a href="javascript:void(0)" class="dl">
+                                    <a href="{{ route('service.details', 'mobile-app-development') }}" class="dl">
                                         <div>
                                             <div class="dt"><b>Mobile App Development</b></div>
                                             <div class="ds">iOS & Android applications</div>
                                         </div>
                                     </a>
-                                    <a href="javascript:void(0)" class="dl">
+                                    <a href="{{ route('service.details', 'saas-development') }}" class="dl">
                                         <div>
                                             <div class="dt"><b>SaaS Development</b></div>
                                             <div class="ds">Cloud-based software platforms</div>
                                         </div>
                                     </a>
                                     <div class="col-h" style="margin-top:8px">Integration & Automation</div>
-                                    <a href="javascript:void(0)" class="dl">
+                                    <a href="{{ route('service.details', 'api-integration-services') }}"
+                                        class="dl">
                                         <div>
                                             <div class="dt"><b>API Integration Services</b></div>
                                             <div class="ds">Connect your systems seamlessly</div>
                                         </div>
                                     </a>
-                                    <a href="javascript:void(0)" class="dl">
+                                    <a href="{{ route('service.details', 'workflow-automation') }}" class="dl">
                                         <div>
                                             <div class="dt"><b>Workflow Automation</b></div>
                                             <div class="ds">Automate repetitive processes</div>
                                         </div>
                                     </a>
                                     <div class="col-h" style="margin-top:8px">Design & Growth</div>
-                                    <a href="javascript:void(0)" class="dl">
+                                    <a href="{{ route('service.details', 'ui-ux-design') }}" class="dl">
                                         <div>
                                             <div class="dt"><b>UI/UX Design</b></div>
                                             <div class="ds">Beautiful, user-centered design</div>
                                         </div>
                                     </a>
-                                    <a href="javascript:void(0)" class="dl">
+                                    <a href="{{ route('service.details', 'digital-marketing-seo') }}" class="dl">
                                         <div>
                                             <div class="dt"><b>Digital Marketing & SEO</b></div>
                                             <div class="ds">Grow your online presence</div>
@@ -146,22 +149,56 @@
                                 <div class="mega-col">
                                     <div class="col-h">Technologies</div>
                                     <div class="sec-h" style="color:#9CA3AF"> Frontend</div>
-                                    <div class="tag-row"><span class="tag">React.js</span><span
-                                            class="tag">Vue.js</span><span class="tag">Angular</span></div>
+                                    <div class="tag-row">
+                                        <a href="{{ route('technology.details', 'react') }}"
+                                            class="tag text-decoration-none">React.js</a>
+                                        <a href="{{ route('technology.details', 'vue') }}"
+                                            class="tag text-decoration-none">Vue.js</a>
+                                        <a href="{{ route('technology.details', 'angular') }}"
+                                            class="tag text-decoration-none">Angular</a>
+                                    </div>
                                     <div class="sec-h" style="color:#9CA3AF">Backend</div>
-                                    <div class="tag-row"><span class="tag">Node.js</span><span
-                                            class="tag">Laravel</span><span class="tag">Python</span></div>
+                                    <div class="tag-row">
+                                        <a href="{{ route('technology.details', 'node-js') }}"
+                                            class="tag text-decoration-none">Node.js</a>
+                                        <a href="{{ route('technology.details', 'laravel') }}"
+                                            class="tag text-decoration-none">Laravel</a>
+                                        <a href="{{ route('technology.details', 'python') }}"
+                                            class="tag text-decoration-none">Python</a>
+                                    </div>
                                     <div class="sec-h" style="color:#9CA3AF">Mobile</div>
-                                    <div class="tag-row"><span class="tag">Flutter</span><span
-                                            class="tag">React Native</span><span class="tag">Android</span><span
-                                            class="tag">iOS</span></div>
+                                    <div class="tag-row">
+                                        <a href="{{ route('technology.details', 'flutter') }}"
+                                            class="tag text-decoration-none">Flutter</a>
+                                        <a href="{{ route('technology.details', 'react-native') }}"
+                                            class="tag text-decoration-none">React Native</a>
+                                        <a href="{{ route('technology.details', 'android') }}"
+                                            class="tag text-decoration-none">Android</a>
+                                        <a href="{{ route('technology.details', 'ios') }}"
+                                            class="tag text-decoration-none">iOS</a>
+                                    </div>
                                     <div class="sec-h" style="color:#9CA3AF">Platforms</div>
-                                    <div class="tag-row"><span class="tag">Shopify</span><span
-                                            class="tag">Magento</span><span class="tag">WordPress</span></div>
+                                    <div class="tag-row">
+                                        <a href="{{ route('technology.details', 'shopify') }}"
+                                            class="tag text-decoration-none">Shopify</a>
+                                        <a href="{{ route('technology.details', 'magento') }}"
+                                            class="tag text-decoration-none">Magento</a>
+                                        <a href="{{ route('technology.details', 'wordpress') }}"
+                                            class="tag text-decoration-none">WordPress</a>
+                                    </div>
                                     <div class="sec-h" style="color:#9CA3AF">Cloud & Tools</div>
-                                    <div class="tag-row"><span class="tag">AWS</span><span
-                                            class="tag">Azure</span><span class="tag">DevOps</span><span
-                                            class="tag">Zoho</span><span class="tag">Odoo</span></div>
+                                    <div class="tag-row">
+                                        <a href="{{ route('technology.details', 'aws') }}"
+                                            class="tag text-decoration-none">AWS</a>
+                                        <a href="{{ route('technology.details', 'azure') }}"
+                                            class="tag text-decoration-none">Azure</a>
+                                        <a href="{{ route('technology.details', 'devops') }}"
+                                            class="tag text-decoration-none">DevOps</a>
+                                        <a href="{{ route('technology.details', 'zoho') }}"
+                                            class="tag text-decoration-none">Zoho</a>
+                                        <a href="{{ route('technology.details', 'odoo') }}"
+                                            class="tag text-decoration-none">Odoo</a>
+                                    </div>
                                 </div>
                                 <div class="mega-col">
                                     <div class="col-h">Why Choose Us</div>
