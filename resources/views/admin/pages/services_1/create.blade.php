@@ -22,7 +22,7 @@
                         <form class="form-vertical" id="product-form" role="form" method="POST"
                             action="{{ route('admin.services_1.store') }}" enctype="multipart/form-data">
                             @csrf
-                      
+
 
                             <div class="form-group">
                                 <div class="col-sm-6">
@@ -30,16 +30,16 @@
                                      <input type="text" id="title" name="title" class="form-control">
                                 </div>
                             </div>
-                            
-                            
+
+
                             <div class="form-group">
                                 <div class="col-sm-6">
                                    <label for="sub_title">Sub Title:</label>
                                      <input type="text" id="sub_title" name="sub_title" class="form-control">
                                 </div>
                             </div>
-                            
-                            
+
+
                               <div class="form-group">
                                 <div class="col-sm-6">
                                    <label for="description">Description:</label>
@@ -49,7 +49,7 @@
                                  <div class="form-group">
                                 <div class="col-sm-6">
                                     <label>Select Image :- 362 × 241px</label><br />
-                                   
+
                                         <input type="file" class="filestyle" multiple name="img"
                                             id="" accept="image/jpg, image/png, image/gif, image/jpeg , image/webp" />
 
@@ -58,7 +58,7 @@
                                                 <span style="color:red">{{ $error }}</span>
                                             @endforeach
                                         @endif
-                                    
+
                                 </div>
                             </div>
         </br>
@@ -81,15 +81,11 @@
 
         @push('js')
             <script type="text/javascript">
-                function initCKEditor(selector) {
-                    ClassicEditor
-                        .create(document.querySelector(selector))
-                        .catch(error => {
-                            console.error(error);
-                        });
-                }
+                $(document).ready(function() {
+                    $('#description').summernote({
+                        height: 200
+                    });
+                });
 
-                initCKEditor('#description');
-     
             </script>
         @endpush

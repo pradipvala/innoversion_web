@@ -4,14 +4,15 @@
     <!-- Section Main Content -->
 
 
-     <!-- Section Main Content -->
+    <!-- Section Main Content -->
     <main>
         <!-- Section Banner -->
         <div class="section-banner">
             <div class="banner-layout-wrapper">
                 <div class="banner-layout">
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
-                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Our Services</h2>
+                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                            Our Services</h2>
                         <nav class="breadcrumb">
                             <a href="{{ route('home') }}" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
@@ -28,44 +29,48 @@
             <div class="hero-container">
                 <div class="d-flex flex-column justify-content-center text-center gspace-5">
                     <div class="d-flex flex-column justify-content-center text-center gspace-2">
-                        <div class="sub-heading align-self-center animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                        <div class="sub-heading align-self-center animate-box animated animate__animated"
+                            data-animate="animate__fadeInDown">
                             <i class="fa-regular fa-circle-dot"></i>
                             <span>Our Core Services</span>
                         </div>
-                        <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Digital Solutions That Drive Real Results</h2>
+                        <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated"
+                            data-animate="animate__fadeInDown">Digital Solutions That Drive Real Results</h2>
                     </div>
                     <div class="card-service-wrapper">
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
 
                             @foreach ($services as $service)
                                 <div class="col">
-                                    <div class="card card-service animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
-                                        <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
+                                    <div class="card card-service animate-box animated slow animate__animated"
+                                        data-animate="animate__fadeInLeft">
+                                        <div
+                                            class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
                                             <div>
                                                 <div class="service-icon-wrapper">
                                                     <div class="service-icon">
-                                                        <img src="{{ isset($service->icon) ? asset('storage/services/' . $service->icon) : asset('image/Icon-7.png') }}" alt="Service Icon" class="img-fluid">
+                                                        <img src="{{ isset($service->icon) ? asset('storage/services/' . $service->icon) : asset('image/Icon-7.png') }}"
+                                                            alt="Service Icon" class="img-fluid">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="service-title">
                                                 <h4>{{ $service->title }}</h4>
                                             </div>
+                                        </div>
+                                        <p>
+                                            {{ $service->description }}
+                                        </p>
+                                        <a href="{{ route('single.services') }}" class="btn btn-accent">
+                                            <div class="btn-title">
+                                                <span>View Details</span>
+                                            </div>
+                                            <div class="icon-circle">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
                                     </div>
-                                    <p>
-                                       {{ $service->description }}
-                                    </p>
-                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
-                                        <div class="btn-title">
-                                            <span>View Details</span>
-                                        </div>
-                                        <div class="icon-circle">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
                                 </div>
-                            </div>
-
                             @endforeach
 
 
@@ -86,7 +91,7 @@
                                     <p>
                                         Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>View Details</span>
                                         </div>
@@ -113,7 +118,7 @@
                                     <p>
                                         Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>View Details</span>
                                         </div>
@@ -140,7 +145,7 @@
                                     <p>
                                         Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>View Details</span>
                                         </div>
@@ -167,7 +172,7 @@
                                     <p>
                                         Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>View Details</span>
                                         </div>
@@ -194,7 +199,7 @@
                                     <p>
                                         Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>View Details</span>
                                         </div>
@@ -207,7 +212,8 @@
                         </div>
                     </div>
                     <div class="service-link-footer">
-                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="{{ route('contact') }}">Get a Free Strategy Call</a></p>
+                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a
+                                href="{{ route('contact') }}">Get a Free Strategy Call</a></p>
                     </div>
                 </div>
             </div>
@@ -219,14 +225,17 @@
                 <div class="hero-container">
                     <div class="guide-content  animate-box animated animate__animated" data-animate="animate__fadeInUp">
                         <div class="guide-video-container">
-                            <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
+                            <button class="request-loader"
+                                data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i
+                                    class="fa-solid fa-play"></i></button>
                             <p>
                                 See How We Help Brands Grow
                             </p>
                         </div>
                         <div class="d-flex flex-column gspace-2">
                             <h3 class="title-heading">Transform Your Business with Marko!</h3>
-                            <p>Take your digital marketing to the next level with data-driven strategies and innovative solutions. Let's create something amazing together!</p>
+                            <p>Take your digital marketing to the next level with data-driven strategies and innovative
+                                solutions. Let's create something amazing together!</p>
                         </div>
                     </div>
                 </div>
@@ -238,7 +247,7 @@
             <div id="modal-overlay" class="modal-overlay">
                 <span class="modal-close"><i class="fa-solid fa-xmark"></i></span>
                 <div class="video-modal">
-                <iframe id="modal-video-frame" class="ifr-video" allowfullscreen></iframe>
+                    <iframe id="modal-video-frame" class="ifr-video" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -285,9 +294,9 @@
                                         </div>
                                     </a>
                                     <ul class="check-list">
-                                        <li><a href="./single_services.html">Basic SEO & Marketing</a></li>
-                                        <li><a href="./single_services.html">Social Media Management (1 Platform)</a></li>
-                                        <li><a href="./single_services.html">Monthly Performance Report</a></li>
+                                        <li><a href="{{ route('single.services') }}">Basic SEO & Marketing</a></li>
+                                        <li><a href="{{ route('single.services') }}">Social Media Management (1 Platform)</a></li>
+                                        <li><a href="{{ route('single.services') }}">Monthly Performance Report</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -375,9 +384,9 @@
                                         </div>
                                     </a>
                                     <ul class="check-list">
-                                        <li><a href="./single_services.html">Basic SEO & Marketing</a></li>
-                                        <li><a href="./single_services.html">Social Media Management (1 Platform)</a></li>
-                                        <li><a href="./single_services.html">Monthly Performance Report</a></li>
+                                        <li><a href="{{ route('single.services') }}">Basic SEO & Marketing</a></li>
+                                        <li><a href="{{ route('single.services') }}">Social Media Management (1 Platform)</a></li>
+                                        <li><a href="{{ route('single.services') }}">Monthly Performance Report</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -387,5 +396,4 @@
             </div>
         </div> --}}
     </main>
-
 @endsection

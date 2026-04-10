@@ -1,4 +1,4 @@
-@extends('frontend.layouts.app')
+﻿@extends('frontend.layouts.app')
 
 @section('content')
  <!-- Section Main Content -->
@@ -60,16 +60,16 @@
                             <div class="d-flex flex-column flex-md-row gspace-1 gspace-md-5">
                                 <div class="about-list">
                                     <ul class="check-list">
-                                        <li><a href="./single_services.html">PPC & Paid Ads</a></li>
-                                        <li><a href="./single_services.html">Brand Strategy</a></li>
-                                        <li><a href="./single_services.html">Conversion Optimization</a></li>
+                                        <li><a href="{{ route('single.services') }}">PPC & Paid Ads</a></li>
+                                        <li><a href="{{ route('single.services') }}">Brand Strategy</a></li>
+                                        <li><a href="{{ route('single.services') }}">Conversion Optimization</a></li>
                                     </ul>
                                 </div>
                                 <div class="about-list">
                                     <ul class="check-list">
-                                        <li><a href="./single_services.html">Performance Marketing</a></li>
-                                        <li><a href="./single_services.html">Social Media Growth</a></li>
-                                        <li><a href="./single_services.html">Content Marketing</a></li>
+                                        <li><a href="{{ route('single.services') }}">Performance Marketing</a></li>
+                                        <li><a href="{{ route('single.services') }}">Social Media Growth</a></li>
+                                        <li><a href="{{ route('single.services') }}">Content Marketing</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -288,7 +288,7 @@
                                     <span>Our Core Values</span>
                                 </div>
                                 <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInDown">The Principles That Define Us</h2>
-                                <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
+                                <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we donâ€™t just create campaignsâ€”we craft strategies that deliver measurable success.</p>
                             </div>
                             <div class="image-container">
                                 <img src="./image/dummy-img-600x400.jpg" alt="Why Choose Us Image" class="chooseus-img">
@@ -651,7 +651,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
+                                            â€œMarko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.â€
                                         </p>
                                     </div>
                                 </div>
@@ -677,7 +677,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
+                                            â€œWe've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.â€
                                         </p>
                                     </div>
                                 </div>
@@ -703,7 +703,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
+                                            â€œFrom SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!â€
                                         </p>
                                     </div>
                                 </div>
@@ -729,7 +729,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.”
+                                            â€œHighly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.â€
                                         </p>
                                     </div>
                                 </div>
@@ -755,7 +755,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
+                                            â€œMarko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.â€
                                         </p>
                                     </div>
                                 </div>
@@ -781,7 +781,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
+                                            â€œWe've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.â€
                                         </p>
                                     </div>
                                 </div>
@@ -807,7 +807,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
+                                            â€œFrom SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!â€
                                         </p>
                                     </div>
                                 </div>
@@ -833,7 +833,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.”
+                                            â€œHighly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.â€
                                         </p>
                                     </div>
                                 </div>
@@ -847,3 +847,4 @@
     </main>
 
     @endsection
+

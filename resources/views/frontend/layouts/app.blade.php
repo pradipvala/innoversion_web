@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Innoversion Technolab</title>
+    <title>
+        @yield(
+            'title',
+            str(Route::currentRouteName() ?? 'home')->afterLast('.')->headline()
+        )
+        - Innoversion Technolab
+    </title>
     <link rel="stylesheet" href={{ asset('css/style.css') }}>
     <link rel="icon" href={{ asset('image/favicon.ico') }}>
 </head>
@@ -54,10 +60,16 @@
     <script src="{{ asset('js/video_embedded.js') }}"></script>
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/{{ $whatsapp->name }}?text=Hello%20Innoversion%20Technolab" class="whatsapp-float"
-        target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
+
+    @php
+        $whatsapp = $whatsapp->name ?? null;
+    @endphp
+    @if (!empty($whatsapp))
+        <a href="https://wa.me/{{ $whatsapp }}?text=Hello%20Innoversion%20Technolab" class="whatsapp-float"
+            target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    @endif
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-@extends('frontend.layouts.app')
+﻿@extends('frontend.layouts.app')
 
 <!-- Section Main Content-->
 @section('content')
@@ -15,7 +15,6 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" title="Marko Video Background"
                 src="{{ asset('image/innoversion-video2.webm') }}"></iframe>  --}}
-
 
             <div class="hero-container position-relative">
                 <div class="d-flex flex-column gspace-2">
@@ -101,12 +100,12 @@
                         <div class="expertise-list">
                             <h5>What We Do Best</h5>
                             <ul class="check-list">
-                                <li><a href="./single_services.html">Performance Marketing</a></li>
-                                <li><a href="./single_services.html">Social Media Growth</a></li>
-                                <li><a href="./single_services.html">Content Marketing</a></li>
-                                <li><a href="./single_services.html">PPC & Paid Ads</a></li>
-                                <li><a href="./single_services.html">Brand Strategy</a></li>
-                                <li><a href="./single_services.html">Conversion Optimization</a></li>
+                                <li><a href="{{ route('single.services') }}">Performance Marketing</a></li>
+                                <li><a href="{{ route('single.services') }}">Social Media Growth</a></li>
+                                <li><a href="{{ route('single.services') }}">Content Marketing</a></li>
+                                <li><a href="{{ route('single.services') }}">PPC & Paid Ads</a></li>
+                                <li><a href="{{ route('single.services') }}">Brand Strategy</a></li>
+                                <li><a href="{{ route('single.services') }}">Conversion Optimization</a></li>
                             </ul>
                         </div>
                         <div class="card card-expertise card-expertise-counter animate-box animated animate__animated"
@@ -373,7 +372,7 @@
                                 data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
                             <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In
                                 the fast-paced digital world, choosing the right marketing partner makes all the difference.
-                                At Marko, we don’t just create campaigns—we craft strategies that deliver measurable
+                                At Marko, we donâ€™t just create campaignsâ€”we craft strategies that deliver measurable
                                 success.</p>
                         </div>
                         <div class="image-container">
@@ -461,7 +460,7 @@
                                     <p>
                                         {{ $service->description }}
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>View Details</span>
                                         </div>
@@ -543,7 +542,7 @@
                         <div class="col">
                             <div class="d-flex flex-column h-100 justify-content-end gspace-2 animate-box animated animate__animated"
                                 data-animate="animate__fadeInRight">
-                                <p>We don't just talk about results—we deliver them. Here are some of our most impactful
+                                <p>We don't just talk about resultsâ€”we deliver them. Here are some of our most impactful
                                     case studies showcasing how our digital marketing strategies drive success.</p>
                                 <div class="link-wrapper">
                                     <a href="./case_studies.html">More Case Studies</a>
@@ -809,7 +808,7 @@
                                                 <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                             </div>
                                             <p class="testimonial-description">
-                                                “{!! $testimonial->description !!}”
+                                                â€œ{!! $testimonial->description !!}â€
                                             </p>
                                         </div>
                                     </div>
@@ -996,9 +995,9 @@
                                     </div>
                                 </a>
                                 <ul class="check-list">
-                                    <li><a href="./single_services.html">Basic SEO & Marketing</a></li>
-                                    <li><a href="./single_services.html">Social Media Management (1 Platform)</a></li>
-                                    <li><a href="./single_services.html">Monthly Performance Report</a></li>
+                                    <li><a href="{{ route('single.services') }}">Basic SEO & Marketing</a></li>
+                                    <li><a href="{{ route('single.services') }}">Social Media Management (1 Platform)</a></li>
+                                    <li><a href="{{ route('single.services') }}">Monthly Performance Report</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1089,9 +1088,9 @@
                                     </div>
                                 </a>
                                 <ul class="check-list">
-                                    <li><a href="./single_services.html">Basic SEO & Marketing</a></li>
-                                    <li><a href="./single_services.html">Social Media Management (1 Platform)</a></li>
-                                    <li><a href="./single_services.html">Monthly Performance Report</a></li>
+                                    <li><a href="{{ route('single.services') }}">Basic SEO & Marketing</a></li>
+                                    <li><a href="{{ route('single.services') }}">Social Media Management (1 Platform)</a></li>
+                                    <li><a href="{{ route('single.services') }}">Monthly Performance Report</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1230,3 +1229,4 @@
         </div>
     </div>
 @endsection
+

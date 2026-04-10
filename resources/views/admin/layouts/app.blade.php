@@ -9,15 +9,15 @@
     <meta name="csrf_token" content="{{ csrf_token() }}" />
 
     <link rel="shortcut icon" href="#" />
-    
+
 
     <title>@stack('url_title') | {{ env('APP_NAME') }}</title>
 
     <!--Morris Chart CSS -->
-    
+
      <link rel="stylesheet" type="text/css" href="{{ asset('admin_theme/assets/css/buttons.dataTables.min.css') }}" />
-    
-    
+
+
     <link href="{{ asset('admin_theme/assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('admin_theme/assets/css/core.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('admin_theme/assets/css/components.css') }}" rel="stylesheet" type="text/css" />
@@ -27,12 +27,12 @@
     <link href="{{ asset('admin_theme/assets/css/dropify.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('admin_theme/assets/css/custom.css') }}" rel="stylesheet" />
 
-    
+
     {{-- form-validationv css --}}
     <link rel="stylesheet" href="{{ asset('admin_theme/assets/css/form-validation.css') }}" />
 
     <link rel="stylesheet" href="{{ asset('admin_theme/assets/css/font-awesome.min.css') }}" />
-    
+
     {{-- end form-validation css --}}
     <link rel="stylesheet" type="text/css"
         href="{{ asset('admin_theme/assets/plugins/summernote/dist/summernote.css') }}" />
@@ -65,9 +65,9 @@
 
     @stack('css')
 
-    
 
-    
+
+
 </head>
 
 <body class="fixed-left">
@@ -146,7 +146,7 @@
     <script src="{{ asset('admin_theme/assets/js/toastr.min.js') }}"></script>
 
     <script src="{{ asset('admin_theme/assets/plugins/peity/jquery.peity.min.js') }}"></script>
-    
+
 
     <!-- jQuery  -->
     <script src="{{ asset('admin_theme/assets/plugins/waypoints/lib/jquery.waypoints.js') }}"></script>
@@ -159,7 +159,6 @@
     {{-- end form validation js --}}
     <script src="{{ asset('admin_theme/assets/js/jquery.core.js') }}"></script>
     <script src="{{ asset('admin_theme/assets/js/jquery.app.js') }}"></script>
-    <script src="{{ asset('public/ckeditor/ckeditor.js') }}"></script>
 
     {{-- SweetAlert --}}
     <script src="{{ asset('admin_theme/assets/js/sweetalert2@9.js') }}"></script>
@@ -187,7 +186,7 @@
     <script src="{{ asset('admin_theme/assets/js/dataTables.buttons.min.js') }}"></script>
     <script src="{{ asset('admin_theme/assets/js/buttons.html5.min.js') }}"></script>
     <script src="{{ asset('admin_theme/assets/js/buttons.print.min.js') }}"></script>
-     
+
 
     <script type="text/javascript" src="{{ asset('admin_theme/assets/js/jszip.min.js') }}"></script>
 

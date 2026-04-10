@@ -1,4 +1,4 @@
-<div class="section-footer">
+﻿<div class="section-footer">
     <div class="bg-footer-wrapper">
         <div class="bg-footer">
             <div class="hero-container position-relative z-2">
@@ -36,12 +36,12 @@
                             <div class="footer-services-container">
                                 <h5>Services</h5>
                                 <ul class="footer-list">
-                                    <li><a href="./single_services.html">Social Media Marketing</a></li>
-                                    <li><a href="./single_services.html">SEO Optimization</a></li>
-                                    <li><a href="./single_services.html">PPC Advertising</a></li>
-                                    <li><a href="./single_services.html">Content Marketing</a></li>
-                                    <li><a href="./single_services.html">Branding Strategy</a></li>
-                                    <li><a href="./single_services.html">Email Marketing</a></li>
+                                    <li><a href="{{ route('single.services') }}">Social Media Marketing</a></li>
+                                    <li><a href="{{ route('single.services') }}">SEO Optimization</a></li>
+                                    <li><a href="{{ route('single.services') }}">PPC Advertising</a></li>
+                                    <li><a href="{{ route('single.services') }}">Content Marketing</a></li>
+                                    <li><a href="{{ route('single.services') }}">Branding Strategy</a></li>
+                                    <li><a href="{{ route('single.services') }}">Email Marketing</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -85,10 +85,10 @@
                     <div class="footer-content-spacer"></div>
                 </div>
                 <div class="copyright-container">
-                    <span class="copyright">© 2026 Innoversion Technolab. Fox Creation All Rights Reserved.</span>
+                    <span class="copyright">Â© 2026 Innoversion Technolab. Fox Creation All Rights Reserved.</span>
                     <div class="d-flex flex-row gspace-2">
-                        <a href="#" class="legal-link">Terms of Service</a>
-                        <a href="#" class="legal-link">Privacy Policy</a>
+                        <a href="{{ route('terms-and-conditions') }}" class="legal-link">Terms & Conditions</a>
+                        <a href="{{ route('privacy-policy') }}" class="legal-link">Privacy Policy</a>
                     </div>
                 </div>
                 <div class="footer-spacer"></div>
@@ -96,3 +96,4 @@
         </div>
     </div>
 </div>
+

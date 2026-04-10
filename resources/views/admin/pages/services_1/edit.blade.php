@@ -89,15 +89,11 @@
 
         @push('js')
             <script type="text/javascript">
-                function initCKEditor(selector) {
-                    ClassicEditor
-                        .create(document.querySelector(selector))
-                        .catch(error => {
-                            console.error(error);
-                        });
-                }
-
-                initCKEditor('#description');
+                $(document).ready(function() {
+                    $('#description').summernote({
+                        height: 200
+                    });
+                });
 
             </script>
         @endpush

@@ -93,7 +93,7 @@ class HomeController extends Controller
             $contact->country_code = $request->country_code;
             $contact->save();
 
-            Mail::to($request->email)->send(new ContactFormMail());
+            // Mail::to($request->email)->send(new ContactFormMail());
 
             // Return JSON response for AJAX
             if ($request->expectsJson()) {
@@ -201,5 +201,15 @@ class HomeController extends Controller
     {
         $projects = Projects::where('status', '1')->get();
         return view('frontend.pages.projects', compact('projects'));
+    }
+
+    public function termsAndConditions()
+    {
+        return view('frontend.pages.terms-and-conditions');
+    }
+
+    public function privacyPolicy()
+    {
+        return view('frontend.pages.privacy-policy');
     }
 }

@@ -18,6 +18,8 @@ Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('test
 Route::get('/partnership', [HomeController::class, 'partnership'])->name('partnership');
 Route::get('/open-positions', [HomeController::class, 'openPositions'])->name('open-positions');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
+Route::get('/terms-and-conditions', [HomeController::class, 'termsAndConditions'])->name('terms-and-conditions');
+Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy-policy');
 
 // // Contact Form Routes
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
