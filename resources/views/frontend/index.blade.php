@@ -1,4 +1,4 @@
-﻿@extends('frontend.layouts.app')
+@extends('frontend.layouts.app')
 
 <!-- Section Main Content-->
 @section('content')
@@ -19,14 +19,14 @@
             <div class="hero-container position-relative">
                 <div class="d-flex flex-column gspace-2">
                     <h1 class="title-heading-banner animate-box animated animate__animated"
-                        data-animate="animate__fadeInLeft">Amplify Your Brand with Cutting-Edge Digital Marketing</h1>
+                        data-animate="animate__fadeInLeft">Innovating Today. Transforming </br> Tomorrow.</h1>
                     <div class="banner-heading">
 
                         <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated"
                             data-animate="animate__fadeInRight">
-                            <p>Marko empowers businesses to grow online with data driven digital marketing, innovative
-                                branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit
-                                amet consectetur.</p>
+                            <p>At Innoversion Technolab, we blend innovation with technology to build powerful, scalable
+                                digital solutions. We don’t just develop software—we partner with you to create smarter
+                                systems, seamless experiences, and future-ready businesses.</p>
                             <div
                                 class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
                                 <a href="{{ route('contact') }}" class="btn btn-accent">
@@ -74,9 +74,10 @@
                                     <div class="card card-expertise  animate-box animated animate__animated"
                                         data-animate="animate__fadeInDown">
                                         <h4>Ready to Elevate Your Digital Presence?</h4>
-                                        <p>Let's create a custom strategy that fits your business goals.</p>
+                                        <p>Build smarter, scale faster, and lead your industry with powerful digital
+                                            solutions crafted by experts.</p>
                                         <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
-                                            <a href="./contact.html">Get Free Consultation</a>
+                                            <a href="{{ route('contact') }}">Get Free Consultation</a>
                                             <i class="fa-solid fa-circle-arrow-right"></i>
                                         </div>
                                     </div>
@@ -93,32 +94,32 @@
                         <span>Our Expertise</span>
                     </div>
                     <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
-                        Data Driven Strategies, Measurable Results</h2>
-                    <p>At Marko, we specialize in crafting innovative digital marketing strategies that drive real business
-                        growth. Our expertise ensures your brand stays ahead in the competitive digital landscape.</p>
+                        Innovation-Driven Solutions, Measurable Results</h2>
+                    <p>We don’t just build software we create strategic digital ecosystems that help businesses grow,
+                        adapt, and dominate in a competitive market.</p>
                     <div class="d-flex flex-column flex-md-row gspace-2">
                         <div class="expertise-list">
                             <h5>What We Do Best</h5>
                             <ul class="check-list">
-                                <li><a href="{{ route('single.services') }}">Performance Marketing</a></li>
-                                <li><a href="{{ route('single.services') }}">Social Media Growth</a></li>
-                                <li><a href="{{ route('single.services') }}">Content Marketing</a></li>
-                                <li><a href="{{ route('single.services') }}">PPC & Paid Ads</a></li>
-                                <li><a href="{{ route('single.services') }}">Brand Strategy</a></li>
-                                <li><a href="{{ route('single.services') }}">Conversion Optimization</a></li>
+                                <li><a href="{{ route('single.services') }}">Custom Web Development</a></li>
+                                <li><a href="{{ route('single.services') }}">Mobile App Development</a></li>
+                                <li><a href="{{ route('single.services') }}">UI/UX Design</a></li>
+                                <li><a href="{{ route('single.services') }}">DevOps & Cloud Engineering</a></li>
+                                <li><a href="{{ route('single.services') }}">E-commerce Solutions</a></li>
+                                <li><a href="{{ route('single.services') }}">Digital Marketing & SEO</a></li>
                             </ul>
                         </div>
                         <div class="card card-expertise card-expertise-counter animate-box animated animate__animated"
                             data-animate="animate__fadeInUp">
                             <div class="d-flex flex-row gspace-2 align-items-center">
                                 <div class="d-flex flex-row align-items-center">
-                                    <span class="counter" data-target="21"></span>
+                                    <span class="counter" data-target="10">10</span>
                                     <span class="counter-detail">+</span>
                                 </div>
-                                <h6>Years of Experience on Digital Marketing Services</h6>
+                                <h6>Years of Experience in Digital Solutions</h6>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit in ex ligula varius at rutrum et
-                                finibus sed felis qisque.</p>
+                            <p>Delivering innovative, scalable, and result-driven technology solutions that empower
+                                businesses to grow, adapt, and succeed in a competitive digital world.</p>
                         </div>
                     </div>
                 </div>
@@ -150,9 +151,9 @@
                     <div class="col">
                         <div class="d-flex flex-column ps-xl-3 ps-0">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et,
-                                finibus sed felis.
-                                Quisque eget tincidunt lectus. Sed quis diam sed neque mattis feugiat.
+                                At Innoversion Technolab, we deliver impactful digital solutions that drive growth, boost
+                                visibility, and maximize ROI. We partner with businesses of all sizes to turn ideas into
+                                scalable success through innovation, strategy, and performance-driven execution.
                             </p>
                         </div>
                     </div>
@@ -306,8 +307,9 @@
                             </div>
                             <div class="chooseus-content">
                                 <h4 class="chooseus-title">Data-Driven Approach</h4>
-                                <p>Every decision is backed by real-time analytics for maximum impact lorem ipsum dolor sit
-                                    consectetur adipiscing elit ut elit tellus luctus nec.</p>
+                                <p>We use real-time data, analytics, and user insights to guide every decision. This ensures
+                                    smarter strategies, optimized performance, and measurable business growth.
+                                </p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
@@ -327,9 +329,10 @@
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Creative & Innovative</h4>
-                                <p>Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor
-                                    sit awsa consectetur adipiscing elit ut elit.</p>
+                                <h4 class="chooseus-title">Creative & Innovative Solutions</h4>
+                                <p>We blend creativity with modern technology to build user-friendly, scalable, and
+                                    future-ready solutions. Our focus is on delivering unique digital experiences that stand
+                                    out.</p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
@@ -350,8 +353,8 @@
                             </div>
                             <div class="chooseus-content">
                                 <h4 class="chooseus-title">Transparent Reporting</h4>
-                                <p>Clear insights and performance tracking, so you always know your ROI lorem ipsum dolo
-                                    consectetur adipiscing elit ut elit tellus luctus nec.</p>
+                                <p>We maintain clear communication with regular updates and detailed reporting. You stay
+                                    informed at every step with complete visibility and confidence.</p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
@@ -366,14 +369,17 @@
                             <div class="sub-heading  animate-box animated animate__animated"
                                 data-animate="animate__fadeInDown">
                                 <i class="fa-regular fa-circle-dot"></i>
-                                <span>Why Choose Marko</span>
+                                <span>Why Choose Innoversion</span>
                             </div>
                             <h2 class="title-heading  animate-box animated animate__animated"
                                 data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
-                            <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In
-                                the fast-paced digital world, choosing the right marketing partner makes all the difference.
-                                At Marko, we donâ€™t just create campaignsâ€”we craft strategies that deliver measurable
-                                success.</p>
+                            <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                                Innoversion Technolab, we deliver scalable, high-performance software solutions that drive
+                                business growth and efficiency.
+                                We partner with startups and enterprises to build custom web, mobile, and software solutions
+                                tailored to real business needs.
+                                By combining innovation, strategy, and technology, we create impactful digital products that
+                                deliver measurable results.</p>
                         </div>
                         <div class="image-container">
                             <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-5EHBQRG-1024x683.jpg"
@@ -385,7 +391,8 @@
                                     <div class="card-chooseus-cta-wrapper">
                                         <div class="card card-chooseus-cta animate-box animated animate__animated"
                                             data-animate="animate__fadeInUp">
-                                            <h5>Partner with Marko & take your brand to the next level.</h5>
+                                            <h5>Partner with Innoversion Technolab & Take Your Business to the Next Level
+                                            </h5>
                                             <div class="link-wrapper">
                                                 <a href="./contact.html">Let's Talk Strategy</a>
                                                 <i class="fa-solid fa-circle-arrow-right"></i>
@@ -414,9 +421,10 @@
                         </p>
                     </div>
                     <div class="d-flex flex-column gspace-2">
-                        <h3 class="title-heading">Transform Your Business with Marko!</h3>
-                        <p>Take your digital marketing to the next level with data-driven strategies and innovative
-                            solutions. Let's create something amazing together!</p>
+                        <h3 class="title-heading">Transform Your Business with Innoversion Technolab</h3>
+                        <p>We deliver scalable software solutions that drive innovation, efficiency, and business growth.
+                            Our expertise in web, mobile, and custom development ensures high-performance digital products.
+                            Partner with us to build secure, future-ready technology that delivers real results.</p>
                     </div>
                 </div>
             </div>
@@ -1229,4 +1237,3 @@
         </div>
     </div>
 @endsection
-
