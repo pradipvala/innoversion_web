@@ -47,7 +47,7 @@
                                             alt="Reviewer" class="avatar">
                                     </div>
                                     <div class="detail">
-                                        <span>2.7k Positive</span>
+                                        <span>550+ Positive</span>
                                         <span>Reviews</span>
                                     </div>
                                 </div>
@@ -567,10 +567,7 @@
                                 <div
                                     class="case-studies-component large align-self-end justify-content-end align-items-end">
                                     <div class="cs-component">
-                                        <a href="#"> Web Development</a>
-                                    </div>
-                                    <div class="cs-component">
-                                        <a href="#">Influencer</a>
+                                        <a href="#">Web Development</a>
                                     </div>
                                     <div class="cs-component">
                                         <a href="#">UI/UX Design</a>
@@ -589,9 +586,6 @@
                                     <p>
                                         We helped a traditional business transition into a fully digital ecosystem with a
                                         modern web platform and optimized user experience.
-                                        Improved customer engagement and online presence
-                                        Streamlined operations with smart digital tools
-                                        Delivered a scalable and user-friendly platform
                                     </p>
                                 </div>
                             </div>
@@ -605,7 +599,7 @@
                                     <p>
                                         We designed and developed a high-performance SaaS solution integrated with smart
                                         lead management and automation tools.
-                                        Enhanced lead generation and conversion flow
+
                                     </p>
                                 </div>
                                 <div
@@ -631,16 +625,16 @@
                                 <div
                                     class="case-studies-component small align-self-start justify-content-start align-items-start">
                                     <div class="cs-component">
-                                        <a href="#">E-commerce Development </a>
+                                        <a href="#"> E-commerce Development </a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">CRO </a>
+                                        <a href="#"> CRO </a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">SEO </a>
+                                        <a href="#"> SEO </a>
                                     </div>
                                     <div class="cs-component">
-                                        <a href="#">Analytics</a>
+                                        <a href="#"> Analytics </a>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column gspace-2">
@@ -650,7 +644,6 @@
                                     <p>
                                         We built and optimized an e-commerce platform focused on performance, speed, and
                                         seamless customer experience.
-                                        Improved website performance and load speed
                                     </p>
                                 </div>
                             </div>
@@ -664,7 +657,6 @@
                                     <p>
                                         We supported a startup in building a strong digital presence with a combination of
                                         branding, technology, and marketing strategies.
-                                        Strengthened brand identity and visibility
                                     </p>
                                 </div>
                                 <div
@@ -714,14 +706,14 @@
                                                 alt="Testimonial Reviewer" class="avatar">
                                         </div>
                                         <div class="detail">
-                                            <h6>2.7k Positive</h6>
+                                            <h6>550+ Positive</h6>
                                             <h6>Reviews</h6>
                                         </div>
                                     </div>
                                     <div class="testimonial-rating-container">
                                         <div class="d-flex flex-column justify-content-center align-items-center gspace-1">
                                             <div class="d-flex flex-row align-items-center">
-                                                <span class="counter" data-target="90"></span>
+                                                <span class="counter" data-target="95">95</span>
                                                 <span class="counter-detail">%</span>
                                             </div>
                                             <p>Improved Project</p>
@@ -729,7 +721,7 @@
                                         <div class="underline-vertical"></div>
                                         <div class="d-flex flex-column justify-content-center align-items-center gspace-1">
                                             <div class="d-flex flex-row align-items-center">
-                                                <span class="counter" data-target="49"></span>
+                                                <span class="counter" data-target="80">80</span>
                                                 <span class="counter-detail">%</span>
                                             </div>
                                             <p>New Project</p>
@@ -739,11 +731,11 @@
                                 <div class="d-flex flex-column flex-md-row flex-xl-column justify-content-center gspace-2">
                                     <div class="testimonial-header-link-wrapper">
                                         <i class="fa-regular fa-circle-check accent-color"></i>
-                                        <a href="#">Social Media Growth</a>
+                                        <a href="#">Client Satisfaction Rate</a>
                                     </div>
                                     <div class="testimonial-header-link-wrapper">
                                         <i class="fa-regular fa-circle-check accent-color"></i>
-                                        <a href="#">Performance Marketing</a>
+                                        <a href="#">Repeat Client Projects</a>
                                     </div>
                                 </div>
                             </div>
@@ -757,9 +749,9 @@
                                     <i class="fa-regular fa-circle-dot"></i>
                                     <span>What Our Client Says</span>
                                 </div>
-                                <h2 class="title-heading">Hear from Our Satisfied Clients, Real Success Stories</h2>
-                                <p>Discover how businesses like yours achieved outstanding growth with Marko's expert
-                                    digital marketing solutions.</p>
+                                <h2 class="title-heading">Hear From Our Satisfied Clients, Real Success Stories</h2>
+                                <p>Discover how businesses like yours have achieved outstanding growth with Innoversion
+                                    Technolab’s expert development and digital solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -786,7 +778,7 @@
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">{!! $testimonial->name !!}</span>
-                                                        <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}
+                                                        {{--  <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}  --}}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -826,9 +818,9 @@
                             <div class="d-flex flex-column gspace-2 justify-content-end h-100  animate-box animated fast animate__animated"
                                 data-animate="animate__fadeInDown">
                                 <p>
-                                    Our streamlined process ensures your digital growth is seamless and effective. ipsum
-                                    dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus
-                                    sed felis.
+                                    At Innoversion Technolab, we follow a structured and transparent approach to turn your
+                                    ideas into scalable digital solutions. Our process is designed to ensure clarity,
+                                    efficiency, and long-term success.
                                 </p>
                                 <div class="link-wrapper">
                                     <a href="./contact.html">Get Started Now</a>
@@ -853,8 +845,9 @@
                                         <div class="d-flex flex-column gspace-2">
                                             <h5>Discovery & Consult</h5>
                                             <p>
-                                                Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec
-                                                ullamcorper mattis
+                                                We begin by understanding your business, goals, and challenges. This helps
+                                                us define the right direction and ensure that every decision aligns with
+                                                your vision.
                                             </p>
                                         </div>
                                     </div>
@@ -874,8 +867,9 @@
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Strategy & Planning</h5>
                                                 <p>
-                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec
-                                                    ullamcorper mattis
+                                                    Once we have clarity, we create a well-defined roadmap. From choosing
+                                                    the right technology to planning the user experience, everything is
+                                                    structured for smooth execution.
                                                 </p>
                                             </div>
                                         </div>
@@ -896,8 +890,9 @@
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Execution & Optimize</h5>
                                                 <p>
-                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec
-                                                    ullamcorper mattis
+                                                    Our team develops your solution using modern technologies, focusing on
+                                                    performance, security, and scalability while continuously refining the
+                                                    product.
                                                 </p>
                                             </div>
                                         </div>
@@ -918,8 +913,8 @@
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Result & Growth</h5>
                                                 <p>
-                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec
-                                                    ullamcorper mattis
+                                                    After delivery, we stay with you to support, improve, and scale your
+                                                    solution, ensuring consistent growth and long-term value.
                                                 </p>
                                             </div>
                                         </div>
@@ -1094,9 +1089,10 @@
                     <div class="d-flex flex-column gspace-5 position-relative z-2">
                         <div class="d-flex flex-column gspace-2 animate-box animated animate__animated"
                             data-animate="animate__fadeInLeft">
-                            <h3 class="title-heading">Stay Ahead in Digital Marketing</h3>
-                            <p>Get exclusive insights, trends, and strategies delivered straight to your inbox. Subscribe
-                                now!</p>
+                            <h3 class="title-heading">Stay Ahead with Technology & Innovation</h3>
+                            <p>Receive expert insights, product updates, and development strategies designed to keep your
+                                business future-ready.
+                            </p>
                         </div>
                         <div id="newsletter-success" class="alert success hidden">
                             <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
@@ -1143,16 +1139,16 @@
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Insights & Trends</span>
                             </div>
-                            <h2 class="title-heading">Latest Digital Marketing Strategies & Tips</h2>
+                            <h2 class="title-heading">Technology Insights & Digital Solutions</h2>
                         </div>
                     </div>
                     <div class="col col-xl-4 ps-0 pe-0">
                         <div class="d-flex flex-column gspace-2 justify-content-end h-100 animate-box animated animate__animated"
                             data-animate="animate__fadeInRight">
-                            <p>Explore our latest blog articles covering industry trends, expert insights, and actionable
-                                strategies to elevate your digital marketing game.</p>
+                            <p>Explore practical insights, development strategies, and real-world solutions from our team.
+                                Stay updated with the latest trends to build, scale, and grow your digital products.</p>
                             <div class="link-wrapper">
-                                <a href="./blog.html">View All Articles</a>
+                                <a href="{{ route('blog') }}">View All Articles</a>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
                             </div>
                         </div>
@@ -1177,10 +1173,10 @@
                                         <span class="meta-data">Social Media</span>
                                     </div>
                                 </div>
-                                <a href="./single_post.html" class="blog-link">Mastering Instagram and Facebook Ads</a>
-                                <p>Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper
-                                    mattis pulvinar dapibus leo.</p>
-                                <a href="./single_post.html" class="read-more">Read More</a>
+                                <a href="javascript:void(0)" class="blog-link">Building Scalable Applications</a>
+                                <p>Learn how modern technologies help create fast, secure, and scalable digital solutions.
+                                </p>
+                                <a href="javascript:void(0)" class="read-more">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -1202,10 +1198,10 @@
                                         <span class="meta-data">SEO</span>
                                     </div>
                                 </div>
-                                <a href="./single_post.html" class="blog-link">Growth Strategies for Digital Business</a>
-                                <p>Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper
-                                    mattis pulvinar dapibus leo.</p>
-                                <a href="./single_post.html" class="read-more">Read More</a>
+                                <a href="javascript:void(0)" class="blog-link">Driving Growth with Smart Technology</a>
+                                <p>Discover how development, automation, and strategy work together to grow your business.
+                                </p>
+                                <a href="javascript:void(0)" class="read-more">Read More</a>
                             </div>
                         </div>
                     </div>

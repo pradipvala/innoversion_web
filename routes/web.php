@@ -24,6 +24,7 @@ Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('p
 Route::get('/technology/{slug}', [HomeController::class, 'technologyDetails'])->name('technology.details');
 Route::get('/service/{slug}', [HomeController::class, 'serviceDetails'])->name('service.details');
 Route::get('/industry/{slug}', [HomeController::class, 'industryDetails'])->name('industry.details');
+Route::get('/auto-pulse', [HomeController::class, 'autoPulse'])->name('auto.pulse');
 
 // // Contact Form Routes
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');

@@ -261,4 +261,9 @@ class HomeController extends Controller
 
         return view('frontend.pages.industry-details', compact('industry'));
     }
+
+    public function autoPulse()
+    {
+        return view('frontend.pages.auto-pulse');
+    }
 }
