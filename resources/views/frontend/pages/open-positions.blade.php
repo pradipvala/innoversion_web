@@ -32,16 +32,18 @@
                     <div class="recruitment-list" style="display: flex; flex-direction: column; gap: 12px;">
                         @forelse ($openPositions as $position)
                             <div class="recruitment-item" data-position-id="{{ $position->id }}"
-                                style="border: 1px solid #eee; border-radius: 8px; background: white; cursor: pointer; transition: all 0.3s ease;">
+                                style="border: 1px solid #eee; border-radius: 8px;  cursor: pointer; transition: all 0.3s ease;">
 
                                 <!-- List Item Header -->
                                 <div class="recruitment-header"
                                     style="padding: 20px; display: flex; justify-content: space-between; align-items: center;">
                                     <div class="recruitment-info" style="flex: 1;">
-                                        <h4 style="font-size: 18px; font-weight: 700; margin: 0 0 8px 0; color: #000;">
+                                        <h4 style="font-size: 25px; font-weight: 600; margin-bottom: 0;">
                                             {{ $position->title }}
                                         </h4>
-                                        <p style="color: #888; margin: 0; font-size: 14px;">
+                                        <p
+                                            style="color:
+                                            #888; margin: 0; font-size: 14px;">
                                             @if (!empty($position->place))
                                                 {{ $position->place }}
                                             @else
