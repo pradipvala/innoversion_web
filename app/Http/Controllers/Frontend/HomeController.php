@@ -18,11 +18,13 @@ use App\Models\Client;
 use App\Models\Projects;
 use App\Models\Recruitment;
 use App\Models\Recruitu;
+use App\Models\Sletter;
 use App\Models\TeamMember;
 use App\Models\Whatsapp;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Validation\ValidationException;
 
 class HomeController extends Controller
 {
@@ -122,6 +124,47 @@ class HomeController extends Controller
             }
 
             return redirect()->back()->withErrors(['error' => 'An error occurred. Please try again.']);
+        }
+    }
+
+    public function submitNewsletter(Request $request)
+    {
+        try {
+            $validated = $request->validate([
+                'email' => 'required|email|max:255|unique:sletters,email',
+            ]);
+
+            $sletter = new Sletter();
+            $sletter->email = $validated['email'];
+            $sletter->status = '1';
+            $sletter->save();
+
+            if ($request->expectsJson() || $request->ajax()) {
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Thanks for subscribing!'
+                ], 200);
+            }
+
+            return redirect()->back()->with('newsletter_success', 'Thanks for subscribing!');
+        } catch (ValidationException $e) {
+            if ($request->expectsJson() || $request->ajax()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => $e->validator->errors()->first('email') ?: 'Please enter a valid email address.'
+                ], 422);
+            }
+
+            return redirect()->back()->with('newsletter_error', $e->validator->errors()->first('email') ?: 'Please enter a valid email address.')->withInput();
+        } catch (Exception $e) {
+            if ($request->expectsJson() || $request->ajax()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Something went wrong. Please try again.'
+                ], 500);
+            }
+
+            return redirect()->back()->with('newsletter_error', 'Something went wrong. Please try again.')->withInput();
         }
     }
 

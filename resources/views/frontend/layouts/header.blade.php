@@ -41,18 +41,18 @@
                                     <div class="ds">How we deliver results</div>
                                 </div>
                             </a>
-                            <a href="{{ route('testimonials') }}" class="dl">
+                            {{--  <a href="{{ route('testimonials') }}" class="dl">
                                 <div>
                                     <div class="dt"><b> Client Testimonials</b></div>
                                     <div class="ds">What our clients say about us</div>
                                 </div>
-                            </a>
-                            <a href="javascript:void(0)" class="dl">
+                            </a>  --}}
+                            {{--  <a href="javascript:void(0)" class="dl">
                                 <div>
                                     <div class="dt"><b>Portfolio</b></div>
                                     <div class="ds">Projects & client success stories</div>
                                 </div>
-                            </a>
+                            </a>  --}}
                             <a href="javascript:void(0)" class="dl">
                                 <div>
                                     <div class="dt"><b>Case Studies</b></div>
@@ -223,7 +223,7 @@
                                         <div class="why-s">Post-launch care with SLA-backed response times.</div>
                                     </div>
                                     <div class="why-card">
-                                        <div class="why-t"><b>10+ Years Experience</b></div>
+                                        <div class="why-t"><b>15+ Years Experience</b></div>
                                         <div class="why-s">Proven expertise across 200+ successful projects.</div>
                                     </div>
 

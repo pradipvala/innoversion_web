@@ -152,22 +152,23 @@
                                 <p>Get exclusive insights, trends, and strategies delivered straight to your inbox.
                                     Subscribe now!</p>
                             </div>
-                            <div id="newsletter-success" class="alert success hidden">
+                            <div id="newsletter-success" class="alert success {{ session('newsletter_success') ? '' : 'hidden' }}">
                                 <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
-                                <p class="text-center">Thank you! Form submitted successfully.</p>
+                                <p class="text-center">{{ session('newsletter_success', 'Thank you! Form submitted successfully.') }}</p>
                             </div>
 
-                            <div id="newsletter-error" class="alert error hidden">
+                            <div id="newsletter-error" class="alert error {{ session('newsletter_error') ? '' : 'hidden' }}">
                                 <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
-                                <p class="text-center">Oops! Form submission failed. Please try again.</p>
+                                <p class="text-center">{{ session('newsletter_error', 'Oops! Form submission failed. Please try again.') }}</p>
                             </div>
 
-                            <form action="./php/newsletter_process.php" method="POST" id="newsletterForm"
+                            <form action="{{ route('newsletter.subscribe') }}" method="POST" id="newsletterForm"
                                 class="needs-validation animate-box animated animate__animated"
                                 data-animate="animate__fadeInRight">
+                                @csrf
                                 <div class="input-container">
-                                    <input type="email" name="newsletter-email" id="newsletter-email"
-                                        placeholder="Give your best email" required>
+                                    <input type="email" name="email" id="newsletter-email"
+                                        placeholder="Give your best email" value="{{ old('email') }}" required>
                                     <p class="error-text hidden"></p>
                                 </div>
                                 <button class="btn btn-accent" type="submit">

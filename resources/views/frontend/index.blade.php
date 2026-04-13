@@ -25,7 +25,7 @@
                         <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated"
                             data-animate="animate__fadeInRight">
                             <p>At Innoversion Technolab, we blend innovation with technology to build powerful, scalable
-                                digital solutions. We don’t just develop software—we partner with you to create smarter
+                                digital solutions. We don’t just develop software we partner with you to create smarter
                                 systems, seamless experiences, and future-ready businesses.</p>
                             <div
                                 class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
@@ -37,20 +37,6 @@
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </div>
                                 </a>
-                                <div class="banner-reviewer">
-                                    <div class="d-flex flex-row align-items-center">
-                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-14.jpg') }}"
-                                            alt="Reviewer" class="avatar">
-                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-1.jpg') }}"
-                                            alt="Reviewer" class="avatar">
-                                        <img src="{{ asset('https://html.foxcreation.net/image/Photo-2.jpg') }}"
-                                            alt="Reviewer" class="avatar">
-                                    </div>
-                                    <div class="detail">
-                                        <span>550+ Positive</span>
-                                        <span>Reviews</span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -73,9 +59,10 @@
                                 <div class="card-expertise-wrapper">
                                     <div class="card card-expertise  animate-box animated animate__animated"
                                         data-animate="animate__fadeInDown">
-                                        <h4>Ready to Elevate Your Digital Presence?</h4>
-                                        <p>Build smarter, scale faster, and lead your industry with powerful digital
-                                            solutions crafted by experts.</p>
+                                        <h4>Ready to Build Powerful Software Solutions?</h4>
+                                        <p>Transform your ideas into scalable, high-performance software with a team that
+                                            understands business, technology, and growth.
+                                        </p>
                                         <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
                                             <a href="{{ route('contact') }}">Get Free Consultation</a>
                                             <i class="fa-solid fa-circle-arrow-right"></i>
@@ -94,9 +81,11 @@
                         <span>Our Expertise</span>
                     </div>
                     <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
-                        Innovation-Driven Solutions, Measurable Results</h2>
-                    <p>We don’t just build software we create strategic digital ecosystems that help businesses grow,
-                        adapt, and dominate in a competitive market.</p>
+                        End-to-End Software Solutions That Drive Real Business Growth</h2>
+                    <p>Innoversion Technolab, we specialize in building custom software solutions that solve real business
+                        challenges. From startups to enterprises, we design, develop, and deliver scalable systems that
+                        improve efficiency, automate processes, and accelerate growth in a rapidly evolving digital
+                        landscape.</p>
                     <div class="d-flex flex-column flex-md-row gspace-2">
                         <div class="expertise-list">
                             <h5>What We Do Best</h5>
@@ -106,20 +95,22 @@
                                 <li><a href="{{ route('single.services') }}">UI/UX Design</a></li>
                                 <li><a href="{{ route('single.services') }}">DevOps & Cloud Engineering</a></li>
                                 <li><a href="{{ route('single.services') }}">E-commerce Solutions</a></li>
-                                <li><a href="{{ route('single.services') }}">Digital Marketing & SEO</a></li>
+                                <li><a href="{{ route('single.services') }}">Software Maintenance & Support</a></li>
                             </ul>
                         </div>
                         <div class="card card-expertise card-expertise-counter animate-box animated animate__animated"
                             data-animate="animate__fadeInUp">
                             <div class="d-flex flex-row gspace-2 align-items-center">
                                 <div class="d-flex flex-row align-items-center">
-                                    <span class="counter" data-target="10">10</span>
+                                    <span class="counter" data-target="15">15</span>
                                     <span class="counter-detail">+</span>
                                 </div>
-                                <h6>Years of Experience in Digital Solutions</h6>
+                                <h6>Years of Experience in Software Development</h6>
                             </div>
-                            <p>Delivering innovative, scalable, and result-driven technology solutions that empower
-                                businesses to grow, adapt, and succeed in a competitive digital world.</p>
+                            <p>We build secure, scalable, and high-performing software systems tailored to business needs.
+                                Our solutions help companies streamline operations, enhance user experience, and achieve
+                                long-term digital success.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -306,7 +297,7 @@
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Data-Driven Approach</h4>
+                                <h4 class="chooseus-title">Scalable Software Architecture</h4>
                                 <p>We use real-time data, analytics, and user insights to guide every decision. This ensures
                                     smarter strategies, optimized performance, and measurable business growth.
                                 </p>
@@ -329,10 +320,9 @@
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Creative & Innovative Solutions</h4>
-                                <p>We blend creativity with modern technology to build user-friendly, scalable, and
-                                    future-ready solutions. Our focus is on delivering unique digital experiences that stand
-                                    out.</p>
+                                <h4 class="chooseus-title">Custom Software Development</h4>
+                                <p>Every business is unique — that’s why we create fully customized software solutions
+                                    tailored to your workflows, goals, and industry requirements.</p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
@@ -352,9 +342,9 @@
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Transparent Reporting</h4>
-                                <p>We maintain clear communication with regular updates and detailed reporting. You stay
-                                    informed at every step with complete visibility and confidence.</p>
+                                <h4 class="chooseus-title">Agile Development & Transparency</h4>
+                                <p>Our agile approach ensures faster delivery, flexibility, and complete transparency with
+                                    regular updates, clear communication, and milestone tracking.</p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
@@ -374,12 +364,10 @@
                             <h2 class="title-heading  animate-box animated animate__animated"
                                 data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
                             <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">
-                                Innoversion Technolab, we deliver scalable, high-performance software solutions that drive
-                                business growth and efficiency.
-                                We partner with startups and enterprises to build custom web, mobile, and software solutions
-                                tailored to real business needs.
-                                By combining innovation, strategy, and technology, we create impactful digital products that
-                                deliver measurable results.</p>
+                                Innoversion Technolab, we specialize in delivering high-quality, scalable software solutions
+                                tailored to modern business needs. From custom applications to enterprise systems, we help
+                                organizations streamline operations, enhance user experiences, and achieve long-term growth
+                                through reliable technology.</p>
                         </div>
                         <div class="image-container">
                             <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-5EHBQRG-1024x683.jpg"
@@ -785,7 +773,7 @@
                                                 <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                             </div>
                                             <p class="testimonial-description">
-                                                â€œ{!! $testimonial->description !!}â€
+                                                {!! $testimonial->description !!}
                                             </p>
                                         </div>
                                     </div>
@@ -1094,22 +1082,26 @@
                                 business future-ready.
                             </p>
                         </div>
-                        <div id="newsletter-success" class="alert success hidden">
+                        <div id="newsletter-success"
+                            class="alert success {{ session('newsletter_success') ? '' : 'hidden' }}">
                             <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
-                            <p class="text-center">Thank you! Form submitted successfully.</p>
+                            <p class="text-center">
+                                {{ session('newsletter_success', 'Thank you! Form submitted successfully.') }}</p>
                         </div>
 
-                        <div id="newsletter-error" class="alert error hidden">
+                        <div id="newsletter-error" class="alert error {{ session('newsletter_error') ? '' : 'hidden' }}">
                             <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
-                            <p class="text-center">Oops! Form submission failed. Please try again.</p>
+                            <p class="text-center">
+                                {{ session('newsletter_error', 'Oops! Form submission failed. Please try again.') }}</p>
                         </div>
 
-                        <form action="./php/newsletter_process.php" method="POST" id="newsletterForm"
+                        <form action="{{ route('newsletter.subscribe') }}" method="POST" id="newsletterForm"
                             class="needs-validation animate-box animated animate__animated"
                             data-animate="animate__fadeInRight">
+                            @csrf
                             <div class="input-container">
-                                <input type="email" name="newsletter-email" id="newsletter-email"
-                                    placeholder="Give your best email" required>
+                                <input type="email" name="email" id="newsletter-email"
+                                    placeholder="Give your best email" value="{{ old('email') }}" required>
                                 <p class="error-text hidden"></p>
                             </div>
                             <button class="btn btn-accent" type="submit">

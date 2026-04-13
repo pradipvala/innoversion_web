@@ -29,6 +29,7 @@ Route::get('/auto-pulse', [HomeController::class, 'autoPulse'])->name('auto.puls
 // // Contact Form Routes
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
 Route::post('/contact', [HomeController::class, 'submitContact'])->name('contact.submit');
+Route::post('/newsletter-subscribe', [HomeController::class, 'submitNewsletter'])->name('newsletter.subscribe');
 
 // Recruitment Routes
 Route::post('/recruitment/apply', [HomeController::class, 'submitRecruitmentApplication'])->name('recruitment.apply');
