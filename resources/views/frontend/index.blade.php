@@ -675,7 +675,7 @@
     <div class="section">
         <div class="hero-container">
             <div class="d-flex flex-column gspace-5">
-                <div class="d-flex flex-column flex-xl-row gspace-5">
+                {{--  <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="testimonial-reviewer-container">
                         <div class="testimonial-header-wrapper animate-box animated fast animate__animated"
                             data-animate="animate__fadeInDown">
@@ -743,7 +743,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  --}}
                 <div class="d-flex flex-column">
                     <div class="overflow-hidden">
                         <div class="swiper swiperTestimonial">
@@ -1101,7 +1101,7 @@
                             @csrf
                             <div class="input-container">
                                 <input type="email" name="email" id="newsletter-email"
-                                    placeholder="Give your best email" value="{{ old('email') }}" required>
+                                    placeholder="enter your email" value="{{ old('email') }}" required>
                                 <p class="error-text hidden"></p>
                             </div>
                             <button class="btn btn-accent" type="submit">

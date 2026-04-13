@@ -72,13 +72,13 @@
                                 </div>
                             </a>
                             <div class="divd"></div>
-                            <div class="sec-h">Careers</div>
+                            {{--  <div class="sec-h">Careers</div>
                             <a href="{{ route('open-positions') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Open Positions</b></div>
                                     <div class="ds">See current job openings</div>
                                 </div>
-                            </a>
+                            </a>  --}}
 
                             {{-- <div class="divd"></div> --}}
                         </ul>
@@ -362,6 +362,11 @@
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
                             href="{{ route('contact') }}">Contact Us</a>
+                    </li>
+                    <!-- CAREER -->
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->routeIs('open-positions') ? 'active' : '' }}"
+                            href="{{ route('open-positions') }}">Careers</a>
                     </li>
                 </ul>
             </div>

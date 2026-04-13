@@ -84,19 +84,20 @@
                     </div>
                     <div class="col col-xl-7">
 
-                        <div id="success-message" class="alert success {{ session('success') ? '' : 'hidden' }}">
+                        <div id="success-message"
+                            class="alert success bg-success  {{ session('success') ? '' : 'hidden' }}">
                             <i class="fa-solid fa-2xl fa-check"></i>
                             <p>{{ session('success') ?: 'Thank you! Form submitted successfully.' }}</p>
                         </div>
 
-                        <div id="error-message" class="alert error {{ $errors->any() ? '' : 'hidden' }}">
+                        <div id="error-message" class="alert error bg-danger {{ $errors->any() ? '' : 'hidden' }}">
                             <i class="fa-solid fa-2xl fa-xmark"></i>
                             <p>{{ $errors->first('error') ?: 'Oops! Form submission failed. Please try again.' }}</p>
                         </div>
 
                         <div class="form-layout-wrapper">
                             <div class="card form-layout">
-                                <h3 class="title-heading">Let's Talk About Your Next Project</h3>
+                                <h3 class="title-heading">Let's Talk About Solutions</h3>
                                 <form action="{{ route('contact.submit') }}" method="post" id="contactForm" class="form">
                                     @csrf
                                     <div class="row row-cols-md-2 row-cols-1 g-3">

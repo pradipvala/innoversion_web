@@ -119,7 +119,8 @@
                                                         </div>
                                                         <div class="d-flex flex-column">
                                                             <span class="profile-name">{!! $testimonial->name !!}</span>
-                                                            <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}</p>
+                                                            <p class="profile-info">
+                                                                {{ $testimonial->position ?? 'Founder' }}</p>
                                                         </div>
                                                     </div>
                                                     <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
@@ -152,14 +153,18 @@
                                 <p>Get exclusive insights, trends, and strategies delivered straight to your inbox.
                                     Subscribe now!</p>
                             </div>
-                            <div id="newsletter-success" class="alert success {{ session('newsletter_success') ? '' : 'hidden' }}">
+                            <div id="newsletter-success"
+                                class="alert success {{ session('newsletter_success') ? '' : 'hidden' }}">
                                 <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
-                                <p class="text-center">{{ session('newsletter_success', 'Thank you! Form submitted successfully.') }}</p>
+                                <p class="text-center">
+                                    {{ session('newsletter_success', 'Thank you! Form submitted successfully.') }}</p>
                             </div>
 
-                            <div id="newsletter-error" class="alert error {{ session('newsletter_error') ? '' : 'hidden' }}">
+                            <div id="newsletter-error"
+                                class="alert error {{ session('newsletter_error') ? '' : 'hidden' }}">
                                 <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
-                                <p class="text-center">{{ session('newsletter_error', 'Oops! Form submission failed. Please try again.') }}</p>
+                                <p class="text-center">
+                                    {{ session('newsletter_error', 'Oops! Form submission failed. Please try again.') }}</p>
                             </div>
 
                             <form action="{{ route('newsletter.subscribe') }}" method="POST" id="newsletterForm"

@@ -20,7 +20,6 @@ use App\Models\Recruitment;
 use App\Models\Recruitu;
 use App\Models\Sletter;
 use App\Models\TeamMember;
-use App\Models\Whatsapp;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -38,9 +37,7 @@ class HomeController extends Controller
         $services = Services_1::where('status', '1')->get();
         $clients = Client::where('status', '1')->get();
         $testimonials = Testimonial::where('status', '1')->get();
-        $whatsapp = Whatsapp::first();
-        // dd($whatsapp->name);
-        return view('frontend.index', compact('services', 'clients', 'testimonials', 'whatsapp'));
+        return view('frontend.index', compact('services', 'clients', 'testimonials'));
     }
 
     public function about()

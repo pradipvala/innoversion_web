@@ -70,6 +70,12 @@
             <i class="fa-brands fa-whatsapp"></i>
         </a>
     @endif
+
+    <button type="button" href="#" style="font-size:32px;"
+        class="btn btn-danger fa fa-download btn-floating btn-lg contact_us_pdf_download download-float"
+        id="contact_us_pdf_download" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        <!--<i class="fas fa-arrow-down"></i>-->
+    </button>
 </body>
 
 </html>

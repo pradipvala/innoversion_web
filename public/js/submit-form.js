@@ -33,7 +33,7 @@ function initSubmitContact() {
 }
 
 function initSubmitNewsletter() {
-    $('#newsletterForm').on('submit', function(event) {
+    $('#newsletterForm').on('submit', function (event) {
         event.preventDefault();
 
         var $form = $(this);
@@ -65,7 +65,7 @@ function initSubmitNewsletter() {
 
         if (!isValid) {
             $errorMessage.removeClass('hidden');
-            setTimeout(function() {
+            setTimeout(function () {
                 $errorMessage.addClass('hidden');
             }, 3000);
             return;
@@ -75,17 +75,17 @@ function initSubmitNewsletter() {
             url: $form.attr('action'),
             method: 'POST',
             data: $form.serialize(),
-            success: function() {
+            success: function () {
                 $errorMessage.addClass('hidden');
                 $successMessage.removeClass('hidden');
                 $form[0].reset();
                 $errorText.addClass('hidden').text('');
 
-                setTimeout(function() {
+                setTimeout(function () {
                     $successMessage.addClass('hidden');
                 }, 3000);
             },
-            error: function(xhr) {
+            error: function (xhr) {
                 var message = 'Oops! Form submission failed. Please try again.';
 
                 if (xhr.responseJSON && xhr.responseJSON.message) {
@@ -96,7 +96,7 @@ function initSubmitNewsletter() {
                 $errorMessage.removeClass('hidden');
                 $errorMessage.find('p').text(message);
 
-                setTimeout(function() {
+                setTimeout(function () {
                     $errorMessage.addClass('hidden');
                 }, 3000);
             }
