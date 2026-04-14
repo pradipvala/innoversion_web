@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Country;
 use App\Models\Whatsapp;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
@@ -23,11 +24,15 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $whatsapp = null;
+        $countryCodes = [];
 
         if (Schema::hasTable('whatsapp')) {
             $whatsapp = Whatsapp::first();
         }
 
+        $countryCodes = Country::pluck('country_name', 'phonecode')->toArray();
+
         View::share('whatsapp', $whatsapp);
+        View::share('countryCodes', $countryCodes);
     }
 }

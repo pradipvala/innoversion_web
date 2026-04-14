@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
+use Illuminate\Http\Request;
 
 
 // Page Routes
@@ -30,6 +31,15 @@ Route::get('/auto-pulse', [HomeController::class, 'autoPulse'])->name('auto.puls
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
 Route::post('/contact', [HomeController::class, 'submitContact'])->name('contact.submit');
 Route::post('/newsletter-subscribe', [HomeController::class, 'submitNewsletter'])->name('newsletter.subscribe');
+Route::get('/csrf-token', function (Request $request) {
+    $request->session()->regenerateToken();
+
+    return response()->json([
+        'token' => csrf_token(),
+    ]);
+})->name('csrf.token');
+Route::post('/company-profile/download-request', [HomeController::class, 'submitCompanyProfileDownload'])->name('company.profile.download.request');
+Route::post('/save/contact/us', [HomeController::class, 'submitCompanyProfileDownload'])->name('save.contact.us');
 
 // Recruitment Routes
 Route::post('/recruitment/apply', [HomeController::class, 'submitRecruitmentApplication'])->name('recruitment.apply');

@@ -2081,6 +2081,7 @@ body.lightmode .card-partner {
     left: 0;
     background-color: transparent;
     z-index: 2;
+    pointer-events: none;
     background-image: radial-gradient(at center center, var(--accent-transparent) 0%, var(--accent-color-4) 100%);
 }
 
@@ -2090,12 +2091,20 @@ body.lightmode .card-partner {
 
 .swiperPartner-container {
     margin: 0px -100px 0px -100px;
+    position: relative;
+    z-index: 3;
 }
 
 .swiperPartner .swiper-slide {
     width: auto;
     display: flex;
     justify-content: center;
+}
+
+.swiperPartner .swiper-slide>a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
 }
 
 .swiperPartner .partner-slide {

@@ -302,7 +302,7 @@
                             </a>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    {{--  <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Industries <i class="fa-solid fa-angle-down accent-color"></i>
@@ -357,7 +357,7 @@
                                 </div>
                             </a>
                         </ul>
-                    </li>
+                    </li>  --}}
                     <!-- CONTACT -->
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"

@@ -10,6 +10,7 @@ use App\Http\Controllers\Controller;
 use App\Models\AboutUs;
 use App\Models\Blogs;
 use App\Models\Contact;
+use App\Models\Contact1;
 use App\Models\Country;
 use App\Models\Partner;
 use App\Models\Services_1;
@@ -72,9 +73,7 @@ class HomeController extends Controller
 
     public function showContact()
     {
-        $countryCodes = Country::pluck('country_name', 'phonecode')->toArray();
-
-        return view('frontend.pages.contact', compact('countryCodes'));
+        return view('frontend.pages.contact');
     }
 
     public function submitContact(Request $request)
@@ -162,6 +161,40 @@ class HomeController extends Controller
             }
 
             return redirect()->back()->with('newsletter_error', 'Something went wrong. Please try again.')->withInput();
+        }
+    }
+
+    public function submitCompanyProfileDownload(Request $request)
+    {
+        $request->validate([
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'nullable|string|max:255',
+            'contact_email' => 'required|email|max:255',
+            'countryCode' => 'required|string|max:10',
+            'phone_number' => 'required|string|max:20',
+        ]);
+
+        try {
+            (new Contact1())->saveContact($request);
+
+            $details = [
+                'name' => $request->first_name,
+                'email' => $request->contact_email,
+                'phone_number' => $request->phone_number,
+                'contact_email' => $request->contact_email,
+            ];
+
+            // Mail::to($request->contact_email)->send(new ContactFormMail($details));
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Form submitted successfully.',
+            ], 200);
+        } catch (Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'An error occurred. Please try again.',
+            ], 500);
         }
     }
 

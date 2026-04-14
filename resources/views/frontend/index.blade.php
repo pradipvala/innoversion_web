@@ -137,7 +137,7 @@
                 <div class="row row-cols-xl-2 row-cols-1 align-items-center px-5 position-relative z-2">
                     <div class="col">
                         <div class="d-flex flex-column justify-content-start pe-xl-3 pe-0">
-                            <h3 class="title-heading">Powering Success for Multiple Brands</h3>
+                            <h3 class="title-heading">Industries We Work</h3>
                         </div>
                     </div>
                     <div class="col">
@@ -158,118 +158,78 @@
                         <div class="swiper swiperPartner">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="#">
+                                    <a href="{{ route('industry.details', 'healthcare') }}">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-7.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
+                                            <span
+                                                class="partner-logo
+                                                img-fluid"><b>Healthcare</b></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#">
+                                    <a href="{{ route('industry.details', 'education') }}">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-6.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
+                                            <span
+                                                class="partner-logo
+                                                img-fluid"><b>Education</b></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#">
+                                    <a href="{{ route('industry.details', 'finance-banking') }}">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-8.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
+                                            <span
+                                                class="partner-logo
+                                                img-fluid"><b>Finance
+                                                    & Banking</b></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#">
+                                    <a href="{{ route('industry.details', 'manufacturing') }}">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-2.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
+                                            <span
+                                                class="partner-logo
+                                                img-fluid"><b>Manufacturing</b></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#">
+                                    <a href="{{ route('industry.details', 'textile') }}">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-1.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
+                                            <span
+                                                class="partner-logo
+                                                img-fluid"><b>Textile</b></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#">
+                                    <a href="{{ route('industry.details', 'retail-ecommerce') }}">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-3.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
+                                            <span
+                                                class="partner-logo
+                                                img-fluid"><b>E-commerce</b></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#">
+                                    <a href="{{ route('industry.details', 'real-estate') }}">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-5.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
+                                            <span
+                                                class="partner-logo
+                                                img-fluid"><b>Real
+                                                    Estate</b></span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="#">
+                                    <a href="{{ route('industry.details', 'startups') }}">
                                         <div class="partner-slide">
-                                            <img src="{{ asset('image/client-4.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
+                                            <span
+                                                class="partner-logo
+                                                img-fluid"><b>Startups</b></span>
                                         </div>
                                     </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#">
-                                        <div class="partner-slide">
-                                            <img src="{{ asset('image/client-7.png') }}" alt="Client"
-                                                class="partner-logo img-fluid">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="partner-slide">
-                                        <img src="{{ asset('image/client-6.png') }}" alt="Client"
-                                            class="partner-logo img-fluid">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="partner-slide">
-                                        <img src="{{ asset('image/client-8.png') }}" alt="Client"
-                                            class="partner-logo img-fluid">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="partner-slide">
-                                        <img src="{{ asset('image/client-2.png') }}" alt="Client"
-                                            class="partner-logo img-fluid">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="partner-slide">
-                                        <img src="{{ asset('image/client-1.png') }}" alt="Client"
-                                            class="partner-logo img-fluid">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="partner-slide">
-                                        <img src="{{ asset('image/client-3.png') }}" alt="Client"
-                                            class="partner-logo img-fluid">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="partner-slide">
-                                        <img src="{{ asset('image/client-5.png') }}" alt="Client"
-                                            class="partner-logo img-fluid">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="partner-slide">
-                                        <img src="{{ asset('image/client-4.png') }}" alt="Client"
-                                            class="partner-logo img-fluid">
-                                    </div>
                                 </div>
                             </div>
                         </div>
