@@ -125,7 +125,7 @@ function initThemeSwitch() {
             });
         } else {
             $('body').removeClass('lightmode');
-            localStorage.setItem('lightmode', 'inactive');
+            localStorage.removeItem('lightmode');
 
             siteLogos.attr('src', 'image/marko-logo.png');
 
@@ -135,11 +135,6 @@ function initThemeSwitch() {
                 $img.attr('src', src.replace('-dark.png', '.png'));
             });
         }
-
-        const iconClass = lightMode ? 'fa-sun' : 'fa-moon';
-        $('#themeIcon')
-            .removeClass('fa-sun fa-moon')
-            .addClass(iconClass);
     };
 
     updateLogos();
@@ -153,9 +148,14 @@ function initThemeSwitch() {
         subtree: true,
     });
 
-    $(document).off('click.themeSwitch', '#themeSwitch').on('click.themeSwitch', '#themeSwitch', function () {
+    $('#themeSwitch').on('click', function () {
         lightMode = !lightMode;
         updateLogos();
+
+        const iconClass = lightMode ? 'fa-sun' : 'fa-moon';
+        $('#themeIcon')
+            .removeClass('fa-sun fa-moon')
+            .addClass(iconClass);
     });
 }
 
