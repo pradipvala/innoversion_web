@@ -9,10 +9,11 @@ class TechnologyHelper
         return [
             'react' => [
                 'name' => 'React.js',
-                'description' => 'Build dynamic, scalable, and high-performance user interfaces with React.js. We leverage component-based architecture for modern web applications.',
-                'overview' => 'React.js is a powerful JavaScript library for building user interfaces. Maintained by Facebook, it allows developers to create large web applications that can consume data and change over time without reloading the page. Its virtual DOM ensures fast rendering and a smooth user experience.',
-                'features' => ['Component-Based Architecture', 'Virtual DOM for Performance', 'Declarative Views', 'Strong Ecosystem & Community', 'Seamless Integration'],
-                'why_choose' => ['Accelerated Development', 'SEO Friendly', 'Scalable & Flexible', 'Reusable Interactive Components'],
+                'hero_title' => 'Engineering Modern Web Experiences with React.js',
+                'description' => 'We harness the power of React.js to build fast, scalable, and high-performance web applications with exceptional user experiences.',
+                'overview' => 'At Innoversion Technolab, we utilize React.js to develop dynamic, enterprise-grade front-end solutions tailored to modern business needs. Its component-driven architecture enables us to build highly maintainable and scalable applications while ensuring rapid development cycles. With features like virtual DOM and efficient rendering, React.js allows us to deliver seamless, responsive, and interactive user interfaces that enhance engagement and performance.',
+                'features' => ['Component-Driven Architecture', 'High-Performance Virtual DOM', 'Reusable & Maintainable Components', 'Robust Ecosystem & Community Support', 'Seamless API & Backend Integration'],
+                'why_choose' => ['Accelerated Development & Time-to-Market', 'Highly Scalable & Flexible Solutions', 'Optimized Performance & Speed', 'Rich, Interactive User Interfaces'],
             ],
             'vue' => [
                 'name' => 'Vue.js',

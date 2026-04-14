@@ -7,7 +7,8 @@
             <div class="banner-layout-wrapper">
                 <div class="banner-layout">
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
-                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">{{ $technology['name'] }}</h2>
+                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                            {{ $technology['name'] }}</h2>
                         <nav class="breadcrumb">
                             <a href="{{ route('home') }}" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
@@ -18,23 +19,28 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Section Details -->
         <div class="section pb-4">
             <div class="hero-container">
                 <div class="d-flex flex-column gspace-5">
                     <div class="image-container">
-                        <img src="{{ asset('image/tech-banner.png') }}" alt="{{ $technology['name'] }} Banner" class="single-service-img">
+                        <img src="{{ asset('image/tech-banner.png') }}" alt="{{ $technology['name'] }} Banner"
+                            class="single-service-img">
                         <div class="single-service-title-layout">
                             <div class="">
                                 <div class="single-service-spacer"></div>
                                 <div class="single-service-title-wrapper">
                                     <div class="single-service-title">
-                                        <div class="sub-heading animate-box animated slow animate__animated" data-animate="animate__fadeInRight">
+                                        <div class="sub-heading animate-box animated slow animate__animated"
+                                            data-animate="animate__fadeInRight">
                                             <i class="fa-regular fa-circle-dot"></i>
                                             <span>Technology Spotlight</span>
                                         </div>
-                                        <h3 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Powering The Future With {{ $technology['name'] }}</h3>
+                                        <h3 class="title-heading animate-box animated animate__animated"
+                                            data-animate="animate__fadeInRight">
+                                            {{ $technology['hero_title'] ?? 'Powering The Future With ' . $technology['name'] }}
+                                        </h3>
                                         <p>{{ $technology['description'] }}</p>
                                     </div>
                                 </div>
@@ -50,22 +56,22 @@
                                 <p>
                                     {{ $technology['overview'] }}
                                 </p>
-                                
+
                                 <div class="card service-included">
                                     <h4>Key Features</h4>
                                     <div class="underline-accent-short"></div>
                                     <div class="row row-cols-md-2 row-cols-1 grid-spacer-2 mt-4">
                                         <div class="col">
                                             <ul class="check-list">
-                                                @foreach(array_slice($technology['features'], 0, ceil(count($technology['features'])/2)) as $feature)
-                                                <li>{{ $feature }}</li>
+                                                @foreach (array_slice($technology['features'], 0, ceil(count($technology['features']) / 2)) as $feature)
+                                                    <li>{{ $feature }}</li>
                                                 @endforeach
                                             </ul>
                                         </div>
                                         <div class="col">
                                             <ul class="check-list">
-                                                @foreach(array_slice($technology['features'], ceil(count($technology['features'])/2)) as $feature)
-                                                <li>{{ $feature }}</li>
+                                                @foreach (array_slice($technology['features'], ceil(count($technology['features']) / 2)) as $feature)
+                                                    <li>{{ $feature }}</li>
                                                 @endforeach
                                             </ul>
                                         </div>
@@ -76,25 +82,27 @@
                                 <div class="row row-cols-2 mt-2">
                                     <div class="col-12 col-md-6">
                                         <div class="d-flex flex-column gspace-2">
-                                            @foreach(array_slice($technology['why_choose'], 0, ceil(count($technology['why_choose'])/2)) as $why)
-                                            <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
-                                                <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
-                                                <div class="d-flex flex-column gspace-0">
-                                                    <h5>{{ $why }}</h5>
+                                            @foreach (array_slice($technology['why_choose'], 0, ceil(count($technology['why_choose']) / 2)) as $why)
+                                                <div
+                                                    class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
+                                                    <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
+                                                    <div class="d-flex flex-column gspace-0">
+                                                        <h5>{{ $why }}</h5>
+                                                    </div>
                                                 </div>
-                                            </div>
                                             @endforeach
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <div class="d-flex flex-column gspace-2">
-                                            @foreach(array_slice($technology['why_choose'], ceil(count($technology['why_choose'])/2)) as $why)
-                                            <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
-                                                <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
-                                                <div class="d-flex flex-column gspace-0">
-                                                    <h5>{{ $why }}</h5>
+                                            @foreach (array_slice($technology['why_choose'], ceil(count($technology['why_choose']) / 2)) as $why)
+                                                <div
+                                                    class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
+                                                    <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
+                                                    <div class="d-flex flex-column gspace-0">
+                                                        <h5>{{ $why }}</h5>
+                                                    </div>
                                                 </div>
-                                            </div>
                                             @endforeach
                                         </div>
                                     </div>
@@ -119,7 +127,8 @@
                                     <div class="spacer"></div>
                                     <h3 class="title-heading">Transform Your Business with Marko!</h3>
                                     <p>
-                                        Take your digital transformation to the next level with data-driven strategies and innovative tech stacks. Let's create something amazing together!
+                                        Take your digital transformation to the next level with data-driven strategies and
+                                        innovative tech stacks. Let's create something amazing together!
                                     </p>
                                     <div class="link-wrapper">
                                         <a href="{{ route('about') }}">Read More</a>
@@ -132,6 +141,6 @@
                 </div>
             </div>
         </div>
-        
+
     </main>
 @endsection
