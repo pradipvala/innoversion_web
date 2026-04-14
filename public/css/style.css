@@ -1564,11 +1564,29 @@ body.lightmode .navbar-icon-wrapper {
     width: 90%;
 }
 
+/* .logo-container .site-logo,
+.footer-logo-container .site-logo,
+.sidebar .site-logo {
+    display: block;
+    width: clamp(150px, 14vw, 220px);
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+} */
+
 .logo-container-footer {
     max-width: 60%;
     width: 100%;
     height: 100%;
 }
+
+/* .logo-container-footer .site-logo {
+    display: block;
+    width: clamp(140px, 12vw, 200px);
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+} */
 
 /* ================== 18. Sidebar Overlay ================== */
 
@@ -4245,12 +4263,26 @@ body.lightmode .cta-service-banner::before {
     position: relative;
     display: flex;
     flex-direction: row;
-    align-items: start;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.75rem;
     font-size: var(--font-size-base);
     font-weight: 500;
     margin-bottom: 15px;
     color: var(--primary);
+}
+
+.contact-list-icon {
+    width: 1.25rem;
+    min-width: 1.25rem;
+    margin-top: 0.2rem;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.contact-list-text {
+    display: block;
+    line-height: 1.6;
 }
 
 .contact-list li:last-child {
@@ -4749,6 +4781,12 @@ body.lightmode .cta-service-banner::before {
         width: 60%;
     }
 
+    /* .logo-container .site-logo,
+    .footer-logo-container .site-logo,
+    .sidebar .site-logo {
+        width: 160px;
+    } */
+
     .logo-footer {
         max-width: 20%;
     }
@@ -5073,6 +5111,12 @@ body.lightmode .cta-service-banner::before {
         width: 80%;
     }
 
+    /* .logo-container .site-logo,
+    .footer-logo-container .site-logo,
+    .sidebar .site-logo {
+        width: 140px;
+    } */
+
     .logo-footer {
         max-width: 50%;
     }
@@ -5351,7 +5395,8 @@ body.lightmode .cta-service-banner::before {
     }
 
     .contact-list li {
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
         font-size: var(--font-size-xs);
     }
 

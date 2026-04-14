@@ -19,14 +19,15 @@
             <div class="hero-container position-relative">
                 <div class="d-flex flex-column gspace-2">
                     <h1 class="title-heading-banner animate-box animated animate__animated"
-                        data-animate="animate__fadeInLeft">Innovating Today. Transforming </br> Tomorrow.</h1>
+                        data-animate="animate__fadeInLeft">Enabling Technology with every aspects of Business.</h1>
                     <div class="banner-heading">
 
                         <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated"
                             data-animate="animate__fadeInRight">
                             <p>At Innoversion Technolab, we blend innovation with technology to build powerful, scalable
-                                digital solutions. We don’t just develop software we partner with you to create smarter
-                                systems, seamless experiences, and future-ready businesses.</p>
+                                digital solutions.We don't just develop, we enable technologies which help business to save
+                                time & energy.
+                            </p>
                             <div
                                 class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
                                 <a href="{{ route('contact') }}" class="btn btn-accent">
@@ -136,7 +137,7 @@
                 <div class="row row-cols-xl-2 row-cols-1 align-items-center px-5 position-relative z-2">
                     <div class="col">
                         <div class="d-flex flex-column justify-content-start pe-xl-3 pe-0">
-                            <h3 class="title-heading">Powering Success for Top Brands</h3>
+                            <h3 class="title-heading">Powering Success for Multiple Brands</h3>
                         </div>
                     </div>
                     <div class="col">
@@ -297,9 +298,8 @@
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Scalable Software Architecture</h4>
-                                <p>We use real-time data, analytics, and user insights to guide every decision. This ensures
-                                    smarter strategies, optimized performance, and measurable business growth.
+                                <h4 class="chooseus-title">We provide consistency</h4>
+                                <p>We Provide Consistency Maintain Transparency
                                 </p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
@@ -320,7 +320,7 @@
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Custom Software Development</h4>
+                                <h4 class="chooseus-title">Maintain Transparency</h4>
                                 <p>Every business is unique — that’s why we create fully customized software solutions
                                     tailored to your workflows, goals, and industry requirements.</p>
                                 <div class="link-wrapper">
