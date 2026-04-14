@@ -14,8 +14,9 @@
                                 </div>
                                 {{--  <h4>Driving Digital Growth with Innovation & Strategy</h4>  --}}
                                 <p>
-                                    Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec
-                                    ullamcorper mattis pulvinar dapibus leo.
+                                    We deliver innovative and reliable software solutions that empower businesses to
+                                    grow digitally. From web and mobile development to AI and branding, we turn ideas
+                                    into powerful digital experiences.
                                 </p>
                             </div>
                         </div>
@@ -28,6 +29,7 @@
                                     <li><a href="{{ route('services') }}">Service</a></li>
                                     <li><a href="{{ route('case-studies') }}">Case Studies</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('open-positions') }}">Careers</a></li>
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </div>
@@ -53,18 +55,17 @@
                                 <ul class="contact-list">
                                     <li>
                                         <i class="fa-solid fa-envelope contact-list-icon"></i>
-                                        <a href="mailto:info@innoversiontechnolab.com"
-                                            class="contact-list-text text-dark">info@innoversiontechnolab.com</a>
+                                        <a href="mailto:info@innoversiontechnolab.com">info@innoversiontechnolab.com</a>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-phone contact-list-icon"></i>
-                                        <a href="tel:+919687350999" class="contact-list-text text-dark">+91
+                                        <a href="tel:+919687350999">+91
                                             9687350999</a>
                                     </li>
                                     <li>
-                                        <i class="fa-solid fa-location-dot contact-list-icon text-dark"></i>
+                                        <i class="fa-solid fa-location-dot contact-list-icon"></i>
                                         <a href="https://maps.google.com/?q=Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri Nagar, Dharam Nagar Society, Rajkot, Gujarat 360006"
-                                            class="contact-list-text text-dark" target="_blank">Office no.1304, Rk World
+                                            target="_blank">Office no.1304, Rk World
                                             Tower,
                                             150 Feet Ring
                                             Rd, near Sheetal Park, Shastri

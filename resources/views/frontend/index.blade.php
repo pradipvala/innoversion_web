@@ -6,15 +6,16 @@
     <div class="section-banner">
         <div class="banner-video-container keep-dark animate-box animated animate__animated animate__fadeInUp"
             data-animate="animate__fadeInUp" style="opacity: 1;">
-            <iframe id="banner-video-background" frameborder="0" allowfullscreen
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" title="Marko Video Background"
-                src="https://www.youtube.com/embed/P68V3iH4TeE?autoplay=1&controls=0&mute=1&loop=1&playlist=P68V3iH4TeE&showinfo=0&rel=0&enablejsapi=1&disablekb=1&modestbranding=1&iv_load_policy=3"></iframe>
-
             {{--  <iframe id="banner-video-background" frameborder="0" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" title="Marko Video Background"
-                src="{{ asset('image/innoversion-video2.webm') }}"></iframe>  --}}
+                src="https://www.youtube.com/embed/P68V3iH4TeE?autoplay=1&controls=0&mute=1&loop=1&playlist=P68V3iH4TeE&showinfo=0&rel=0&enablejsapi=1&disablekb=1&modestbranding=1&iv_load_policy=3"></iframe>  --}}
+
+            <video id="banner-video-background" autoplay muted loop playsinline webkit-playsinline preload="auto"
+                disablepictureinpicture controlslist="nodownload noplaybackrate noremoteplayback"
+                aria-label="Innoversion Video Background">
+                <source src="{{ asset('image/innoversion-video.webm') }}" type="video/webm">
+            </video>
 
             <div class="hero-container position-relative">
                 <div class="d-flex flex-column gspace-2">
@@ -162,7 +163,7 @@
                                         <div class="partner-slide">
                                             <span
                                                 class="partner-logo
-                                                img-fluid"><b>Healthcare</b></span>
+                                                img-fluid "><b>Healthcare</b></span>
                                         </div>
                                     </a>
                                 </div>
@@ -259,7 +260,9 @@
                             </div>
                             <div class="chooseus-content">
                                 <h4 class="chooseus-title">We provide consistency</h4>
-                                <p>We Provide Consistency Maintain Transparency
+                                <p>We deliver stable, reliable, and high-performing digital solutions backed by continuous
+                                    support and monitoring. Our team ensures consistent quality, seamless performance, and
+                                    long-term reliability so your business runs smoothly without interruptions.
                                 </p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
@@ -281,8 +284,9 @@
                             </div>
                             <div class="chooseus-content">
                                 <h4 class="chooseus-title">Maintain Transparency</h4>
-                                <p>Every business is unique — that’s why we create fully customized software solutions
-                                    tailored to your workflows, goals, and industry requirements.</p>
+                                <p>We believe in clear communication and complete visibility at every stage of your project.
+                                    From planning to delivery, we keep you informed with regular updates, honest timelines,
+                                    and no hidden surprises.</p>
                                 <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
@@ -771,7 +775,7 @@
                                     efficiency, and long-term success.
                                 </p>
                                 <div class="link-wrapper">
-                                    <a href="./contact.html">Get Started Now</a>
+                                    <a href="{{ route('contact') }}">Get Started Now</a>
                                     <i class="fa-solid fa-arrow-circle-right"></i>
                                 </div>
                             </div>
@@ -1061,7 +1065,7 @@
                             @csrf
                             <div class="input-container">
                                 <input type="email" name="email" id="newsletter-email"
-                                    placeholder="enter your email" value="{{ old('email') }}" required>
+                                    placeholder="Enter your email" value="{{ old('email') }}" required>
                                 <p class="error-text hidden"></p>
                             </div>
                             <button class="btn btn-accent" type="submit">

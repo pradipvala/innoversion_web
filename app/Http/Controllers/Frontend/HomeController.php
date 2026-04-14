@@ -178,13 +178,16 @@ class HomeController extends Controller
             (new Contact1())->saveContact($request);
 
             $details = [
-                'name' => $request->first_name,
-                'email' => $request->contact_email,
+                'first_name' => $request->first_name,
+                'last_name' => $request->last_name,
+                'name' => trim($request->first_name . ' ' . ($request->last_name ?? '')),
                 'phone_number' => $request->phone_number,
                 'contact_email' => $request->contact_email,
+                'countryCode' => $request->countryCode,
             ];
 
-            // Mail::to($request->contact_email)->send(new ContactFormMail($details));
+            $receiver = env('CONTACT_FORM_RECEIVER', 'mohit@innoversiontechnolab.com');
+            Mail::to($receiver)->send(new ContactFormMail($details));
 
             return response()->json([
                 'success' => true,

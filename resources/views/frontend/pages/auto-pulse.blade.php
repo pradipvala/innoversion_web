@@ -91,7 +91,6 @@
             line-height: 0.9;
             letter-spacing: -2px;
             text-transform: uppercase;
-            color: white;
             position: relative;
             margin: 0;
         }
@@ -152,8 +151,6 @@
         }
 
         .ap-main .btn-outline {
-            background: transparent;
-            color: white;
             padding: 0.85rem 2.5rem;
             border-radius: 4px;
             font-weight: 600;
@@ -161,13 +158,12 @@
             text-transform: uppercase;
             text-decoration: none;
             font-size: 0.9rem;
-            border: 2px solid rgba(255, 255, 255, 0.3);
             transition: all 0.2s;
         }
 
         .ap-main .btn-outline:hover {
-            border-color: white;
-            color: white;
+            border-color: red;
+            color: red;
         }
 
         .ap-main .hero-stats {
@@ -227,7 +223,6 @@
             text-transform: uppercase;
             line-height: 1;
             margin-bottom: 1.2rem;
-            color: white;
             margin-top: 0;
         }
 
@@ -278,22 +273,49 @@
         }
 
         .ap-main .brand-pill {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border);
-            padding: 0.5rem 1.2rem;
-            border-radius: 3px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: var(--muted);
-            letter-spacing: 1px;
-            text-transform: uppercase;
+            background: rgba(255, 255, 255, 0.96);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            width: 94px;
+            height: 94px;
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #1f2937;
             transition: all 0.2s;
+            padding: 14px;
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
         }
 
         .ap-main .brand-pill:hover {
-            color: white;
-            border-color: rgba(255, 255, 255, 0.3);
-            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(226, 1, 15, 0.35);
+            background: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .ap-main .brand-pill i {
+            font-size: 1.15rem;
+        }
+
+        .ap-main .brand-logo {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+            filter: none;
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .ap-main .brand-pill {
+                width: 76px;
+                height: 76px;
+                padding: 10px;
+            }
+
+            .ap-main .brand-logo {
+                width: 50px;
+                height: 50px;
+            }
         }
 
         /* FEATURES GRID */
@@ -351,7 +373,6 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 0.5rem;
-            color: white;
             margin-top: 0;
         }
 
@@ -407,7 +428,6 @@
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
-            color: white;
             margin-top: 0.3rem;
         }
 
@@ -544,7 +564,6 @@
         .ap-main .report-name {
             font-size: 0.88rem;
             font-weight: 600;
-            color: white;
             margin: 0;
         }
 
@@ -569,7 +588,6 @@
             font-weight: 900;
             text-transform: uppercase;
             position: relative;
-            color: white;
             margin-top: 1rem;
             margin-bottom: 0.5rem;
             line-height: 1.1;
@@ -691,28 +709,56 @@
         <div class="brand-section">
             <div class="brand-strip-title">Works Seamlessly with Top Brands</div>
             <div class="brands-grid">
-                {{--  <span class="brand-pill"><img src="{{ route(asset('images/brands/nissan.png')) }}" alt="NISSAN"></span>  --}}
-                <span class="brand-pill">ISUZU</span>
-                <span class="brand-pill">NISSAN</span>
-                <span class="brand-pill">BMW</span>
-                <span class="brand-pill">LAND ROVER</span>
-                <span class="brand-pill">CITROËN</span>
-                <span class="brand-pill">HYUNDAI</span>
-                <span class="brand-pill">JEEP</span>
-                <span class="brand-pill">VOLVO</span>
-                <span class="brand-pill">JAGUAR</span>
-                <span class="brand-pill">MG</span>
-                <span class="brand-pill">AUDI</span>
-                <span class="brand-pill">HONDA</span>
-                <span class="brand-pill">RENAULT</span>
-                <span class="brand-pill">MARUTI SUZUKI</span>
-                <span class="brand-pill">KIA</span>
-                <span class="brand-pill">TATA</span>
-                <span class="brand-pill">HERO</span>
-                <span class="brand-pill">TVS</span>
-                <span class="brand-pill">BAJAJ</span>
-                <span class="brand-pill">ROYAL ENFIELD</span>
-                <span class="brand-pill">& Others...</span>
+                <span class="brand-pill" title="ISUZU" aria-label="ISUZU"><img class="brand-logo"
+                        src="{{ asset('image/brands/isuzu.svg') }}" alt="ISUZU logo" loading="lazy"></span>
+                <span class="brand-pill" title="NISSAN" aria-label="NISSAN"><img class="brand-logo"
+                        src="{{ asset('image/brands/nissan.svg') }}" alt="NISSAN logo" loading="lazy"></span>
+                <span class="brand-pill" title="BMW" aria-label="BMW"><img class="brand-logo"
+                        src="{{ asset('image/brands/bmw.svg') }}" alt="BMW logo" loading="lazy"></span>
+                <span class="brand-pill" title="LAND ROVER" aria-label="LAND ROVER"><img class="brand-logo"
+                        src="{{ asset('image/brands/land-rover.svg') }}" alt="LAND ROVER logo" loading="lazy"></span>
+                <span class="brand-pill" title="CITROEN" aria-label="CITROEN"><img class="brand-logo"
+                        src="{{ asset('image/brands/citroen.svg') }}" alt="CITROEN logo" loading="lazy"></span>
+                <span class="brand-pill" title="HYUNDAI" aria-label="HYUNDAI"><img class="brand-logo"
+                        src="{{ asset('image/brands/hyundai.svg') }}" alt="HYUNDAI logo" loading="lazy"></span>
+                <span class="brand-pill" title="JEEP" aria-label="JEEP"><img class="brand-logo"
+                        src="{{ asset('image/brands/jeep.svg') }}" alt="JEEP logo" loading="lazy"></span>
+                <span class="brand-pill" title="VOLVO" aria-label="VOLVO"><img class="brand-logo"
+                        src="{{ asset('image/brands/volvo.svg') }}" alt="VOLVO logo" loading="lazy"></span>
+                <span class="brand-pill" title="JAGUAR" aria-label="JAGUAR"><img class="brand-logo"
+                        src="{{ asset('image/brands/jaguar.svg') }}" alt="JAGUAR logo" loading="lazy"></span>
+                <span class="brand-pill" title="MG" aria-label="MG"><img class="brand-logo"
+                        src="{{ asset('image/brands/mg.svg') }}" alt="MG logo" loading="lazy"></span>
+                <span class="brand-pill" title="AUDI" aria-label="AUDI"><img class="brand-logo"
+                        src="{{ asset('image/brands/audi.svg') }}" alt="AUDI logo" loading="lazy"></span>
+                <span class="brand-pill" title="HONDA" aria-label="HONDA"><img class="brand-logo"
+                        src="{{ asset('image/brands/honda.svg') }}" alt="HONDA logo" loading="lazy"></span>
+                <span class="brand-pill" title="RENAULT" aria-label="RENAULT"><img class="brand-logo"
+                        src="{{ asset('image/brands/renault.svg') }}" alt="RENAULT logo" loading="lazy"></span>
+                <span class="brand-pill" title="MARUTI SUZUKI" aria-label="MARUTI SUZUKI"><img class="brand-logo"
+                        src="{{ asset('image/brands/maruti-suzuki.svg') }}" alt="MARUTI SUZUKI logo"
+                        loading="lazy"></span>
+                <span class="brand-pill" title="KIA" aria-label="KIA"><img class="brand-logo"
+                        src="{{ asset('image/brands/kia.svg') }}" alt="KIA logo" loading="lazy"></span>
+                <span class="brand-pill" title="TATA" aria-label="TATA"><img class="brand-logo"
+                        src="{{ asset('image/brands/tata.svg') }}" alt="TATA logo" loading="lazy"></span>
+                <span class="brand-pill" title="HERO" aria-label="HERO"><img class="brand-logo"
+                        src="{{ asset('image/brands/hero.png') }}" alt="HERO logo" loading="lazy"></span>
+                <span class="brand-pill" title="TVS" aria-label="TVS"><img class="brand-logo"
+                        src="{{ asset('image/brands/tvs.svg') }}" alt="TVS logo" loading="lazy"></span>
+                <span class="brand-pill" title="BAJAJ" aria-label="BAJAJ"><img class="brand-logo"
+                        src="{{ asset('image/brands/bajaj.png') }}" alt="BAJAJ logo" loading="lazy"></span>
+                <span class="brand-pill" title="ROYAL ENFIELD" aria-label="ROYAL ENFIELD"><img class="brand-logo"
+                        src="{{ asset('image/brands/royal-enfield.svg') }}" alt="ROYAL ENFIELD logo"
+                        loading="lazy"></span>
+                <span class="brand-pill" title="Mahindra Private Vehicles" aria-label="Mahindra Private Vehicles"><img
+                        class="brand-logo" src="{{ asset('image/brands/mahindra-private.svg') }}"
+                        alt="Mahindra private vehicles logo" loading="lazy"></span>
+                <span class="brand-pill" title="Mahindra EV" aria-label="Mahindra EV"><img class="brand-logo"
+                        src="{{ asset('image/brands/mahindra-ev.svg') }}" alt="Mahindra EV logo" loading="lazy"></span>
+                <span class="brand-pill" title="Mahindra Commercial" aria-label="Mahindra Commercial"><img
+                        class="brand-logo" src="{{ asset('image/brands/mahindra-commercial.svg') }}"
+                        alt="Mahindra commercial logo" loading="lazy"></span>
             </div>
         </div>
 
@@ -1202,7 +1248,7 @@
         <!-- CTA / CONTACT -->
         <div class="cta-section" id="contact">
             <div class="section-label" style="position:relative;">Contact Us</div>
-            <div class="cta-title" style="color:white;margin:1rem 0 0.5rem;">Ready to Transform<br>Your Dealership?</div>
+            <div class="cta-title" style="margin:1rem 0 0.5rem;">Ready to Transform<br>Your Dealership?</div>
             <p style="color:var(--muted);font-size:1.1rem;margin:1rem auto 2rem;max-width:500px;position:relative;">Contact
                 us today for a free demo and see Auto Pulse in action</p>
             <div class="contact-grid">
