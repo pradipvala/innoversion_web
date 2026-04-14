@@ -57,6 +57,29 @@
                                     {{ $technology['overview'] }}
                                 </p>
 
+                                @if (!empty($technology['included']))
+                                    <div class="card service-included">
+                                        <h4>What's Included</h4>
+                                        <div class="underline-accent-short"></div>
+                                        <div class="row row-cols-md-2 row-cols-1 grid-spacer-2 mt-4">
+                                            <div class="col">
+                                                <ul class="check-list">
+                                                    @foreach (array_slice($technology['included'], 0, ceil(count($technology['included']) / 2)) as $item)
+                                                        <li>{{ $item }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul class="check-list">
+                                                    @foreach (array_slice($technology['included'], ceil(count($technology['included']) / 2)) as $item)
+                                                        <li>{{ $item }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endif
+
                                 <div class="card service-included">
                                     <h4>Key Features</h4>
                                     <div class="underline-accent-short"></div>

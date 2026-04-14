@@ -109,7 +109,6 @@
 
         .ap-main .hero-tagline {
             font-size: 1.4rem;
-            color: rgba(255, 255, 255, 0.85);
             margin: 1rem 0 2.5rem;
             font-weight: 300;
             max-width: 600px;
@@ -117,7 +116,6 @@
         }
 
         .ap-main .hero-tagline strong {
-            color: white;
             font-weight: 600;
         }
 

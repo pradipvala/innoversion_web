@@ -2,8 +2,9 @@
     <nav class="navbar navbar-expand-xl">
         <div class="navbar-container">
             <div class="logo-container">
-                <a class="navbar-brand" href="{{ route('home') }}"><img src="{{ asset('image/marko-logo.png') }}"
-                        class="site-logo img-fluid"></a>
+                <a class="navbar-brand" href="{{ route('home') }}">
+                    <img src="{{ asset('image/marko-logo.png') }}" class="site-logo img-fluid">
+                </a>
             </div>
             <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -244,16 +245,16 @@
                         </a>
                         <ul class="dropdown-menu" style="min-width:295px">
                             <div class="sec-h"><b>Ready-Made Products</b></div>
-                            <a href="javascript:void(0)" class="dl">
-                                <div>
-                                    <div class="dt"><b>HRMS</b></div>
-                                    <div class="ds">HR & Payroll Management System</div>
-                                </div>
-                            </a>
                             <a href="{{ route('auto.pulse') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>AutoPulse</b></div>
                                     <div class="ds">Automobile Showroom ERP</div>
+                                </div>
+                            </a>
+                            {{--  <a href="javascript:void(0)" class="dl">
+                                <div>
+                                    <div class="dt"><b>HRMS</b></div>
+                                    <div class="ds">HR & Payroll Management System</div>
                                 </div>
                             </a>
                             <a href="javascript:void(0)" class="dl">
@@ -299,7 +300,7 @@
                                     <div class="dt"><b>SaaS Applications</b></div>
                                     <div class="ds">Scalable cloud-based software</div>
                                 </div>
-                            </a>
+                            </a>  --}}
                         </ul>
                     </li>
                     {{--  <li class="nav-item dropdown">
