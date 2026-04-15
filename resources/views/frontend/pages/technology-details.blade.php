@@ -148,10 +148,11 @@
                                 </div>
                                 <div class="cta-service-banner">
                                     <div class="spacer"></div>
-                                    <h3 class="title-heading">Transform Your Business with Marko!</h3>
+                                    <h3 class="title-heading">Transform Your Business with Innoversion Technolab</h3>
                                     <p>
-                                        Take your digital transformation to the next level with data-driven strategies and
-                                        innovative tech stacks. Let's create something amazing together!
+                                        Take your business to the next level with smart, scalable, and secure digital
+                                        solutions. We combine innovation and technology to build software that drives real
+                                        results.
                                     </p>
                                     <div class="link-wrapper">
                                         <a href="{{ route('about') }}">Read More</a>
