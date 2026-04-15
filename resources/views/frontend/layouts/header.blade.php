@@ -365,15 +365,15 @@
                             </a>
                         </ul>
                     </li>  --}}
-                    <!-- CONTACT -->
-                    <li class="nav-item">
-                        <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
-                            href="{{ route('contact') }}">Contact Us</a>
-                    </li>
                     <!-- CAREER -->
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('open-positions') ? 'active' : '' }}"
                             href="{{ route('open-positions') }}">Careers</a>
+                    </li>
+                    <!-- CONTACT -->
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
+                            href="{{ route('contact') }}">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -384,10 +384,13 @@
                     </button>
                 </div>
                 <div class="navbar-icon-wrapper">
+
                     <div class="icon-circle">
                         <i class="fa-solid fa-phone-volume"></i>
                     </div>
-                    <h6>+91 9687350999</h6>
+                    <a href="tel:+919687350999">
+                        <h6>+91 9687350999</h6>
+                    </a>
                 </div>
             </div>
         </div>

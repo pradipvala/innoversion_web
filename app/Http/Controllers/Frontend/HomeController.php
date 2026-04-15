@@ -24,8 +24,10 @@ use App\Models\Sletter;
 use App\Models\TeamMember;
 use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Validation\ValidationException;
+use Throwable;
 
 class HomeController extends Controller
 {
@@ -100,7 +102,7 @@ class HomeController extends Controller
         ]);
 
         try {
-            // Store contact
+            // Store contact first; mail failure should not discard this lead.
             $contact = new Contact;
             $contact->first_name = $request->first_name;
             $contact->last_name = $request->last_name;
@@ -111,18 +113,48 @@ class HomeController extends Controller
             $contact->country_code = $request->country_code;
             $contact->save();
 
-            // Mail::to($request->email)->send(new ContactFormMail());
+            $details = [
+                'first_name' => $contact->first_name,
+                'last_name' => $contact->last_name,
+                'contact_email' => $contact->contact_email,
+                'countryCode' => $contact->country_code,
+                'phone_number' => $contact->phone_number,
+                'company_name' => $contact->company_name,
+                'message' => $contact->message,
+            ];
+
+            $mailSent = true;
+            try {
+                $receiver = env('CONTACT_FORM_RECEIVER', config('mail.from.address'));
+                Mail::to($receiver)->send(new ContactFormMail($details));
+            } catch (Throwable $mailException) {
+                $mailSent = false;
+                Log::warning('Contact saved but mail send failed', [
+                    'contact_id' => $contact->id,
+                    'email' => $request->email,
+                    'error' => $mailException->getMessage(),
+                ]);
+            }
 
             // Return JSON response for AJAX
             if ($request->expectsJson()) {
                 return response()->json([
                     'success' => true,
-                    'message' => 'Your message has been sent successfully!',
+                    'message' => $mailSent
+                        ? 'Your message has been sent successfully!'
+                        : 'Your request is submitted successfully. We will contact you soon.',
                 ], 200);
             }
 
-            return redirect()->back()->with('success', 'Your message has been sent successfully!');
-        } catch (Exception $e) {
+            return redirect()->back()->with('success', $mailSent
+                ? 'Your message has been sent successfully!'
+                : 'Your request is submitted successfully. We will contact you soon.');
+        } catch (Throwable $e) {
+            Log::error('Contact form submission failed', [
+                'email' => $request->email,
+                'error' => $e->getMessage(),
+            ]);
+
             if ($request->expectsJson()) {
                 return response()->json([
                     'success' => false,
