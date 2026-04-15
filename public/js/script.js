@@ -105,6 +105,7 @@ function initBannerVideo() {
 function initThemeSwitch() {
     const storedTheme = localStorage.getItem('lightmode');
     let lightMode = storedTheme !== 'inactive';
+    const logoBasePath = `${window.location.origin}/image`;
 
     const updateLogos = () => {
         const siteLogos = $('.site-logo');
@@ -114,7 +115,7 @@ function initThemeSwitch() {
             $('body').addClass('lightmode');
             localStorage.setItem('lightmode', 'active');
 
-            siteLogos.attr('src', 'image/marko-logo-dark.png');
+            siteLogos.attr('src', `${logoBasePath}/marko-logo-dark.png`);
 
             partnerLogos.each(function () {
                 const $img = $(this);
@@ -127,7 +128,7 @@ function initThemeSwitch() {
             $('body').removeClass('lightmode');
             localStorage.removeItem('lightmode');
 
-            siteLogos.attr('src', 'image/marko-logo.png');
+            siteLogos.attr('src', `${logoBasePath}/marko-logo.png`);
 
             partnerLogos.each(function () {
                 const $img = $(this);
