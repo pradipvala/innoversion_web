@@ -157,7 +157,7 @@
                                         <li><a href="{{ route('open-positions') }}">Open Positions</a></li>
                                     </ul>
                                 </div>
-                                <div class="cta-service-banner">
+                                <div class="cta-service-banner cta-service-banner-company-overview">
                                     <div class="spacer"></div>
                                     <h3 class="title-heading">Join Our Journey</h3>
                                     <p>

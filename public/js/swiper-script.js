@@ -1,36 +1,34 @@
-$(function(){
-   var swiperPartner = new Swiper('.swiper.swiperPartner',{
-        autoplay: {
-            delay: 5000,
-        },
-        speed: 1000,
-        slidesPerView: 6,
-        spaceBetween: 20,
-        loop: true,
-        hasNavigation: true,
-        grabCursor: true,
-        breakpoints: {
-            1025: {
-                slidesPerView: 6
+$(function () {
+    $('.swiper.swiperPartner').each(function () {
+        new Swiper(this, {
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: false,
             },
-            767: {
-                slidesPerView: 4
-            },
-            230: {
-                slidesPerView: 3
+            speed: 1000,
+            slidesPerView: 6,
+            spaceBetween: 20,
+            loop: true,
+            hasNavigation: true,
+            grabCursor: true,
+            breakpoints: {
+                1025: {
+                    slidesPerView: 6
+                },
+                767: {
+                    slidesPerView: 4
+                },
+                230: {
+                    slidesPerView: 3
+                }
             }
-        },
-        pagination: {
-        enabled: true,
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
-        },
-   });
+        });
+    });
 });
 
-$(function(){
-    var swiperTestimonial = new Swiper('.swiper.swiperTestimonial',{
+$(function () {
+    var swiperTestimonial = new Swiper('.swiper.swiperTestimonial', {
         autoplay: {
             delay: 5000,
         },
@@ -41,10 +39,10 @@ $(function(){
         hasNavigation: true,
         grabCursor: true,
         breakpoints: {
-            1025:{
+            1025: {
                 slidesPerView: 3,
             },
-            769:{
+            769: {
                 slidesPerView: 2
             },
             319: {

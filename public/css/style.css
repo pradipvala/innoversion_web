@@ -4174,6 +4174,18 @@ body.lightmode .accordion-button:not(.collapsed)::after {
     z-index: 1;
 }
 
+.cta-service-banner-company-overview {
+    background-image: url('../image/company-overview-real.jpg');
+}
+
+.cta-service-banner-our-process {
+    background-image: url('../image/tech-banner.png');
+}
+
+.cta-service-banner-life-company {
+    background-image: url('../image/company-overview-real.png');
+}
+
 body.lightmode .cta-service-banner {
     border: 1px solid var(--accent-color-3);
 }

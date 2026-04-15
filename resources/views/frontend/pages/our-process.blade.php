@@ -23,8 +23,8 @@
             <div class="hero-container">
                 <div class="d-flex flex-column gspace-5">
                     <div class="image-container">
-                        <img src="{{ asset('image/company-overview-real.jpg') }}" alt="Our Process Banner"
-                            class="single-service-img" style="object-fit: cover;">
+                        <img src="{{ asset('image/tech-banner.png') }}" alt="Our Process Banner" class="single-service-img"
+                            style="object-fit: cover;">
                         <div class="single-service-title-layout">
                             <div>
                                 <div class="single-service-spacer"></div>
@@ -51,94 +51,111 @@
 
                     <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5">
                         <div class="col col-xl-8">
-                            <div class="d-flex flex-column gspace-3">
-                                <div class="card service-included">
-                                    <h4>1. Discovery & Requirement Analysis</h4>
-                                    <div class="underline-accent-short"></div>
-                                    <p>We begin by understanding your business goals, challenges, and project requirements.
-                                        Our team conducts detailed discussions and analysis to define a clear roadmap for
-                                        success.</p>
-                                    <ul class="check-list mt-3">
-                                        <li>Business & Market Understanding</li>
-                                        <li>Requirement Gathering & Planning</li>
-                                        <li>Project Scope Definition</li>
-                                    </ul>
+                            <div class="row row-cols-md-2 row-cols-1 grid-spacer-3">
+                                <div class="col">
+                                    <div class="card service-included h-100">
+                                        <h4>1. Discovery & Requirement Analysis</h4>
+                                        <div class="underline-accent-short"></div>
+                                        <p>We begin by understanding your business goals, challenges, and project
+                                            requirements.
+                                            Our team conducts detailed discussions and analysis to define a clear roadmap
+                                            for
+                                            success.</p>
+                                        <ul class="check-list mt-3">
+                                            <li>Business & Market Understanding</li>
+                                            <li>Requirement Gathering & Planning</li>
+                                            <li>Project Scope Definition</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
-                                <div class="card service-included">
-                                    <h4>2. Strategy & Planning</h4>
-                                    <div class="underline-accent-short"></div>
-                                    <p>We create a strategic plan tailored to your project, selecting the right
-                                        technologies,
-                                        architecture, and approach to ensure scalability and performance.</p>
-                                    <ul class="check-list mt-3">
-                                        <li>Technical Architecture Design</li>
-                                        <li>Technology Stack Selection</li>
-                                        <li>Timeline & Milestone Planning</li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="card service-included h-100">
+                                        <h4>2. Strategy & Planning</h4>
+                                        <div class="underline-accent-short"></div>
+                                        <p>We create a strategic plan tailored to your project, selecting the right
+                                            technologies,
+                                            architecture, and approach to ensure scalability and performance.</p>
+                                        <ul class="check-list mt-3">
+                                            <li>Technical Architecture Design</li>
+                                            <li>Technology Stack Selection</li>
+                                            <li>Timeline & Milestone Planning</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
-                                <div class="card service-included">
-                                    <h4>3. UI/UX Design & Prototyping</h4>
-                                    <div class="underline-accent-short"></div>
-                                    <p>Our design team focuses on creating intuitive, engaging, and user-friendly
-                                        experiences
-                                        that align with your brand and enhance usability.</p>
-                                    <ul class="check-list mt-3">
-                                        <li>Wireframes & Prototypes</li>
-                                        <li>User Experience Optimization</li>
-                                        <li>Visual Design & Branding</li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="card service-included h-100">
+                                        <h4>3. UI/UX Design & Prototyping</h4>
+                                        <div class="underline-accent-short"></div>
+                                        <p>Our design team focuses on creating intuitive, engaging, and user-friendly
+                                            experiences
+                                            that align with your brand and enhance usability.</p>
+                                        <ul class="check-list mt-3">
+                                            <li>Wireframes & Prototypes</li>
+                                            <li>User Experience Optimization</li>
+                                            <li>Visual Design & Branding</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
-                                <div class="card service-included">
-                                    <h4>4. Development & Implementation</h4>
-                                    <div class="underline-accent-short"></div>
-                                    <p>We build robust, scalable, and high-performance applications using modern
-                                        technologies
-                                        and best development practices.</p>
-                                    <ul class="check-list mt-3">
-                                        <li>Web & Mobile Development</li>
-                                        <li>API Integration & Backend Development</li>
-                                        <li>Scalable & Secure Coding</li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="card service-included h-100">
+                                        <h4>4. Development & Implementation</h4>
+                                        <div class="underline-accent-short"></div>
+                                        <p>We build robust, scalable, and high-performance applications using modern
+                                            technologies
+                                            and best development practices.</p>
+                                        <ul class="check-list mt-3">
+                                            <li>Web & Mobile Development</li>
+                                            <li>API Integration & Backend Development</li>
+                                            <li>Scalable & Secure Coding</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
-                                <div class="card service-included">
-                                    <h4>5. Testing & Quality Assurance</h4>
-                                    <div class="underline-accent-short"></div>
-                                    <p>We ensure your product meets the highest standards through rigorous testing and
-                                        quality
-                                        checks before deployment.</p>
-                                    <ul class="check-list mt-3">
-                                        <li>Functional & Performance Testing</li>
-                                        <li>Bug Fixing & Optimization</li>
-                                        <li>Security & Compatibility Checks</li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="card service-included h-100">
+                                        <h4>5. Testing & Quality Assurance</h4>
+                                        <div class="underline-accent-short"></div>
+                                        <p>We ensure your product meets the highest standards through rigorous testing and
+                                            quality
+                                            checks before deployment.</p>
+                                        <ul class="check-list mt-3">
+                                            <li>Functional & Performance Testing</li>
+                                            <li>Bug Fixing & Optimization</li>
+                                            <li>Security & Compatibility Checks</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
-                                <div class="card service-included">
-                                    <h4>6. Deployment & Launch</h4>
-                                    <div class="underline-accent-short"></div>
-                                    <p>We deploy your solution in a secure and optimized environment, ensuring a smooth and
-                                        successful launch.</p>
-                                    <ul class="check-list mt-3">
-                                        <li>Cloud Deployment</li>
-                                        <li>Performance Monitoring</li>
-                                        <li>Go-Live Support</li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="card service-included h-100">
+                                        <h4>6. Deployment & Launch</h4>
+                                        <div class="underline-accent-short"></div>
+                                        <p>We deploy your solution in a secure and optimized environment, ensuring a smooth
+                                            and
+                                            successful launch.</p>
+                                        <ul class="check-list mt-3">
+                                            <li>Cloud Deployment</li>
+                                            <li>Performance Monitoring</li>
+                                            <li>Go-Live Support</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
-                                <div class="card service-included">
-                                    <h4>7. Support & Continuous Improvement</h4>
-                                    <div class="underline-accent-short"></div>
-                                    <p>Our commitment continues after launch with ongoing support, maintenance, and
-                                        improvements to keep your solution up-to-date and performing at its best.</p>
-                                    <ul class="check-list mt-3">
-                                        <li>Ongoing Maintenance</li>
-                                        <li>Feature Enhancements</li>
-                                        <li>Performance Optimization</li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="card service-included h-100">
+                                        <h4>7. Support & Continuous Improvement</h4>
+                                        <div class="underline-accent-short"></div>
+                                        <p>Our commitment continues after launch with ongoing support, maintenance, and
+                                            improvements to keep your solution up-to-date and performing at its best.</p>
+                                        <ul class="check-list mt-3">
+                                            <li>Ongoing Maintenance</li>
+                                            <li>Feature Enhancements</li>
+                                            <li>Performance Optimization</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +174,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="cta-service-banner">
+                                <div class="cta-service-banner cta-service-banner-our-process">
                                     <div class="spacer"></div>
                                     <h3 class="title-heading">Start Your Project</h3>
                                     <p>Let us transform your idea into a scalable digital product with a clear and reliable
