@@ -25,7 +25,8 @@
             <div class="hero-container">
                 <div class="d-flex flex-column gspace-5">
                     <div class="image-container">
-                      oot
+                        <img src="{{ asset('image/' . ($service['image'] ?? 'tech-banner.png')) }}"
+                            alt="{{ $service['name'] }} Banner" class="single-service-img" style="object-fit: cover;">
                         <div class="single-service-title-layout">
                             <div class="">
                                 <div class="single-service-spacer"></div>
@@ -127,7 +128,8 @@
                                                 Marketing & SEO</a></li>
                                     </ul>
                                 </div>
-                                <div class="cta-service-banner">
+                                <div class="cta-service-banner cta-service-banner-service-details"
+                                    style="background-image: url('{{ asset('image/' . ($service['image'] ?? 'tech-banner.png')) }}');">
                                     <div class="spacer"></div>
                                     <h3 class="title-heading">Transform Your Business with Innoversion Technolab</h3>
                                     <p>

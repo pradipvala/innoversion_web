@@ -4157,7 +4157,7 @@ body.lightmode .accordion-button:not(.collapsed)::after {
 /* ================== 53. CTA Service Banner Components ================== */
 
 .cta-service-banner {
-    background-image: url('../image/dummy-img-1920x900.jpg');
+    background-image: url('../image/tech-banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -4184,6 +4184,22 @@ body.lightmode .accordion-button:not(.collapsed)::after {
 
 .cta-service-banner-life-company {
     background-image: url('../image/company-overview-real.png');
+}
+
+.cta-service-banner-service-details {
+    background-image: url('../image/services/custom-software-development.jpeg');
+}
+
+.cta-service-banner-technology-details {
+    background-image: url('../image/technology/ui-ux-design.svg');
+}
+
+.cta-service-banner-expertise-details {
+    background-image: url('../image/company-overview-real.jpg');
+}
+
+.cta-service-banner-industry-details {
+    background-image: url('../image/tech-banner.png');
 }
 
 body.lightmode .cta-service-banner {

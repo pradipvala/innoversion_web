@@ -127,7 +127,7 @@
                                                 Experience</a></li>
                                     </ul>
                                 </div>
-                                <div class="cta-service-banner">
+                                <div class="cta-service-banner cta-service-banner-expertise-details">
                                     <div class="spacer"></div>
                                     <h3 class="title-heading">Transform Your Business with Innoversion Technolab</h3>
                                     <p>

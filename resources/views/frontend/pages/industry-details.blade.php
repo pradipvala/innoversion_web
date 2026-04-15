@@ -125,7 +125,7 @@
                                         <li><a href="{{ route('industry.details', 'startups') }}">Startups</a></li>
                                     </ul>
                                 </div>
-                                <div class="cta-service-banner">
+                                <div class="cta-service-banner cta-service-banner-industry-details">
                                     <div class="spacer"></div>
                                     <h3 class="title-heading">Elevate Your Operations Today!</h3>
                                     <p>
