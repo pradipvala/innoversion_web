@@ -9,6 +9,7 @@ class TechnologyHelper
         return [
             'react' => [
                 'name' => 'React.js',
+                'image' => 'technology/react.svg',
                 'hero_title' => 'Engineering Modern Web Experiences with React.js',
                 'description' => 'We harness the power of React.js to build fast, scalable, and high-performance web applications with exceptional user experiences.',
                 'overview' => 'At Innoversion Technolab, we utilize React.js to develop dynamic, enterprise-grade front-end solutions tailored to modern business needs. Its component-driven architecture enables us to build highly maintainable and scalable applications while ensuring rapid development cycles. With features like virtual DOM and efficient rendering, React.js allows us to deliver seamless, responsive, and interactive user interfaces that enhance engagement and performance.',
@@ -17,6 +18,7 @@ class TechnologyHelper
             ],
             'vue' => [
                 'name' => 'Vue.js',
+                'image' => 'technology/vue.svg',
                 'hero_title' => 'Building Modern & Scalable Applications with Vue.js',
                 'description' => 'We leverage Vue.js to develop fast, lightweight, and highly interactive user interfaces for modern web applications.',
                 'overview' => 'At Innoversion Technolab, we utilize Vue.js to create dynamic and performance-driven web applications. Known for its simplicity and flexibility, Vue.js enables us to build scalable front-end solutions with clean architecture and efficient state management. Its reactive data binding and component-based structure allow us to deliver seamless user experiences while ensuring faster development and easy maintenance.',
@@ -25,6 +27,7 @@ class TechnologyHelper
             ],
             'angular' => [
                 'name' => 'Angular',
+                'image' => 'technology/angular.svg',
                 'hero_title' => 'Engineering Scalable & Enterprise-Grade Applications with Angular',
                 'description' => 'We leverage Angular to build robust, high-performance, and scalable web applications tailored for complex business environments.',
                 'overview' => 'At Innoversion Technolab, we specialize in developing enterprise-grade web applications using Angular - a powerful and structured front-end framework. Angular enables us to build large-scale applications with clean architecture, high maintainability, and consistent performance. With its TypeScript-based development and built-in features, we create secure, scalable, and future-ready solutions that meet modern business demands. Our approach ensures seamless user experiences, efficient data handling, and long-term scalability.',
@@ -34,6 +37,7 @@ class TechnologyHelper
             ],
             'node-js' => [
                 'name' => 'Node.js',
+                'image' => 'technology/node-js.svg',
                 'hero_title' => 'Building High-Performance Backend Solutions with Node.js',
                 'description' => 'We develop fast, scalable, and reliable backend systems using Node.js to power modern applications and handle real-time data efficiently.',
                 'overview' => 'At Innoversion Technolab, we leverage Node.js to build high-performance server-side applications that support modern business needs. Its event-driven, non-blocking architecture allows us to handle multiple requests simultaneously with speed and efficiency. Whether it is real-time applications, APIs, or scalable platforms, our Node.js solutions ensure seamless performance, flexibility, and long-term reliability.',
@@ -42,6 +46,7 @@ class TechnologyHelper
             ],
             'laravel' => [
                 'name' => 'Laravel',
+                'image' => 'technology/laravel.svg',
                 'hero_title' => 'Building Secure & Scalable Web Applications with Laravel',
                 'description' => 'We develop modern, high-performance web applications using Laravel, ensuring clean architecture, security, and faster development.',
                 'overview' => 'At Innoversion Technolab, we use Laravel - a powerful open-source PHP framework based on the MVC architecture - to build robust and scalable web applications. It allows us to write clean, structured, and maintainable code, making development faster and more efficient. Laravel provides advanced features and flexibility to create customized solutions tailored to your business needs. From startups to enterprise-level platforms, we deliver secure, high-quality applications with seamless performance and user experience.',
@@ -50,6 +55,7 @@ class TechnologyHelper
             ],
             'python' => [
                 'name' => 'Python',
+                'image' => 'technology/python.svg',
                 'hero_title' => 'Building Scalable & Intelligent Solutions with Python',
                 'description' => 'We leverage Python to develop powerful, flexible, and data-driven applications that support modern business needs.',
                 'overview' => 'At Innoversion Technolab, we use Python to build scalable web applications, automation tools, and data-driven solutions. Known for its simplicity and versatility, Python enables faster development while maintaining high performance and reliability. From backend systems to advanced integrations, Python allows us to deliver efficient and customized solutions tailored to your business goals.',
@@ -58,6 +64,7 @@ class TechnologyHelper
             ],
             'codeigniter' => [
                 'name' => 'CodeIgniter',
+                'image' => 'technology/codeigniter.svg',
                 'hero_title' => 'Building Fast & Lightweight Web Applications with CodeIgniter',
                 'description' => 'We develop high-performance, scalable, and secure web applications using CodeIgniter for faster delivery and efficient performance.',
                 'overview' => 'At Innoversion Technolab, we use CodeIgniter - a robust and open-source PHP framework based on the MVC architecture - to build dynamic and efficient web applications. Its lightweight structure and flexibility allow us to deliver fast, reliable, and easy-to-manage solutions. With built-in libraries for validation, security, database handling, and error management, CodeIgniter enables us to create feature-rich applications with minimal complexity and maximum performance.',
@@ -66,6 +73,7 @@ class TechnologyHelper
             ],
             'flutter' => [
                 'name' => 'Flutter',
+                'image' => 'technology/flutter.svg',
                 'hero_title' => 'Building High-Performance Cross-Platform Apps with Flutter',
                 'description' => 'We develop fast, scalable, and visually rich mobile applications using Flutter to deliver seamless experiences across Android and iOS.',
                 'overview' => 'At Innoversion Technolab, we leverage Flutter - a powerful UI toolkit by Google - to build cross-platform mobile applications from a single codebase. This approach reduces development time while maintaining near-native performance and consistency across platforms. Flutter enables us to create visually engaging, responsive, and high-performance apps that meet modern user expectations and business requirements.',
@@ -74,6 +82,7 @@ class TechnologyHelper
             ],
             'react-native' => [
                 'name' => 'React Native',
+                'image' => 'technology/react-native.svg',
                 'hero_title' => 'Building Cross-Platform Mobile Apps with React Native',
                 'description' => 'We develop high-performance mobile applications using React Native, delivering seamless experiences across Android and iOS platforms.',
                 'overview' => 'At Innoversion Technolab, we leverage React Native - developed by Meta Platforms - to build scalable and efficient mobile applications using a single codebase. This approach allows faster development while maintaining near-native performance and consistent user experience. React Native enables us to create feature-rich, responsive, and cost-effective mobile apps tailored to your business needs.',
@@ -82,6 +91,7 @@ class TechnologyHelper
             ],
             'android' => [
                 'name' => 'Android',
+                'image' => 'technology/android.svg',
                 'hero_title' => 'Building Scalable & High-Performance Android Applications',
                 'description' => 'We develop secure, fast, and user-friendly Android applications tailored to deliver seamless mobile experiences and business growth.',
                 'overview' => 'At Innoversion Technolab, we specialize in Android app development to create powerful and scalable mobile applications. Our solutions are designed to deliver smooth performance, intuitive user experience, and strong security across a wide range of Android devices. We build custom Android applications that align with your business goals, ensuring reliability, flexibility, and long-term scalability.',
@@ -90,6 +100,7 @@ class TechnologyHelper
             ],
             'ios' => [
                 'name' => 'iOS',
+                'image' => 'technology/ios.svg',
                 'hero_title' => 'Building Premium & High-Performance iOS Applications',
                 'description' => 'We develop secure, scalable, and user-centric iOS applications that deliver seamless performance and exceptional user experiences.',
                 'overview' => 'At Innoversion Technolab, we specialize in iOS app development to create high-quality applications for Apple devices. Our solutions are designed with precision, focusing on performance, security, and intuitive design to meet modern user expectations. We build custom iOS applications that align with your business goals, ensuring reliability, smooth functionality, and long-term scalability across the Apple ecosystem.',
@@ -98,6 +109,7 @@ class TechnologyHelper
             ],
             'shopify' => [
                 'name' => 'Shopify',
+                'image' => 'technology/shopify.svg',
                 'hero_title' => 'Building Powerful & User-Friendly eCommerce Stores with Shopify',
                 'description' => 'We help you launch and grow your online store with Shopify, creating visually appealing and high-performing eCommerce experiences.',
                 'overview' => 'At Innoversion Technolab, we leverage Shopify to build fully-featured, scalable, and visually stunning online stores. It is a versatile and high-performance eCommerce platform that allows businesses to create customized stores using professional themes and flexible design options. Whether you are a startup testing your idea or an established business looking to scale, Shopify enables quick setup, smooth operations, and seamless customer experiences. Our team ensures your store is optimized for performance, usability, and growth.',
@@ -106,6 +118,7 @@ class TechnologyHelper
             ],
             'magento' => [
                 'name' => 'Magento',
+                'image' => 'technology/magento.svg',
                 'hero_title' => 'Building Powerful & Scalable eCommerce Solutions with Magento',
                 'description' => 'We create robust, feature-rich online stores using Magento to help your business scale, manage complex operations, and deliver exceptional shopping experiences.',
                 'overview' => 'At Innoversion Technolab, we specialize in Magento development to build high-performance and fully customizable eCommerce platforms. Magento is ideal for businesses that require advanced functionality, flexibility, and scalability. Our team develops tailored Magento solutions that handle large product catalogs, complex workflows, and high traffic while ensuring a seamless and secure shopping experience for your customers.',
@@ -114,6 +127,7 @@ class TechnologyHelper
             ],
             'wordpress' => [
                 'name' => 'WordPress',
+                'image' => 'technology/wordpress.svg',
                 'hero_title' => 'Building Flexible & SEO-Friendly Websites with WordPress',
                 'description' => 'We create powerful, easy-to-manage WordPress websites that help your business grow, engage users, and rank better on search engines.',
                 'overview' => 'At Innoversion Technolab, we specialize in WordPress development to build responsive, scalable, and user-friendly websites. WordPress is a highly flexible CMS that allows businesses to manage content easily while delivering a seamless user experience. From business websites to custom solutions, we develop WordPress platforms tailored to your brand, ensuring performance, security, and long-term scalability.',
@@ -122,6 +136,7 @@ class TechnologyHelper
             ],
             'aws' => [
                 'name' => 'AWS (Amazon Web Services)',
+                'image' => 'technology/aws.svg',
                 'hero_title' => 'Powering Scalable & Secure Cloud Solutions with AWS',
                 'description' => 'We leverage AWS to build reliable, scalable, and high-performance cloud infrastructure that supports your business growth.',
                 'overview' => 'At Innoversion Technolab, we use AWS (Amazon Web Services) to design, deploy, and manage cloud-based solutions tailored to your business needs. AWS provides a highly secure and flexible cloud environment that enables businesses to scale efficiently and reduce infrastructure costs. From hosting applications to managing data and deploying scalable architectures, we ensure your systems run smoothly with maximum performance and reliability.',
@@ -130,6 +145,7 @@ class TechnologyHelper
             ],
             'ui-ux-design' => [
                 'name' => 'UI/UX Design',
+                'image' => 'technology/ui-ux-design.svg',
                 'hero_title' => 'Designing Intuitive & Engaging User Experiences',
                 'description' => 'We design modern, user-friendly interfaces that enhance usability, improve engagement, and deliver seamless digital experiences.',
                 'overview' => 'At Innoversion Technolab, we focus on crafting visually appealing and highly functional UI/UX designs that align with user behavior and business goals. Our design approach ensures that every interaction is smooth, intuitive, and impactful. We combine creativity with usability to deliver designs that not only look great but also perform exceptionally across web and mobile platforms.',
@@ -138,6 +154,7 @@ class TechnologyHelper
             ],
             'seo' => [
                 'name' => 'SEO (Search Engine Optimization)',
+                'image' => 'technology/seo.svg',
                 'hero_title' => 'Driving Growth with Data-Driven Digital Marketing & SEO',
                 'description' => 'Boost your online presence, attract the right audience, and dominate search rankings with result-oriented marketing strategies.',
                 'overview' => 'At Innoversion Technolab, we provide end-to-end digital marketing and SEO services designed to increase your visibility, traffic, and conversions. Today, over 90% of users start their journey through search engines, making SEO a critical factor for business success. Our expert team handles everything from technical SEO, content strategy, keyword optimization, and link building to ensure your website ranks higher and performs better. We focus on delivering measurable results that directly impact your business growth.',
@@ -146,6 +163,7 @@ class TechnologyHelper
             ],
             'devops' => [
                 'name' => 'DevOps',
+                'image' => 'technology/devops.svg',
                 'hero_title' => 'Accelerating Development with DevOps Solutions',
                 'description' => 'We streamline your development and deployment processes with DevOps practices to deliver faster, more reliable, and scalable applications.',
                 'overview' => 'At Innoversion Technolab, we implement DevOps practices to bridge the gap between development and operations. Our approach focuses on automation, continuous integration, and continuous delivery to ensure faster releases and improved software quality. We help businesses optimize workflows, reduce downtime, and enhance system reliability by building efficient and scalable DevOps pipelines.',
@@ -154,6 +172,7 @@ class TechnologyHelper
             ],
             'zoho' => [
                 'name' => 'Zoho',
+                'image' => 'technology/zoho.svg',
                 'hero_title' => 'Streamlining Business Operations with Zoho Solutions',
                 'description' => 'We implement Zoho solutions to help you manage sales, automate workflows, and improve overall business efficiency.',
                 'overview' => 'At Innoversion Technolab, we leverage Zoho a comprehensive business suite to streamline your operations, manage customer relationships, and automate key processes. Zoho offers a wide range of tools including CRM, finance, marketing, and project management. Our team customizes and integrates Zoho solutions to fit your business needs, helping you improve productivity, enhance customer engagement, and make smarter decisions.',
@@ -162,6 +181,7 @@ class TechnologyHelper
             ],
             'odoo' => [
                 'name' => 'Odoo',
+                'image' => 'technology/odoo.svg',
                 'hero_title' => 'Managing Your Entire Business with Odoo ERP Solutions',
                 'description' => 'We implement Odoo to help you manage operations, automate workflows, and streamline your entire business from a single platform.',
                 'overview' => 'At Innoversion Technolab, we use Odoo - a powerful all-in-one ERP solution - to integrate and manage your business processes efficiently. From sales and CRM to inventory, accounting, and HR, Odoo provides a unified platform to control everything in one place. Our team customizes and deploys Odoo solutions tailored to your business needs, helping you improve productivity, reduce manual work, and gain better control over operations.',

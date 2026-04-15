@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Mobile App Development">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1260" cy="160" r="220" fill="#f472b6" fill-opacity="0.25"/>
+  <circle cx="260" cy="740" r="180" fill="#f9a8d4" fill-opacity="0.2"/>
+  <rect x="120" y="130" width="1360" height="640" rx="30" fill="#ffffff" fill-opacity="0.08" stroke="#fbcfe8" stroke-opacity="0.45"/>
+  <rect x="260" y="220" width="340" height="470" rx="42" fill="#1e1b4b" stroke="#fbcfe8" stroke-opacity="0.65" stroke-width="6"/>
+  <circle cx="430" cy="645" r="18" fill="#fbcfe8" fill-opacity="0.85"/>
+  <rect x="305" y="280" width="250" height="18" rx="7" fill="#fce7f3" fill-opacity="0.75"/>
+  <rect x="305" y="320" width="220" height="14" rx="6" fill="#f9a8d4" fill-opacity="0.75"/>
+  <rect x="305" y="350" width="190" height="14" rx="6" fill="#f9a8d4" fill-opacity="0.6"/>
+  <rect x="720" y="280" width="580" height="54" rx="12" fill="#ffffff" fill-opacity="0.16"/>
+  <rect x="720" y="355" width="510" height="22" rx="8" fill="#fde2f3" fill-opacity="0.85"/>
+  <rect x="720" y="392" width="455" height="22" rx="8" fill="#fde2f3" fill-opacity="0.65"/>
+  <rect x="720" y="429" width="390" height="22" rx="8" fill="#fde2f3" fill-opacity="0.55"/>
+  <text x="720" y="585" fill="#fff1f2" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">Mobile App Development</text>
+</svg>

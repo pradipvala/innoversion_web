@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Digital Marketing and SEO">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#134e4a"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1340" cy="150" r="250" fill="#38bdf8" fill-opacity="0.16"/>
+  <circle cx="220" cy="760" r="220" fill="#fb923c" fill-opacity="0.14"/>
+  <circle cx="1160" cy="740" r="180" fill="#f97316" fill-opacity="0.12"/>
+  <rect x="110" y="120" width="1380" height="660" rx="32" fill="url(#panel)" stroke="#e2e8f0" stroke-opacity="0.18"/>
+
+  <g transform="translate(170 190)">
+    <rect x="0" y="0" width="500" height="500" rx="28" fill="#0f172a" fill-opacity="0.58" stroke="#94a3b8" stroke-opacity="0.2"/>
+    <rect x="42" y="42" width="190" height="22" rx="8" fill="#e2e8f0" fill-opacity="0.85"/>
+    <rect x="42" y="78" width="290" height="16" rx="6" fill="#cbd5e1" fill-opacity="0.72"/>
+
+    <rect x="42" y="150" width="132" height="182" rx="18" fill="#0ea5e9" fill-opacity="0.22"/>
+    <rect x="192" y="120" width="132" height="212" rx="18" fill="#22c55e" fill-opacity="0.25"/>
+    <rect x="342" y="95" width="116" height="237" rx="18" fill="#f97316" fill-opacity="0.28"/>
+
+    <rect x="58" y="280" width="100" height="38" rx="12" fill="#bae6fd" fill-opacity="0.85"/>
+    <rect x="208" y="250" width="100" height="38" rx="12" fill="#bbf7d0" fill-opacity="0.85"/>
+    <rect x="358" y="225" width="76" height="38" rx="12" fill="#fed7aa" fill-opacity="0.9"/>
+
+    <path d="M74 208 L126 176 L176 196 L240 146 L312 168 L384 128 L440 96" stroke="#f8fafc" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="74" cy="208" r="8" fill="#f8fafc"/>
+    <circle cx="126" cy="176" r="8" fill="#f8fafc"/>
+    <circle cx="176" cy="196" r="8" fill="#f8fafc"/>
+    <circle cx="240" cy="146" r="8" fill="#f8fafc"/>
+    <circle cx="312" cy="168" r="8" fill="#f8fafc"/>
+    <circle cx="384" cy="128" r="8" fill="#f8fafc"/>
+    <circle cx="440" cy="96" r="8" fill="#f8fafc"/>
+  </g>
+
+  <g transform="translate(760 188)">
+    <rect x="0" y="0" width="650" height="500" rx="28" fill="#111827" fill-opacity="0.42" stroke="#f8fafc" stroke-opacity="0.12"/>
+    <rect x="40" y="40" width="350" height="24" rx="8" fill="#f8fafc" fill-opacity="0.84"/>
+    <rect x="40" y="80" width="240" height="16" rx="6" fill="#cbd5e1" fill-opacity="0.72"/>
+
+    <circle cx="190" cy="250" r="118" fill="#0f172a" fill-opacity="0.52" stroke="#f59e0b" stroke-opacity="0.8" stroke-width="10"/>
+    <circle cx="190" cy="250" r="72" fill="none" stroke="#f8fafc" stroke-opacity="0.18" stroke-width="10"/>
+    <circle cx="274" cy="166" r="28" fill="#f59e0b" fill-opacity="0.95"/>
+    <path d="M286 178 L340 232" stroke="#f59e0b" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="390" cy="160" r="10" fill="#38bdf8"/>
+    <circle cx="476" cy="246" r="10" fill="#22c55e"/>
+    <circle cx="390" cy="332" r="10" fill="#f97316"/>
+    <circle cx="304" cy="246" r="10" fill="#e2e8f0"/>
+
+    <rect x="370" y="120" width="220" height="72" rx="18" fill="#0f172a" fill-opacity="0.52"/>
+    <text x="396" y="164" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">SEO Strategy</text>
+    <rect x="370" y="214" width="220" height="72" rx="18" fill="#0f172a" fill-opacity="0.52"/>
+    <text x="396" y="258" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Paid Ads</text>
+    <rect x="370" y="308" width="220" height="72" rx="18" fill="#0f172a" fill-opacity="0.52"/>
+    <text x="396" y="352" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Content Growth</text>
+  </g>
+
+  <text x="170" y="770" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="800">Digital Marketing &amp; SEO</text>
+  <text x="170" y="822" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="500">Search visibility, lead generation, and measurable growth</text>
+</svg>
