@@ -54,6 +54,16 @@ class HomeController extends Controller
         return view('frontend.pages.company-overview');
     }
 
+    public function ourProcess()
+    {
+        return view('frontend.pages.our-process');
+    }
+
+    public function lifeAtCompany()
+    {
+        return view('frontend.pages.life-at-company');
+    }
+
     public function services()
     {
         $services = Services_1::where('status', '1')->get();

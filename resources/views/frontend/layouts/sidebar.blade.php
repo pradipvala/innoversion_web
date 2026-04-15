@@ -34,10 +34,10 @@
                 <ul class="sidebar-dropdown-menu">
                     <li><a href="{{ route('company.overview') }}">Company Overview</a></li>
                     <li><a href="{{ route('team') }}">Leadership & Team</a></li>
-                    <li><a href="javascript:void(0)">Our Process</a></li>
+                    <li><a href="{{ route('our.process') }}">Our Process</a></li>
                     <li><a href="{{ route('case-studies') }}">Case Studies</a></li>
                     <li><a href="{{ route('blog') }}">Blog</a></li>
-                    <li><a href="javascript:void(0)">Life at Company</a></li>
+                    <li><a href="{{ route('life.at.company') }}">Life at Company</a></li>
                 </ul>
             </li>
             <li class="sidebar-dropdown">

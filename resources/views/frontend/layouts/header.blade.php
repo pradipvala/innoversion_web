@@ -36,7 +36,7 @@
                                     <div class="ds">Meet the people behind the work</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('our.process') }}" class="dl">
                                 <div>
                                     <div class="dt"><b> Our Process</b></div>
                                     <div class="ds">How we deliver results</div>
@@ -66,7 +66,7 @@
                                     <div class="ds">Insights, news & tech articles</div>
                                 </div>
                             </a>
-                            <a href="javascript:void(0)" class="dl">
+                            <a href="{{ route('life.at.company') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Life at Company</b></div>
                                     <div class="ds">Culture, perks & team life</div>

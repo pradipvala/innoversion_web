@@ -10,6 +10,8 @@ Route::get('/', [HomeController::class, 'home'])->name('frontend.home');
 Route::get('/home', [HomeController::class, 'home'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/company-overview', [HomeController::class, 'companyOverview'])->name('company.overview');
+Route::get('/our-process', [HomeController::class, 'ourProcess'])->name('our.process');
+Route::get('/life-at-company', [HomeController::class, 'lifeAtCompany'])->name('life.at.company');
 Route::get('/services', [HomeController::class, 'services'])->name('services');
 Route::get('/single-service', [HomeController::class, 'singleServices'])->name('single.services');
 Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
