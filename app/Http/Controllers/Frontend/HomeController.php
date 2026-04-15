@@ -125,8 +125,7 @@ class HomeController extends Controller
 
             $mailSent = true;
             try {
-                $receiver = env('CONTACT_FORM_RECEIVER', config('mail.from.address'));
-                Mail::to($receiver)->send(new ContactFormMail($details));
+                Mail::to($contact->contact_email)->send(new ContactFormMail($details));
             } catch (Throwable $mailException) {
                 $mailSent = false;
                 Log::warning('Contact saved but mail send failed', [
