@@ -210,30 +210,36 @@
                                 </div>
                                 <div class="mega-col">
                                     <div class="col-h">Why Choose Us</div>
-                                    <div class="why-card">
-                                        <div class="why-t"><b>End-to-End Delivery </b></div>
-                                        <div class="why-s">From concept to deployment — we handle the full lifecycle.
+                                    <a href="{{ route('expertise.details', 'end-to-end-delivery') }}" class="dl">
+                                        <div>
+                                            <div class="dt"><b>End-to-End Delivery</b></div>
+                                            <div class="ds">From concept to deployment — we handle the full
+                                                lifecycle.</div>
                                         </div>
-                                    </div>
-                                    <div class="why-card">
-                                        <div class="why-t"><b>Agile & Transparent</b></div>
-                                        <div class="why-s">Weekly sprints, full visibility, zero surprises.</div>
-                                    </div>
-                                    <div class="why-card">
-                                        <div class="why-t"><b>Dedicated Support</b></div>
-                                        <div class="why-s">Post-launch care with SLA-backed response times.</div>
-                                    </div>
-                                    <div class="why-card">
-                                        <div class="why-t"><b>15+ Years Experience</b></div>
-                                        <div class="why-s">Proven expertise across 200+ successful projects.</div>
-                                    </div>
+                                    </a>
+                                    <a href="{{ route('expertise.details', 'agile-transparent') }}" class="dl">
+                                        <div>
+                                            <div class="dt"><b>Agile & Transparent</b></div>
+                                            <div class="ds">Weekly sprints, full visibility, zero surprises.</div>
+                                        </div>
+                                    </a>
+                                    <a href="{{ route('expertise.details', 'dedicated-support') }}" class="dl">
+                                        <div>
+                                            <div class="dt"><b>Dedicated Support</b></div>
+                                            <div class="ds">Post-launch care with SLA-backed response times.</div>
+                                        </div>
+                                    </a>
+                                    <a href="{{ route('expertise.details', 'experience') }}" class="dl">
+                                        <div>
+                                            <div class="dt"><b>15+ Years Experience</b></div>
+                                            <div class="ds">Proven expertise across 200+ successful projects.</div>
+                                        </div>
+                                    </a>
 
-                                    <div class="why-card">
-                                        <a href="{{ route('projects') }}" class="dl"
-                                            style="padding:8px 12px; border-radius:6px;">
-                                            <div class="why-t"><b>Project</b></div>
-                                        </a>
-                                    </div>
+                                    <a href="{{ route('projects') }}" class="dl"
+                                        style="padding:8px 12px; border-radius:6px;">
+                                        <div class="dt"><b>Project</b></div>
+                                    </a>
                                 </div>
                             </div>
                         </ul>

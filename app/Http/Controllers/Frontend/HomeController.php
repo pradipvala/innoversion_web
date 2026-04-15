@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Helpers\TechnologyHelper;
 use App\Helpers\ServiceHelper;
 use App\Helpers\IndustryHelper;
+use App\Helpers\ExpertiseHelper;
 use App\Mail\ContactFormMail;
 use App\Http\Controllers\Controller;
 use App\Models\AboutUs;
@@ -336,6 +337,19 @@ class HomeController extends Controller
         $industry = $industries[$slug];
 
         return view('frontend.pages.industry-details', compact('industry'));
+    }
+
+    public function expertiseDetails($slug)
+    {
+        $expertises = ExpertiseHelper::all();
+
+        if (!array_key_exists($slug, $expertises)) {
+            abort(404);
+        }
+
+        $expertise = $expertises[$slug];
+
+        return view('frontend.pages.expertise-details', compact('expertise'));
     }
 
     public function autoPulse()

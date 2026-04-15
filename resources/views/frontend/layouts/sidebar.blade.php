@@ -132,10 +132,10 @@
                     <button class="sidebar-dropdown-btn"><i class="fa-solid fa-angle-down"></i></button>
                 </div>
                 <ul class="sidebar-dropdown-menu">
-                    <li><a href="javascript:void(0)">End-to-End Delivery</a></li>
-                    <li><a href="javascript:void(0)">Agile & Transparent</a></li>
-                    <li><a href="javascript:void(0)">Dedicated Support</a></li>
-                    <li><a href="javascript:void(0)">15+ Years Experience</a></li>
+                    <li><a href="{{ route('expertise.details', 'end-to-end-delivery') }}">End-to-End Delivery</a></li>
+                    <li><a href="{{ route('expertise.details', 'agile-transparent') }}">Agile & Transparent</a></li>
+                    <li><a href="{{ route('expertise.details', 'dedicated-support') }}">Dedicated Support</a></li>
+                    <li><a href="{{ route('expertise.details', 'experience') }}">15+ Years Experience</a></li>
                     <li><a href="{{ route('projects') }}">Project</a></li>
                 </ul>
             </li>
