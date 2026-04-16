@@ -264,10 +264,10 @@
                                     support and monitoring. Our team ensures consistent quality, seamless performance, and
                                     long-term reliability so your business runs smoothly without interruptions.
                                 </p>
-                                <div class="link-wrapper">
+                                {{--  <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
-                                </div>
+                                </div>  --}}
                             </div>
                         </div>
                         <div class="card card-chooseus  animate-box animated animate__animated"
@@ -287,10 +287,10 @@
                                 <p>We believe in clear communication and complete visibility at every stage of your project.
                                     From planning to delivery, we keep you informed with regular updates, honest timelines,
                                     and no hidden surprises.</p>
-                                <div class="link-wrapper">
+                                {{--  <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
-                                </div>
+                                </div>  --}}
                             </div>
                         </div>
                         <div class="card card-chooseus  animate-box animated slow animate__animated"
@@ -309,10 +309,10 @@
                                 <h4 class="chooseus-title">Agile Development & Transparency</h4>
                                 <p>Our agile approach ensures faster delivery, flexibility, and complete transparency with
                                     regular updates, clear communication, and milestone tracking.</p>
-                                <div class="link-wrapper">
+                                {{--  <div class="link-wrapper">
                                     <a href="#">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
-                                </div>
+                                </div>  --}}
                             </div>
                         </div>
                     </div>
@@ -343,7 +343,7 @@
                                     <div class="card-chooseus-cta-wrapper">
                                         <div class="card card-chooseus-cta animate-box animated animate__animated"
                                             data-animate="animate__fadeInUp">
-                                            <h5>Partner with Innoversion Technolab & Take Your Business to the Next Level
+                                            <h5>Partner with Innoversion Technolab & Take Your Business To the Next Level
                                             </h5>
                                             <div class="link-wrapper">
                                                 <a href="./contact.html">Let's Talk Strategy</a>
@@ -365,13 +365,13 @@
         <div class="guide-banner">
             <div class="hero-container">
                 <div class="guide-content  animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                    <div class="guide-video-container">
+                    {{--  <div class="guide-video-container">
                         <button class="request-loader" data-video="https://www.youtube.com/watch?v=P68V3iH4TeE"><i
                                 class="fa-solid fa-play"></i></button>
                         <p>
                             See How We Help Brands Grow
                         </p>
-                    </div>
+                    </div>  --}}
                     <div class="d-flex flex-column gspace-2">
                         <h3 class="title-heading">Transform Your Business with Innoversion Technolab</h3>
                         <p>We deliver scalable software solutions that drive innovation, efficiency, and business growth.
@@ -408,7 +408,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="{{ isset($service->icon) ? asset('storage/services/' . $service->icon) : asset('image/Icon-7.png') }}"
+                                                    <img src="{{ isset($service->img) ? asset('storage/' . $service->img) : asset('image/Icon-7.png') }}"
                                                         alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
@@ -418,9 +418,10 @@
                                         </div>
                                     </div>
                                     <p>
-                                        {{ $service->description }}
+                                        {!! $service->description !!}
                                     </p>
-                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
+                                    <a href="{{ route('service.details', [$service->sub_title]) }}"
+                                        class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>View Details</span>
                                         </div>
@@ -435,7 +436,7 @@
                 </div>
                 <div class="service-link-footer">
                     <p>Need a custom solution? Let's create a strategy tailored for your business. <a
-                            href="./contact.html">Get a Free Strategy Call</a></p>
+                            href="{{ route('contact') }}">Get a Free Strategy Call</a></p>
                 </div>
             </div>
         </div>
@@ -639,6 +640,8 @@
     <div class="section">
         <div class="hero-container">
             <div class="d-flex flex-column gspace-5">
+                <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated"
+                    data-animate="animate__fadeInDown">Client Testimonials</h2>
                 {{--  <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="testimonial-reviewer-container">
                         <div class="testimonial-header-wrapper animate-box animated fast animate__animated"
@@ -792,7 +795,7 @@
                                                 <img src="{{ asset('image/digital-marketing-icons-N952ZWA.png') }}"
                                                     alt="Digital Proccess Icon" class="process-icon">
                                             </div>
-                                            <span>01</span>
+                                            {{--  <span>01</span>  --}}
                                         </div>
                                         <div class="d-flex flex-column gspace-2">
                                             <h5>Discovery & Consult</h5>
@@ -814,7 +817,7 @@
                                                     <img src="{{ asset('image/Icon-11.png') }}"
                                                         alt="Digital Process Icon" class="process-icon">
                                                 </div>
-                                                <span>02</span>
+                                                {{--  <span>02</span>  --}}
                                             </div>
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Strategy & Planning</h5>
@@ -837,7 +840,7 @@
                                                     <img src="{{ asset('image/Icon-10.png') }}"
                                                         alt="Digital Process Icon" class="process-icon">
                                                 </div>
-                                                <span>03</span>
+                                                {{--  <span>03</span>  --}}
                                             </div>
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Execution & Optimize</h5>
@@ -860,7 +863,7 @@
                                                     <img src="{{ asset('image/Icon-12.png') }}"
                                                         alt="Digital Process Icon" class="process-icon">
                                                 </div>
-                                                <span>04</span>
+                                                {{--  <span>04</span>  --}}
                                             </div>
                                             <div class="d-flex flex-column gspace-2">
                                                 <h5>Result & Growth</h5>

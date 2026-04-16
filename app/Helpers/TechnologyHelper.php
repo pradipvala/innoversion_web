@@ -26,7 +26,7 @@ class TechnologyHelper
                 'why_choose' => ['Fast Development & Easy Maintenance', 'Scalable & Flexible Architecture', 'Smooth User Experience', 'Cost-Effective Development'],
             ],
             'angular' => [
-                'name' => 'Angular',
+                'name' => 'Angular.js',
                 'image' => 'technology/angular.svg',
                 'hero_title' => 'Engineering Scalable & Enterprise-Grade Applications with Angular',
                 'description' => 'We leverage Angular to build robust, high-performance, and scalable web applications tailored for complex business environments.',
@@ -145,7 +145,7 @@ class TechnologyHelper
             ],
             'ui-ux-design' => [
                 'name' => 'UI/UX Design',
-                'image' => 'technology/ui-ux-design.svg',
+                'image' => 'services/ui-ux-development.png',
                 'hero_title' => 'Designing Intuitive & Engaging User Experiences',
                 'description' => 'We design modern, user-friendly interfaces that enhance usability, improve engagement, and deliver seamless digital experiences.',
                 'overview' => 'At Innoversion Technolab, we focus on crafting visually appealing and highly functional UI/UX designs that align with user behavior and business goals. Our design approach ensures that every interaction is smooth, intuitive, and impactful. We combine creativity with usability to deliver designs that not only look great but also perform exceptionally across web and mobile platforms.',

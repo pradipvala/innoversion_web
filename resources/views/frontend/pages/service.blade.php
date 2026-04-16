@@ -34,12 +34,12 @@
                             <i class="fa-regular fa-circle-dot"></i>
                             <span>Our Core Services</span>
                         </div>
+
                         <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated"
                             data-animate="animate__fadeInDown">Company-Focused Solutions That Drive Real Results</h2>
                     </div>
                     <div class="card-service-wrapper">
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
-
                             @foreach ($services as $service)
                                 <div class="col">
                                     <div class="card card-service animate-box animated slow animate__animated"
@@ -49,7 +49,7 @@
                                             <div>
                                                 <div class="service-icon-wrapper">
                                                     <div class="service-icon">
-                                                        <img src="{{ isset($service->icon) ? asset('storage/services/' . $service->icon) : asset('image/Icon-7.png') }}"
+                                                        <img src="{{ isset($service->img) ? asset('storage/' . $service->img) : asset('image/Icon-7.png') }}"
                                                             alt="Service Icon" class="img-fluid">
                                                     </div>
                                                 </div>
@@ -59,9 +59,10 @@
                                             </div>
                                         </div>
                                         <p>
-                                            {{ $service->description }}
+                                            {!! $service->description !!}
                                         </p>
-                                        <a href="{{ route('single.services') }}" class="btn btn-accent">
+                                        <a href="{{ route('service.details', [$service->sub_title]) }}"
+                                            class="btn btn-accent">
                                             <div class="btn-title">
                                                 <span>View Details</span>
                                             </div>
@@ -72,143 +73,6 @@
                                     </div>
                                 </div>
                             @endforeach
-
-
-                            {{-- <div class="col">
-                                <div class="card card-service animate-box animated animate__animated" data-animate="animate__fadeInLeft">
-                                    <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                        <div>
-                                            <div class="service-icon-wrapper">
-                                                <div class="service-icon">
-                                                    <img src="./image/digital-marketing-icons-F4LJ4W8.png" alt="Service Icon" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="service-title">
-                                            <h4>Content Marketing</h4>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
-                                        <div class="btn-title">
-                                            <span>View Details</span>
-                                        </div>
-                                        <div class="icon-circle">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card card-service animate-box animated fast animate__animated" data-animate="animate__fadeInLeft">
-                                    <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                        <div>
-                                            <div class="service-icon-wrapper">
-                                                <div class="service-icon">
-                                                    <img src="./image/Icon-8.png" alt="Service Icon" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="service-title">
-                                            <h4>PPC Advertising</h4>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
-                                        <div class="btn-title">
-                                            <span>View Details</span>
-                                        </div>
-                                        <div class="icon-circle">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card card-service animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
-                                    <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                        <div>
-                                            <div class="service-icon-wrapper">
-                                                <div class="service-icon">
-                                                    <img src="./image/Icon-5.png" alt="Service Icon" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="service-title">
-                                            <h4>Email Marketing</h4>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
-                                        <div class="btn-title">
-                                            <span>View Details</span>
-                                        </div>
-                                        <div class="icon-circle">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card card-service animate-box animated animate__animated" data-animate="animate__fadeInLeft">
-                                    <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                        <div>
-                                            <div class="service-icon-wrapper">
-                                                <div class="service-icon">
-                                                    <img src="./image/Icon-6.png" alt="Service Icon" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="service-title">
-                                            <h4>Brading & Design</h4>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
-                                        <div class="btn-title">
-                                            <span>View Details</span>
-                                        </div>
-                                        <div class="icon-circle">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card card-service animate-box animated fast animate__animated" data-animate="animate__fadeInLeft">
-                                    <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">
-                                        <div>
-                                            <div class="service-icon-wrapper">
-                                                <div class="service-icon">
-                                                    <img src="./image/Icon-4.png" alt="Service Icon" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="service-title">
-                                            <h4>Web Development</h4>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="{{ route('single.services') }}" class="btn btn-accent">
-                                        <div class="btn-title">
-                                            <span>View Details</span>
-                                        </div>
-                                        <div class="icon-circle">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div> --}}
                         </div>
                     </div>
                     <div class="service-link-footer">

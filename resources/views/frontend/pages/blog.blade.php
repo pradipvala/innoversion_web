@@ -27,17 +27,17 @@
             <div class="hero-container">
                 <div class="d-flex flex-column gspace-5">
                     <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5 m-0">
-                        <div class="col col-xl-8 ps-0 pe-0">
+                        <div class="col col-xl-12 ps-0 pe-0">
                             <div class="d-flex flex-column gspace-2 animate-box animated fast animate__animated"
                                 data-animate="animate__fadeInLeft">
                                 <div class="sub-heading">
                                     <i class="fa-regular fa-circle-dot"></i>
                                     <span>Insights & Trends</span>
                                 </div>
-                                <h2 class="title-heading">Latest Digital Marketing Strategies & Tips</h2>
+                                <h2 class="title-heading">Our Latest Blogs</h2>
                             </div>
                         </div>
-                        <div class="col col-xl-4 ps-0 pe-0">
+                        {{--  <div class="col col-xl-4 ps-0 pe-0">
                             <div class="d-flex flex-column gspace-2 justify-content-end h-100 animate-box animated animate__animated"
                                 data-animate="animate__fadeInRight">
                                 <p>Explore our latest blog articles covering industry trends, expert insights, and
@@ -47,7 +47,7 @@
                                     <i class="fa-solid fa-circle-arrow-right"></i>
                                 </div>
                             </div>
-                        </div>
+                        </div>  --}}
                     </div>
                     <div class="row row-cols-md-2 row-cols-1 grid-spacer-3">
                         @foreach ($blogs as $blog)
@@ -58,7 +58,7 @@
                                         <img src="./image/dummy-img-600x400.jpg" alt="Blog Image">
                                     </div>
                                     <div class="card-body">
-                                        <div class="d-flex flex-row gspace-2">
+                                        {{--  <div class="d-flex flex-row gspace-2">
                                             <div class="d-flex flex-row gspace-1 align-items-center">
                                                 <i class="fa-solid fa-calendar accent-color"></i>
                                                 <span class="meta-data">April 14, 2025</span>
@@ -67,10 +67,10 @@
                                                 <i class="fa-solid fa-folder accent-color"></i>
                                                 <span class="meta-data">Social Media</span>
                                             </div>
-                                        </div>
+                                        </div>  --}}
                                         <a href="#" class="blog-link">{{ $blog->title }}</a>
                                         <p>{{ $blog->description }}</p>
-                                        <a href="#" class="read-more">Read More</a>
+                                        {{--  <a href="#" class="read-more">Read More</a>  --}}
                                     </div>
                                 </div>
                             </div>

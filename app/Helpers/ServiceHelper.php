@@ -64,7 +64,7 @@ class ServiceHelper
             'ui-ux-design' => [
                 'name' => 'UI/UX Design',
                 'hero_title' => 'Designing Intuitive & Engaging User Experiences',
-                'image' => 'services/ui-ux-development.jpeg',
+                'image' => 'services/ui-ux-development.png',
                 'description' => 'We design modern, user-friendly interfaces that enhance usability, improve engagement, and deliver seamless digital experiences.',
                 'overview' => 'At Innoversion Technolab, we focus on crafting visually appealing and highly functional UI/UX designs that align with user behavior and business goals. Our design approach ensures that every interaction is smooth, intuitive, and impactful. We combine creativity with usability to deliver designs that not only look great but also perform exceptionally across web and mobile platforms.',
                 'features' => ['User Research & Analysis', 'Wireframing & Prototyping', 'Web & Mobile UI Design', 'UX Optimization', 'Interactive Design Solutions'],

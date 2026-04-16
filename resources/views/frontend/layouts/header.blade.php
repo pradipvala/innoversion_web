@@ -156,7 +156,7 @@
                                         <a href="{{ route('technology.details', 'vue') }}"
                                             class="tag text-decoration-none">Vue.js</a>
                                         <a href="{{ route('technology.details', 'angular') }}"
-                                            class="tag text-decoration-none">Angular</a>
+                                            class="tag text-decoration-none">Angular.js</a>
                                     </div>
                                     <div class="sec-h" style="color:#9CA3AF">Backend Development</div>
                                     <div class="tag-row">
