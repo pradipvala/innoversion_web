@@ -75,9 +75,6 @@
         .ap-main .hero-badge {
             background: rgba(192, 57, 43, 0.15);
             border: 1px solid rgba(192, 57, 43, 0.4);
-            font-size: 0.78rem;
-            letter-spacing: 3px;
-            text-transform: uppercase;
             padding: 0.4rem 1.2rem;
             border-radius: 2px;
             margin-bottom: 2rem;
@@ -89,10 +86,6 @@
             font-size: clamp(4rem, 12vw, 9rem);
             font-weight: 900;
             line-height: 0.9;
-            letter-spacing: -2px;
-            text-transform: uppercase;
-            position: relative;
-            margin: 0;
         }
 
         .ap-main .hero h1 .pulse {
@@ -186,14 +179,6 @@
             line-height: 1;
         }
 
-        .ap-main .stat-label {
-            font-size: 0.78rem;
-            color: var(--muted);
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            margin-top: 0.5rem;
-        }
-
         /* SECTIONS */
         .ap-main .section-full {
             max-width: 100%;
@@ -204,16 +189,6 @@
             background: var(--dark2);
         }
 
-        .ap-main .section-label {
-            font-size: 0.72rem;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            color: var(--accent);
-            margin-bottom: 0.75rem;
-            font-family: 'Barlow', sans-serif;
-            font-weight: 600;
-        }
-
         .ap-main .section-title {
             font-family: 'Barlow Condensed', sans-serif;
             font-size: clamp(2.5rem, 5vw, 4rem);
@@ -222,14 +197,6 @@
             line-height: 1;
             margin-bottom: 1.2rem;
             margin-top: 0;
-        }
-
-        .ap-main .section-desc {
-            color: var(--muted);
-            font-size: 1.05rem;
-            max-width: 600px;
-            line-height: 1.7;
-            margin-bottom: 0;
         }
 
         .ap-main .section-header {
@@ -675,9 +642,9 @@
         <div class="flow-strip">
             <div class="flow-inner">
                 <div class="section-header center">
-                    <div class="section-label">End-to-End Platform</div>
+                    <div class="text-danger">End-to-End Platform</div>
                     <div class="section-title">From Order to Delivery</div>
-                    <div class="section-desc">One Platform · Every Process · Complete Control</div>
+                    <div>One Platform · Every Process · Complete Control</div>
                 </div>
                 <div class="flow-steps">
                     <div class="flow-step">
@@ -749,14 +716,9 @@
                 <span class="brand-pill" title="ROYAL ENFIELD" aria-label="ROYAL ENFIELD"><img class="brand-logo"
                         src="{{ asset('image/brands/royal-enfield.svg') }}" alt="ROYAL ENFIELD logo"
                         loading="lazy"></span>
-                <span class="brand-pill" title="Mahindra Private Vehicles" aria-label="Mahindra Private Vehicles"><img
-                        class="brand-logo" src="{{ asset('image/brands/mahindra-private.svg') }}"
-                        alt="Mahindra private vehicles logo" loading="lazy"></span>
-                <span class="brand-pill" title="Mahindra EV" aria-label="Mahindra EV"><img class="brand-logo"
-                        src="{{ asset('image/brands/mahindra-ev.svg') }}" alt="Mahindra EV logo" loading="lazy"></span>
-                <span class="brand-pill" title="Mahindra Commercial" aria-label="Mahindra Commercial"><img
-                        class="brand-logo" src="{{ asset('image/brands/mahindra-commercial.svg') }}"
-                        alt="Mahindra commercial logo" loading="lazy"></span>
+                <span class="brand-pill" title="Mahindra" aria-label="Mahindra"><img class="brand-logo"
+                        src="{{ asset('image/auto-pulse/Mahindra-Logo.png') }}" alt="Mahindra logo"
+                        loading="lazy"></span>
             </div>
         </div>
 
@@ -888,7 +850,7 @@
         <div id="modules" class="section-full" style="background: var(--dark3);">
             <div class="modules-wrap">
                 <div class="section-header" style="margin-bottom:2.5rem;">
-                    <div class="section-label">Deep Dive</div>
+                    <div class="text-danger">Deep Dive</div>
                     <div class="section-title">Module Details</div>
                 </div>
                 <div class="module-tabs">
@@ -1182,7 +1144,7 @@
         <div id="reports" style="background: var(--dark2); padding: 5rem 0;">
             <div style="max-width:1200px;margin:0 auto;padding:0 2rem;">
                 <div class="section-header center" style="margin-bottom:3rem;">
-                    <div class="section-label">Business Intelligence</div>
+                    <div class="text-danger">Business Intelligence</div>
                     <div class="section-title">Reports Module</div>
                     <div class="section-desc">Real-time insights into every aspect of your dealership operations</div>
                 </div>
@@ -1245,7 +1207,7 @@
 
         <!-- CTA / CONTACT -->
         <div class="cta-section" id="contact">
-            <div class="section-label" style="position:relative;">Contact Us</div>
+            <div class="text-danger" style="position:relative;">Contact Us</div>
             <div class="cta-title" style="margin:1rem 0 0.5rem;">Ready to Transform<br>Your Dealership?</div>
             <p style="color:var(--muted);font-size:1.1rem;margin:1rem auto 2rem;max-width:500px;position:relative;">Contact
                 us today for a free demo and see Auto Pulse in action</p>

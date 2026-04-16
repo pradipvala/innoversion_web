@@ -44,8 +44,10 @@
                                             Application Development</a></li>
                                     <li><a href="{{ route('service.details', 'digital-marketing-seo') }}">SEO
                                             Application Development</a></li>
-                                    <li><a href="{{ route('single.services') }}">AI Development</a></li>
-                                    <li><a href="{{ route('single.services') }}">Branding Strategy</a></li>
+                                    {{--  <li><a href="javascript:void(0)">AI Development</a></li>  --}}
+                                    {{--  <li><a href="javascript:void(0)">Branding Strategy</a></li>  --}}
+                                    <li><a href="{{ route('service.details', 'saas-development') }}">Saas
+                                            Development</a></li>
                                 </ul>
                             </div>
                         </div>
