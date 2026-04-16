@@ -47,8 +47,10 @@ class HomeController extends Controller
     public function about()
     {
         $abouts = AboutUs::where('status', '1')->get();
+        $testimonials = Testimonial::where('status', '1')->get();
+        $teamMembers = TeamMember::where('status', '1')->get();
 
-        return view('frontend.pages.about', compact('abouts'));
+        return view('frontend.pages.about', compact('abouts', 'testimonials', 'teamMembers'));
     }
 
     public function companyOverview()
