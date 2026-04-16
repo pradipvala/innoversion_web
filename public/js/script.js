@@ -103,9 +103,18 @@ function initBannerVideo() {
 }
 
 function initThemeSwitch() {
-    const storedTheme = localStorage.getItem('lightmode');
-    let lightMode = storedTheme !== 'inactive';
+    const storedTheme = localStorage.getItem('themeMode');
+    let lightMode = storedTheme !== 'dark';
     const logoBasePath = `${window.location.origin}/image`;
+
+    const hasPngSource = (src) => typeof src === 'string' && /\.png(?:\?.*)?$/i.test(src);
+
+    const updateThemeIcon = () => {
+        const iconClass = lightMode ? 'fa-sun' : 'fa-moon';
+        $('#themeIcon')
+            .removeClass('fa-sun fa-moon')
+            .addClass(iconClass);
+    };
 
     const updateLogos = () => {
         const siteLogos = $('.site-logo');
@@ -113,6 +122,7 @@ function initThemeSwitch() {
 
         if (lightMode) {
             $('body').addClass('lightmode');
+            localStorage.setItem('themeMode', 'light');
             localStorage.setItem('lightmode', 'active');
 
             siteLogos.attr('src', `${logoBasePath}/marko-logo-dark.png`);
@@ -120,22 +130,33 @@ function initThemeSwitch() {
             partnerLogos.each(function () {
                 const $img = $(this);
                 const src = $img.attr('src');
-                if (!src.includes('-dark')) {
-                    $img.attr('src', src.replace('.png', '-dark.png'));
+                if (!hasPngSource(src)) {
+                    return;
+                }
+
+                if (!src.includes('-dark.png')) {
+                    $img.attr('src', src.replace(/\.png(\?.*)?$/i, '-dark.png$1'));
                 }
             });
         } else {
             $('body').removeClass('lightmode');
-            localStorage.removeItem('lightmode');
+            localStorage.setItem('themeMode', 'dark');
+            localStorage.setItem('lightmode', 'inactive');
 
             siteLogos.attr('src', `${logoBasePath}/marko-logo.png`);
 
             partnerLogos.each(function () {
                 const $img = $(this);
                 const src = $img.attr('src');
-                $img.attr('src', src.replace('-dark.png', '.png'));
+                if (!hasPngSource(src)) {
+                    return;
+                }
+
+                $img.attr('src', src.replace(/-dark\.png(\?.*)?$/i, '.png$1'));
             });
         }
+
+        updateThemeIcon();
     };
 
     updateLogos();
@@ -152,11 +173,6 @@ function initThemeSwitch() {
     $('#themeSwitch').on('click', function () {
         lightMode = !lightMode;
         updateLogos();
-
-        const iconClass = lightMode ? 'fa-sun' : 'fa-moon';
-        $('#themeIcon')
-            .removeClass('fa-sun fa-moon')
-            .addClass(iconClass);
     });
 }
 
