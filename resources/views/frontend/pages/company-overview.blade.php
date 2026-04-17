@@ -35,7 +35,7 @@
                                         <div class="sub-heading animate-box animated slow animate__animated"
                                             data-animate="animate__fadeInRight">
                                             <i class="fa-regular fa-circle-dot"></i>
-                                            <span>Who We Are</span>
+                                            <span>Who We Are ?</span>
                                         </div>
                                         <h3 class="title-heading animate-box animated animate__animated"
                                             data-animate="animate__fadeInRight">Driving Innovation & Excellence Globally
@@ -93,7 +93,7 @@
                                     </div>
                                 </div>
 
-                                <h4 class="mt-4">Why We Stand Out</h4>
+                                {{--  <h4 class="mt-4">Why We Stand Out</h4>
                                 <p>With a strong foundation in technology and innovation, Innoversion Technolab has
                                     developed a reputation for delivering reliable, scalable, and high-performing digital
                                     solutions. Our approach blends creativity with deep technical expertise to ensure that
@@ -141,7 +141,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>  --}}
                             </div>
                         </div>
                         <div class="col col-xl-4">

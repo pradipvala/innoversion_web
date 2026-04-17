@@ -25,7 +25,7 @@
 
                         <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated"
                             data-animate="animate__fadeInRight">
-                            <p>At Innoversion Technolab, we blend innovation with technology to build powerful, scalable
+                            <p>At Innoversion Technolab, we build innovation with technology to build powerful, scalable
                                 digital solutions.We don't just develop, we enable technologies which help business to save
                                 time & energy.
                             </p>
@@ -61,8 +61,9 @@
                                 <div class="card-expertise-wrapper">
                                     <div class="card card-expertise  animate-box animated animate__animated"
                                         data-animate="animate__fadeInDown">
-                                        <h4>Ready to Build Powerful Software Solutions?</h4>
-                                        <p>Transform your ideas into scalable, high-performance software with a team that
+                                        <h4>Ready to Build Powerful Tech Solutions?</h4>
+                                        <p>Transform your ideas into scalable, high-performance Information technology with
+                                            a team that
                                             understands business, technology, and growth.
                                         </p>
                                         <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
@@ -83,14 +84,14 @@
                         <span>Our Expertise</span>
                     </div>
                     <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
-                        End-to-End Software Solutions That Drive Real Business Growth</h2>
-                    <p>Innoversion Technolab, we specialize in building custom software solutions that solve real business
+                        End-to-End Technology Solutions That Drive Real Business Growth</h2>
+                    <p>Innoversion Technolab, we specialize in building custom application that solve real business
                         challenges. From startups to enterprises, we design, develop, and deliver scalable systems that
                         improve efficiency, automate processes, and accelerate growth in a rapidly evolving digital
                         landscape.</p>
                     <div class="d-flex flex-column flex-md-row gspace-2">
                         <div class="expertise-list">
-                            <h5>What We Do Best</h5>
+                            <h5>We Do With Best</h5>
                             <ul class="check-list">
                                 <li><a href="{{ route('single.services') }}">Custom Web Development</a></li>
                                 <li><a href="{{ route('single.services') }}">Mobile App Development</a></li>
@@ -107,7 +108,7 @@
                                     <span class="counter" data-target="15">15</span>
                                     <span class="counter-detail">+</span>
                                 </div>
-                                <h6>Years of Experience in Software Development</h6>
+                                <h6>Years of Experience in customize Web and Mobile Development</h6>
                             </div>
                             <p>We build secure, scalable, and high-performing software systems tailored to business needs.
                                 Our solutions help companies streamline operations, enhance user experience, and achieve
@@ -373,7 +374,7 @@
                         </p>
                     </div>  --}}
                     <div class="d-flex flex-column gspace-2">
-                        <h3 class="title-heading">Transform Your Business with Innoversion Technolab</h3>
+                        <h3 class="title-heading">Transform Your Business by using technologies with Us</h3>
                         <p>We deliver scalable software solutions that drive innovation, efficiency, and business growth.
                             Our expertise in web, mobile, and custom development ensures high-performance digital products.
                             Partner with us to build secure, future-ready technology that delivers real results.</p>
@@ -484,7 +485,7 @@
         </div>
     </div>
 
-    <!-- Section Case Studies -->
+    {{--  <!-- Section Case Studies -->
     <div class="section p-0">
         <div class="hero-container">
             <div class="case-studies-layout">
@@ -634,7 +635,7 @@
                 <div class="spacer"></div>
             </div>
         </div>
-    </div>
+    </div>  --}}
 
     <!-- Section Testimonial -->
     <div class="section">
@@ -717,7 +718,7 @@
                             <div class="swiper-wrapper">
                                 @foreach ($testimonials as $testimonial)
                                     <div class="swiper-slide">
-                                        <div class="card card-testimonial">
+                                        <div class="card card-testimonial" style="height: 500px;">
                                             <div class="stars">
                                                 <i class="fa-solid fa-star"></i>
                                                 <i class="fa-solid fa-star"></i>
@@ -1122,7 +1123,7 @@
                                     alt="Blog Image">
                             </div>
                             <div class="card-body">
-                                <div class="d-flex flex-row gspace-2">
+                                {{--  <div class="d-flex flex-row gspace-2">
                                     <div class="d-flex flex-row gspace-1 align-items-center">
                                         <i class="fa-solid fa-calendar accent-color"></i>
                                         <span class="meta-data">April 14, 2025</span>
@@ -1131,11 +1132,11 @@
                                         <i class="fa-solid fa-folder accent-color"></i>
                                         <span class="meta-data">Social Media</span>
                                     </div>
-                                </div>
+                                </div>  --}}
                                 <a href="javascript:void(0)" class="blog-link">Building Scalable Applications</a>
                                 <p>Learn how modern technologies help create fast, secure, and scalable digital solutions.
                                 </p>
-                                <a href="javascript:void(0)" class="read-more">Read More</a>
+                                {{--  <a href="javascript:void(0)" class="read-more">Read More</a>  --}}
                             </div>
                         </div>
                     </div>
@@ -1147,7 +1148,7 @@
                                     alt="Blog Image">
                             </div>
                             <div class="card-body">
-                                <div class="d-flex flex-row gspace-2">
+                                {{--  <div class="d-flex flex-row gspace-2">
                                     <div class="d-flex flex-row gspace-1 align-items-center">
                                         <i class="fa-solid fa-calendar accent-color"></i>
                                         <span class="meta-data">April 14, 2025</span>
@@ -1156,11 +1157,11 @@
                                         <i class="fa-solid fa-folder accent-color"></i>
                                         <span class="meta-data">SEO</span>
                                     </div>
-                                </div>
+                                </div>  --}}
                                 <a href="javascript:void(0)" class="blog-link">Driving Growth with Smart Technology</a>
                                 <p>Discover how development, automation, and strategy work together to grow your business.
                                 </p>
-                                <a href="javascript:void(0)" class="read-more">Read More</a>
+                                {{--  <a href="javascript:void(0)" class="read-more">Read More</a>  --}}
                             </div>
                         </div>
                     </div>

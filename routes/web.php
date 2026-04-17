@@ -34,6 +34,9 @@ Route::get('/auto-pulse', [HomeController::class, 'autoPulse'])->name('auto.puls
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
 Route::post('/contact', [HomeController::class, 'submitContact'])->name('contact.submit');
 Route::post('/newsletter-subscribe', [HomeController::class, 'submitNewsletter'])->name('newsletter.subscribe');
+Route::get('/newsletter-unsubscribe/{email}', [HomeController::class, 'unsubscribeNewsletter'])
+    ->middleware('signed')
+    ->name('newsletter.unsubscribe');
 Route::get('/csrf-token', function (Request $request) {
     $request->session()->regenerateToken();
 

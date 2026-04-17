@@ -208,6 +208,41 @@ class HomeController extends Controller
         }
     }
 
+    public function unsubscribeNewsletter(Request $request, $email)
+    {
+        $email = urldecode($email);
+
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            return response()->view('frontend.pages.newsletter-unsubscribed', [
+                'message' => 'Invalid unsubscribe link.',
+            ], 400);
+        }
+
+        try {
+            $sletter = Sletter::withTrashed()->firstOrNew(['email' => $email]);
+
+            if ($sletter->exists && $sletter->trashed()) {
+                $sletter->restore();
+            }
+
+            $sletter->status = '0';
+            $sletter->save();
+
+            return response()->view('frontend.pages.newsletter-unsubscribed', [
+                'message' => 'You have been unsubscribed successfully.',
+            ]);
+        } catch (Throwable $e) {
+            Log::error('Newsletter unsubscribe failed', [
+                'email' => $email,
+                'error' => $e->getMessage(),
+            ]);
+
+            return response()->view('frontend.pages.newsletter-unsubscribed', [
+                'message' => 'Something went wrong while unsubscribing. Please contact support.',
+            ], 500);
+        }
+    }
+
     public function submitCompanyProfileDownload(Request $request)
     {
         $request->validate([

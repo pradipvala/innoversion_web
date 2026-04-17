@@ -13,11 +13,11 @@
                                     </a>
                                 </div>
                                 {{--  <h4>Driving Digital Growth with Innovation & Strategy</h4>  --}}
-                                <p>
+                                {{--  <p>
                                     We deliver innovative and reliable software solutions that empower businesses to
                                     grow digitally. From web and mobile development to AI and branding, we turn ideas
                                     into powerful digital experiences.
-                                </p>
+                                </p>  --}}
                             </div>
                         </div>
                         <div class="col col-xl-2">

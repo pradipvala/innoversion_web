@@ -628,15 +628,15 @@
         <div class="hero">
             <div class="hero-badge">Automobile Dealer Principal ERP</div>
             <h1>AUTO <span class="pulse">PULSE</span></h1>
-            <p class="hero-sub">Innoversion Technolab · Enabling Technologies</p>
+            {{--  <p class="hero-sub">Innoversion Technolab · Enabling Technologies</p>  --}}
             <p class="hero-tagline">Simplify dealership workflow <strong>by enabling technologies</strong></p>
             <div class="hero-btns">
-                <a href="{{ route('contact') }}" class="btn-primary">Get Free Demo</a>
                 <a href="#features" class="btn-outline">Explore Features</a>
+                <a href="{{ route('contact') }}" class="btn-primary">Get Free Demo</a>
             </div>
             <div class="hero-stats">
                 <div class="stat">
-                    <div class="stat-num">18+</div>
+                    <div class="stat-num">20+</div>
                     <div class="stat-label">Core Modules</div>
                 </div>
                 <div class="stat">
@@ -688,7 +688,7 @@
 
         <!-- BRAND COMPATIBILITY -->
         <div class="brand-section">
-            <div class="brand-strip-title">Works Seamlessly with Top Brands</div>
+            <div class="brand-strip-title">Works Seamlessly with Top Brands dealership</div>
             <div class="brands-grid">
                 <span class="brand-pill" title="ISUZU" aria-label="ISUZU"><img class="brand-logo"
                         src="{{ asset('image/brands/isuzu.svg') }}" alt="ISUZU logo" loading="lazy"></span>

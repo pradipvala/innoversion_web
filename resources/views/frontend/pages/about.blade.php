@@ -630,7 +630,7 @@
                                 <div class="swiper-wrapper">
                                     @foreach ($testimonials as $testimonial)
                                         <div class="swiper-slide">
-                                            <div class="card card-testimonial">
+                                            <div class="card card-testimonial" style="height: 500px;">
                                                 <div class="stars">
                                                     <i class="fa-solid fa-star"></i>
                                                     <i class="fa-solid fa-star"></i>
