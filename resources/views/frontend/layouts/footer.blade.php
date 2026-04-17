@@ -78,7 +78,8 @@
                                     <h5>Social Media</h5>
                                     <div class="social-container">
                                         <div class="social-item-wrapper">
-                                            <a href="https://facebook.com" class="social-item">
+                                            <a href="https://www.facebook.com/profile.php?id=61554574495923"
+                                                target="_blank" class="social-item">
                                                 <i class="fa-brands fa-facebook"></i>
                                             </a>
                                         </div>
@@ -88,12 +89,14 @@
                                             </a>
                                         </div>  --}}
                                         <div class="social-item-wrapper">
-                                            <a href="https://instagram.com" class="social-item">
+                                            <a href="https://www.instagram.com/innoversion/" target="_blank"
+                                                class="social-item">
                                                 <i class="fa-brands fa-instagram"></i>
                                             </a>
                                         </div>
                                         <div class="social-item-wrapper">
-                                            <a href="https://linkedin.com" class="social-item">
+                                            <a href="https://www.linkedin.com/company/innoversion" target="_blank"
+                                                class="social-item">
                                                 <i class="fa-brands fa-linkedin"></i>
                                             </a>
                                         </div>
