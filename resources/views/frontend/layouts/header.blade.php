@@ -368,7 +368,7 @@
                     <!-- CAREER -->
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('open-positions') ? 'active' : '' }}"
-                            href="{{ route('open-positions') }}">Career</a>
+                            href="{{ route('open-positions') }}">Recruitments</a>
                     </li>
                     <!-- CONTACT -->
                     <li class="nav-item">

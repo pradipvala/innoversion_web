@@ -150,7 +150,7 @@
                 </ul>
             </li>
 
-            <li class="below-dropdown"><a href="{{ route('open-positions') }}">Careers</a></li>
+            <li class="below-dropdown"><a href="{{ route('open-positions') }}">Recruitments</a></li>
             <li class="below-dropdown"><a href="{{ route('contact') }}">Contact Us</a></li>
         </ul>
     </div>

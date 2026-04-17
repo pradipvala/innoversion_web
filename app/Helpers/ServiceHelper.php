@@ -19,7 +19,7 @@ class ServiceHelper
             'web-application-development' => [
                 'name' => 'Web Application Development',
                 'hero_title' => 'Building Scalable & High-Performance Web Applications',
-                'image' => 'services/web-application-development.jpeg',
+                'image' => 'services/mobile-development.jpg',
                 'description' => 'We create fast, secure, and user-friendly web applications that deliver seamless digital experiences and drive business growth.',
                 'overview' => 'At Innoversion Technolab, we develop powerful web applications tailored to your business needs. Our solutions are designed to be scalable, secure, and accessible across all devices without installation. We leverage modern technologies to build web apps that enhance user engagement, streamline operations, and support your digital transformation journey.',
                 'features' => ['Responsive Design', 'Cross-Browser Compatibility', 'Rich User Interface', 'Cloud Scalability', 'High Performance'],
@@ -28,7 +28,7 @@ class ServiceHelper
             'mobile-app-development' => [
                 'name' => 'Mobile App Development',
                 'hero_title' => 'Driving Business Growth Through Mobile App Development',
-                'image' => 'services/app-development.jpeg',
+                'image' => 'services/mobile-development.jpg',
                 'description' => 'Custom-built Android and iOS applications designed to improve customer engagement, simplify operations, and support long-term business growth.',
                 'overview' => 'At Innoversion Technolab, we develop innovative mobile applications that help businesses stay connected with their customers anytime and anywhere. Our team creates native and cross-platform apps that are fast, secure, and easy to use. From startup ideas to enterprise-grade applications, we build mobile solutions that match your business objectives and deliver a seamless user experience across all devices.',
                 'features' => ['Android App Development', 'iOS App Development', 'Cross-Platform App Development', 'Custom UI/UX Design', 'API & Third-Party Integration'],
