@@ -3,7 +3,7 @@
         <div class="bg-footer">
             <div class="hero-container position-relative z-2">
                 <div class="d-flex flex-column gspace-2">
-                    <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 grid-spacer-5">
+                    <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 grid-spacer-5 mb-5">
                         <div class="col col-xl-4">
                             <div class="footer-logo-container">
                                 <div class="logo-container-footer">
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer-content-spacer"></div>
+                    {{--  <div class="footer-content-spacer"></div>  --}}
                 </div>
                 <div class="copyright-container">
                     <span class="copyright">© {{ Carbon\Carbon::now()->format('Y') }} Innoversion Technolab. Fox
