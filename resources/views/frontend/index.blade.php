@@ -1099,14 +1099,15 @@
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Insights & Trends</span>
                             </div>
-                            <h2 class="title-heading">Technology Insights & Digital Solutions</h2>
+                            <h2 class="title-heading">2026 Technology Insights, Trends & Practical Guides</h2>
                         </div>
                     </div>
                     <div class="col col-xl-4 ps-0 pe-0">
                         <div class="d-flex flex-column gspace-2 justify-content-end h-100 animate-box animated animate__animated"
                             data-animate="animate__fadeInRight">
-                            <p>Explore practical insights, development strategies, and real-world solutions from our team.
-                                Stay updated with the latest trends to build, scale, and grow your digital products.</p>
+                            <p>Explore what is shaping digital products now: applied AI, secure cloud-native systems,
+                                intelligent automation, and data-driven decision making. Learn with actionable examples
+                                your team can implement fast.</p>
                             <div class="link-wrapper">
                                 <a href="{{ route('blog') }}">View All Articles</a>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
@@ -1114,12 +1115,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row-cols-md-2 row-cols-1 grid-spacer-3">
+                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 grid-spacer-3">
                     <div class="col">
                         <div class="card card-blog animate-box animated animate__animated"
                             data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
                             <div class="blog-image">
-                                <img src="{{ asset('https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg') }}"
+                                <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg"
                                     alt="Blog Image">
                             </div>
                             <div class="card-body">
@@ -1133,9 +1134,9 @@
                                         <span class="meta-data">Social Media</span>
                                     </div>
                                 </div>  --}}
-                                <a href="javascript:void(0)" class="blog-link">Building Scalable Applications</a>
-                                <p>Learn how modern technologies help create fast, secure, and scalable digital solutions.
-                                </p>
+                                <a href="javascript:void(0)" class="blog-link">AI Agents in Business Workflows</a>
+                                <p>How teams are embedding AI copilots in support, sales, and operations to reduce manual
+                                    work and improve response quality.</p>
                                 {{--  <a href="javascript:void(0)" class="read-more">Read More</a>  --}}
                             </div>
                         </div>
@@ -1144,7 +1145,7 @@
                         <div class="card card-blog animate-box animated animate__animated"
                             data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
                             <div class="blog-image">
-                                <img src="{{ asset('https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-LY58K9U-1024x683.jpg') }}"
+                                <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-LY58K9U-1024x683.jpg"
                                     alt="Blog Image">
                             </div>
                             <div class="card-body">
@@ -1158,9 +1159,9 @@
                                         <span class="meta-data">SEO</span>
                                     </div>
                                 </div>  --}}
-                                <a href="javascript:void(0)" class="blog-link">Driving Growth with Smart Technology</a>
-                                <p>Discover how development, automation, and strategy work together to grow your business.
-                                </p>
+                                <a href="javascript:void(0)" class="blog-link">Cloud Cost Optimization in 2026</a>
+                                <p>Modern FinOps practices to control cloud spend while keeping performance and developer
+                                    velocity high.</p>
                                 {{--  <a href="javascript:void(0)" class="read-more">Read More</a>  --}}
                             </div>
                         </div>

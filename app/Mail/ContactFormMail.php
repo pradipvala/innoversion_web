@@ -40,7 +40,7 @@ class ContactFormMail extends Mailable
         }
 
         return new Envelope(
-            subject: 'New Contact Form Submission',
+            subject: 'Thank you for contacting us',
             replyTo: $replyTo,
         );
     }
