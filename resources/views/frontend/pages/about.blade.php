@@ -379,7 +379,8 @@
                                     <div class="d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
-                                                class="img-fluid">
+                                                class="img-fluid"
+                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                                 {{--  <div class="d-flex flex-column align-items-end">
