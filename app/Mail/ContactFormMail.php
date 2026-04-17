@@ -40,7 +40,7 @@ class ContactFormMail extends Mailable
         }
 
         return new Envelope(
-            subject: 'New Company Profile Download Request',
+            subject: 'New Contact Form Submission',
             replyTo: $replyTo,
         );
     }

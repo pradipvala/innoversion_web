@@ -72,13 +72,13 @@
         </a>
     @endif
 
-    <button type="button" style="font-size:32px;"
+    {{--  <button type="button" style="font-size:32px;"
         class="btn btn-danger fa fa-download btn-floating btn-lg contact_us_pdf_download download-float"
         id="contact_us_pdf_download" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <!--<i class="fas fa-arrow-down"></i>-->
     </button>
 
-    <a href="{{ asset('pdf/6H01AV1zaaxHpbRNvpDl7X9OB59Gt00YkfkMx7tZ.pdf') }}" id="download" download></a>
+    <a href="{{ asset('pdf/6H01AV1zaaxHpbRNvpDl7X9OB59Gt00YkfkMx7tZ.pdf') }}" id="download" download></a>  --}}
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">

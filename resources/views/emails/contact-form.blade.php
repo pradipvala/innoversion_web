@@ -5,59 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form Submission</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #E2010F 0%, #a24b4b 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .header h2 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .content {
+            padding: 30px 20px;
+            color: #333;
+        }
+
+        .content p {
+            margin: 15px 0;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .footer {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #eee;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
 </head>
 
-<body style="margin:0; padding:24px; background:#f5f7fb; font-family:Arial, Helvetica, sans-serif; color:#111827;">
-    <table role="presentation" cellspacing="0" cellpadding="0" width="100%"
-        style="max-width:680px; margin:0 auto; background:#ffffff; border:1px solid #e5e7eb; border-radius:8px;">
-        <tr>
-            <td
-                style="padding:20px 24px; border-bottom:1px solid #e5e7eb; background:#111827; color:#ffffff; border-top-left-radius:8px; border-top-right-radius:8px;">
-                <h2 style="margin:0; font-size:20px; line-height:1.3;">Contact Form Submission</h2>
-            </td>
-        </tr>
-        <tr>
-            <td style="padding:20px 24px;">
-                <p style="margin:0 0 16px 0; font-size:14px; color:#374151;">A new user has submitted the contact form.
-                </p>
-                <table role="presentation" cellspacing="0" cellpadding="0" width="100%"
-                    style="border-collapse:collapse;">
-                    <tr>
-                        <td
-                            style="padding:10px 0; border-bottom:1px solid #f3f4f6; width:180px; font-size:13px; color:#6b7280;">
-                            First Name</td>
-                        <td style="padding:10px 0; border-bottom:1px solid #f3f4f6; font-size:14px;">
-                            {{ $details['first_name'] ?? '-' }}</td>
-                    </tr>
-                    <tr>
-                        <td
-                            style="padding:10px 0; border-bottom:1px solid #f3f4f6; width:180px; font-size:13px; color:#6b7280;">
-                            Last Name</td>
-                        <td style="padding:10px 0; border-bottom:1px solid #f3f4f6; font-size:14px;">
-                            {{ $details['last_name'] ?? '-' }}</td>
-                    </tr>
-                    <tr>
-                        <td
-                            style="padding:10px 0; border-bottom:1px solid #f3f4f6; width:180px; font-size:13px; color:#6b7280;">
-                            Contact Email</td>
-                        <td style="padding:10px 0; border-bottom:1px solid #f3f4f6; font-size:14px;">
-                            {{ $details['contact_email'] ?? '-' }}</td>
-                    </tr>
-                    <tr>
-                        <td
-                            style="padding:10px 0; border-bottom:1px solid #f3f4f6; width:180px; font-size:13px; color:#6b7280;">
-                            Country Code</td>
-                        <td style="padding:10px 0; border-bottom:1px solid #f3f4f6; font-size:14px;">
-                            {{ $details['countryCode'] ?? '-' }}</td>
-                    </tr>
-                    <tr>
-                        <td style="padding:10px 0; width:180px; font-size:13px; color:#6b7280;">Phone Number</td>
-                        <td style="padding:10px 0; font-size:14px;">{{ $details['phone_number'] ?? '-' }}</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Contact Form Submission</h2>
+        </div>
+        <div class="content">
+            <p>Thank you for contacting us!</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2026 Innoversion. All rights reserved.</p>
+        </div>
+    </div>
 </body>
 
 </html>
