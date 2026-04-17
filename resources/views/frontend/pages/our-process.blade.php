@@ -23,7 +23,7 @@
             <div class="hero-container">
                 <div class="d-flex flex-column gspace-5">
                     <div class="image-container">
-                        <img src="{{ asset('image/tech-banner.png') }}" alt="Our Process Banner" class="single-service-img"
+                        <img src="{{ asset('image/our-process.jpg') }}" alt="Our Process Banner" class="single-service-img"
                             style="object-fit: cover;">
                         <div class="single-service-title-layout">
                             <div>
