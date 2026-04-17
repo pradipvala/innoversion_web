@@ -18,8 +18,6 @@
             --text: #f0f0f0;
             --muted: #a0a0b0;
             --accent: #E2010F;
-            font-family: 'Barlow', sans-serif;
-            background: var(--dark);
             color: var(--text);
         }
 
@@ -606,6 +604,24 @@
             }
         }
     </style>
+    {{--  <main>  --}}
+    {{--  <!-- Section Banner -->
+        <div class="section-banner">
+            <div class="banner-layout-wrapper">
+                <div class="banner-layout">
+                    <div class="d-flex flex-column text-center align-items-center gspace-2">
+                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                            Auto Pulse</h2>
+                        <nav class="breadcrumb">
+                            <a href="{{ route('home') }}" class="gspace-2">Home</a>
+                            <span class="separator-link">/</span>
+                            <p class="current-page">autopulse</p>
+                        </nav>
+                    </div>
+                    <div class="spacer"></div>
+                </div>
+            </div>
+        </div>  --}}
 
     <div class="ap-main">
         <!-- HERO -->
@@ -727,7 +743,8 @@
             <div style="max-width:1200px;margin:0 auto;padding:0 2rem;">
                 <div class="section-header center" style="margin-bottom:3rem;">
                     <div class="section-title">ERP Features & Details</div>
-                    <div class="section-desc">Complete suite of tools to manage every aspect of your automobile dealership
+                    <div class="section-desc">Complete suite of tools to manage every aspect of your automobile
+                        dealership
                     </div>
                 </div>
             </div>
@@ -755,25 +772,29 @@
                     <div class="feature-card" data-mod="insurance">
                         <div class="feature-icon">🛡️</div>
                         <div class="feature-title">Insurance Details</div>
-                        <div class="feature-desc">Streamline vehicle insurance policies — issuing, managing, and tracking
+                        <div class="feature-desc">Streamline vehicle insurance policies — issuing, managing, and
+                            tracking
                             for every new vehicle sale.</div>
                     </div>
                     <div class="feature-card" data-mod="rto">
                         <div class="feature-icon">🚗</div>
                         <div class="feature-title">RTO Details</div>
-                        <div class="feature-desc">Handle entire legal and regulatory vehicle registration, tax payments,
+                        <div class="feature-desc">Handle entire legal and regulatory vehicle registration, tax
+                            payments,
                             and documentation with RTO module.</div>
                     </div>
                     <div class="feature-card" data-mod="ordermgmt">
                         <div class="feature-icon">📄</div>
                         <div class="feature-title">Order Summary</div>
-                        <div class="feature-desc">View complete order summary including customer, finance, vehicle, offers,
+                        <div class="feature-desc">View complete order summary including customer, finance, vehicle,
+                            offers,
                             and discount details.</div>
                     </div>
                     <div class="feature-card" data-mod="exchange">
                         <div class="feature-icon">🔄</div>
                         <div class="feature-title">Exchange / Old Cars</div>
-                        <div class="feature-desc">Manage trade-in vehicles, valuation, and exchange bonuses — critical in
+                        <div class="feature-desc">Manage trade-in vehicles, valuation, and exchange bonuses — critical
+                            in
                             the Indian automotive market.</div>
                     </div>
                     <div class="feature-card" data-mod="offers">
@@ -785,25 +806,29 @@
                     <div class="feature-card" data-mod="masters">
                         <div class="feature-icon">⚙️</div>
                         <div class="feature-title">Masters – ERP Heart</div>
-                        <div class="feature-desc">Foundational setup data: departments, insurance, finance, accessories,
+                        <div class="feature-desc">Foundational setup data: departments, insurance, finance,
+                            accessories,
                             variants, fuel, and more.</div>
                     </div>
                     <div class="feature-card" data-mod="ordermgmt">
                         <div class="feature-icon">📦</div>
                         <div class="feature-title">Order Management</div>
-                        <div class="feature-desc">Track every step from inquiry and booking through delivery, invoicing,
+                        <div class="feature-desc">Track every step from inquiry and booking through delivery,
+                            invoicing,
                             PDI approval, and gate-pass.</div>
                     </div>
                     <div class="feature-card" data-mod="transfer">
                         <div class="feature-icon">🚚</div>
                         <div class="feature-title">Vehicle Transfer</div>
-                        <div class="feature-desc">Inter-branch vehicle transfer with driver KYC, car images, health kit,
+                        <div class="feature-desc">Inter-branch vehicle transfer with driver KYC, car images, health
+                            kit,
                             tool kit, and condition tracking.</div>
                     </div>
                     <div class="feature-card" data-mod="dealer">
                         <div class="feature-icon">🏢</div>
                         <div class="feature-title">Dealer Management</div>
-                        <div class="feature-desc">Track sub-dealers, channel partners, inter-dealer transfers, commissions,
+                        <div class="feature-desc">Track sub-dealers, channel partners, inter-dealer transfers,
+                            commissions,
                             and performance.</div>
                     </div>
                     <div class="feature-card" data-mod="price">
@@ -815,13 +840,15 @@
                     <div class="feature-card" data-mod="vendor">
                         <div class="feature-icon">🤝</div>
                         <div class="feature-title">Vendor Management</div>
-                        <div class="feature-desc">Manage all third-party suppliers with TAN, GST, bank details, UDYAM, and
+                        <div class="feature-desc">Manage all third-party suppliers with TAN, GST, bank details, UDYAM,
+                            and
                             vendor login access.</div>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">📊</div>
                         <div class="feature-title">Reports</div>
-                        <div class="feature-desc">Real-time insights into sales, inventory, finance, insurance, transfers,
+                        <div class="feature-desc">Real-time insights into sales, inventory, finance, insurance,
+                            transfers,
                             RSA, MCP, and EW reports.</div>
                     </div>
                     <div class="feature-card" data-mod="rsa">
@@ -875,8 +902,10 @@
                 <div id="mod-access" class="mod-content active">
                     <div class="mod-desc">
                         <h3 class="mod-title">Access Control</h3>
-                        <p>Implementing Role-Based Access Control (RBAC) in the vehicle showroom ERP is critical for data
-                            security, operational efficiency, and regulatory compliance. Only authorised users can access
+                        <p>Implementing Role-Based Access Control (RBAC) in the vehicle showroom ERP is critical for
+                            data
+                            security, operational efficiency, and regulatory compliance. Only authorised users can
+                            access
                             sensitive information, and every user action is traceable based on role assignments.</p>
                     </div>
                     <ul class="mod-points">
@@ -900,7 +929,8 @@
                     </div>
                     <ul class="mod-points">
                         <li><strong>A. Personal Details</strong> – Customer info, KYC docs, document upload</li>
-                        <li><strong>B. Car Details</strong> – Vehicle, price list, RTO, insurance, accessories, MCP/RSA/EW
+                        <li><strong>B. Car Details</strong> – Vehicle, price list, RTO, insurance, accessories,
+                            MCP/RSA/EW
                         </li>
                         <li><strong>C. Finance Details</strong> – Financer, loan, payout, pay booster</li>
                         <li><strong>D. Insurance Details</strong> – NCB, policy details, reverse calculation</li>
@@ -912,8 +942,10 @@
                 <div id="mod-finance" class="mod-content">
                     <div class="mod-desc">
                         <h3 class="mod-title">Finance System</h3>
-                        <p>Complete finance management integrated with accounting modules. Record journal entries for loan
-                            receipts, bank commissions, and customer payments. Manage all financer relationships and payout
+                        <p>Complete finance management integrated with accounting modules. Record journal entries for
+                            loan
+                            receipts, bank commissions, and customer payments. Manage all financer relationships and
+                            payout
                             structures.</p>
                     </div>
                     <ul class="mod-points">
@@ -929,7 +961,8 @@
                 <div id="mod-insurance" class="mod-content">
                     <div class="mod-desc">
                         <h3 class="mod-title">Insurance Details</h3>
-                        <p>Streamline the process of offering, issuing, and managing vehicle insurance policies — a crucial
+                        <p>Streamline the process of offering, issuing, and managing vehicle insurance policies — a
+                            crucial
                             aspect of every new vehicle sale in India. Full NCB, tyre, and policy tracking.</p>
                     </div>
                     <ul class="mod-points">
@@ -994,8 +1027,10 @@
                 <div id="mod-masters" class="mod-content">
                     <div class="mod-desc">
                         <h3 class="mod-title">Masters – Heart of ERP</h3>
-                        <p>Foundational one-time setup data powering the entire workflow. Proper configuration ensures the
-                            system runs smoothly, avoids duplication, and enforces data consistency across all departments.
+                        <p>Foundational one-time setup data powering the entire workflow. Proper configuration ensures
+                            the
+                            system runs smoothly, avoids duplication, and enforces data consistency across all
+                            departments.
                         </p>
                     </div>
                     <ul class="mod-points">
@@ -1012,7 +1047,8 @@
                     <div class="mod-desc">
                         <h3 class="mod-title">Order Management</h3>
                         <p>The backbone tracking every step of a customer's vehicle purchase — from inquiry and booking
-                            through delivery and invoicing. Ensures visibility, accountability, and timely execution across
+                            through delivery and invoicing. Ensures visibility, accountability, and timely execution
+                            across
                             all departments.</p>
                     </div>
                     <ul class="mod-points">
@@ -1059,7 +1095,8 @@
                 <div id="mod-price" class="mod-content">
                     <div class="mod-desc">
                         <h3 class="mod-title">Price List Manager</h3>
-                        <p>Centralise and control pricing of vehicles, accessories, services, and insurance. In the dynamic
+                        <p>Centralise and control pricing of vehicles, accessories, services, and insurance. In the
+                            dynamic
                             Indian auto market with frequent GST changes and OEM updates, this module ensures consistent
                             real-time pricing.</p>
                     </div>
@@ -1108,7 +1145,8 @@
                     <div class="mod-desc">
                         <h3 class="mod-title">MCP – My Convenience Program</h3>
                         <p>A customer-centric initiative to enhance customer experience and streamline the ownership
-                            journey. Tailored services including service packages, extended warranties, loyalty rewards, and
+                            journey. Tailored services including service packages, extended warranties, loyalty rewards,
+                            and
                             exclusive offers for improved customer retention.</p>
                     </div>
                     <ul class="mod-points">
@@ -1125,7 +1163,8 @@
                     <div class="mod-desc">
                         <h3 class="mod-title">Extended Warranty</h3>
                         <p>Additional service offering providing customers with extended coverage beyond standard
-                            manufacturer warranty. Includes repairs and services for various vehicle components, ensuring
+                            manufacturer warranty. Includes repairs and services for various vehicle components,
+                            ensuring
                             peace of mind after standard warranty ends.</p>
                     </div>
                     <ul class="mod-points">
@@ -1209,7 +1248,8 @@
         <div class="cta-section" id="contact">
             <div class="text-danger" style="position:relative;">Contact Us</div>
             <div class="cta-title" style="margin:1rem 0 0.5rem;">Ready to Transform<br>Your Dealership?</div>
-            <p style="color:var(--muted);font-size:1.1rem;margin:1rem auto 2rem;max-width:500px;position:relative;">Contact
+            <p style="color:var(--muted);font-size:1.1rem;margin:1rem auto 2rem;max-width:500px;position:relative;">
+                Contact
                 us today for a free demo and see Auto Pulse in action</p>
             <div class="contact-grid">
                 <div class="contact-item">
@@ -1237,6 +1277,8 @@
         </div>
 
     </div>
+
+    {{--  </main>  --}}
 
     <script>
         function setActiveFeatureCard(id) {
