@@ -14,7 +14,7 @@
             <video id="banner-video-background" autoplay muted loop playsinline webkit-playsinline preload="auto"
                 disablepictureinpicture controlslist="nodownload noplaybackrate noremoteplayback"
                 aria-label="Innoversion Video Background">
-                <source src="{{ asset('image/innoversion-video.webm') }}" type="video/webm">
+                <source src="{{ asset('image/innoversion-video.mp4') }}" type="video/mp4">
             </video>
 
             <div class="hero-container position-relative">
