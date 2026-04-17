@@ -1086,7 +1086,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- Section Blog -->
     <div class="section">
         <div class="hero-container">

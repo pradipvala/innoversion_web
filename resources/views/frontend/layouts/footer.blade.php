@@ -95,8 +95,8 @@
                                             </a>
                                         </div>
                                         <div class="social-item-wrapper">
-                                            <a href="https://www.linkedin.com/company/innoversion" target="_blank"
-                                                class="social-item">
+                                            <a href="https://www.linkedin.com/company/innoversion-technolab/"
+                                                target="_blank" class="social-item">
                                                 <i class="fa-brands fa-linkedin"></i>
                                             </a>
                                         </div>
