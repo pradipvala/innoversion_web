@@ -728,10 +728,10 @@
                                             </div>
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
-                                                    <div class="testimonial-image">
+                                                    {{--  <div class="testimonial-image">
                                                         <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
                                                             alt="Testimonial Person Image" class="img-fluid">
-                                                    </div>
+                                                    </div>  --}}
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">{!! $testimonial->name !!}</span>
                                                         {{--  <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}  --}}
