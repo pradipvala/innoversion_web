@@ -38,14 +38,13 @@
                                             <span>Who We Are ?</span>
                                         </div>
                                         <h3 class="title-heading animate-box animated animate__animated"
-                                            data-animate="animate__fadeInRight">Driving Innovation & Excellence Globally
+                                            data-animate="animate__fadeInRight">Driving Innovation Through Custom Software
+                                            Development
+
                                         </h3>
-                                        <p>At Innoversion Technolab, we are committed to delivering cutting-edge digital
-                                            solutions that empower businesses to innovate, scale, and succeed in a rapidly
-                                            evolving technological landscape. We combine strong technical expertise with a
-                                            solution-driven approach to build high-performance, scalable, and future-ready
-                                            digital products. Our focus is to create meaningful impact through innovation,
-                                            precision, and a deep understanding of business challenges.</p>
+                                        <p>We enable businesses with tailored, high-performance software solutions designed
+                                            to streamline operations, solve complex challenges, and support long-term
+                                            growth.</p>
                                     </div>
                                 </div>
                             </div>
@@ -58,22 +57,16 @@
                             <div class="d-flex flex-column gspace-2">
                                 <h4>Our Mission</h4>
                                 <p>
-                                    Our mission is to become a trusted technology partner for businesses by delivering
-                                    intelligent, high-quality, and innovative digital solutions. We aim to help
-                                    organizations evolve through the power of modern technologies, exceptional design, and
-                                    scalable software development. We are dedicated to building engaging applications,
-                                    robust platforms, and seamless digital experiences that combine performance,
-                                    reliability, and user-centric design, ensuring long-term success for our clients,
-                                    partners, and stakeholders.
+                                    To deliver custom-built, scalable software solutions that align with business goals and
+                                    create measurable value.
                                 </p>
 
                                 <div class="card service-included mt-4">
                                     <h4>Our Vision & Values</h4>
                                     <div class="underline-accent-short"></div>
-                                    <p>Our vision is to be a globally recognized technology partner, delivering advanced
-                                        solutions that are accessible, impactful, and future-ready. We strive to
-                                        continuously adapt, innovate, and evolve to meet changing market demands while
-                                        maintaining excellence in execution.</p>
+                                    <p>To be a trusted partner in custom software development, enabling businesses with
+                                        innovative and future-ready technology solutions.
+                                    </p>
                                     <div class="row row-cols-md-2 row-cols-1 grid-spacer-2 mt-4">
                                         <div class="col">
                                             <ul class="check-list">
