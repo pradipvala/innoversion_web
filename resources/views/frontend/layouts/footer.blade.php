@@ -4,14 +4,20 @@
             <div class="hero-container position-relative z-2">
                 <div class="d-flex flex-column gspace-2">
                     <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 grid-spacer-5 mb-5">
-                        <div class="col col-xl-4 d-flex justify-content-center align-items-center">
-                            <div class="footer-logo-container text-center w-100">
-                                <div class="logo-container-footer d-inline-block">
+                        <div class="col col-xl-4">
+                            <div class="footer-logo-container">
+                                <div class="logo-container-footer">
                                     <a href="{{ route('home') }}">
                                         <img src="{{ asset('image/marko-logo.png') }}" alt="Logo"
                                             class="site-logo img-fluid">
                                     </a>
                                 </div>
+                                {{--  <h4>Driving Digital Growth with Innovation & Strategy</h4>  --}}
+                                {{--  <p>
+                                    We deliver innovative and reliable software solutions that empower businesses to
+                                    grow digitally. From web and mobile development to AI and branding, we turn ideas
+                                    into powerful digital experiences.
+                                </p>  --}}
                             </div>
                         </div>
                         <div class="col col-xl-2">
