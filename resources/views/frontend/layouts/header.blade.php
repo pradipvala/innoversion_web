@@ -236,9 +236,13 @@
                                         </div>
                                     </a>
 
-                                    <a href="{{ route('projects') }}" class="dl"
-                                        style="padding:8px 12px; border-radius:6px;">
-                                        <div class="dt"><b>Project</b></div>
+                                    <a href="{{ route('projects') }}" class="dl" {{--  style="padding:8px 12px; border-radius:6px;"  --}}>
+                                        <div>
+                                            <div class="dt"><b>Project</b></div>
+                                            <div class="ds">AutoPulse </br> Family Tree System </br>
+                                                I AM Happy
+                                            </div>
+                                        </div>
                                     </a>
                                 </div>
                             </div>

@@ -688,7 +688,8 @@
 
         <!-- BRAND COMPATIBILITY -->
         <div class="brand-section">
-            <div class="brand-strip-title">Works Seamlessly with Top Brands dealership</div>
+            <div class="text-danger mb-3 font-600" style="text-transform: uppercase;">Works Seamlessly with Top Brands dealership
+            </div>
             <div class="brands-grid">
                 <span class="brand-pill" title="ISUZU" aria-label="ISUZU"><img class="brand-logo"
                         src="{{ asset('image/brands/isuzu.svg') }}" alt="ISUZU logo" loading="lazy"></span>
