@@ -31,8 +31,8 @@
                         $teamMembersCollection = collect($teamMembers);
                         $leadMember = $teamMembersCollection->take(1);
                         $progressMembers = $teamMembersCollection->slice(1, 6);
-                        $coreMembers = $teamMembersCollection->slice(7, 4);
-                        $ourTeamMembers = $teamMembersCollection->slice(11, 2);
+                        $coreMembers = $teamMembersCollection->slice(7, 3);
+                        $ourTeamMembers = $teamMembersCollection->slice(10, 3);
                     @endphp
 
                     <div class="card team-layout mb-0">
@@ -72,7 +72,7 @@
                             data-animate="animate__fadeInLeft">
                             <div class="sub-heading">
                                 <i class="fa-regular fa-circle-dot"></i>
-                                <span>Our Senior Team</span>
+                                <span>Our Team Lead</span>
                             </div>
                             <h2 class="title-heading text-center">Strategic Experts Guiding Every Milestone</h2>
                         </div>
@@ -119,7 +119,7 @@
                             data-animate="animate__fadeInLeft">
                             <div class="sub-heading">
                                 <i class="fa-regular fa-circle-dot"></i>
-                                <span>Our Second Senior Team</span>
+                                <span>Our Senior Team</span>
                             </div>
                             <h2 class="title-heading text-center">Execution Leaders Turning Plans into Results</h2>
                         </div>
