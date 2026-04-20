@@ -395,8 +395,8 @@
                         <span>Our Core Services</span>
                     </div>
 
-                    <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated"
-                        data-animate="animate__fadeInDown">Company-Focused Solutions That Drive Real Results</h2>
+                    <h3 class="title-heading heading-container heading-container-medium animate-box animated animate__animated"
+                        data-animate="animate__fadeInDown">Custom Development Solutions for Growing Businesses</h3>
                 </div>
                 <div class="card-service-wrapper">
                     <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
