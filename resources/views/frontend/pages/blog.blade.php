@@ -32,7 +32,7 @@
                                 data-animate="animate__fadeInLeft">
                                 <div class="sub-heading">
                                     <i class="fa-regular fa-circle-dot"></i>
-                                    <span>Insights & Trends</span>
+                                    <span>Blogs</span>
                                 </div>
                                 <h2 class="title-heading">Our Latest Blogs</h2>
                             </div>
@@ -53,7 +53,7 @@
                         @foreach ($blogs as $blog)
                             <div class="col">
                                 <div class="card card-blog animate-box animated animate__animated"
-                                    data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
+                                    data-animate="animate__fadeInUp" onclick="window.location.href='javascript:void(0)'"">
                                     <div class="blog-image">
                                         <img src="./image/dummy-img-600x400.jpg" alt="Blog Image">
                                     </div>
@@ -68,7 +68,7 @@
                                                 <span class="meta-data">Social Media</span>
                                             </div>
                                         </div>  --}}
-                                        <a href="#" class="blog-link">{{ $blog->title }}</a>
+                                        <a href="javascript:void(0)" class="blog-link">{{ $blog->title }}</a>
                                         <p>{{ $blog->description }}</p>
                                         {{--  <a href="#" class="read-more">Read More</a>  --}}
                                     </div>

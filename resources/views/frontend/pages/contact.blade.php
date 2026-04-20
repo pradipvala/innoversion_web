@@ -46,8 +46,8 @@
                                         </div>
                                     </div>
                                     <div class="d-grid">
-                                        <span>Phone Number</span>
-                                        <h5>+91 9687350999</h5>
+                                        <h6>Phone Number</h6>
+                                        <span>+91 9687350999</span>
                                     </div>
                                 </div>
                                 <div
@@ -60,8 +60,8 @@
                                         </div>
                                     </div>
                                     <div class="d-grid">
-                                        <span>Email Address</span>
-                                        <h6>info@innoversiontechnolab.com</h6>
+                                        <h6>Email Address</h6>
+                                        <span>info@innoversiontechnolab.com</span>
                                     </div>
                                 </div>
                                 <div
@@ -74,9 +74,9 @@
                                         </div>
                                     </div>
                                     <div class="d-grid">
-                                        <span>Office Address</span>
-                                        <h5>Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri
-                                            Nagar, Dharam Nagar Society, Rajkot, Gujarat 360006</h5>
+                                        <h6>Office Address</h6>
+                                        <span>Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri
+                                            Nagar, Dharam Nagar Society, Rajkot, Gujarat 360006</span>
                                     </div>
                                 </div>
                             </div>

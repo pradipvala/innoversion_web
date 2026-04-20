@@ -372,7 +372,7 @@
                     <!-- CAREER -->
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('open-positions') ? 'active' : '' }}"
-                            href="{{ route('open-positions') }}">Recruitments</a>
+                            href="{{ route('open-positions') }}">Requirements</a>
                     </li>
                     <!-- CONTACT -->
                     <li class="nav-item">
