@@ -2637,6 +2637,18 @@ body.lightmode .case-studies-content::before {
     color: var(--accent-color);
 }
 
+.team-member-card {
+    border-radius: 25px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    will-change: transform, box-shadow;
+}
+
+.team-member-card:hover,
+.team-member-card:focus-within {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 36px rgba(255, 0, 0, 0.35);
+}
+
 /* ================== 31. Contact Components ================== */
 
 .contact-title-wrapper {

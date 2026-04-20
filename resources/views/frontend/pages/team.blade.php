@@ -47,7 +47,7 @@
                         <div class="row justify-content-center g-4">
                             @foreach ($leadMember as $member)
                                 <div class="col-xl-4 col-lg-5 col-md-6 col-12">
-                                    <div class="d-flex flex-column">
+                                    <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
@@ -79,7 +79,7 @@
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($progressMembers as $member)
                                 <div class="col">
-                                    <div class="d-flex flex-column">
+                                    <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
@@ -126,7 +126,7 @@
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($coreMembers as $member)
                                 <div class="col">
-                                    <div class="d-flex flex-column">
+                                    <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
@@ -173,7 +173,7 @@
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($ourTeamMembers as $member)
                                 <div class="col">
-                                    <div class="d-flex flex-column">
+                                    <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
