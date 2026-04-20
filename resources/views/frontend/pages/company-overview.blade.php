@@ -57,17 +57,15 @@
                             <div class="d-flex flex-column gspace-2">
                                 <h4>Our Mission</h4>
                                 <p>
-                                    To deliver custom-built, scalable software solutions that align with business goals and
-                                    create measurable value.
+                                    Enable Technologies at Business Every Aspects
                                 </p>
 
                                 <div class="card service-included mt-4">
-                                    <h4>Our Vision & Values</h4>
+                                    <h4>Our Vision</h4>
                                     <div class="underline-accent-short"></div>
-                                    <p>To be a trusted partner in custom software development, enabling businesses with
-                                        innovative and future-ready technology solutions.
+                                    <p>To enable every aspect of business through smart and innovative technology.
                                     </p>
-                                    <div class="row row-cols-md-2 row-cols-1 grid-spacer-2 mt-4">
+                                    {{--  <div class="row row-cols-md-2 row-cols-1 grid-spacer-2 mt-4">
                                         <div class="col">
                                             <ul class="check-list">
                                                 <li>Client-First Approach - Delivering solutions aligned with business goals
@@ -83,7 +81,7 @@
                                                 <li>Trusted Partnerships - Building long-term client relationships</li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div>  --}}
                                 </div>
 
                                 {{--  <h4 class="mt-4">Why We Stand Out</h4>

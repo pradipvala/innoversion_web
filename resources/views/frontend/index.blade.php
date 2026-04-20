@@ -85,13 +85,13 @@
                     </div>
                     <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
                         End-to-End Technology Solutions That Drive Real Business Growth</h2>
-                    <p>Innoversion Technolab, we specialize in building custom application that solve real business
+                    <p>We specialize in building custom application that solve real business
                         challenges. From startups to enterprises, we design, develop, and deliver scalable systems that
                         improve efficiency, automate processes, and accelerate growth in a rapidly evolving digital
                         landscape.</p>
                     <div class="d-flex flex-column flex-md-row gspace-2">
                         <div class="expertise-list">
-                            <h5>We Do With Best</h5>
+                            <h5>We Do Best With?</h5>
                             <ul class="check-list">
                                 <li><a href="{{ route('single.services') }}">Custom Web Development</a></li>
                                 <li><a href="{{ route('single.services') }}">Mobile App Development</a></li>
@@ -110,8 +110,7 @@
                                 </div>
                                 <h6>Years of Experience in customize Web and Mobile Development</h6>
                             </div>
-                            <p>We build secure, scalable, and high-performing software systems tailored to business needs.
-                                Our solutions help companies streamline operations, enhance user experience, and achieve
+                            <p>Our solutions help companies streamline operations, enhance user experience, and achieve
                                 long-term digital success.
                             </p>
                         </div>
@@ -260,7 +259,7 @@
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">We provide consistency</h4>
+                                <h4 class="chooseus-title">Consistency</h4>
                                 <p>We deliver stable, reliable, and high-performing digital solutions backed by continuous
                                     support and monitoring. Our team ensures consistent quality, seamless performance, and
                                     long-term reliability so your business runs smoothly without interruptions.
@@ -307,7 +306,7 @@
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Agile Development & Transparency</h4>
+                                <h4 class="chooseus-title">Agile Development</h4>
                                 <p>Our agile approach ensures faster delivery, flexibility, and complete transparency with
                                     regular updates, clear communication, and milestone tracking.</p>
                                 {{--  <div class="link-wrapper">
@@ -324,12 +323,12 @@
                             <div class="sub-heading  animate-box animated animate__animated"
                                 data-animate="animate__fadeInDown">
                                 <i class="fa-regular fa-circle-dot"></i>
-                                <span>Why Choose Innoversion</span>
+                                <span>Why Choose Innoversion Technolabs</span>
                             </div>
-                            <h2 class="title-heading  animate-box animated animate__animated"
-                                data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
+                            {{--  <h2 class="title-heading  animate-box animated animate__animated"
+                                data-animate="animate__fadeInDown">Your Success is Our Mission</h2>  --}}
                             <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">
-                                Innoversion Technolab, we specialize in delivering high-quality, scalable software solutions
+                                Innoversion Technolab specialize in delivering high-quality, scalable software solutions
                                 tailored to modern business needs. From custom applications to enterprise systems, we help
                                 organizations streamline operations, enhance user experiences, and achieve long-term growth
                                 through reliable technology.</p>
@@ -344,10 +343,9 @@
                                     <div class="card-chooseus-cta-wrapper">
                                         <div class="card card-chooseus-cta animate-box animated animate__animated"
                                             data-animate="animate__fadeInUp">
-                                            <h5>Partner with Innoversion Technolab & Take Your Business To the Next Level
-                                            </h5>
+                                            <h5>Want to Enable Technologies?</h5>
                                             <div class="link-wrapper">
-                                                <a href="./contact.html">Let's Talk Strategy</a>
+                                                <a href="{{ route('contact') }}">Let's Talk Strategy</a>
                                                 <i class="fa-solid fa-circle-arrow-right"></i>
                                             </div>
                                         </div>
@@ -375,9 +373,8 @@
                     </div>  --}}
                     <div class="d-flex flex-column gspace-2">
                         <h3 class="title-heading">Transform Your Business by using technologies with Us</h3>
-                        <p>We deliver scalable software solutions that drive innovation, efficiency, and business growth.
-                            Our expertise in web, mobile, and custom development ensures high-performance digital products.
-                            Partner with us to build secure, future-ready technology that delivers real results.</p>
+                        <p>Consultant with us to build secure, future-ready technology that delivers real results.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -765,9 +762,9 @@
                                 data-animate="animate__fadeInDown">
                                 <div class="sub-heading">
                                     <i class="fa-regular fa-circle-dot"></i>
-                                    <span>How it Work</span>
+                                    <span>How it Work ?</span>
                                 </div>
-                                <h2 class="title-heading">Simple Steps to Digital Success</h2>
+                                <h2 class="title-heading">Steps to Digital Success</h2>
                             </div>
                         </div>
                         <div class="col">
@@ -1118,7 +1115,7 @@
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 grid-spacer-3">
                     <div class="col">
                         <div class="card card-blog animate-box animated animate__animated"
-                            data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
+                            data-animate="animate__fadeInUp" onclick="window.location.href='javascript:void(0)'">
                             <div class="blog-image">
                                 <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg"
                                     alt="Blog Image">
@@ -1134,16 +1131,17 @@
                                         <span class="meta-data">Social Media</span>
                                     </div>
                                 </div>  --}}
-                                <a href="javascript:void(0)" class="blog-link">AI Agents in Business Workflows</a>
-                                <p>How teams are embedding AI copilots in support, sales, and operations to reduce manual
-                                    work and improve response quality.</p>
+                                <a href="javascript:void(0)" class="blog-link">Business Workflows Automation</a>
+                                <p>Discover how organizations in 2026 are automating approvals, repetitive tasks, and team
+                                    handoffs with AI-driven workflows to save time, reduce errors, and improve consistency.
+                                </p>
                                 {{--  <a href="javascript:void(0)" class="read-more">Read More</a>  --}}
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card card-blog animate-box animated animate__animated"
-                            data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
+                            data-animate="animate__fadeInUp" onclick="window.location.href='javascript:void(0)'">
                             <div class="blog-image">
                                 <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-LY58K9U-1024x683.jpg"
                                     alt="Blog Image">
@@ -1159,9 +1157,10 @@
                                         <span class="meta-data">SEO</span>
                                     </div>
                                 </div>  --}}
-                                <a href="javascript:void(0)" class="blog-link">Cloud Cost Optimization in 2026</a>
-                                <p>Modern FinOps practices to control cloud spend while keeping performance and developer
-                                    velocity high.</p>
+                                <a href="javascript:void(0)" class="blog-link">Cost Optimization Use in 2026</a>
+                                <p>Learn practical 2026 cost optimization strategies for cloud, software, and operations
+                                    that
+                                    help teams cut waste, improve ROI, and keep performance strong.</p>
                                 {{--  <a href="javascript:void(0)" class="read-more">Read More</a>  --}}
                             </div>
                         </div>

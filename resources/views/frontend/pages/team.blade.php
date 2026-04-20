@@ -40,29 +40,45 @@
                             data-animate="animate__fadeInLeft">
                             <div class="sub-heading">
                                 <i class="fa-regular fa-circle-dot"></i>
-                                <span>Our Owner</span>
+                                <span>Our Founder</span>
                             </div>
                             <h2 class="title-heading text-center">Visionary Leadership Behind Innoversion</h2>
                         </div>
-                        <div class="row justify-content-center g-4">
+                        <div class="row g-4">
                             @foreach ($leadMember as $member)
                                 <div class="col-xl-4 col-lg-5 col-md-6 col-12">
                                     <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
-                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                                style="border-radius: 25px 25px 0px 0px; height: 400px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                             </div>
                                         </div>
-                                        <div class="team-profile">
+                                        {{--  <div class="team-profile">
                                             <h4>{{ $member->name }}</h4>
                                             <span class="title">{{ $member->role }}</span>
-                                        </div>
+                                        </div>  --}}
                                     </div>
                                 </div>
                             @endforeach
+
+                            <div class="col-xl-8 col-lg-7 col-md-6 col-12">
+                                <div class="d-flex flex-column justify-content-center h-100 p-4 p-lg-5">
+                                    <div class="sub-heading mb-3 justify-content-center">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <span>Founder &amp; CEO</span>
+                                    </div>
+                                    <h3 class="mb-2">Pradeep Vala</h3>
+                                    <p class="mb-3">Innoversion Technolabs</p>
+                                    <p class="mb-0">Pradeep Vala is the visionary Founder &amp; CEO of Innoversion
+                                        Technolabs, leading with a clear focus on innovation, quality, and long-term
+                                        impact. His commitment to building practical digital solutions continues to shape
+                                        the company’s growth and inspire the team to deliver work that creates real value
+                                        for clients.</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="spacer"></div>
                     </div>
@@ -83,7 +99,7 @@
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
-                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                                style="border-radius: 25px 25px 0px 0px; height: 400px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                                 {{--  <div class="d-flex flex-column align-items-end">
@@ -104,7 +120,7 @@
                                         </div>
                                         <div class="team-profile">
                                             <h4>{{ $member->name }}</h4>
-                                            <span class="title">{{ $member->role }}</span>
+                                            {{--  <span class="title">{{ $member->role }}</span>  --}}
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +146,7 @@
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
-                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                                style="border-radius: 25px 25px 0px 0px; height: 400px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                                 {{--  <div class="d-flex flex-column align-items-end">
@@ -151,7 +167,7 @@
                                         </div>
                                         <div class="team-profile">
                                             <h4>{{ $member->name }}</h4>
-                                            <span class="title">{{ $member->role }}</span>
+                                            {{--  <span class="title">{{ $member->role }}</span>  --}}
                                         </div>
                                     </div>
                                 </div>
@@ -177,7 +193,7 @@
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
-                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                                style="border-radius: 25px 25px 0px 0px; height: 400px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                                 {{--  <div class="d-flex flex-column align-items-end">
@@ -198,7 +214,7 @@
                                         </div>
                                         <div class="team-profile">
                                             <h4>{{ $member->name }}</h4>
-                                            <span class="title">{{ $member->role }}</span>
+                                            {{--  <span class="title">{{ $member->role }}</span>  --}}
                                         </div>
                                     </div>
                                 </div>
