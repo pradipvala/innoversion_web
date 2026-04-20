@@ -71,11 +71,11 @@
                                 </div>
 
                                 <h4 class="mt-4">Why We Stand Out</h4>
-                                <p>With a strong foundation in technology and innovation, Innoversion Technolab has
-                                    developed a reputation for delivering reliable, scalable, and high-performing digital
-                                    solutions. Our approach blends creativity with deep technical expertise to ensure that
-                                    every solution is not only visually appealing but also optimized for performance,
-                                    scalability, and long-term growth.</p>
+                                <p>At Innoversion Technolab, we combine deep technical expertise with a strategic,
+                                    forward-thinking approach to deliver high-performance technology solutions. We go beyond
+                                    conventional development to build systems that are robust, scalable, and precisely
+                                    aligned with your business objectives, ensuring long-term value and measurable growth.
+                                </p>
                                 <div class="row row-cols-2 mt-2">
                                     <div class="col-12 col-md-6">
                                         <div class="d-flex flex-column gspace-2">
@@ -84,7 +84,8 @@
                                                 <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div class="d-flex flex-column gspace-0">
                                                     <h5>Global Reach</h5>
-                                                    <p class="mb-0">Serving clients across industries and regions</p>
+                                                    <p class="mb-0">Delivering solutions across diverse industries and
+                                                        international markets</p>
                                                 </div>
                                             </div>
                                             <div
@@ -92,7 +93,8 @@
                                                 <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div class="d-flex flex-column gspace-0">
                                                     <h5>Expert Team</h5>
-                                                    <p class="mb-0">Skilled professionals with strong technical knowledge
+                                                    <p class="mb-0">Skilled professionals with strong technical and domain
+                                                        expertise
                                                     </p>
                                                 </div>
                                             </div>
@@ -104,8 +106,9 @@
                                                 class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div class="d-flex flex-column gspace-0">
-                                                    <h5>Scalable Frameworks</h5>
-                                                    <p class="mb-0">Solutions designed for growth and flexibility</p>
+                                                    <h5>Scalable System Solutions</h5>
+                                                    <p class="mb-0">Designed to grow with your business and adapt to
+                                                        future needs</p>
                                                 </div>
                                             </div>
                                             <div
@@ -113,7 +116,8 @@
                                                 <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div class="d-flex flex-column gspace-0">
                                                     <h5>24/7 Support</h5>
-                                                    <p class="mb-0">Continuous assistance and system reliability</p>
+                                                    <p class="mb-0">Reliable assistance ensuring seamless operations at
+                                                        all times</p>
                                                 </div>
                                             </div>
                                         </div>
