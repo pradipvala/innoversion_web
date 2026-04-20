@@ -42,7 +42,7 @@
                                                     <span class="counter" data-target="15">15</span>
                                                     <span class="counter-detail">+</span>
                                                 </div>
-                                                <h6>Years of Experience on Digital Marketing Services</h6>
+                                                <h6>Years of Experience in customize Web and Mobile Development</h6>
                                             </div>
                                         </div>
                                         <div class="about-spacer"></div>
@@ -58,23 +58,24 @@
                                     <i class="fa-regular fa-circle-dot"></i>
                                     <span>About Us</span>
                                 </div>
-                                <h2 class="title-heading animate-box animated animate__animated"
-                                    data-animate="animate__fadeInRight">{{ $about->title }}</h2>
+                                <h4 class="title-heading animate-box animated animate__animated"
+                                    data-animate="animate__fadeInRight">{{ $about->title }}</h4>
                                 <p>{{ $about->description }}</p>
 
                                 <div class="d-flex flex-column flex-md-row gspace-1 gspace-md-5">
                                     <div class="about-list">
                                         <ul class="check-list">
-                                            <li><a href="{{ route('single.services') }}">PPC & Paid Ads</a></li>
-                                            <li><a href="{{ route('single.services') }}">Brand Strategy</a></li>
-                                            <li><a href="{{ route('single.services') }}">Conversion Optimization</a></li>
+                                            <li><a href="{{ route('single.services') }}">Web Development</a></li>
+                                            <li><a href="{{ route('single.services') }}">Mobile App Development</a></li>
+                                            <li><a href="{{ route('single.services') }}">Custom Software Development</a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="about-list">
                                         <ul class="check-list">
-                                            <li><a href="{{ route('single.services') }}">Performance Marketing</a></li>
-                                            <li><a href="{{ route('single.services') }}">Social Media Growth</a></li>
-                                            <li><a href="{{ route('single.services') }}">Content Marketing</a></li>
+                                            <li><a href="{{ route('single.services') }}">UI/UX Design</a></li>
+                                            <li><a href="{{ route('single.services') }}">Enterprise Solutions</a></li>
+                                            {{--  <li><a href="{{ route('single.services') }}">Content Marketing</a></li>  --}}
                                         </ul>
                                     </div>
                                 </div>
@@ -363,18 +364,59 @@
         <!-- Section Team -->
         <div class="section">
             <div class="hero-container">
-                <div class="team-wrapper">
-                    <div class="card team-layout">
+                <div class="team-wrapper d-flex flex-column gap-4 gap-lg-5">
+
+                    @php
+                        $teamMembersCollection = collect($teamMembers);
+                        $leadMember = $teamMembersCollection->take(1);
+                        $progressMembers = $teamMembersCollection->slice(1, 6);
+                        $coreMembers = $teamMembersCollection->slice(7, 3);
+                        $ourTeamMembers = $teamMembersCollection->slice(10, 3);
+                    @endphp
+
+                    <div class="card team-layout mb-0">
                         <div class="d-flex flex-column align-items-center gspace-2 animate-box animated animate__animated"
                             data-animate="animate__fadeInLeft">
                             <div class="sub-heading">
                                 <i class="fa-regular fa-circle-dot"></i>
-                                <span>Our Team</span>
+                                <span>Our Owner</span>
                             </div>
-                            <h2 class="title-heading">Meet the Minds Behind Your Digital Success</h2>
+                            <h2 class="title-heading text-center">Visionary Leadership Behind Innoversion</h2>
+                        </div>
+                        <div class="row justify-content-center g-4">
+                            @foreach ($leadMember as $member)
+                                <div class="col-xl-4 col-lg-5 col-md-6 col-12">
+                                    <div class="d-flex flex-column">
+                                        <div class="image-team">
+                                            <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
+                                                class="img-fluid"
+                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                            <div class="social-team-wrapper">
+                                                <div class="social-team-spacer"></div>
+                                            </div>
+                                        </div>
+                                        <div class="team-profile">
+                                            <h4>{{ $member->name }}</h4>
+                                            <span class="title">{{ $member->role }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                        <div class="spacer"></div>
+                    </div>
+
+                    <div class="card team-layout mb-0">
+                        <div class="d-flex flex-column align-items-center gspace-2 animate-box animated animate__animated"
+                            data-animate="animate__fadeInLeft">
+                            <div class="sub-heading">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                <span>Our Team Lead</span>
+                            </div>
+                            <h2 class="title-heading text-center">Strategic Experts Guiding Every Milestone</h2>
                         </div>
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
-                            @foreach ($teamMembers as $member)
+                            @foreach ($progressMembers as $member)
                                 <div class="col">
                                     <div class="d-flex flex-column">
                                         <div class="image-team">
@@ -409,6 +451,102 @@
                         </div>
                         <div class="spacer"></div>
                     </div>
+
+
+                    <div class="card team-layout mb-0">
+                        <div class="d-flex flex-column align-items-center gspace-2 animate-box animated animate__animated"
+                            data-animate="animate__fadeInLeft">
+                            <div class="sub-heading">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                <span>Our Senior Team</span>
+                            </div>
+                            <h2 class="title-heading text-center">Execution Leaders Turning Plans into Results</h2>
+                        </div>
+                        <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
+                            @foreach ($coreMembers as $member)
+                                <div class="col">
+                                    <div class="d-flex flex-column">
+                                        <div class="image-team">
+                                            <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
+                                                class="img-fluid"
+                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                            <div class="social-team-wrapper">
+                                                <div class="social-team-spacer"></div>
+                                                {{--  <div class="d-flex flex-column align-items-end">
+                                                    <div class="social-team-container">
+                                                        <a href="https://facebook.com" class="social-item">
+                                                            <i class="fa-brands fa-facebook"></i>
+                                                        </a>
+                                                        <a href="https://instagram.com" class="social-item">
+                                                            <i class="fa-brands fa-instagram"></i>
+                                                        </a>
+                                                        <a href="https://linkedin.com" class="social-item">
+                                                            <i class="fa-brands fa-linkedin"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="social-team-spacer"></div>
+                                                </div>  --}}
+                                            </div>
+                                        </div>
+                                        <div class="team-profile">
+                                            <h4>{{ $member->name }}</h4>
+                                            <span class="title">{{ $member->role }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                        <div class="spacer"></div>
+                    </div>
+
+
+                    <div class="card team-layout mb-0">
+                        <div class="d-flex flex-column align-items-center gspace-2 animate-box animated animate__animated"
+                            data-animate="animate__fadeInLeft">
+                            <div class="sub-heading">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                <span>Our Team</span>
+                            </div>
+                            <h2 class="title-heading text-center">Passionate Professionals Powering Daily Success</h2>
+                        </div>
+                        <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
+                            @foreach ($ourTeamMembers as $member)
+                                <div class="col">
+                                    <div class="d-flex flex-column">
+                                        <div class="image-team">
+                                            <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
+                                                class="img-fluid"
+                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                            <div class="social-team-wrapper">
+                                                <div class="social-team-spacer"></div>
+                                                {{--  <div class="d-flex flex-column align-items-end">
+                                                    <div class="social-team-container">
+                                                        <a href="https://facebook.com" class="social-item">
+                                                            <i class="fa-brands fa-facebook"></i>
+                                                        </a>
+                                                        <a href="https://instagram.com" class="social-item">
+                                                            <i class="fa-brands fa-instagram"></i>
+                                                        </a>
+                                                        <a href="https://linkedin.com" class="social-item">
+                                                            <i class="fa-brands fa-linkedin"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="social-team-spacer"></div>
+                                                </div>  --}}
+                                            </div>
+                                        </div>
+                                        <div class="team-profile">
+                                            <h4>{{ $member->name }}</h4>
+                                            <span class="title">{{ $member->role }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                        <div class="spacer"></div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
