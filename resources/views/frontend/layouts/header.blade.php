@@ -72,7 +72,7 @@
                                     <div class="ds">Culture, perks & team life</div>
                                 </div>
                             </a>
-                            <div class="divd"></div>
+                            {{--  <div class="divd"></div>  --}}
                             {{--  <div class="sec-h">Careers</div>
                             <a href="{{ route('open-positions') }}" class="dl">
                                 <div>

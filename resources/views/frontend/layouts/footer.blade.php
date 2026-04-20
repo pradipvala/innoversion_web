@@ -108,8 +108,8 @@
                     {{--  <div class="footer-content-spacer"></div>  --}}
                 </div>
                 <div class="copyright-container">
-                    <span class="copyright">© {{ Carbon\Carbon::now()->format('Y') }} Innoversion Technolab. Fox
-                        Creation All Rights Reserved.</span>
+                    <span class="copyright">© {{ Carbon\Carbon::now()->format('Y') }} Innoversion Technolab. All Rights
+                        Reserved.</span>
                     <div class="d-flex flex-row gspace-2">
                         <a href="{{ route('terms-and-conditions') }}" class="legal-link">Terms & Conditions</a>
                         <a href="{{ route('privacy-policy') }}" class="legal-link">Privacy Policy</a>

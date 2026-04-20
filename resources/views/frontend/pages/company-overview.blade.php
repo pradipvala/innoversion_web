@@ -25,7 +25,7 @@
             <div class="hero-container">
                 <div class="d-flex flex-column gspace-5">
                     <div class="image-container">
-                        <img src="{{ asset('image/company-overview-real.jpg') }}" alt="Company Overview Banner"
+                        <img src="{{ asset('image/home/IMG_3457.JPG') }}" alt="Company Overview Banner"
                             class="single-service-img" style="object-fit: cover;">
                         <div class="single-service-title-layout">
                             <div class="">
@@ -55,36 +55,22 @@
                     <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5">
                         <div class="col col-xl-8">
                             <div class="d-flex flex-column gspace-2">
-                                <h4>Our Mission</h4>
-                                <p>
-                                    Enable Technologies at Business Every Aspects
-                                </p>
 
                                 <div class="card service-included mt-4">
+                                    <h4>Our Mission</h4>
+                                    <div class="underline-accent-short"></div>
+                                    <p>
+                                        Enable Technologies at Every Business Aspects
+                                    </p>
+
+
                                     <h4>Our Vision</h4>
                                     <div class="underline-accent-short"></div>
-                                    <p>To enable every aspect of business through smart and innovative technology.
+                                    <p>To become a trusted leader in delivering technology-driven business transformation.
                                     </p>
-                                    {{--  <div class="row row-cols-md-2 row-cols-1 grid-spacer-2 mt-4">
-                                        <div class="col">
-                                            <ul class="check-list">
-                                                <li>Client-First Approach - Delivering solutions aligned with business goals
-                                                </li>
-                                                <li>Uncompromising Quality - Maintaining excellence in every project</li>
-                                                <li>Data-Driven Strategies - Making informed and effective decisions</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col">
-                                            <ul class="check-list">
-                                                <li>Agile Mentality - Adapting quickly to dynamic requirements</li>
-                                                <li>Continuous Innovation - Leveraging modern technologies</li>
-                                                <li>Trusted Partnerships - Building long-term client relationships</li>
-                                            </ul>
-                                        </div>
-                                    </div>  --}}
                                 </div>
 
-                                {{--  <h4 class="mt-4">Why We Stand Out</h4>
+                                <h4 class="mt-4">Why We Stand Out</h4>
                                 <p>With a strong foundation in technology and innovation, Innoversion Technolab has
                                     developed a reputation for delivering reliable, scalable, and high-performing digital
                                     solutions. Our approach blends creativity with deep technical expertise to ensure that
@@ -132,7 +118,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>  --}}
+                                </div>
                             </div>
                         </div>
                         <div class="col col-xl-4">

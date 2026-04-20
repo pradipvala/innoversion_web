@@ -53,9 +53,8 @@
             <div class="d-flex flex-column flex-xl-row gspace-5">
                 <div class="expertise-img-layout">
                     <div class="image-container expertise-img">
-                        <img src="https://html.foxcreation.net/image/working-job-career-casual-showing-SJZWF3N-1024x737.jpg"
-                            alt="Expertise Image" class="img-fluid  animate-box animated animate__animated"
-                            data-animate="animate__fadeInUp">
+                        <img src="{{ asset('image/home/IMG_3481.JPG') }}" alt="Expertise Image"
+                            class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
                         <div class="expertise-layout">
                             <div class="d-flex flex-column">
                                 <div class="card-expertise-wrapper">
@@ -334,8 +333,8 @@
                                 through reliable technology.</p>
                         </div>
                         <div class="image-container">
-                            <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-5EHBQRG-1024x683.jpg"
-                                alt="Why Choose Us Image" class="chooseus-img">
+                            <img src="{{ asset('image/home/IMG_3479.JPG') }}" alt="Why Choose Us Image"
+                                class="chooseus-img">
                             <div class="card-chooseus-cta-layout">
                                 <div class="chooseus-cta-spacer"></div>
                                 <div class="d-flex flex-column align-items-end">
@@ -1117,8 +1116,7 @@
                         <div class="card card-blog animate-box animated animate__animated"
                             data-animate="animate__fadeInUp" onclick="window.location.href='javascript:void(0)'">
                             <div class="blog-image">
-                                <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg"
-                                    alt="Blog Image">
+                                <img src="{{ asset('image/home/IMG_3459.JPG') }}" alt="Blog Image">
                             </div>
                             <div class="card-body">
                                 {{--  <div class="d-flex flex-row gspace-2">
@@ -1132,8 +1130,9 @@
                                     </div>
                                 </div>  --}}
                                 <a href="javascript:void(0)" class="blog-link">Business Workflows Automation</a>
-                                <p>Discover how organizations in 2026 are automating approvals, repetitive tasks, and team
-                                    handoffs with AI-driven workflows to save time, reduce errors, and improve consistency.
+                                <p>We simplify your daily business processes by automating repetitive tasks and reducing
+                                    manual work.
+                                    This helps you save time, improve accuracy, and focus more on growing your business.
                                 </p>
                                 {{--  <a href="javascript:void(0)" class="read-more">Read More</a>  --}}
                             </div>
@@ -1143,8 +1142,7 @@
                         <div class="card card-blog animate-box animated animate__animated"
                             data-animate="animate__fadeInUp" onclick="window.location.href='javascript:void(0)'">
                             <div class="blog-image">
-                                <img src="https://html.foxcreation.net/image/collaborative-process-of-multicultural-skilled-peo-LY58K9U-1024x683.jpg"
-                                    alt="Blog Image">
+                                <img src="{{ asset('image/home/IMG_3448.JPG') }}" alt="Blog Image">
                             </div>
                             <div class="card-body">
                                 {{--  <div class="d-flex flex-row gspace-2">
@@ -1157,10 +1155,11 @@
                                         <span class="meta-data">SEO</span>
                                     </div>
                                 </div>  --}}
-                                <a href="javascript:void(0)" class="blog-link">Cost Optimization Use in 2026</a>
-                                <p>Learn practical 2026 cost optimization strategies for cloud, software, and operations
-                                    that
-                                    help teams cut waste, improve ROI, and keep performance strong.</p>
+                                <a href="javascript:void(0)" class="blog-link">Cost Optimization use in IT 2026</a>
+                                <p>In 2026, businesses are focusing on smarter ways to manage IT costs without affecting
+                                    performance.
+                                    By reducing waste, optimizing cloud usage, and automating processes, you can save money
+                                    and still run everything smoothly.</p>
                                 {{--  <a href="javascript:void(0)" class="read-more">Read More</a>  --}}
                             </div>
                         </div>
