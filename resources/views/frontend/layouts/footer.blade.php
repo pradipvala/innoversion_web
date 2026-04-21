@@ -24,7 +24,7 @@
                                 <ul class="footer-list">
                                     <li><a href="{{ route('home') }}">Home</a></li>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
-                                    <li><a href="{{ route('services') }}">Service</a></li>
+                                    <li><a href="{{ route('services') }}">Services</a></li>
                                     {{--  <li><a href="{{ route('case-studies') }}">Case Studies</a></li>  --}}
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="{{ route('open-positions') }}">Requirements</a></li>
@@ -38,10 +38,10 @@
                                 <ul class="footer-list">
                                     <li><a href="{{ route('service.details', 'web-application-development') }}">Web
                                             Application Development</a></li>
-                                    <li><a href="{{ route('service.details', 'mobile-app-development') }}">App
+                                    <li><a href="{{ route('service.details', 'mobile-app-development') }}">Mobile
                                             Application Development</a></li>
                                     <li><a href="{{ route('service.details', 'digital-marketing-seo') }}">SEO
-                                            Application Development</a></li>
+                                            Development</a></li>
                                     {{--  <li><a href="javascript:void(0)">AI Development</a></li>  --}}
                                     {{--  <li><a href="javascript:void(0)">Branding Strategy</a></li>  --}}
                                     <li><a href="{{ route('service.details', 'saas-development') }}">Saas
