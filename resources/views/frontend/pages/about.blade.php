@@ -115,80 +115,82 @@
                         <div class="swiperPartner-container">
                             <div class="swiper swiperPartner">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <a href="{{ route('industry.details', 'healthcare') }}">
-                                            <div class="partner-slide">
-                                                <span
-                                                    class="partner-logo
+                                    @for ($i = 1; $i <= 2; $i++)
+                                        <div class="swiper-slide">
+                                            <a href="{{ route('industry.details', 'healthcare') }}">
+                                                <div class="partner-slide">
+                                                    <span
+                                                        class="partner-logo
                                                 img-fluid "><b>Healthcare</b></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="{{ route('industry.details', 'education') }}">
-                                            <div class="partner-slide">
-                                                <span
-                                                    class="partner-logo
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="{{ route('industry.details', 'education') }}">
+                                                <div class="partner-slide">
+                                                    <span
+                                                        class="partner-logo
                                                 img-fluid"><b>Education</b></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="{{ route('industry.details', 'finance-banking') }}">
-                                            <div class="partner-slide">
-                                                <span
-                                                    class="partner-logo
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="{{ route('industry.details', 'finance-banking') }}">
+                                                <div class="partner-slide">
+                                                    <span
+                                                        class="partner-logo
                                                 img-fluid"><b>Finance
-                                                        & Banking</b></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="{{ route('industry.details', 'manufacturing') }}">
-                                            <div class="partner-slide">
-                                                <span
-                                                    class="partner-logo
+                                                            & Banking</b></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="{{ route('industry.details', 'manufacturing') }}">
+                                                <div class="partner-slide">
+                                                    <span
+                                                        class="partner-logo
                                                 img-fluid"><b>Manufacturing</b></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="{{ route('industry.details', 'textile') }}">
-                                            <div class="partner-slide">
-                                                <span
-                                                    class="partner-logo
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="{{ route('industry.details', 'textile') }}">
+                                                <div class="partner-slide">
+                                                    <span
+                                                        class="partner-logo
                                                 img-fluid"><b>Textile</b></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="{{ route('industry.details', 'retail-ecommerce') }}">
-                                            <div class="partner-slide">
-                                                <span
-                                                    class="partner-logo
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="{{ route('industry.details', 'retail-ecommerce') }}">
+                                                <div class="partner-slide">
+                                                    <span
+                                                        class="partner-logo
                                                 img-fluid"><b>E-commerce</b></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="{{ route('industry.details', 'real-estate') }}">
-                                            <div class="partner-slide">
-                                                <span
-                                                    class="partner-logo
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="{{ route('industry.details', 'real-estate') }}">
+                                                <div class="partner-slide">
+                                                    <span
+                                                        class="partner-logo
                                                 img-fluid"><b>Real
-                                                        Estate</b></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="{{ route('industry.details', 'startups') }}">
-                                            <div class="partner-slide">
-                                                <span
-                                                    class="partner-logo
+                                                            Estate</b></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="{{ route('industry.details', 'startups') }}">
+                                                <div class="partner-slide">
+                                                    <span
+                                                        class="partner-logo
                                                 img-fluid"><b>Startups</b></span>
-                                            </div>
-                                        </a>
-                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    @endfor
                                 </div>
                             </div>
                         </div>
@@ -379,29 +381,57 @@
                             data-animate="animate__fadeInLeft">
                             <div class="sub-heading">
                                 <i class="fa-regular fa-circle-dot"></i>
-                                <span>Our Owner</span>
+                                <span>Our Founder</span>
                             </div>
                             <h2 class="title-heading text-center">Visionary Leadership Behind Innoversion</h2>
                         </div>
-                        <div class="row justify-content-center g-4">
+                        <div class="row g-4">
                             @foreach ($leadMember as $member)
                                 <div class="col-xl-4 col-lg-5 col-md-6 col-12">
-                                    <div class="d-flex flex-column">
+                                    <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
-                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                                style="border-radius: 25px 25px 0px 0px; height: 400px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                             </div>
                                         </div>
                                         <div class="team-profile">
                                             <h4>{{ $member->name }}</h4>
-                                            <span class="title">{{ $member->role }}</span>
+                                            {{--  <span class="title">{{ $member->role }}</span>  --}}
                                         </div>
                                     </div>
                                 </div>
                             @endforeach
+
+                            <div class="col-xl-8 col-lg-7 col-md-6 col-12">
+                                <div class="d-flex flex-column h-100">
+                                    <div class="sub-heading mb-3 mt-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <span>FOUNDER’S NOTE</span>
+                                    </div>
+
+                                    {{--  <h4 class="mb-2" align="left">A Message from Pradeep Vala, Founder & CEO</h4>  --}}
+                                    {{--  <p class="mb-3">Innoversion Technolabs</p>  --}}
+                                    <p class="mb-0 mt-3" align="left">At Innoversion Technolab, our vision is to enable
+                                        technology at every
+                                        business aspect through reliable, scalable, and future-ready solutions. We
+                                        strive to
+                                        be a trusted technology partner, delivering practical innovations that drive
+                                        efficiency, business growth, and measurable outcomes.</p>
+                                    </br>
+                                    <p class="mb-0" align="left">
+                                        With a strong commitment to quality, transparency, and long-term partnerships, we
+                                        focus on creating solutions that align with our clients’ goals and support their
+                                        success in an evolving digital landscape. </br>
+                                    </p>
+                                    </br>
+
+                                    <span class="fw-bold" align="left"> Enabling Technology. Driving Business
+                                        Growth.</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="spacer"></div>
                     </div>
@@ -418,11 +448,11 @@
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($progressMembers as $member)
                                 <div class="col">
-                                    <div class="d-flex flex-column">
+                                    <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
-                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                                style="border-radius: 25px 25px 0px 0px; height: 400px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                                 {{--  <div class="d-flex flex-column align-items-end">
@@ -443,7 +473,7 @@
                                         </div>
                                         <div class="team-profile">
                                             <h4>{{ $member->name }}</h4>
-                                            <span class="title">{{ $member->role }}</span>
+                                            {{--  <span class="title">{{ $member->role }}</span>  --}}
                                         </div>
                                     </div>
                                 </div>
@@ -465,11 +495,11 @@
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($coreMembers as $member)
                                 <div class="col">
-                                    <div class="d-flex flex-column">
+                                    <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
-                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                                style="border-radius: 25px 25px 0px 0px; height: 400px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                                 {{--  <div class="d-flex flex-column align-items-end">
@@ -490,7 +520,7 @@
                                         </div>
                                         <div class="team-profile">
                                             <h4>{{ $member->name }}</h4>
-                                            <span class="title">{{ $member->role }}</span>
+                                            {{--  <span class="title">{{ $member->role }}</span>  --}}
                                         </div>
                                     </div>
                                 </div>
@@ -512,11 +542,11 @@
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($ourTeamMembers as $member)
                                 <div class="col">
-                                    <div class="d-flex flex-column">
+                                    <div class="team-member-card d-flex flex-column">
                                         <div class="image-team">
                                             <img src="{{ asset('storage/' . $member->image) }}" alt="Team Image"
                                                 class="img-fluid"
-                                                style="border-radius: 25px 25px 0px 0px; height: 500px;width: 100%; object-fit: cover;object-position: top center;">
+                                                style="border-radius: 25px 25px 0px 0px; height: 400px;width: 100%; object-fit: cover;object-position: top center;">
                                             <div class="social-team-wrapper">
                                                 <div class="social-team-spacer"></div>
                                                 {{--  <div class="d-flex flex-column align-items-end">
@@ -537,7 +567,7 @@
                                         </div>
                                         <div class="team-profile">
                                             <h4>{{ $member->name }}</h4>
-                                            <span class="title">{{ $member->role }}</span>
+                                            {{--  <span class="title">{{ $member->role }}</span>  --}}
                                         </div>
                                     </div>
                                 </div>
@@ -766,36 +796,39 @@
                         <div class="overflow-hidden">
                             <div class="swiper swiperTestimonial">
                                 <div class="swiper-wrapper">
-                                    @foreach ($testimonials as $testimonial)
-                                        <div class="swiper-slide">
-                                            <div class="card card-testimonial" style="height: 500px;">
-                                                <div class="stars">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <div class="d-flex flex-row align-items-center justify-content-between">
-                                                    <div class="d-flex flex-row gspace-2">
-                                                        {{--  <div class="testimonial-image">
+                                    @for ($i = 1; $i <= 2; $i++)
+                                        @foreach ($testimonials as $testimonial)
+                                            <div class="swiper-slide">
+                                                <div class="card card-testimonial" style="height: 500px;">
+                                                    <div class="stars">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-row align-items-center justify-content-between">
+                                                        <div class="d-flex flex-row gspace-2">
+                                                            {{--  <div class="testimonial-image">
                                                             <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
                                                                 alt="Testimonial Person Image" class="img-fluid">
                                                         </div>  --}}
-                                                        <div class="d-flex flex-column">
-                                                            <span class="profile-name">{!! $testimonial->name !!}</span>
-                                                            {{--  <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}  --}}
-                                                            </p>
+                                                            <div class="d-flex flex-column">
+                                                                <span class="profile-name">{!! $testimonial->name !!}</span>
+                                                                {{--  <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}  --}}
+                                                                </p>
+                                                            </div>
                                                         </div>
+                                                        <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                                     </div>
-                                                    <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                                    <p class="testimonial-description">
+                                                        {!! $testimonial->description !!}
+                                                    </p>
                                                 </div>
-                                                <p class="testimonial-description">
-                                                    {!! $testimonial->description !!}
-                                                </p>
                                             </div>
-                                        </div>
-                                    @endforeach
+                                        @endforeach
+                                    @endfor
                                 </div>
                             </div>
                         </div>

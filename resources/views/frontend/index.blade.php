@@ -157,80 +157,82 @@
                     <div class="swiperPartner-container">
                         <div class="swiper swiperPartner">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="{{ route('industry.details', 'healthcare') }}">
-                                        <div class="partner-slide">
-                                            <span
-                                                class="partner-logo
+                                @for ($i = 1; $i <= 2; $i++)
+                                    <div class="swiper-slide">
+                                        <a href="{{ route('industry.details', 'healthcare') }}">
+                                            <div class="partner-slide">
+                                                <span
+                                                    class="partner-logo
                                                 img-fluid "><b>Healthcare</b></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="{{ route('industry.details', 'education') }}">
-                                        <div class="partner-slide">
-                                            <span
-                                                class="partner-logo
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="{{ route('industry.details', 'education') }}">
+                                            <div class="partner-slide">
+                                                <span
+                                                    class="partner-logo
                                                 img-fluid"><b>Education</b></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="{{ route('industry.details', 'finance-banking') }}">
-                                        <div class="partner-slide">
-                                            <span
-                                                class="partner-logo
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="{{ route('industry.details', 'finance-banking') }}">
+                                            <div class="partner-slide">
+                                                <span
+                                                    class="partner-logo
                                                 img-fluid"><b>Finance
-                                                    & Banking</b></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="{{ route('industry.details', 'manufacturing') }}">
-                                        <div class="partner-slide">
-                                            <span
-                                                class="partner-logo
+                                                        & Banking</b></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="{{ route('industry.details', 'manufacturing') }}">
+                                            <div class="partner-slide">
+                                                <span
+                                                    class="partner-logo
                                                 img-fluid"><b>Manufacturing</b></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="{{ route('industry.details', 'textile') }}">
-                                        <div class="partner-slide">
-                                            <span
-                                                class="partner-logo
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="{{ route('industry.details', 'textile') }}">
+                                            <div class="partner-slide">
+                                                <span
+                                                    class="partner-logo
                                                 img-fluid"><b>Textile</b></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="{{ route('industry.details', 'retail-ecommerce') }}">
-                                        <div class="partner-slide">
-                                            <span
-                                                class="partner-logo
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="{{ route('industry.details', 'retail-ecommerce') }}">
+                                            <div class="partner-slide">
+                                                <span
+                                                    class="partner-logo
                                                 img-fluid"><b>E-commerce</b></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="{{ route('industry.details', 'real-estate') }}">
-                                        <div class="partner-slide">
-                                            <span
-                                                class="partner-logo
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="{{ route('industry.details', 'real-estate') }}">
+                                            <div class="partner-slide">
+                                                <span
+                                                    class="partner-logo
                                                 img-fluid"><b>Real
-                                                    Estate</b></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="{{ route('industry.details', 'startups') }}">
-                                        <div class="partner-slide">
-                                            <span
-                                                class="partner-logo
+                                                        Estate</b></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="{{ route('industry.details', 'startups') }}">
+                                            <div class="partner-slide">
+                                                <span
+                                                    class="partner-logo
                                                 img-fluid"><b>Startups</b></span>
-                                        </div>
-                                    </a>
-                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                @endfor
                             </div>
                         </div>
                     </div>
@@ -461,18 +463,18 @@
                     <div class="swiperPartner-container">
                         <div class="swiper swiperPartner">
                             <div class="swiper-wrapper">
-
-                                @foreach ($clients as $client)
-                                    <div class="swiper-slide">
-                                        <a href="#">
-                                            <div class="partner-slide">
-                                                <img src="{{ isset($client->image) ? asset('storage/' . $client->image) : asset('image/client-7.png') }}"
-                                                    alt="Client" class="img-fluid">
-                                            </div>
-                                        </a>
-                                    </div>
-                                @endforeach
-
+                                @for ($i = 1; $i <= 2; $i++)
+                                    @foreach ($clients as $client)
+                                        <div class="swiper-slide">
+                                            <a href="#">
+                                                <div class="partner-slide">
+                                                    <img src="{{ isset($client->image) ? asset('storage/' . $client->image) : asset('image/client-7.png') }}"
+                                                        alt="Client" class="img-fluid">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    @endforeach
+                                @endfor
                             </div>
                         </div>
                     </div>
@@ -712,36 +714,38 @@
                     <div class="overflow-hidden">
                         <div class="swiper swiperTestimonial">
                             <div class="swiper-wrapper">
-                                @foreach ($testimonials as $testimonial)
-                                    <div class="swiper-slide">
-                                        <div class="card card-testimonial" style="height: 500px;">
-                                            <div class="stars">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="d-flex flex-row align-items-center justify-content-between">
-                                                <div class="d-flex flex-row gspace-2">
-                                                    {{--  <div class="testimonial-image">
+                                @for ($i = 1; $i <= 2; $i++)
+                                    @foreach ($testimonials as $testimonial)
+                                        <div class="swiper-slide">
+                                            <div class="card card-testimonial" style="height: 500px;">
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                                    <div class="d-flex flex-row gspace-2">
+                                                        {{--  <div class="testimonial-image">
                                                         <img src="{{ asset('image/dummy-img-400x400.jpg') }}"
                                                             alt="Testimonial Person Image" class="img-fluid">
                                                     </div>  --}}
-                                                    <div class="d-flex flex-column">
-                                                        <span class="profile-name">{!! $testimonial->name !!}</span>
-                                                        {{--  <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}  --}}
-                                                        </p>
+                                                        <div class="d-flex flex-column">
+                                                            <span class="profile-name">{!! $testimonial->name !!}</span>
+                                                            {{--  <p class="profile-info">{{ $testimonial->position ?? 'Founder' }}  --}}
+                                                            </p>
+                                                        </div>
                                                     </div>
+                                                    <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                                 </div>
-                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                                <p class="testimonial-description">
+                                                    {!! $testimonial->description !!}
+                                                </p>
                                             </div>
-                                            <p class="testimonial-description">
-                                                {!! $testimonial->description !!}
-                                            </p>
                                         </div>
-                                    </div>
-                                @endforeach
+                                    @endforeach
+                                @endfor
                             </div>
                         </div>
                     </div>

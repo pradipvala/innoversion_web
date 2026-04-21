@@ -2,7 +2,7 @@ $(function () {
     $('.swiper.swiperPartner').each(function () {
         new Swiper(this, {
             autoplay: {
-                delay: 3500,
+                delay: 1000,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: false,
             },
@@ -30,7 +30,7 @@ $(function () {
 $(function () {
     var swiperTestimonial = new Swiper('.swiper.swiperTestimonial', {
         autoplay: {
-            delay: 5000,
+            delay: 1000,
         },
         speed: 1000,
         slidesPerView: 3,
