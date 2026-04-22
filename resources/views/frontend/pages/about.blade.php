@@ -339,18 +339,14 @@
                         </p>
                     </div>  --}}
                         <div class="d-flex flex-column gspace-2">
-                            <h3 class="title-heading">Transform Your Business with Innoversion Technolab</h3>
-                            <p>We deliver scalable software solutions that drive innovation, efficiency, and business
-                                growth.
-                                Our expertise in web, mobile, and custom development ensures high-performance digital
-                                products.
-                                Partner with us to build secure, future-ready technology that delivers real results.</p>
+                            <h3 class="title-heading">Transform Your Business by using technologies with Us</h3>
+                            <p>Consultant with us to build secure, future-ready technology that delivers real results.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- Section Modal Video -->
         <div class="section p-0">
             <div id="modal-overlay" class="modal-overlay">
