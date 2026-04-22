@@ -99,7 +99,6 @@
     <div class="container">
         <div class="header">
             <img src="{{ asset('image/marko-logo.png') }}" alt="Innoversion Technolab" class="brand-logo">
-            <h2>Thank You for Contacting Innoversion Technolab</h2>
         </div>
         <div class="content">
             <p>Thank you for connecting with Innoversion Technolab.</p>
