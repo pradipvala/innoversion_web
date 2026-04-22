@@ -33,11 +33,11 @@
                                         <div class="sub-heading animate-box animated slow animate__animated"
                                             data-animate="animate__fadeInRight">
                                             <i class="fa-regular fa-circle-dot"></i>
-                                            <span>Our Process ?</span>
+                                            <span>Our Process</span>
                                         </div>
                                         <h3 class="title-heading animate-box animated animate__animated"
-                                            data-animate="animate__fadeInRight">How We Deliver Results</h3>
-                                        <p>At Innoversion Technolab, we follow a structured, transparent, and result-driven
+                                            data-animate="animate__fadeInRight">How We Deliver Results ?</h3>
+                                        <p>We follow a structured, transparent, and result-driven
                                             process to ensure every project is delivered with precision, quality, and
                                             efficiency. Our approach focuses on understanding your business needs, applying
                                             the right technologies, and delivering scalable solutions that drive measurable

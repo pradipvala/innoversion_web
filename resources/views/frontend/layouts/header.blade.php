@@ -54,7 +54,7 @@
                                     <div class="ds">Projects & client success stories</div>
                                 </div>
                             </a>  --}}
-                            <a href="javascript:void(0)" class="dl">
+                            {{--  <a href="javascript:void(0)" class="dl">
                                 <div>
                                     <div class="dt"><b>Case Studies</b></div>
                                     <div class="ds">Deep-dive project breakdowns</div>
@@ -65,7 +65,7 @@
                                     <div class="dt"><b>Blog</b></div>
                                     <div class="ds">Insights, news & tech articles</div>
                                 </div>
-                            </a>
+                            </a>  --}}
                             <a href="{{ route('life.at.company') }}" class="dl">
                                 <div>
                                     <div class="dt"><b>Life at Company</b></div>

@@ -102,7 +102,7 @@
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Our Team Lead</span>
                             </div>
-                            <h2 class="title-heading text-center">Strategic Experts Guiding Every Milestone</h2>
+                            <h2 class="title-heading text-center">Strategic Technical Experts Guiding Every Milestone</h2>
                         </div>
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($progressMembers as $member)

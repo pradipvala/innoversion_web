@@ -4202,9 +4202,9 @@ body.lightmode .accordion-button:not(.collapsed)::after {
     background-image: url('../image/services/custom-software-development.jpeg');
 }
 
-.cta-service-banner-technology-details {
+/* .cta-service-banner-technology-details {
     background-image: url('../image/technology/ui-ux-design.svg');
-}
+} */
 
 .cta-service-banner-expertise-details {
     background-image: url('../image/company-overview-real.jpg');
