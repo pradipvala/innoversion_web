@@ -19,7 +19,7 @@ class ServiceHelper
             'web-application-development' => [
                 'name' => 'Web Application Development',
                 'hero_title' => 'Building Scalable & High-Performance Web Applications',
-                'image' => 'services/mobile-development.jpg',
+                'image' => 'services/web-application-development.avif',
                 'description' => 'We create fast, secure, and user-friendly web applications that deliver seamless digital experiences and drive business growth.',
                 'overview' => 'At Innoversion Technolab, we develop powerful web applications tailored to your business needs. Our solutions are designed to be scalable, secure, and accessible across all devices without installation. We leverage modern technologies to build web apps that enhance user engagement, streamline operations, and support your digital transformation journey.',
                 'features' => ['Responsive Design', 'Cross-Browser Compatibility', 'Rich User Interface', 'Cloud Scalability', 'High Performance'],
@@ -28,16 +28,16 @@ class ServiceHelper
             'mobile-app-development' => [
                 'name' => 'Mobile App Development',
                 'hero_title' => 'Driving Business Growth Through Mobile App Development',
-                'image' => 'services/mobile-development.jpg',
+                'image' => 'services/mobile-application-development.jpg',
                 'description' => 'Custom-built Android and iOS applications designed to improve customer engagement, simplify operations, and support long-term business growth.',
-                'overview' => 'At Innoversion Technolab, we develop innovative mobile applications that help businesses stay connected with their customers anytime and anywhere. Our team creates native and cross-platform apps that are fast, secure, and easy to use. From startup ideas to enterprise-grade applications, we build mobile solutions that match your business objectives and deliver a seamless user experience across all devices.',
+                'overview' => 'We develop innovative mobile applications that help businesses stay connected with their customers anytime and anywhere. Our team creates native and cross-platform apps that are fast, secure, and easy to use. From startup ideas to enterprise-grade applications, we build mobile solutions that match your business objectives and deliver a seamless user experience across all devices.',
                 'features' => ['Android App Development', 'iOS App Development', 'Cross-Platform App Development', 'Custom UI/UX Design', 'API & Third-Party Integration'],
                 'why_choose' => ['Reach Customers Anytime, Anywhere', 'Improve User Engagement', 'Increase Brand Visibility', 'Generate New Business Opportunities', 'Dedicated Support & Continuous Optimization', 'Future-Ready & Scalable Approach'],
             ],
             'saas-development' => [
                 'name' => 'SaaS Development',
                 'hero_title' => 'Building Scalable & Secure SaaS Applications',
-                'image' => 'services/saas-development.jpg',
+                'image' => 'services/saas-development-1.jpg',
                 'description' => 'We develop powerful cloud-based SaaS solutions that help businesses streamline operations, scale efficiently, and deliver seamless user experiences.',
                 'overview' => 'At Innoversion Technolab, we specialize in SaaS (Software as a Service) development, creating cloud-based applications that are accessible anytime, anywhere. Our solutions are designed for scalability, security, and performance, enabling businesses to serve multiple users with ease. We build SaaS platforms that simplify processes, reduce infrastructure costs, and support long-term business growth.',
                 'features' => ['Multi-Tenant Architecture', 'Cloud-Based Infrastructure', 'Subscription & Billing Integration', 'Secure Data Management', 'API & Third-Party Integrations'],
@@ -46,7 +46,7 @@ class ServiceHelper
             'api-integration-services' => [
                 'name' => 'API Integration Services',
                 'hero_title' => 'Seamless API Integration for Connected Systems',
-                'image' => 'services/api-integration-services.jpeg',
+                'image' => 'services/api-integration-services-new.jpg',
                 'description' => 'We integrate your applications, platforms, and third-party services to ensure smooth data flow, improved efficiency, and better business performance.',
                 'overview' => 'At Innoversion Technolab, we provide reliable API integration services that connect your software with external systems, tools, and platforms. Our solutions help businesses automate workflows, enhance functionality, and eliminate manual processes. We ensure secure, scalable, and high-performance integrations that allow your systems to communicate efficiently and work as one unified solution.',
                 'features' => ['Third-Party API Integration', 'Payment Gateway Integration', 'CRM & ERP Integration', 'REST & SOAP API Development', 'Secure Data Exchange'],
@@ -55,7 +55,7 @@ class ServiceHelper
             'workflow-automation' => [
                 'name' => 'Workflow Automation',
                 'hero_title' => 'Streamlining Business Processes with Workflow Automation',
-                'image' => 'services/workflow-automation-photo.png',
+                'image' => 'services/workflowautomation.png',
                 'description' => 'We automate repetitive tasks and workflows to improve efficiency, reduce errors, and accelerate business operations.',
                 'overview' => 'At Innoversion Technolab, we help businesses automate their daily operations by designing smart workflow automation solutions. Our systems eliminate manual processes, improve accuracy, and ensure faster execution of tasks across departments. From simple task automation to complex business workflows, we create solutions that enhance productivity and operational efficiency.',
                 'features' => ['Business Process Automation', 'Task & Approval Workflows', 'CRM & ERP Automation', 'Data Synchronization', 'Custom Workflow Solutions'],

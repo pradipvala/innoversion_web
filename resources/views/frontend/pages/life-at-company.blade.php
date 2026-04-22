@@ -23,7 +23,7 @@
             <div class="hero-container">
                 <div class="d-flex flex-column gspace-5">
                     <div class="image-container">
-                        <img src="{{ asset('image/home/IMG_3442.JPG') }}" alt="Life at Innoversion Technolab Banner"
+                        <img src="{{ asset('image/home/IMG_3542.JPG') }}" alt="Life at Innoversion Technolab Banner"
                             class="single-service-img" style="object-fit: cover;">
                         <div class="single-service-title-layout">
                             <div>

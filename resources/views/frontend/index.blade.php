@@ -1120,7 +1120,7 @@
                         <div class="card card-blog animate-box animated animate__animated"
                             data-animate="animate__fadeInUp" onclick="window.location.href='javascript:void(0)'">
                             <div class="blog-image">
-                                <img src="{{ asset('image/home/IMG_3459.JPG') }}" alt="Blog Image">
+                                <img src="{{ asset('image/home/workfolow-automation.jpg') }}" alt="Blog Image">
                             </div>
                             <div class="card-body">
                                 {{--  <div class="d-flex flex-row gspace-2">
@@ -1146,7 +1146,7 @@
                         <div class="card card-blog animate-box animated animate__animated"
                             data-animate="animate__fadeInUp" onclick="window.location.href='javascript:void(0)'">
                             <div class="blog-image">
-                                <img src="{{ asset('image/home/IMG_3448.JPG') }}" alt="Blog Image">
+                                <img src="{{ asset('image/home/cost-optimization-use-in-IT-2026.jpg') }}" alt="Blog Image">
                             </div>
                             <div class="card-body">
                                 {{--  <div class="d-flex flex-row gspace-2">

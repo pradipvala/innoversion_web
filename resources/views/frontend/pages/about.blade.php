@@ -377,7 +377,7 @@
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Our Founder</span>
                             </div>
-                            <h2 class="title-heading text-center">Visionary Leadership Behind Innoversion</h2>
+                            <h4 class="title-heading text-center">Visionary Leadership Behind Innoversion</h4>
                         </div>
                         <div class="row g-4">
                             @foreach ($leadMember as $member)
@@ -437,7 +437,7 @@
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Our Team Lead</span>
                             </div>
-                            <h2 class="title-heading text-center">Strategic Experts Guiding Every Milestone</h2>
+                            <h4 class="title-heading text-center">Strategic Technical Experts Guiding Every Milestone</h4>
                         </div>
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($progressMembers as $member)
@@ -484,7 +484,8 @@
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Our Senior Team</span>
                             </div>
-                            <h2 class="title-heading text-center">Execution Leaders Turning Plans into Results</h2>
+                            <h4 class="title-heading text-center">Building strong teams that deliver smarter solutions.
+                            </h4>
                         </div>
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($coreMembers as $member)
@@ -531,7 +532,7 @@
                                 <i class="fa-regular fa-circle-dot"></i>
                                 <span>Our Team</span>
                             </div>
-                            <h2 class="title-heading text-center">Passionate Professionals Powering Daily Success</h2>
+                            <h4 class="title-heading text-center">Passionate Professionals Powering Daily Success</h4>
                         </div>
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
                             @foreach ($ourTeamMembers as $member)
