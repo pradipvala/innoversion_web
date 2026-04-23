@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\VisitingCardController;
 use Illuminate\Http\Request;
 
 
@@ -29,6 +30,8 @@ Route::get('/service/{slug}', [HomeController::class, 'serviceDetails'])->name('
 Route::get('/industry/{slug}', [HomeController::class, 'industryDetails'])->name('industry.details');
 Route::get('/expertise/{slug}', [HomeController::class, 'expertiseDetails'])->name('expertise.details');
 Route::get('/auto-pulse', [HomeController::class, 'autoPulse'])->name('auto.pulse');
+
+Route::get('card/show/{id}', [VisitingCardController::class, 'show'])->name('card.view');
 
 // // Contact Form Routes
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
