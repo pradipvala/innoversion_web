@@ -467,7 +467,7 @@
                                     @foreach ($clients as $client)
                                         <div class="swiper-slide">
                                             <a href="#">
-                                                <div class="partner-slide">
+                                                <div class="partner-slide bg-white">
                                                     <img src="{{ isset($client->image) ? asset('storage/' . $client->image) : asset('image/client-7.png') }}"
                                                         alt="Client" class="img-fluid">
                                                 </div>
@@ -1146,7 +1146,8 @@
                         <div class="card card-blog animate-box animated animate__animated"
                             data-animate="animate__fadeInUp" onclick="window.location.href='javascript:void(0)'">
                             <div class="blog-image">
-                                <img src="{{ asset('image/home/cost-optimization-use-in-IT-2026.jpg') }}" alt="Blog Image">
+                                <img src="{{ asset('image/home/cost-optimization-use-in-IT-2026.jpg') }}"
+                                    alt="Blog Image">
                             </div>
                             <div class="card-body">
                                 {{--  <div class="d-flex flex-row gspace-2">
