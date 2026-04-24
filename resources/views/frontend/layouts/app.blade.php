@@ -9,20 +9,41 @@
         $defaultTitle = str(Route::currentRouteName() ?? 'home')
             ->afterLast('.')
             ->headline();
-        $pageTitle = trim($__env->yieldContent('title', $defaultTitle));
-        $siteTitle = trim($__env->yieldContent('site_title', 'Innoversion Technolab'));
-        $fullTitle = $pageTitle !== '' ? $pageTitle . ' - ' . $siteTitle : $siteTitle;
+        $siteTitle = trim($__env->yieldContent('site_title', config('seo.site_title', 'Innoversion Technolab')));
+        $route = request()->route();
+        $routeName = Route::currentRouteName() ?? 'home';
+        $routeParameters = $route ? $route->parameters() : [];
+
+        if ($routeName === 'service.details' && !empty($routeParameters['slug'])) {
+            $seoData = config('seo.services.' . $routeParameters['slug'], []);
+        } elseif ($routeName === 'technology.details' && !empty($routeParameters['slug'])) {
+            $seoData = config('seo.technologies.' . $routeParameters['slug'], []);
+        } else {
+            $seoData = config('seo.routes.' . $routeName, []);
+        }
+
+        $titleFallback = $defaultTitle !== '' ? $defaultTitle . ' - ' . $siteTitle : $siteTitle;
+        $pageTitle = trim($__env->yieldContent('title', $seoData['title'] ?? $titleFallback));
+        $fullTitle = $pageTitle !== '' ? $pageTitle : $titleFallback;
 
         $metaDescription = trim(
             $__env->yieldContent(
                 'meta_description',
-                'Innoversion Technolab provides software development, web solutions, mobile apps, and digital transformation services.',
+                $seoData['description'] ??
+                    config(
+                        'seo.defaults.description',
+                        'Innoversion Technolab provides software development, web solutions, mobile apps, and digital transformation services.',
+                    ),
             ),
         );
         $metaKeywords = trim(
             $__env->yieldContent(
                 'meta_keywords',
-                'Innoversion Technolab, software development, web development, mobile app development, digital transformation, IT services',
+                $seoData['keywords'] ??
+                    config(
+                        'seo.defaults.keywords',
+                        'Innoversion Technolab, software development, web development, mobile app development, digital transformation, IT services',
+                    ),
             ),
         );
         $metaImage = trim($__env->yieldContent('meta_image', asset('image/favicon.ico')));
@@ -32,7 +53,7 @@
     @endphp
 
     <title>{{ $fullTitle }}</title>
-    <meta name="title" content="Innnoversion Technolab">
+    <meta name="title" content="{{ $fullTitle }}">
     <meta name="keywords" content="{{ $metaKeywords }}">
     <meta name="description" content="{{ $metaDescription }}">
     <link rel="canonical" href="{{ $canonicalUrl }}">
