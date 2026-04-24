@@ -5,13 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>
-        @yield(
-            'title',
-            str(Route::currentRouteName() ?? 'home')->afterLast('.')->headline()
-        )
-        - Innoversion Technolab
-    </title>
+    @php
+        $defaultTitle = str(Route::currentRouteName() ?? 'home')
+            ->afterLast('.')
+            ->headline();
+        $pageTitle = trim($__env->yieldContent('title', $defaultTitle));
+        $siteTitle = trim($__env->yieldContent('site_title', 'Innoversion Technolab'));
+        $fullTitle = $pageTitle !== '' ? $pageTitle . ' - ' . $siteTitle : $siteTitle;
+
+        $metaDescription = trim(
+            $__env->yieldContent(
+                'meta_description',
+                'Innoversion Technolab provides software development, web solutions, mobile apps, and digital transformation services.',
+            ),
+        );
+        $metaKeywords = trim(
+            $__env->yieldContent(
+                'meta_keywords',
+                'Innoversion Technolab, software development, web development, mobile app development, digital transformation, IT services',
+            ),
+        );
+        $metaImage = trim($__env->yieldContent('meta_image', asset('image/favicon.ico')));
+        $metaUrl = trim($__env->yieldContent('meta_url', url()->current()));
+        $metaType = trim($__env->yieldContent('meta_type', 'website'));
+        $canonicalUrl = trim($__env->yieldContent('canonical', $metaUrl));
+    @endphp
+
+    <title>{{ $fullTitle }}</title>
+    <meta name="title" content="Innnoversion Technolab">
+    <meta name="keywords" content="{{ $metaKeywords }}">
+    <meta name="description" content="{{ $metaDescription }}">
+    <link rel="canonical" href="{{ $canonicalUrl }}">
+
+    <meta property="og:title" content="{{ $fullTitle }}">
+    <meta property="og:description" content="{{ $metaDescription }}">
+    <meta property="og:image" content="{{ $metaImage }}">
+    <meta property="og:url" content="{{ $metaUrl }}">
+    <meta property="og:type" content="{{ $metaType }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $fullTitle }}">
+    <meta name="twitter:description" content="{{ $metaDescription }}">
+    <meta name="twitter:image" content="{{ $metaImage }}">
     <link rel="stylesheet" href={{ asset('css/style.css') }}>
     <link rel="icon" href={{ asset('image/favicon.ico') }}>
 </head>
