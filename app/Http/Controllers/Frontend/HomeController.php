@@ -38,10 +38,11 @@ class HomeController extends Controller
 
     public function home()
     {
-        $services = Services_1::where('status', '1')->get();
-        $clients = Client::where('status', '1')->get();
-        $testimonials = Testimonial::where('status', '1')->get();
-        return view('frontend.index', compact('services', 'clients', 'testimonials'));
+        // $services = Services_1::where('status', '1')->get();
+        // $clients = Client::where('status', '1')->get();
+        // $testimonials = Testimonial::where('status', '1')->get();
+        // return view('frontend.index', compact('services', 'clients', 'testimonials'));
+        return view('coming_soon');
     }
 
     public function about()
