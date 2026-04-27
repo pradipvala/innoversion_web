@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="d-flex flex-column gspace-2">
-                       <h4 class="title-heading">1. Information We Collect</h4>
+                        <h4 class="title-heading">1. Information We Collect</h4>
                         <ul class="list-icon">
                             <li>Contact details such as name, email address, phone number, and company name.</li>
                             <li>Inquiry and project details shared through forms, email, or direct communication.</li>
@@ -51,7 +51,7 @@
                             <li>Media data you voluntarily submit, including files, images, and documents.</li>
                         </ul>
 
-                       <h4 class="title-heading">2. How We Use Information</h4>
+                        <h4 class="title-heading">2. How We Use Information</h4>
                         <ul class="list-icon">
                             <li>Respond to inquiries and provide requested services.</li>
                             <li>Process project onboarding, communication, billing, and support.</li>
@@ -59,48 +59,48 @@
                             <li>Comply with legal obligations and resolve disputes.</li>
                         </ul>
 
-                       <h4 class="title-heading">3. Cookies and Tracking Technologies</h4>
+                        <h4 class="title-heading">3. Cookies and Tracking Technologies</h4>
                         <p>We use session and persistent cookies for website functionality, analytics, and performance.
                             Third-party tools may also set cookies as part of embedded services or analytics. You can
                             control cookies through browser settings.</p>
 
-                       <h4 class="title-heading">4. Information Sharing</h4>
+                        <h4 class="title-heading">4. Information Sharing</h4>
                         <p>We do not sell or rent your personal data. We may share information with trusted service
                             providers (such as hosting, analytics, communication, or payment processors) only to the extent
                             needed to provide services. We may also disclose information where required by law or to protect
                             legal rights.</p>
 
-                       <h4 class="title-heading">5. Third-Party Links</h4>
+                        <h4 class="title-heading">5. Third-Party Links</h4>
                         <p>Our website may include links to external websites. We are not responsible for the content,
                             security, or privacy practices of those websites.</p>
 
-                       <h4 class="title-heading">6. Data Retention</h4>
+                        <h4 class="title-heading">6. Data Retention</h4>
                         <p>We retain personal information only as long as necessary for business purposes, contractual
                             obligations, compliance requirements, and dispute resolution.</p>
 
-                       <h4 class="title-heading">7. Data Security</h4>
+                        <h4 class="title-heading">7. Data Security</h4>
                         <p>We implement reasonable administrative, technical, and organizational safeguards to protect data.
                             However, no internet transmission or storage system is fully secure.</p>
 
-                       <h4 class="title-heading">8. Your Rights</h4>
+                        <h4 class="title-heading">8. Your Rights</h4>
                         <p>Subject to applicable law, you may request access, correction, or deletion of your personal
                             information, or object to specific processing activities. To exercise your rights, contact us
                             using the details below.</p>
 
-                       <h4 class="title-heading">9. Children’s Privacy</h4>
+                        <h4 class="title-heading">9. Children’s Privacy</h4>
                         <p>Our website and services are not directed to children under 13 years of age, and we do not
                             knowingly collect personal information from children.</p>
 
-                       <h4 class="title-heading">10. Changes to This Policy</h4>
+                        <h4 class="title-heading">10. Changes to This Policy</h4>
                         <p>We may update this Privacy Policy from time to time. Any updates will be posted on this page with
                             the revised effective date.</p>
 
-                       <h4 class="title-heading">11. Contact Us</h4>
+                        <h4 class="title-heading">11. Contact Us</h4>
                         <p>
                             For privacy-related requests or questions, contact:<br>
                             Innoversion Technolab<br>
                             Email: info@innoversiontechnolab.com<br>
-                            Phone: +91 9687350999<br>
+                            Phone: +91 6359131135<br>
                             Address: Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri Nagar,
                             Dharam Nagar Society, Rajkot, Gujarat 360006, India
                         </p>

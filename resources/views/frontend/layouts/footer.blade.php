@@ -59,8 +59,8 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-phone contact-list-icon"></i>
-                                        <a href="tel:+919687350999">+91
-                                            9687350999</a>
+                                        <a href="tel:+916359131135">+91
+                                            6359131135</a>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-location-dot contact-list-icon"></i>
@@ -93,8 +93,8 @@
                                             </a>
                                         </div>
                                         <div class="social-item-wrapper">
-                                            <a href="https://www.linkedin.com/company/113158238/"
-                                                target="_blank" class="social-item">
+                                            <a href="https://www.linkedin.com/company/113158238/" target="_blank"
+                                                class="social-item">
                                                 <i class="fa-brands fa-linkedin"></i>
                                             </a>
                                         </div>

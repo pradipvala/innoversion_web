@@ -392,8 +392,8 @@
                     <div class="icon-circle">
                         <i class="fa-solid fa-phone-volume"></i>
                     </div>
-                    <a href="tel:+919687350999">
-                        <h6>+91 9687350999</h6>
+                    <a href="tel:+916359131135">
+                        <h6>+91 6359131135</h6>
                     </a>
                 </div>
             </div>

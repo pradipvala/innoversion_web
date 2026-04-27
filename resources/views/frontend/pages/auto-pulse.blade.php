@@ -1262,7 +1262,7 @@
                 <div class="contact-item">
                     <div class="contact-label">Phone</div>
                     <div class="contact-val">
-                        <a href="tel:+919687350999">+91 96873 50999</a>
+                        <a href="tel:+916359131135">+91 63591 31135</a>
                     </div>
                 </div>
                 <div class="contact-item">
