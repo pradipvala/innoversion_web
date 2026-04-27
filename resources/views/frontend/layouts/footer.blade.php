@@ -93,7 +93,7 @@
                                             </a>
                                         </div>
                                         <div class="social-item-wrapper">
-                                            <a href="https://www.linkedin.com/company/innoversion-technolab/"
+                                            <a href="https://www.linkedin.com/company/113158238/"
                                                 target="_blank" class="social-item">
                                                 <i class="fa-brands fa-linkedin"></i>
                                             </a>
