@@ -64,7 +64,8 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-location-dot contact-list-icon"></i>
-                                        <a href="https://maps.google.com/?q=Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri Nagar, Dharam Nagar Society, Rajkot, Gujarat 360006"
+                                        <a align="start"
+                                            href="https://maps.google.com/?q=Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri Nagar, Dharam Nagar Society, Rajkot, Gujarat 360006"
                                             target="_blank">Office no.1304, Rk World
                                             Tower,
                                             150 Feet Ring

@@ -1088,7 +1088,7 @@
     </div>
 
     <!-- Section Blog -->
-    <div class="mb-5">
+    <div class="section pt-0">
         <div class="hero-container">
             <div class="d-flex flex-column gspace-5">
                 <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5 m-0">
