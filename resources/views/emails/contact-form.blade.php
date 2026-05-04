@@ -111,7 +111,7 @@
 
             <div class="contact-meta">
                 <strong>Need immediate assistance?</strong><br>
-                Phone: <a href="tel:+916359131135">+91 6359131135</a><br>
+                Phone: <a href="tel:+916359573593">+91 6359573593</a><br>
                 Email: <a href="mailto:info@innoversiontechnolab.com">info@innoversiontechnolab.com</a>
             </div>
         </div>

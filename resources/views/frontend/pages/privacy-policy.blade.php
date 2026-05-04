@@ -100,7 +100,7 @@
                             For privacy-related requests or questions, contact:<br>
                             Innoversion Technolab<br>
                             Email: info@innoversiontechnolab.com<br>
-                            Phone: +91 6359131135<br>
+                            Phone: +91 6359573593<br>
                             Address: Office no.1304, Rk World Tower, 150 Feet Ring Rd, near Sheetal Park, Shastri Nagar,
                             Dharam Nagar Society, Rajkot, Gujarat 360006, India
                         </p>

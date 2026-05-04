@@ -47,7 +47,7 @@
                                     </div>
                                     <div class="d-grid">
                                         <h6>Phone Number</h6>
-                                        <span>+91 6359131135</span>
+                                        <span>+91 6359573593</span>
                                     </div>
                                 </div>
                                 <div

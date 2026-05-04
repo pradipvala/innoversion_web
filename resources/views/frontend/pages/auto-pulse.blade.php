@@ -688,7 +688,8 @@
 
         <!-- BRAND COMPATIBILITY -->
         <div class="brand-section">
-            <div class="text-danger mb-3 font-600" style="text-transform: uppercase;">Works Seamlessly with Top Brands dealership
+            <div class="text-danger mb-3 font-600" style="text-transform: uppercase;">Works Seamlessly with Top Brands
+                dealership
             </div>
             <div class="brands-grid">
                 <span class="brand-pill" title="ISUZU" aria-label="ISUZU"><img class="brand-logo"
@@ -1262,7 +1263,7 @@
                 <div class="contact-item">
                     <div class="contact-label">Phone</div>
                     <div class="contact-val">
-                        <a href="tel:+916359131135">+91 63591 31135</a>
+                        <a href="tel:+916359573593">+91 63595 73593</a>
                     </div>
                 </div>
                 <div class="contact-item">

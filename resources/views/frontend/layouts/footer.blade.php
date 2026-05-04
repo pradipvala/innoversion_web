@@ -59,8 +59,8 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-phone contact-list-icon"></i>
-                                        <a href="tel:+916359131135">+91
-                                            6359131135</a>
+                                        <a href="tel:+916359573593">+91
+                                            6359573593</a>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-location-dot contact-list-icon"></i>
